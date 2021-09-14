@@ -4,6 +4,9 @@
 
 以下の翻訳のために作成しています。
 
+**内容確認URL**
+
+
 **ファイルの取得**
 
 * https://www.digitalmarketplace.service.gov.uk
