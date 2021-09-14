@@ -1,4 +1,4 @@
-# govtech
+# govtech-marketplace
 
 *このリポジトリはtempolaryです。*
 
