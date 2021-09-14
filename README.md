@@ -1,1 +1,4 @@
 # govtech
+
+*このリポジトリはtempolaryです。*
+
