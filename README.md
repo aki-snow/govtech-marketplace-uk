@@ -23,5 +23,5 @@ find ./www.gov.uk -type f -not -name "*.txt"
 
 .txtのファイルを除く.htmlの拡張子が無いファイルのファイル名を一括置換してブラウザで正しく表示されるようにしています。
 ```
-find ./www.gov.uk -type f -not -name "*.txt" | sed -e "p;s/\$/.html/" | xargs -n2 mv | find ./www.gov.uk -type f -not -name "*.txt"
+find ./www.gov.uk -type f -not -name "*.txt" | sed -e "p;s/\$/.html/" | xargs -n2 mv
 ```
