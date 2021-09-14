@@ -4,6 +4,15 @@
 
 以下の翻訳のために作成しています。
 
+**内容確認URL**
+
+https://aki-snow.github.io/govtech-marketplace-uk/
+
+https://aki-snow.github.io/govtech-marketplace-uk/crown-commercial-service.github.io/index.html
+
+https://aki-snow.github.io/govtech-marketplace-uk/www.gov.uk/index.html
+
+
 **ファイルの取得**
 
 * https://www.digitalmarketplace.service.gov.uk
