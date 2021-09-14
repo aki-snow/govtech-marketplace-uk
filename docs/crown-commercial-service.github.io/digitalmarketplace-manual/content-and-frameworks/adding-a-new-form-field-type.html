@@ -1,0 +1,562 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Adding a new form field type &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Finding content" href="finding-content.html" />
+    <link rel="prev" title="Contract variations" href="contract-variations.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Adding a new form field type</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#purpose">Purpose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#intro">Intro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-this-all-works">How this all works</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#how-content-pages-are-built">How content pages are built</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-data-flows-through-the-application-in-forms">How data flows through the application in forms</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to">How to</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#adding-a-new-data-handler">Adding a new data handler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#adding-templates-and-macros">Adding templates and macros</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#adding-a-form-macro">Adding a form macro</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#updating-the-yaml-and-creating-the-json">Updating the YAML and creating the JSON</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#finished">Finished</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#top-tips">Top Tips</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#examples">Examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Adding a new form field type</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/content-and-frameworks/adding-a-new-form-field-type.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This section has been left in because it is a useful exposition of the content loader, however as of 2018 developers should not be looking at adding new form field types to the Digital Marketplace frontend without</p>
+<ol class="arabic simple">
+<li><p>looking at whether the GOV.UK design system has the same or equivalent field type</p></li>
+<li><p>reviewing whether the content loader is the best place to add that field type.</p></li>
+</ol>
+</div>
+<div class="section" id="adding-a-new-form-field-type">
+<span id="id1"></span><h1><a class="toc-backref" href="#id10">Adding a new form field type</a><a class="headerlink" href="#adding-a-new-form-field-type" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#adding-a-new-form-field-type" id="id10">Adding a new form field type</a></p>
+<ul>
+<li><p><a class="reference internal" href="#purpose" id="id11">Purpose</a></p></li>
+<li><p><a class="reference internal" href="#intro" id="id12">Intro</a></p></li>
+<li><p><a class="reference internal" href="#how-this-all-works" id="id13">How this all works</a></p>
+<ul>
+<li><p><a class="reference internal" href="#how-content-pages-are-built" id="id14">How content pages are built</a></p></li>
+<li><p><a class="reference internal" href="#how-data-flows-through-the-application-in-forms" id="id15">How data flows through the application in forms</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#how-to" id="id16">How to</a></p>
+<ul>
+<li><p><a class="reference internal" href="#adding-a-new-data-handler" id="id17">Adding a new data handler</a></p></li>
+<li><p><a class="reference internal" href="#adding-templates-and-macros" id="id18">Adding templates and macros</a></p></li>
+<li><p><a class="reference internal" href="#adding-a-form-macro" id="id19">Adding a form macro</a></p></li>
+<li><p><a class="reference internal" href="#updating-the-yaml-and-creating-the-json" id="id20">Updating the YAML and creating the JSON</a></p></li>
+<li><p><a class="reference internal" href="#finished" id="id21">Finished</a></p></li>
+<li><p><a class="reference internal" href="#top-tips" id="id22">Top Tips</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#examples" id="id23">Examples</a></p></li>
+<li><p><a class="reference internal" href="#references" id="id24">References</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="purpose">
+<h2><a class="toc-backref" href="#id11">Purpose</a><a class="headerlink" href="#purpose" title="Permalink to this headline">¶</a></h2>
+<p>The purpose of this page is to aid in the addition of new form field
+types to our existing form infrastructure.</p>
+<p>There are several parts to adding a new form field type and this page
+will aim to explain, through examples, how and why each step is
+necessary. As such it may also be useful as an introduction to
+frameworks, content loading, and form validation, amongst other
+things.</p>
+</div>
+<div class="section" id="intro">
+<h2><a class="toc-backref" href="#id12">Intro</a><a class="headerlink" href="#intro" title="Permalink to this headline">¶</a></h2>
+<p>This page was started on the 4th of April 2017 having pushed to review
+the addition of a new 3-part date type field:</p>
+<img alt="../_images/new-date-field.png" src="../_images/new-date-field.png" />
+<p>This was designed to replace the old, free-text date field:</p>
+<img alt="../_images/old-date-field.png" src="../_images/old-date-field.png" />
+<p>This meant making changes in a load of places.</p>
+</div>
+<div class="section" id="how-this-all-works">
+<h2><a class="toc-backref" href="#id13">How this all works</a><a class="headerlink" href="#how-this-all-works" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="how-content-pages-are-built">
+<h3><a class="toc-backref" href="#id14">How content pages are built</a><a class="headerlink" href="#how-content-pages-are-built" title="Permalink to this headline">¶</a></h3>
+<p>For a more in depth look at how content is loaded see the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-frameworks/blob/master/README.md">frameworks readme</a></p>
+<p>Essentially both the frontend apps (ie
+<a class="reference external" href="https://github.com/alphagov/digitalmarketplace-buyer-frontend">digitalmarketplace-buyer-frontend</a>,
+<a class="reference external" href="https://github.com/alphagov/digitalmarketplace-supplier-frontend">digitalmarketplace-supplier-frontend</a>
+or <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-admin-frontend">digitalmarketplace-admin-frontend</a>) and
+the api (<a class="reference external" href="https://github.com/alphagov/digitalmarketplace-api">digitalmarketplace-api</a>) use the
+content in the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-frameworks">frameworks repo</a>. The frontends use it to
+display content and to understand form field types. The API uses it to validate incoming data.</p>
+<p>The frontend apps use it through the content loader which is an
+interface which pipes the <a class="reference external" href="http://docs.ansible.com/ansible/YAMLSyntax.html">YAML</a> into python
+objects representing content chunks (messages, questions, or
+sections).
+The content loader is instantiated when the apps start up, grabs the
+content from frameworks, and sits waiting to be accessed. It is
+instantiated in, and should be imported from, each of the respective apps’
+<code class="docutils literal notranslate"><span class="pre">app/__init__.py</span></code>.</p>
+<p>In the api we have a manual step of converting the YAML to a <a class="reference external" href="http://json-schema.org/">JSON Schema</a> which is used to validate incoming
+question/ answer pairs.</p>
+</div>
+<div class="section" id="how-data-flows-through-the-application-in-forms">
+<h3><a class="toc-backref" href="#id15">How data flows through the application in forms</a><a class="headerlink" href="#how-data-flows-through-the-application-in-forms" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/data-journey.png" src="../_images/data-journey.png" />
+</div>
+</div>
+<div class="section" id="how-to">
+<h2><a class="toc-backref" href="#id16">How to</a><a class="headerlink" href="#how-to" title="Permalink to this headline">¶</a></h2>
+<p>You’re going to (at least) need to:</p>
+<ol class="arabic simple">
+<li><p>Add a new data handler/s for your new question type (In <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-content-loader">digitalmarketplace-content-loader</a>)</p></li>
+<li><p>Add a new template and shortcut macros for your new field type (In <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-frontend-toolkit">digitalmarketplace-frontend-toolkit</a>)</p></li>
+<li><p>Add a form macro with the same name as your new field in the given frontend app</p></li>
+<li><p>Update some YAML to make use of your new field (In <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-frameworks">digitalmarketplace-frameworks</a>)</p></li>
+<li><p>Use a script to process the updated YAML and create a JSON schema (To be dumped into <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-api">digitalmarketplace-api</a>)</p></li>
+</ol>
+<div class="section" id="adding-a-new-data-handler">
+<h3><a class="toc-backref" href="#id17">Adding a new data handler</a><a class="headerlink" href="#adding-a-new-data-handler" title="Permalink to this headline">¶</a></h3>
+<p>This pull request <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-content-loader/pull/36">digitalmarketplace-content-loader/pull/36</a>
+demonstrates the addition of a date handler.
+Predominantly the addition of the <code class="docutils literal notranslate"><span class="pre">Date(Question)</span></code> and
+<code class="docutils literal notranslate"><span class="pre">DateSummary(QuestionSummary)</span></code> classes are what are important here.</p>
+<p>To add a new field type you’ll <cite>likely</cite> be expecting the information
+from the form to be in a different format from that of a regular text
+field.
+To that end you’ll want to define a <code class="docutils literal notranslate"><span class="pre">Question</span></code> class and override
+the <code class="docutils literal notranslate"><span class="pre">get_data</span></code> method to act as an <cite>interface</cite> between the
+information that is returned in the <code class="docutils literal notranslate"><span class="pre">POST</span></code> data and the information
+you pass to the JSON validator.
+In the case of the date field we needed to take data from the <code class="docutils literal notranslate"><span class="pre">POST</span></code>
+that was in 3 fields (a day textbox, month textbox and year textbox)
+and join them before passing to the validator.
+Our <code class="docutils literal notranslate"><span class="pre">get_data</span></code> looked like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Date</span><span class="p">(</span><span class="n">Question</span><span class="p">):</span>
+    <span class="o">...</span>
+    <span class="k">def</span> <span class="nf">get_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">form_data</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Incoming form data for this field looks like:</span>
+<span class="sd">        {</span>
+<span class="sd">            myDate-day: &#39;25&#39;,</span>
+<span class="sd">            myDate-month: &#39;12&#39;,</span>
+<span class="sd">            myDate-year: &#39;2007&#39;,</span>
+<span class="sd">            someOtherQuestion: &#39;foo&#39;</span>
+<span class="sd">        }</span>
+<span class="sd">        the return should be:</span>
+<span class="sd">        {myDate: &#39;2007-12-25&#39;}</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">field_names</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span> <span class="o">+</span> <span class="n">suffix</span> <span class="k">for</span> <span class="n">suffix</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;-year&#39;</span><span class="p">,</span> <span class="s1">&#39;-month&#39;</span><span class="p">,</span> <span class="s1">&#39;-day&#39;</span><span class="p">]</span>
+        <span class="k">return</span> <span class="p">{</span><span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">:</span> <span class="s1">&#39;-&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">form_data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">field_names</span><span class="p">])}</span>
+</pre></div>
+</div>
+<p>Now you have an interface between the <code class="docutils literal notranslate"><span class="pre">POST</span></code> and the validator
+you’ll need one going the other way. This is achieved with the
+<code class="docutils literal notranslate"><span class="pre">unformat_data</span></code> method:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Date</span><span class="p">(</span><span class="n">Question</span><span class="p">):</span>
+    <span class="o">...</span>
+    <span class="o">...</span>
+    <span class="k">def</span> <span class="nf">unformat_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Incoming data for this field looks like:</span>
+<span class="sd">        {myDate: &#39;2007-12-25&#39;}</span>
+<span class="sd">        the return should be:</span>
+<span class="sd">        {</span>
+<span class="sd">            myDate-day: &#39;25&#39;,</span>
+<span class="sd">            myDate-month: &#39;12&#39;,</span>
+<span class="sd">            myDate-year: &#39;2007&#39;,</span>
+<span class="sd">        }</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">field_names</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span> <span class="o">+</span> <span class="n">suffix</span> <span class="k">for</span> <span class="n">suffix</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;-year&#39;</span><span class="p">,</span> <span class="s1">&#39;-month&#39;</span><span class="p">,</span> <span class="s1">&#39;-day&#39;</span><span class="p">]</span>
+        <span class="k">return</span> <span class="nb">zip</span><span class="p">(</span><span class="nb">dict</span><span class="p">(</span><span class="n">field_names</span><span class="p">,</span> <span class="n">data</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">)))</span>
+</pre></div>
+</div>
+<p>As mentioned above the content loader will use these formatters to put
+the date into questions, sections and messages.</p>
+</div>
+<div class="section" id="adding-templates-and-macros">
+<h3><a class="toc-backref" href="#id18">Adding templates and macros</a><a class="headerlink" href="#adding-templates-and-macros" title="Permalink to this headline">¶</a></h3>
+<p>This step adds the actual field HTML amongst other things.</p>
+<p>The pull request for adding the actual HTML and <a class="reference external" href="http://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html">Sass</a>
+for the date field is here
+<a class="reference external" href="https://github.com/alphagov/digitalmarketplace-frontend-toolkit/pull/325">digitalmarketplace-frontend-toolkit/pull/325</a>
+and is actually fairly self explanatory. Following the existing naming
+conventions you’ll want to add the different macros for display in
+tables etc.</p>
+<p>You’ll likely want to add an scss file, html file, some named macros
+for content and table display, and an entry in the <cite>‘pages builder’</cite>
+manual.</p>
+</div>
+<div class="section" id="adding-a-form-macro">
+<h3><a class="toc-backref" href="#id19">Adding a form macro</a><a class="headerlink" href="#adding-a-form-macro" title="Permalink to this headline">¶</a></h3>
+<p>You’ll notice that the macro in the above PR uses a file called
+<code class="docutils literal notranslate"><span class="pre">toolkit/forms/date.html</span></code>. That is the file which sets out what a
+date field should look like in HTML. The macro is just a way of
+passing question information to that file.</p>
+<p>To make templates more reusable we specify just that we want a
+question rendered then allow <a class="reference external" href="http://jinja.pocoo.org/docs/2.9/">Jinja2</a> to work out exactly how from the
+question type on the question.</p>
+<p>As long as there is a macro in a frontend repos
+<code class="docutils literal notranslate"><span class="pre">app/templates/macros/toolkit_forms.html</span></code> file which corresponds to
+the questions <code class="docutils literal notranslate"><span class="pre">type</span></code> attribute it will be rendered using said macro.</p>
+<p>The pull request adding the date macro to the buyer frontend is here
+<a class="reference external" href="https://github.com/alphagov/digitalmarketplace-buyer-frontend/pull/469">digitalmarketplace-buyer-frontend/pull/469</a></p>
+</div>
+<div class="section" id="updating-the-yaml-and-creating-the-json">
+<h3><a class="toc-backref" href="#id20">Updating the YAML and creating the JSON</a><a class="headerlink" href="#updating-the-yaml-and-creating-the-json" title="Permalink to this headline">¶</a></h3>
+<p>In the frameworks repo firstly you’ll want to make sure the we can
+generate a valid json-schema for the api. The api json-schema is what
+the api uses to validate incoming question/ answers.</p>
+<p>So the generator knows what to do for your field you’ll want to add a
+<code class="docutils literal notranslate"><span class="pre">property</span></code> for it which will be inserted as a validation rule
+against all instances of your new field type.</p>
+<p>For the date field this was done in <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-frameworks/pull/413/files#diff-897c7892b22c92a88766f5cc355311bb">schema_generator/validation.py</a></p>
+<p>This is also a good time to make changes to your existing questions or
+add your new question that will be using the new type. See the full PR
+for more <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-frameworks/pull/413">digitalmarketplace-frameworks/pull/413</a></p>
+<p>Once this has all been updated then run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">scripts</span><span class="o">/</span><span class="n">generate</span><span class="o">-</span><span class="n">validation</span><span class="o">-</span><span class="n">schemas</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">output</span><span class="o">-</span><span class="n">path</span><span class="o">=../</span><span class="n">digitalmarketplace</span><span class="o">-</span><span class="n">api</span><span class="o">/</span><span class="n">json_schemas</span>
+</pre></div>
+</div>
+<p>to update the validation schemas in the api repo. See <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-api/pull/563">digitalmarketplace-api/pull/563</a></p>
+</div>
+<div class="section" id="finished">
+<h3><a class="toc-backref" href="#id21">Finished</a><a class="headerlink" href="#finished" title="Permalink to this headline">¶</a></h3>
+<p>With any luck that should be all that’s required to create a new field.</p>
+</div>
+<div class="section" id="top-tips">
+<h3><a class="toc-backref" href="#id22">Top Tips</a><a class="headerlink" href="#top-tips" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Because this process touches so many branches I’d suggest keeping <cite>very</cite> detailed notes on version number bumps, and what’s being included where.</p></li>
+<li><p>I’d also suggest not putting up PRs until you’re sure they’re as ready as possible.</p></li>
+<li><p>Make a detailed deployment plan of what you want to merge, when. And what order everything needs to go in.</p></li>
+<li><p>Please update here with anything <cite>you</cite> find, or add, and with any corrections you want to make.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="examples">
+<h2><a class="toc-backref" href="#id23">Examples</a><a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-content-loader/pull/36">digitalmarketplace-content-loader/pull/36</a></p></li>
+<li><p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-frontend-toolkit/pull/325">digitalmarketplace-frontend-toolkit/pull/325</a></p></li>
+<li><p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-frameworks/pull/413">digitalmarketplace-frameworks/pull/413</a></p></li>
+<li><p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-api/pull/563">digitalmarketplace-api/pull/563</a></p></li>
+<li><p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-buyer-frontend/pull/469">digitalmarketplace-buyer-frontend/pull/469</a></p></li>
+</ul>
+</div>
+<div class="section" id="references">
+<h2><a class="toc-backref" href="#id24">References</a><a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://jinja.pocoo.org/docs/2.9/">Jinja2</a></p></li>
+<li><p><a class="reference external" href="http://json-schema.org/">JSON Schema</a></p></li>
+<li><p><a class="reference external" href="http://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html">Sass</a></p></li>
+<li><p><a class="reference external" href="http://docs.ansible.com/ansible/YAMLSyntax.html">YAML</a></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="finding-content.html" class="btn btn-neutral float-right" title="Finding content" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="contract-variations.html" class="btn btn-neutral float-left" title="Contract variations" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

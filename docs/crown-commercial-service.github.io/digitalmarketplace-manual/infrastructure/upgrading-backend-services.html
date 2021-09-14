@@ -1,0 +1,402 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Upgrading backend services &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Session Management" href="session-management.html" />
+    <link rel="prev" title="Rate Limiting" href="rate-limiting.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Upgrading backend services</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#nginx">Nginx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#postgresql">PostgreSQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#elasticsearch">Elasticsearch</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#overview">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#detailed-steps">Detailed steps</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Upgrading backend services</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/infrastructure/upgrading-backend-services.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="upgrading-backend-services">
+<h1>Upgrading backend services<a class="headerlink" href="#upgrading-backend-services" title="Permalink to this headline">¶</a></h1>
+<p>As time passes and new versions of our backend services are released, we may find it necessary to upgrade the version
+of a given service that we use (e.g. for new functionality or to patch security issues).</p>
+<div class="section" id="nginx">
+<h2>Nginx<a class="headerlink" href="#nginx" title="Permalink to this headline">¶</a></h2>
+<p>Our Nginx service (the <code class="docutils literal notranslate"><span class="pre">router</span></code> app) is run in a Docker container and deployed as a PaaS app, in the same way as our
+Flask apps (see <a class="reference internal" href="paas.html#deploying-a-dockerised-app"><span class="std std-ref">deploying a new dockerised app</span></a>).</p>
+<p>The version of Nginx itself is set in the router app’s <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-router/blob/master/Dockerfile">Dockerfile</a>.</p>
+</div>
+<div class="section" id="postgresql">
+<h2>PostgreSQL<a class="headerlink" href="#postgresql" title="Permalink to this headline">¶</a></h2>
+<p>Our PostgreSQL database is a managed PaaS service.</p>
+<p>Creating an upgraded (empty) service instance is straightforward enough, using the PaaS command
+<code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">create-service</span> <span class="pre">postgres</span> <span class="pre">&lt;PLAN&gt;</span> <span class="pre">&lt;SERVICE_NAME&gt;</span></code>.</p>
+<p>However any upgrades must be managed carefully with a migration plan (TBC!), potentially with scheduled downtime to minimise
+any transactional data loss during the migration.</p>
+</div>
+<div class="section" id="elasticsearch">
+<h2>Elasticsearch<a class="headerlink" href="#elasticsearch" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="overview">
+<h3>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h3>
+<p>Deploying a new Elasticsearch backend requires spinning up a separate ES backend and compatible search-api alongside
+the existing infrastructure. The existing indices can be re-indexed into the new backend and then, once ready, the new
+search-api can be deployed through the standard pipeline and will automatically connect to the new ES backend. The old
+ES backend can then be retired after the transition.</p>
+<p>This is less complicated due to our fairly small and relatively non-volatile indices. If we hold multiple indices that
+change often and must remain up-to-date, more complex setup will be required to replicate changes to both ES backends
+during the transition. As it is, we indexed into the new ES backend and then kicked off a re-index immediately after
+deploying the new search-api (connected to the new ES instance) to catch any possible service changes that may have
+happened between the initial index and the release.</p>
+</div>
+<div class="section" id="detailed-steps">
+<h3>Detailed steps<a class="headerlink" href="#detailed-steps" title="Permalink to this headline">¶</a></h3>
+<p>These steps are for the Preview environment - repeat for staging and production as appropriate.</p>
+<ol class="arabic simple">
+<li><p>Make sure the current release of the Search API is up to date with master (and pause further releases on the app
+until the migration is complete).</p></li>
+<li><p>Create a new Elasticsearch service in the preview PaaS space, with a unique name:
+* <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">create-service</span> <span class="pre">elasticsearch</span> <span class="pre">small-ha-5.x</span> <span class="pre">search_api_elasticsearch_new</span></code></p></li>
+<li><p>In digitalmarketplace-aws, generate a manifest file for the new search API instance:
+* <code class="docutils literal notranslate"><span class="pre">APPLICATION_NAME=search-api</span> <span class="pre">STAGE=preview</span> <span class="pre">make</span> <span class="pre">generate-manifest</span></code></p></li>
+<li><p>Edit the manifest manually, setting the following values:
+* <code class="docutils literal notranslate"><span class="pre">name:</span> <span class="pre">elasticsearch-migration</span></code>
+* <code class="docutils literal notranslate"><span class="pre">route:</span> <span class="pre">dm-elasticsearch-migration-preview.cloudapps.digital</span></code> (a temporary route)
+* <code class="docutils literal notranslate"><span class="pre">services:</span> <span class="pre">search_api_elasticsearch_new</span></code>
+* Add a new <code class="docutils literal notranslate"><span class="pre">env</span></code> variable, <code class="docutils literal notranslate"><span class="pre">DM_ELASTICSEARCH_SERVICE_NAME:</span> <span class="pre">search_api_elasticsearch_new</span></code></p></li>
+<li><p>Use the manifest to create a new PaaS app, based on the latest released image:
+* <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">push</span> <span class="pre">-f</span> <span class="pre">new-search-api-manifest.yml</span> <span class="pre">-o</span> <span class="pre">digitalmarketplace/search-api:release-1234</span></code></p></li>
+<li><p>You now have two versions of the search-api running; the live version and your new version with an upgraded ES backend.</p></li>
+<li><p>Re-create all required indices and settings in the new ES backend. Don’t forget to set up any required aliases for
+the indices (.e.g. <code class="docutils literal notranslate"><span class="pre">g-cloud-9</span></code> for the <code class="docutils literal notranslate"><span class="pre">g-cloud-9-yyyy-mm-dd</span></code> index you’ve created). In digitalmarketplace-scripts:
+1. Create G10 index: <code class="docutils literal notranslate"><span class="pre">scripts/index-to-search-service.py</span> <span class="pre">services</span> <span class="pre">preview</span> <span class="pre">--frameworks=g-cloud-10</span> <span class="pre">--index=g-cloud-10-2018-10-18</span> <span class="pre">--search-api-url=https://dm-elasticsearch-migration-preview.cloudapps.digital</span> <span class="pre">--create-with-mapping=services-g-cloud-10</span></code>
+2. Create G10 alias: <code class="docutils literal notranslate"><span class="pre">scripts/update-index-alias.py</span> <span class="pre">--stage=preview</span> <span class="pre">g-cloud-10</span> <span class="pre">g-cloud-10-2018-10-18</span> <span class="pre">https://dm-elasticsearch-migration-preview.cloudapps.digital</span></code>
+3. Create DOS index: <code class="docutils literal notranslate"><span class="pre">scripts/index-to-search-service.py</span> <span class="pre">briefs</span> <span class="pre">preview</span> <span class="pre">--frameworks=digital-outcomes-and-specialists-3</span> <span class="pre">--index=briefs-digital-outcomes-and-specialists-3-2018-10-18</span> <span class="pre">--search-api-url=https://dm-elasticsearch-migration-preview.cloudapps.digital</span> <span class="pre">--create-with-mapping=briefs-digital-outcomes-and-specialists-2</span></code>
+4. Create DOS alias: <code class="docutils literal notranslate"><span class="pre">scripts/update-index-alias.py</span> <span class="pre">--stage=preview</span> <span class="pre">briefs-digital-outcomes-and-specialists</span> <span class="pre">briefs-digital-outcomes-and-specialists-3-2018-10-18</span> <span class="pre">https://dm-elasticsearch-migration-preview.cloudapps.digital</span></code></p></li>
+<li><p>Check that all documents have been indexed correctly (with the right mappings) for both DOS and G-Cloud, by checking
+the new Search API app’s <code class="docutils literal notranslate"><span class="pre">/_status</span></code> endpoint.</p></li>
+<li><p>Map the new Search API app instances to the ‘live’ route.
+* <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">map-route</span> <span class="pre">elasticsearch-migration</span> <span class="pre">cloudapps.digital</span> <span class="pre">--hostname</span> <span class="pre">dm-search-api-preview</span></code></p></li>
+<li><p>Both apps should now be serving requests from their respective ES services (which should be identical! You just
+indexed the new one, right?).
+Check the logs for each app to make sure they are both receiving traffic.</p></li>
+<li><p>Remove the old Search API app instances from the route
+* <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">unmap-route</span> <span class="pre">search-api</span> <span class="pre">cloudapps.digital</span> <span class="pre">--hostname</span> <span class="pre">dm-search-api-preview</span></code></p></li>
+<li><p>Remove the new Search API app instances from the temporary route.
+* <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">unmap-route</span> <span class="pre">elasticsearch-migration</span> <span class="pre">cloudapps.digital</span> <span class="pre">--hostname</span> <span class="pre">dm-elasticsearch-migration-preview</span></code></p></li>
+<li><p>Rename the old ES service to <code class="docutils literal notranslate"><span class="pre">search_api_elasticsearch_old</span></code>
+* <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">rename-service</span> <span class="pre">search_api_elasticsearch</span> <span class="pre">search_api_elasticsearch_old</span></code></p></li>
+<li><p>Rename the new ES service to <code class="docutils literal notranslate"><span class="pre">search_api_elasticsearch</span></code>
+* <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">rename-service</span> <span class="pre">search_api_elasticsearch_new</span> <span class="pre">search_api_elasticsearch</span></code></p></li>
+<li><p>Rename the old Search API app
+* <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">rename</span> <span class="pre">search-api</span> <span class="pre">search-api-old</span></code></p></li>
+<li><p>Rename the new Search API app
+* <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">rename</span> <span class="pre">elasticsearch-migration</span> <span class="pre">search-api</span></code></p></li>
+<li><p>Remove the old Search API app
+* <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">delete</span> <span class="pre">search-api-old</span></code></p></li>
+<li><p>Re-release the Search API via the pipeline to pick up the new service/name changes</p></li>
+<li><p>Reindex everything using Jenkins, to make sure anything added to the database during the migration period is indexed.
+For preview/staging, waiting for the overnight job to run is fine.</p></li>
+<li><p>Remove the old ES service.
+* <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">delete-service</span> <span class="pre">search_api_elasticsearch_old</span></code></p></li>
+</ol>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="session-management.html" class="btn btn-neutral float-right" title="Session Management" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="rate-limiting.html" class="btn btn-neutral float-left" title="Rate Limiting" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

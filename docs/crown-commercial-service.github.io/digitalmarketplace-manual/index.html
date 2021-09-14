@@ -1,0 +1,809 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Digital Marketplace team manual &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="History: From G-Cloud 5 to G-Cloud 8" href="digital-marketplace-background/deportalising.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Digital Marketplace team manual</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/index.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="digital-marketplace-team-manual">
+<h1>Digital Marketplace team manual<a class="headerlink" href="#digital-marketplace-team-manual" title="Permalink to this headline">¶</a></h1>
+<p>Useful information for the Digital Marketplace team, including:</p>
+<ul class="simple">
+<li><p>History of the service and context for why the service is built as it is.</p></li>
+<li><p>How we operate our team and our service.</p></li>
+<li><p>How to run and work on our applications.</p></li>
+<li><p>What our technical architecture looks like.</p></li>
+<li><p>Our 2nd Line and Support processes.</p></li>
+</ul>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="digital-marketplace-background/finding-things.html">Finding Things</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="digital-marketplace-background/finding-things.html#developer-manual">Developer Manual</a></li>
+<li class="toctree-l2"><a class="reference internal" href="digital-marketplace-background/finding-things.html#shared-drive">Shared Drive</a></li>
+<li class="toctree-l2"><a class="reference internal" href="digital-marketplace-background/finding-things.html#trello">Trello</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="digital-marketplace-background/journeys.html#visual-overview-user-journeys">Visual Overview User Journeys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="digital-marketplace-background/journeys.html#walk-through-user-journeys">Walk-through User Journeys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="digital-marketplace-background/journeys.html#user-task-maps">User Task Maps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="digital-marketplace-background/journeys.html#preview-environment">Preview environment</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="digital-marketplace-background/gdpr.html">GDPR</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="digital-marketplace-background/gdpr.html#what-is-the-gdpr">What is the GDPR?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="digital-marketplace-background/gdpr.html#the-digital-marketplace-as-a-data-processor">The Digital Marketplace as a Data Processor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="digital-marketplace-background/gdpr.html#sharing-data-with-ccs">Sharing Data with CCS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="digital-marketplace-background/gdpr.html#data-minimisation">Data Minimisation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="digital-marketplace-background/gdpr.html#documentation">Documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/accessing-the-api.html">Accessing the API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/accessing-the-api.html#use-the-api-client-shell">Use the API client shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/accessing-the-api.html#access-the-api-directly">Access the API directly</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/adding-repos.html">Adding a new repository</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/adding-repos.html#prerequisites">Prerequisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/adding-repos.html#setting-up-a-repo-on-github">Setting up a repo on GitHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/adding-repos.html#adding-the-repo-to-the-world">Adding the repo to the world</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/application-architecture.html">Application architecture</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/application-architecture.html#overall-architecture">Overall architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/application-architecture.html#applications">Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/application-architecture.html#asynchronous-processes">Asynchronous processes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/browser-support.html">Browser and accessibility support</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/browser-support.html#id1">Browser support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/browser-support.html#browser-support-considerations">Browser support considerations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/browser-support.html#assistive-technology-support">Assistive technology support</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/environments.html">Environments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/environments.html#preview">Preview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/environments.html#staging">Staging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/environments.html#production">Production</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html">Developer setup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html#shortcut-digital-marketplace-runner">Shortcut - Digital Marketplace Runner</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html#bootstrapping-a-mac">Bootstrapping a Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html#bootstrapping-on-linux">Bootstrapping on Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html#running-the-environment">Running the environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html#testing-the-applications">Testing the applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html#ports">Ports</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html#making-requests-to-your-local-api-instance">Making requests to your local API instance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html#accessing-frontend-applications-as-a-single-website">Accessing frontend applications as a single website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html#importing-data-into-your-local-database">Importing data into your local database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html#elasticsearch">Elasticsearch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html#using-remote-versions-of-services-locally">Using remote versions of services locally</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html#configuring-pycharm-or-intellij-idea-ultimate">Configuring Pycharm or IntelliJ IDEA Ultimate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/developer-setup.html#libraries-and-other-repositories-you-will-eventually-need">Libraries and other repositories you will (eventually) need</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/digitalmarketplace-runner.html#repository">Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/digitalmarketplace-runner.html#setup">Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/digitalmarketplace-runner.html#commands">Commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/digitalmarketplace-runner.html#debugging">Debugging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/digitalmarketplace-runner.html#possible-improvements">Possible improvements</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/nix.html">Nix Environments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/nix.html#who-s-nick">Who’s nick?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/nix.html#default-nix-files-in-digital-marketplace-repositories">default.nix files in Digital Marketplace repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/nix.html#default-nix-in-the-functional-tests-repo">default.nix in the functional tests repo</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/data-model.html">Data model</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/data-model.html#overview-of-the-api-data-model">Overview of the API data model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/data-model.html#entities-and-what-they-are">Entities and what they are</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/development-and-deployment-process.html">Development and deployment process</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/development-and-deployment-process.html#story-kickoff">Story Kickoff</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/development-and-deployment-process.html#develop-locally-on-feature-branches">Develop locally on feature branches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/development-and-deployment-process.html#open-a-pull-request">Open a pull request</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/development-and-deployment-process.html#request-review">Request review</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/development-and-deployment-process.html#merge">Merge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/development-and-deployment-process.html#working-on-shared-repositories">Working on shared repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/development-and-deployment-process.html#test-on-preview">Test on preview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/development-and-deployment-process.html#deploy-to-staging">Deploy to staging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/development-and-deployment-process.html#deploy-to-production">Deploy to production</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/frontend-migration.html">Migrating the Digital Marketplace frontend</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/frontend-migration.html#background">Background</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/frontend-migration.html#pieces-involved">Pieces involved</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/moving-data.html">Moving data between environments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/moving-data.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/moving-data.html#moving-data-from-production-to-preview-or-staging">Moving data from production to preview or staging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/moving-data.html#importing-data-for-developers">Importing data for developers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/urls.html">URLs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/urls.html#buyer-frontend">Buyer Frontend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/urls.html#user-frontend">User Frontend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/urls.html#briefs-frontend">Briefs Frontend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/urls.html#supplier-frontend">Supplier Frontend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/urls.html#brief-responses-frontend">Brief Responses Frontend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/urls.html#admin-frontend">Admin Frontend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/urls.html#api">API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/urls.html#search-api">Search API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/urls.html#special-urls">Special urls</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/users.html">Users</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/users.html#buyers">Buyers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/users.html#suppliers">Suppliers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/users.html#admins">Admins</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/google-analytics.html">Google Analytics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/google-analytics.html#google-analytics-dashboard">Google Analytics dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/google-analytics.html#analytics-opt-in">Analytics opt-in</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/google-analytics.html#cross-domain-tracking">Cross domain tracking</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/load-testing.html">Load testing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/load-testing.html#what-to-test">What to test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/load-testing.html#how-much-load">How much load</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/load-testing.html#writing-the-tests">Writing the tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/load-testing.html#running-the-tests">Running the tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/load-testing.html#overload-testing">Overload testing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/automated-testing.html">Automated testing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/automated-testing.html#our-automated-testing-landscape">Our automated testing landscape</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/automated-testing.html#guidelines-for-automated-testing">Guidelines for automated testing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/splitting-applications.html">Splitting or adding a frontend application</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/splitting-applications.html#prerequisites">Prerequisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/splitting-applications.html#setting-up-infrastructure">Setting up infrastructure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/database-migrations.html">Database migrations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/database-migrations.html#create-a-new-migration">Create a new migration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/database-migrations.html#browse-migrations">Browse migrations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/database-migrations.html#new-column-defaults">New column defaults</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/docker-strategies.html">Docker strategies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/docker-strategies.html#automatically-managed">Automatically managed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/docker-strategies.html#makefile-managed">Makefile managed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/docker-strategies.html#manually-managed">Manually managed</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/frontend-assets-and-tools.html">Frontend assets and tools</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/frontend-assets-and-tools.html#shared-assets">Shared assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/frontend-assets-and-tools.html#testing">Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/frontend-assets-and-tools.html#analytics">Analytics</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developing-the-digital-marketplace/production-guidelines.html">Guidelines for accessing production data and systems</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/production-guidelines.html#general-principles">General Principles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="developing-the-digital-marketplace/production-guidelines.html#on-the-digital-marketplace">On the Digital Marketplace</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-frameworks.html#make-the-content">1 - Make the content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-frameworks.html#generate-service-validation-schemas-and-add-them-to-the-api">2 - Generate service validation schemas and add them to the API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-frameworks.html#add-a-supplier-declaration-validator-optional">3 - Add a supplier declaration validator (optional)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-frameworks.html#check-application-email-templates">4 - Check application email templates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-frameworks.html#create-any-new-lots">5 - Create any new lots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-frameworks.html#upload-legal-documents">6 - Upload legal documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-frameworks.html#generate-the-assessment-schemas">7 - Generate the assessment schemas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-frameworks.html#create-a-new-search-mapping-g-cloud-only">8 - Create a new search mapping (G-Cloud only)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-frameworks.html#load-test">9 - Load test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-frameworks.html#let-s-go">10 - Let’s go!</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/framework-lifecycle-for-developers.html#overview">0 - overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/framework-lifecycle-for-developers.html#coming">1 - coming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/framework-lifecycle-for-developers.html#a-open-with-clarification-questions-open">2(a) - open (with clarification questions open)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/framework-lifecycle-for-developers.html#b-open-with-clarification-questions-closed">2(b) - open (with clarification questions closed)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/framework-lifecycle-for-developers.html#pending">3 - pending</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/framework-lifecycle-for-developers.html#standstill">4 - standstill</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/framework-lifecycle-for-developers.html#live">5 - live</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/framework-lifecycle-for-developers.html#expired">6 - expired</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/how-suppliers-apply-to-a-framework.html#at-any-time">0 - at any time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/how-suppliers-apply-to-a-framework.html#coming">1 - coming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/how-suppliers-apply-to-a-framework.html#open">2 - open</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/how-suppliers-apply-to-a-framework.html#pending">3 - pending</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/how-suppliers-apply-to-a-framework.html#standstill">4 - standstill</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/how-suppliers-apply-to-a-framework.html#live">5 - live</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/how-suppliers-apply-to-a-framework.html#expired">6 - expired</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/framework-agreements.html">Framework agreements</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/framework-agreements.html#what-is-a-framework-agreement">0 - What is a framework agreement?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/framework-agreements.html#signing-the-agreement">1 - Signing the agreement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/framework-agreements.html#countersigning-an-agreement">2 - Countersigning an agreement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/framework-agreements.html#suspending-suppliers-without-an-agreement">3 - Suspending suppliers without an agreement</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/contract-variations.html">Contract variations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/contract-variations.html#what-is-a-contract-variation">What is a contract variation?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/contract-variations.html#the-workflow-for-a-contract-variation">The workflow for a contract variation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/contract-variations.html#how-to-create-a-new-contract-variation">How to create a new contract variation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/contract-variations.html#how-to-countersign-a-contract-variation">How to countersign a contract variation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/contract-variations.html#contract-variations-in-pictures">Contract variations in pictures</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-a-new-form-field-type.html#purpose">Purpose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-a-new-form-field-type.html#intro">Intro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-a-new-form-field-type.html#how-this-all-works">How this all works</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-a-new-form-field-type.html#how-to">How to</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-a-new-form-field-type.html#examples">Examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/adding-a-new-form-field-type.html#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/finding-content.html">Finding content</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/finding-content.html#content-finder">Content finder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/finding-content.html#where-content-is-saved">Where content is saved</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/changing-content.html">Changing content</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/changing-content.html#github-content-editor">GitHub content editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/changing-content.html#how-to-edit-content">How to edit content</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/useful-api-endpoints-for-frameworks.html#users">Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/useful-api-endpoints-for-frameworks.html#draft-services">Draft services</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/useful-api-endpoints-for-frameworks.html#declarations">Declarations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content-and-frameworks/useful-api-endpoints-for-frameworks.html#supplier-accounts">Supplier accounts</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/antivirus.html">The Antivirus API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/antivirus.html#how-scans-are-initiated">How scans are initiated</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/antivirus.html#actions-on-virus-detection">Actions on virus detection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/antivirus.html#functional-smoulder-tests">Functional/Smoulder tests</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/aws-accounts.html">AWS accounts and access</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/aws-accounts.html#accounts">Accounts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/aws-accounts.html#aws-console-access">AWS Console Access</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/aws-accounts.html#programmatic-access">Programmatic access</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/aws-accounts.html#billing-and-billing-alerts">Billing and billing alerts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/aws-resources.html">AWS Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/aws-resources.html#s3">S3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/aws-resources.html#iam">IAM</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/code-backups.html">Code backups</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/code-backups.html#why-code-backups">Why code backups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/code-backups.html#what-the-backup-jobs-do">What the backup jobs do</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/code-backups.html#to-add-a-repo-to-the-backups">To add a repo to the backups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/code-backups.html#further-reading">Further reading</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/database-backups.html">Database backups</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/database-backups.html#how-our-database-backups-are-created">How our database backups are created</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/database-backups.html#what-our-backup-script-does">What our backup script does</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/database-backups.html#the-s3-buckets">The S3 buckets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/database-backups.html#signed-s3-url-s">Signed S3 URL’s</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/database-backups.html#gpg">GPG</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/database-backups.html#restoring-from-a-backup">Restoring from a backup</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/domains.html">Domains</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/domains.html#dns">DNS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/domains.html#ssl-tls-cerfiticates">SSL/TLS cerfiticates</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/emails.html">Email integration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/emails.html#gov-uk-notify">GOV.UK Notify</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/emails.html#mailchimp">Mailchimp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/emails.html#mandrill">Mandrill</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/elasticsearch.html">Elasticsearch</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#where-elasticsearch-data-is-used">Where Elasticsearch data is used</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#data-that-digital-marketplace-gets-from-elasticsearch">Data that Digital Marketplace gets from Elasticsearch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#where-digital-marketplace-finds-that-data">Where Digital Marketplace finds that data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#benefits-to-multi-index-single-type-model">Benefits to multi-index single-type model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#where-indexes-are-described">Where indexes are described</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#what-our-indexes-contain">What our indexes contain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#how-our-indexes-are-named">How our indexes are named</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#how-indexes-are-created">How indexes are created</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#how-indexes-are-populated">How indexes are populated</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#aliases">Aliases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#jobs">Jobs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#catch-up-jobs">Catch-up jobs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#manual-cleanup-jobs">Manual (cleanup) jobs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/elasticsearch.html#checking-the-elasticsearch-version">Checking the Elasticsearch version</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/jenkins.html">Jenkins</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/jenkins.html#what-we-use-jenkins-for">What we use Jenkins for</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/jenkins.html#accessing-and-deploying-jobs-to-jenkins">Accessing and deploying jobs to Jenkins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/jenkins.html#jenkins-logging">Jenkins Logging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/jenkins.html#jenkins-infrastructure">Jenkins infrastructure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/jenkins.html#how-jenkins-uses-credentials">How Jenkins uses credentials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/jenkins.html#jenkins-chores">Jenkins chores</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/github-actions.html">GitHub Actions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/github-actions.html#what-we-use-github-actions-for">What we use GitHub Actions for</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/github-actions.html#pre-merge-checks">Pre-merge checks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/github-actions.html#publishing-libraries">Publishing libraries</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/logging.html">Logging, monitoring and alerting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/logging.html#logging">Logging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/logging.html#monitoring">Monitoring</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/logging.html#alerting">Alerting</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/maintenance-mode.html">Maintenance Mode</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/maintenance-mode.html#planned-downtime">Planned downtime</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/maintenance-mode.html#accessing-applications-during-maintenance">Accessing applications during maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/maintenance-mode.html#how-to-activate-deactivate">How to activate/deactivate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/maintenance-mode.html#what-does-it-look-like">What does it look like?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/maintenance-mode.html#what-s-going-on-under-the-hood">What’s going on under the hood?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/maintenance-mode.html#lack-of-sticky-sessions">Lack of sticky sessions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/python-environments.html">Python environments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/python-environments.html#system-python-3-6">System Python 3.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/python-environments.html#local-python-3-6">Local Python 3.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/python-environments.html#python-3-6-virtual-environment">Python 3.6 virtual environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/python-environments.html#future-python-compatibility">Future Python compatibility</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/paas.html#deploying-a-dockerised-app">Deploying a Dockerised app</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/paas.html#debugging-instances">Debugging instances</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/paas.html#creating-services">Creating services</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/paas.html#deploying-an-app-using-a-buildpack">Deploying an app using a buildpack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/paas.html#scaling-apps">Scaling apps</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/rate-limiting.html">Rate Limiting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/rate-limiting.html#how-it-works">How it works</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/rate-limiting.html#burst">Burst</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/rate-limiting.html#deactivating-rate-limiting">Deactivating rate limiting</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/upgrading-backend-services.html">Upgrading backend services</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/upgrading-backend-services.html#nginx">Nginx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/upgrading-backend-services.html#postgresql">PostgreSQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/upgrading-backend-services.html#elasticsearch">Elasticsearch</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="infrastructure/session-management.html">Session Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infrastructure/session-management.html#accessing-redis-sessions">Accessing redis sessions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="managing-people-and-secret-things/credentials.html">Credentials and secrets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/credentials.html#credentials-store">Credentials store</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#github">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#aws">AWS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#credentials">Credentials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#docker-hub">Docker Hub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#jenkins">Jenkins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#gov-uk-paas">GOV.UK PaaS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#gov-uk-notify">GOV.UK Notify</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#mailchimp">Mailchimp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#logit">Logit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#api-tokens-and-other-shared-credentials">API tokens and other shared credentials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#snyk">Snyk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#cloud-security-watch">Cloud Security Watch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#digital-marketplace-administrators">Digital Marketplace administrators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/accounts.html#id8">Leavers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="managing-people-and-secret-things/production-access.html#pairing-or-shadowing-topics">Pairing or shadowing topics</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/incidents.html">Incidents</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/incidents.html#grading-an-incident">Grading an incident</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/incidents.html#p1-and-p2-process">P1 and P2 process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/incidents.html#p3-and-p4-process">P3 and P4 process</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/blocking-ips.html">IP Restrictions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/blocking-ips.html#blocking-individual-ips">Blocking individual IPs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/rebuilding-jenkins.html#restoring-an-existing-jenkins-instance">Restoring an existing Jenkins instance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/rebuilding-jenkins.html#creating-a-new-jenkins-instance">Creating a new Jenkins instance</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/rotate-keys.html">Rotating API keys</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/rotate-keys.html#rotating-data-api-and-search-api-keys">Rotating Data API and Search API keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/rotate-keys.html#rotating-jenkins-docker-credentials">Rotating Jenkins Docker credentials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/rotate-keys.html#rotating-notify-api-keys">Rotating Notify API keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/rotate-keys.html#rotating-aws-access-keys">Rotating AWS Access keys</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/debugging-paas-app-instances.html#logging-in">Logging in</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/debugging-paas-app-instances.html#showing-the-environment">Showing the environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/debugging-paas-app-instances.html#using-ssh">Using SSH</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/debugging-paas-app-instances.html#useful-commands">Useful commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/debugging-paas-app-instances.html#disabling-health-checks">Disabling health checks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/debugging-paas-app-instances.html#restarting-apps-or-rebuilding-app-artifacts-causes-downtime">Restarting apps or rebuilding app artifacts (causes downtime)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/vulnerability-scanning.html#snyk">Snyk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/vulnerability-scanning.html#jenkins">Jenkins</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/novations.html">Novations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/novations.html#what-is-a-novation">What is a novation?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/novations.html#steps-for-transferring-services">Steps for transferring services</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/support-tasks.html">Support Tasks</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/support-tasks.html#support-process">Support process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/support-tasks.html#users">Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/support-tasks.html#updating-dos-briefs">Updating DOS Briefs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/support-tasks.html#supplier-queries">Supplier queries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/support-tasks.html#general-investigation-tips">General investigation tips</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/investigating-alerts.html#investigating-alerts">Investigating alerts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2nd-line-runbook/investigating-alerts.html#next-steps">Next steps</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="digital-marketplace-background/deportalising.html" class="btn btn-neutral float-right" title="History: From G-Cloud 5 to G-Cloud 8" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

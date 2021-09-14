@@ -1,0 +1,530 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>What is PaaS? &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Rate Limiting" href="rate-limiting.html" />
+    <link rel="prev" title="Python environments" href="python-environments.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-environments.html">Python environments</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#deploying-a-dockerised-app">Deploying a Dockerised app</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#debugging-instances">Debugging instances</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-services">Creating services</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#deploying-an-app-using-a-buildpack">Deploying an app using a buildpack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scaling-apps">Scaling apps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#scaling-manually">Scaling manually</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>What is PaaS?</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/infrastructure/paas.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="what-is-paas">
+<span id="paas"></span><h1><a class="toc-backref" href="#id3">What is PaaS?</a><a class="headerlink" href="#what-is-paas" title="Permalink to this headline">¶</a></h1>
+<p>Our web applications and services are hosted on the GOV.UK PaaS.
+The GOV.UK PaaS is a customised CloudFoundry deployment hosted on AWS open for use by government development teams.</p>
+<p>You can read more about it on their <a class="reference external" href="https://www.cloud.service.gov.uk">service pages</a>,
+<a class="reference external" href="https://docs.cloud.service.gov.uk/">technical documentation pages</a> or get support/ ask questions on the
+<a class="reference external" href="https://app.slack.com/client/T8GT9416G/CADHV9267">#PaaS slack channel</a></p>
+</div>
+<div class="section" id="deploying-digital-marketplace-apps-to-gov-uk-paas">
+<h1><a class="toc-backref" href="#id4">Deploying Digital Marketplace apps to GOV.UK PaaS</a><a class="headerlink" href="#deploying-digital-marketplace-apps-to-gov-uk-paas" title="Permalink to this headline">¶</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>Developers should generally NEVER have to do the things detailed here on a day-to-day basis.</strong>
+Our deploy pipeline is handled by our
+<a class="reference external" href="https://github.com/alphagov/digitalmarketplace-jenkins/blob/fea54ab98c8be0013c3c21088e0d2d777d57c8e9/job_definitions/release_pipeline.yml">pipeline release jobs</a>
+in Jenkins and you should use those. The details here are for information and <strong>extreme emergencies</strong> only.</p>
+</div>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#what-is-paas" id="id3">What is PaaS?</a></p></li>
+<li><p><a class="reference internal" href="#deploying-digital-marketplace-apps-to-gov-uk-paas" id="id4">Deploying Digital Marketplace apps to GOV.UK PaaS</a></p>
+<ul>
+<li><p><a class="reference internal" href="#deploying-a-dockerised-app" id="id5">Deploying a Dockerised app</a></p></li>
+<li><p><a class="reference internal" href="#debugging-instances" id="id6">Debugging instances</a></p></li>
+<li><p><a class="reference internal" href="#creating-services" id="id7">Creating services</a></p></li>
+<li><p><a class="reference internal" href="#deploying-an-app-using-a-buildpack" id="id8">Deploying an app using a buildpack</a></p></li>
+<li><p><a class="reference internal" href="#scaling-apps" id="id9">Scaling apps</a></p>
+<ul>
+<li><p><a class="reference internal" href="#scaling-manually" id="id10">Scaling manually</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<p><a class="reference external" href="https://docs.cloud.service.gov.uk/get_started.html">The GOV.UK PaaS documentation</a>
+explains the steps required to set up and login to the Cloud Foundry CLI.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 19%" />
+<col style="width: 68%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Organisation name</p></td>
+<td><p>Space</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="row-even"><td><p>digitalmarketplace</p></td>
+<td><p>sandbox</p></td>
+<td><p>Environment for experiments (remember to clean up after yourself!)</p></td>
+</tr>
+<tr class="row-odd"><td><p>digitalmarketplace</p></td>
+<td><p>monitoring</p></td>
+<td><p>Environment for <a class="reference internal" href="logging.html#digitalmarketplace-paas-prometheus-exporter"><span class="std std-ref">apps which monitor other apps</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>digitalmarketplace</p></td>
+<td><p>labs</p></td>
+<td><p>Environment for user research</p></td>
+</tr>
+<tr class="row-odd"><td><p>digitalmarketplace</p></td>
+<td><p>preview/staging/production</p></td>
+<td><p>Environments for different stages</p></td>
+</tr>
+</tbody>
+</table>
+<p>Setting up the target organisation and space:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cf</span> <span class="n">target</span> <span class="o">-</span><span class="n">o</span> <span class="n">digitalmarketplace</span> <span class="o">-</span><span class="n">s</span> <span class="o">&lt;</span><span class="n">space</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<div class="section" id="deploying-a-dockerised-app">
+<span id="id1"></span><h2><a class="toc-backref" href="#id5">Deploying a Dockerised app</a><a class="headerlink" href="#deploying-a-dockerised-app" title="Permalink to this headline">¶</a></h2>
+<p>All Digital Marketplace apps run in Docker containers on the GOV.UK PaaS. Each
+application has an image tagged with each release. Images can be found on
+<a class="reference external" href="https://hub.docker.com/u/digitalmarketplace/">Docker Hub</a>.</p>
+<p>The <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-aws">digitalmarketplace-aws repo</a> has a Makefile with rules for generating
+manifests for apps, and then pushing them to the GOV.UK PaaS. The most
+important being:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">deploy</span><span class="o">-</span><span class="n">app</span> <span class="n">APPLICATION_NAME</span><span class="o">=&lt;</span><span class="n">docker</span> <span class="n">repository</span><span class="o">&gt;</span> <span class="n">RELEASE_NAME</span><span class="o">=&lt;</span><span class="n">docker</span> <span class="n">tag</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>This is the easiest way to deploy an application. It pulls in variables from
+the credentials repo to populate the manifest template, and takes
+<code class="docutils literal notranslate"><span class="pre">APPLICATION_NAME</span></code> and <code class="docutils literal notranslate"><span class="pre">RELEASE_NAME</span></code> variables to make sure the correct
+Docker image is used.</p>
+<p>Application manifests describe the application instances, hosts, launch
+commands and environment variables used. Secret env variables are pulled in
+from the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-credentials/tree/master/vars">credentials repo ‘vars’ directory</a> when the manifest is generated.</p>
+<p>The manifest also configures the routing for the applications within GOV.UK
+PaaS (e.g. requests with the <code class="docutils literal notranslate"><span class="pre">/suppliers</span></code> prefix are routed to the
+<code class="docutils literal notranslate"><span class="pre">supplier-frontend</span></code> app). The AWS repo has the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-aws/blob/master/vars/common.yml">full list of routes</a>.</p>
+<p>A healthcheck url for each app is defined in the base manifest, by appending
+<code class="docutils literal notranslate"><span class="pre">_status?ignore-dependencies</span></code> to the first item in the app’s <code class="docutils literal notranslate"><span class="pre">routes</span></code> list.</p>
+</div>
+<div class="section" id="debugging-instances">
+<h2><a class="toc-backref" href="#id6">Debugging instances</a><a class="headerlink" href="#debugging-instances" title="Permalink to this headline">¶</a></h2>
+<p>Head to the <a class="reference external" href="debugging-paas-app-instances.html">‘Debugging PaaS App Instances’</a>
+section of the manual for tips on debugging app instances on GOV.UK PaaS.</p>
+</div>
+<div class="section" id="creating-services">
+<h2><a class="toc-backref" href="#id7">Creating services</a><a class="headerlink" href="#creating-services" title="Permalink to this headline">¶</a></h2>
+<p>We currently have services for our database, <code class="docutils literal notranslate"><span class="pre">elasticsearch</span></code> and
+<code class="docutils literal notranslate"><span class="pre">cdn_router</span></code>. Creating new services is only required when setting up a new
+space or creating a separate environment/instance of the API. For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cf</span> <span class="n">create</span><span class="o">-</span><span class="n">service</span> <span class="n">postgres</span> <span class="s2">&quot;M-dedicated-9.5&quot;</span> <span class="o">&lt;</span><span class="n">database_name</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>The created database name can then be used in the application manifest services
+list.</p>
+<p>Running <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">services</span></code> will display a list of all services in the current
+space, and which apps have a binding to them. For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">+---------------------------+------------------+--------------+------------+</span>
+<span class="o">|</span> <span class="n">name</span>                      <span class="o">|</span> <span class="n">service</span>          <span class="o">|</span> <span class="n">plan</span>         <span class="o">|</span> <span class="n">bound</span> <span class="n">apps</span> <span class="o">|</span>
+<span class="o">+---------------------------+------------------+--------------+------------+</span>
+<span class="o">|</span> <span class="n">search_api_elasticsearch</span>  <span class="o">|</span> <span class="n">elasticsearch</span>    <span class="o">|</span> <span class="n">small</span><span class="o">-</span><span class="n">ha</span><span class="o">-</span><span class="mf">5.</span><span class="n">x</span> <span class="o">|</span> <span class="n">search</span><span class="o">-</span><span class="n">api</span> <span class="o">|</span>
+<span class="o">+---------------------------+------------------+--------------+------------+</span>
+</pre></div>
+</div>
+<p>The credentials for connecting to GOV.UK PaaS services are automatically
+provided in the app environment <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">env</span> <span class="pre">&lt;application_name&gt;</span></code> (i.e. these are
+not in our credentials repo). The credentials are regenerated when a new
+instance is created. If you need to recycle the credentials following a leak,
+you must destroy and rebuild the service. First you must unbind any apps that
+use the service, and delete any service keys. Then create the new service
+instance, rebind the apps and re-add the service keys.</p>
+<p>For example, to destroy/create a new elasticsearch instance:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cf</span> <span class="n">unbind</span><span class="o">-</span><span class="n">service</span> <span class="o">&lt;</span><span class="n">application_name</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">service_name</span><span class="o">&gt;</span>
+<span class="n">cf</span> <span class="n">delete</span><span class="o">-</span><span class="n">service</span><span class="o">-</span><span class="n">keys</span> <span class="o">&lt;</span><span class="n">service_name</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">key_name</span><span class="o">&gt;</span>
+<span class="n">cf</span> <span class="n">delete</span><span class="o">-</span><span class="n">service</span> <span class="o">&lt;</span><span class="n">service_name</span><span class="o">&gt;</span>
+<span class="n">cf</span> <span class="n">create</span><span class="o">-</span><span class="n">service</span> <span class="n">elasticsearch</span> <span class="n">small</span><span class="o">-</span><span class="n">ha</span><span class="o">-</span><span class="mf">5.</span><span class="n">x</span> <span class="o">&lt;</span><span class="n">service_name</span><span class="o">&gt;</span>
+<span class="n">cf</span> <span class="n">add</span><span class="o">-</span><span class="n">service</span><span class="o">-</span><span class="n">key</span> <span class="o">&lt;</span><span class="n">service_name</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">key_name</span><span class="o">&gt;</span>
+<span class="n">cf</span> <span class="n">bind</span><span class="o">-</span><span class="n">service</span> <span class="o">&lt;</span><span class="n">application_name</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">service_name</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>You may need to redeploy the application via Jenkins, in order to use the
+service’s new environment variables.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">delete-service</span></code> and <code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">create-service</span></code> commands will take several
+minutes each. To avoid downtime, you may need to create the new service with a
+different name beforehand, bind the app to it, then delete the old service.</p>
+<p>If there were previously any custom settings for the service (e.g. our
+Elasticsearch instances have a larger memory allocation than the default) these
+will have to be re-applied via a request to GOV.UK PaaS support.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If destroying/rebuilding Elasticsearch, remember to recreate the
+indexes, aliases and populate the data for both services and
+briefs!</p>
+</div>
+</div>
+<div class="section" id="deploying-an-app-using-a-buildpack">
+<h2><a class="toc-backref" href="#id8">Deploying an app using a buildpack</a><a class="headerlink" href="#deploying-an-app-using-a-buildpack" title="Permalink to this headline">¶</a></h2>
+<p>None of the main Digital Marketplace apps use buildpacks. As of December 2020, only the <a class="reference external" href="https://github.com/alphagov/paas-prometheus-exporter">PaaS Prometheus exporter</a> uses buildpacks.</p>
+<p>To deploy an application using an existing manifest, <code class="docutils literal notranslate"><span class="pre">cd</span></code> into the
+application directory and run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cf</span> <span class="n">push</span> <span class="o">-</span><span class="n">f</span> <span class="o">&lt;</span><span class="n">path_to_manifest</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">application_name</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If your directory names match the repository names then you can use
+<code class="docutils literal notranslate"><span class="pre">$(basename</span> <span class="pre">$(pwd))</span></code> as the application name to always deploy
+current directory to the corresponding application.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>When started without &lt;application_name&gt; CloudFoundry will deploy
+the current directory to all applications in the manifest. If this
+happens, you need to redeploy each application separately from the
+correct application directory.</p>
+</div>
+<p>Cloud Foundry will push the contents of the current directory as the new
+application version. This isn’t tied to files tracked by git, so any
+uncommitted changes or files ignored by git will be pushed (this usually
+includes <code class="docutils literal notranslate"><span class="pre">node_modules</span></code> and <code class="docutils literal notranslate"><span class="pre">app/content</span></code>).</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Make sure there are no secrets or confidential information (eg
+production logs, API tokens or database dumps) in the current
+working directory before pushing</p>
+</div>
+</div>
+<div class="section" id="scaling-apps">
+<span id="id2"></span><h2><a class="toc-backref" href="#id9">Scaling apps</a><a class="headerlink" href="#scaling-apps" title="Permalink to this headline">¶</a></h2>
+<p>Our PaaS apps can be scaled horizontally (increasing the number of instances) or vertically
+(increasing the memory or disk space).</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>During a deployment, we will briefly have twice as many apps as normal running. When scaling ensure that 50% of our <a class="reference external" href="https://docs.cloud.service.gov.uk/managing_apps.html#quotas">PaaS quota</a> is still free. Otherwise you will break deployments.</p>
+</div>
+<p>To scale up or down:</p>
+<ol class="arabic simple">
+<li><p>Update the <code class="docutils literal notranslate"><span class="pre">vars/&lt;environment&gt;.yml</span></code> file in the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-aws">digitalmarketplace-aws repo</a> with the number of instances, memory and disk space for each environment.</p></li>
+<li><p>Create a pull request and explain the change in the description. Get it approved and merged (see <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-aws/pull/634">this example PR for scaling G-Cloud 12</a>).</p></li>
+<li><p>Alert the team in the <code class="docutils literal notranslate"><span class="pre">#dm-2ndline</span></code> channel.</p></li>
+<li><p>Run the <a class="reference external" href="https://ci.marketplace.team/job/rerelease-all-apps/">Jenkins Re-release all apps</a> job for the right environment. This uses the currently deployed images so you don’t have to go through the full pipeline.</p></li>
+</ol>
+<div class="section" id="scaling-manually">
+<h3><a class="toc-backref" href="#id10">Scaling manually</a><a class="headerlink" href="#scaling-manually" title="Permalink to this headline">¶</a></h3>
+<p>If you urgently need to increase the number of instances, this can be done with a simple <a class="reference external" href="https://docs.cloudfoundry.org/devguide/deploy-apps/cf-scale.html">CloudFoundry command</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cf</span> <span class="n">scale</span> <span class="o">&lt;</span><span class="n">application_name</span><span class="o">&gt;</span> <span class="o">-</span><span class="n">i</span> <span class="mi">10</span>
+</pre></div>
+</div>
+<p>You will still need to commit and merge the changes in the AWS repo afterwards.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Only use the CloudFoundry command for increasing the number of instances.
+If scaling down apps, or increasing/decreasing memory or disk space, this must be
+done via a re-release.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="rate-limiting.html" class="btn btn-neutral float-right" title="Rate Limiting" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="python-environments.html" class="btn btn-neutral float-left" title="Python environments" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
