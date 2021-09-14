@@ -1,0 +1,684 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Logging, monitoring and alerting &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Maintenance Mode" href="maintenance-mode.html" />
+    <link rel="prev" title="GitHub Actions" href="github-actions.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Logging, monitoring and alerting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#logging">Logging</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#accessing-kibana">Accessing Kibana</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#searching-logs-in-kibana">Searching logs in Kibana</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#moving-saved-searches-settings-between-kibana-instances">Moving saved searches/settings between Kibana instances</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#viewing-logs-in-cloudwatch">Viewing logs in Cloudwatch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#accessing-splunk">Accessing Splunk</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#searching-logs-in-splunk">Searching logs in Splunk</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#log-groups">Log groups</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#zipkin-tracing">Zipkin &amp; Tracing</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#sampling-debugging">Sampling &amp; Debugging</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#monitoring">Monitoring</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#prometheus-monitoring-dashboards">Prometheus monitoring dashboards</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#prometheus-sources">Prometheus sources</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#generic-re-metrics">Generic RE metrics</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#setting-up-the-prometheus-exporter-app">Setting up the Prometheus exporter app</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#updating-the-prometheus-exporter-app">Updating the Prometheus exporter app</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#custom-app-metrics">Custom app metrics</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Grafana dashboards</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#alerting">Alerting</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#cloudwatch-alerts">Cloudwatch alerts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pingdom-alerts">Pingdom Alerts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#grafana-alerts">Grafana Alerts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ncsc-webcheck">NCSC WebCheck</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Logging, monitoring and alerting</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/infrastructure/logging.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="logging-monitoring-and-alerting">
+<h1><a class="toc-backref" href="#id18">Logging, monitoring and alerting</a><a class="headerlink" href="#logging-monitoring-and-alerting" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#logging-monitoring-and-alerting" id="id18">Logging, monitoring and alerting</a></p>
+<ul>
+<li><p><a class="reference internal" href="#logging" id="id19">Logging</a></p>
+<ul>
+<li><p><a class="reference internal" href="#accessing-kibana" id="id20">Accessing Kibana</a></p></li>
+<li><p><a class="reference internal" href="#searching-logs-in-kibana" id="id21">Searching logs in Kibana</a></p></li>
+<li><p><a class="reference internal" href="#moving-saved-searches-settings-between-kibana-instances" id="id22">Moving saved searches/settings between Kibana instances</a></p></li>
+<li><p><a class="reference internal" href="#viewing-logs-in-cloudwatch" id="id23">Viewing logs in Cloudwatch</a></p></li>
+<li><p><a class="reference internal" href="#accessing-splunk" id="id24">Accessing Splunk</a></p></li>
+<li><p><a class="reference internal" href="#searching-logs-in-splunk" id="id25">Searching logs in Splunk</a></p></li>
+<li><p><a class="reference internal" href="#log-groups" id="id26">Log groups</a></p></li>
+<li><p><a class="reference internal" href="#zipkin-tracing" id="id27">Zipkin &amp; Tracing</a></p>
+<ul>
+<li><p><a class="reference internal" href="#sampling-debugging" id="id28">Sampling &amp; Debugging</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#monitoring" id="id29">Monitoring</a></p>
+<ul>
+<li><p><a class="reference internal" href="#prometheus-monitoring-dashboards" id="id30">Prometheus monitoring dashboards</a></p></li>
+<li><p><a class="reference internal" href="#prometheus-sources" id="id31">Prometheus sources</a></p>
+<ul>
+<li><p><a class="reference internal" href="#generic-re-metrics" id="id32">Generic RE metrics</a></p></li>
+<li><p><a class="reference internal" href="#setting-up-the-prometheus-exporter-app" id="id33">Setting up the Prometheus exporter app</a></p></li>
+<li><p><a class="reference internal" href="#updating-the-prometheus-exporter-app" id="id34">Updating the Prometheus exporter app</a></p></li>
+<li><p><a class="reference internal" href="#custom-app-metrics" id="id35">Custom app metrics</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#id10" id="id36">Grafana dashboards</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#alerting" id="id37">Alerting</a></p>
+<ul>
+<li><p><a class="reference internal" href="#cloudwatch-alerts" id="id38">Cloudwatch alerts</a></p></li>
+<li><p><a class="reference internal" href="#pingdom-alerts" id="id39">Pingdom Alerts</a></p></li>
+<li><p><a class="reference internal" href="#grafana-alerts" id="id40">Grafana Alerts</a></p></li>
+<li><p><a class="reference internal" href="#ncsc-webcheck" id="id41">NCSC WebCheck</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="logging">
+<span id="id1"></span><h2><a class="toc-backref" href="#id19">Logging</a><a class="headerlink" href="#logging" title="Permalink to this headline">¶</a></h2>
+<p>Logs are handled by <a class="reference external" href="https://console.aws.amazon.com/cloudwatch/">AWS CloudWatch</a> and a number of <a class="reference external" href="https://www.elastic.co/what-is/elk-stack">ELK</a> stacks hosted by
+<a class="reference external" href="https://logit.io">Logit.io</a>.  Cloudwatch is the main and the only permanent storage for logs.
+From Cloudwatch, recent log messages (excluding GOV.UK PaaS Router logs)
+are streamed to Logit stacks. This allows us to use <a class="reference external" href="https://www.elastic.co/products/kibana">Kibana</a> to query and
+visualize log data from the past few weeks.</p>
+<p>In addition, we stream logs from PaaS to a Cyber Security managed <a class="reference external" href="https://www.splunk.com/en_us/software/splunk-cloud.html">Splunk Cloud</a> instance.
+This ingests both PaaS Router logs and App logs sent to STDOUT via the <a class="reference external" href="https://github.com/alphagov/tech-ops/blob/master/cyber-security/components/csls-splunk-broker/docs/user-guide.md">CSLS Splunk Broker</a>.</p>
+<p>Developers are free to use any of these logging tools to meet the task at hand.</p>
+<img alt="../_images/logging-metrics-architecture.png" src="../_images/logging-metrics-architecture.png" />
+<p>(The diagram above is based on the larger <a class="reference internal" href="../developing-the-digital-marketplace/application-architecture.html#application-architecture"><span class="std std-ref">Application architecture</span></a> diagram. The <a class="reference external" href="https://drive.google.com/open?id=14kTq1DzKmFfW7JEUKuGjAu4szZG7i8Ba">diagram source</a>
+can be opened using draw.io in Google Drive if it needs to be edited.)</p>
+<div class="section" id="accessing-kibana">
+<h3><a class="toc-backref" href="#id20">Accessing Kibana</a><a class="headerlink" href="#accessing-kibana" title="Permalink to this headline">¶</a></h3>
+<p>There’s a separate Logit stack with <a class="reference external" href="https://www.elastic.co/guide/en/kibana/5.6/index.html">Kibana 5.6</a> for each environment.
+Access to stacks is managed by creating individual accounts for each user. Once
+you have an account, the stacks can be accessed by selecting Logit from the
+Apps list in your Google account.</p>
+</div>
+<div class="section" id="searching-logs-in-kibana">
+<span id="id2"></span><h3><a class="toc-backref" href="#id21">Searching logs in Kibana</a><a class="headerlink" href="#searching-logs-in-kibana" title="Permalink to this headline">¶</a></h3>
+<p>You can query and filter log data using Kibana’s <a class="reference external" href="https://www.elastic.co/guide/en/kibana/5.6/discover.html">Discover</a> page and <a class="reference external" href="https://lucene.apache.org/core/2_9_4/queryparsersyntax.html">Lucene query syntax</a>.</p>
+<p>There are some saved searches, visualizations and dashboards that should cover
+the common queries (application logs, error logs, slow queries etc) and you can
+always store your own searches for later.</p>
+</div>
+<div class="section" id="moving-saved-searches-settings-between-kibana-instances">
+<h3><a class="toc-backref" href="#id22">Moving saved searches/settings between Kibana instances</a><a class="headerlink" href="#moving-saved-searches-settings-between-kibana-instances" title="Permalink to this headline">¶</a></h3>
+<p>Having the same set of saved searches on all environments can be convenient. You can use <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-aws/blob/master/kibana/Makefile">digitalmarketplace-aws/kibana
+Makefile</a> to backup and restore
+the settings between environments:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">STAGE</span><span class="o">=</span><span class="n">preview</span> <span class="n">make</span> <span class="n">dump</span>
+
+<span class="n">STAGE</span><span class="o">=</span><span class="n">staging</span> <span class="n">make</span> <span class="n">restore</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This will replace all Kibana settings, so try to make sure you’re not overwriting someone else’s changes on
+the target environment.</p>
+</div>
+</div>
+<div class="section" id="viewing-logs-in-cloudwatch">
+<h3><a class="toc-backref" href="#id23">Viewing logs in Cloudwatch</a><a class="headerlink" href="#viewing-logs-in-cloudwatch" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Sign in to the <a class="reference external" href="https://console.aws.amazon.com">AWS console</a></p></li>
+<li><p>Switch <a class="reference internal" href="aws-accounts.html#switching-roles"><span class="std std-ref">role</span></a> to be a developer in the correct account (depending on which logs you want)</p></li>
+<li><p>Navigate to the <a class="reference external" href="https://console.aws.amazon.com/cloudwatch/home?region=eu-west-1#">CloudWatch</a> service</p></li>
+<li><p>In the left navigation click <a class="reference external" href="https://console.aws.amazon.com/cloudwatch/home?region=eu-west-1#logs:">Logs</a></p></li>
+<li><p>The ‘Log Group’ describes the environment/type. See <a class="reference internal" href="#log-groups"><span class="std std-ref">below</span></a> for more info.</p></li>
+<li><p>The ‘Log Stream’ contains logs from a particular instance. The stream name is the hostname of the instance.</p></li>
+</ul>
+<p>When looking at a specific stream there is a single search box which can be
+used to <a class="reference external" href="http://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/FilterAndPatternSyntax.html">filter the log entries</a>. Most of our streams contain JSON logs, so
+you should use the JSON search syntax.</p>
+</div>
+<div class="section" id="accessing-splunk">
+<h3><a class="toc-backref" href="#id24">Accessing Splunk</a><a class="headerlink" href="#accessing-splunk" title="Permalink to this headline">¶</a></h3>
+<p>Access to Splunk is managed by the GDS IT team.</p>
+<p>Raise a ticket on the <a class="reference external" href="https://gdshelpdesk.digital.cabinet-office.gov.uk/">GDS Helpdesk</a> containing the following:</p>
+<blockquote>
+<div><p><em>Please provide Splunk access to the following role: ‘gds-021_digital-marketplace’ for &lt;DEVELOPER EMAIL ADDRESS&gt;.</em></p>
+</div></blockquote>
+<p>Once this is actioned check you can access Splunk at <a class="reference external" href="https://gds.splunkcloud.com/en-GB/app/gds-021-digitalmarketplace/search">https://gds.splunkcloud.com/en-GB/app/gds-021-digitalmarketplace/search</a></p>
+</div>
+<div class="section" id="searching-logs-in-splunk">
+<h3><a class="toc-backref" href="#id25">Searching logs in Splunk</a><a class="headerlink" href="#searching-logs-in-splunk" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Start at <a class="reference external" href="https://gds.splunkcloud.com/en-GB/app/gds-021-digitalmarketplace/search">https://gds.splunkcloud.com/en-GB/app/gds-021-digitalmarketplace/search</a></p></li>
+<li><p>Prefix your query with <code class="docutils literal notranslate"><span class="pre">index=digital_marketplace</span></code> this will limit your query to logs provided from our PaaS instances (both router and app logs)</p></li>
+</ul>
+<p>You may find the <a class="reference external" href="https://www.splunk.com/pdfs/solution-guides/splunk-quick-reference-guide.pdf">Splunk Quick Reference Guide</a> useful to understand Splunk concepts and query syntax.</p>
+</div>
+<div class="section" id="log-groups">
+<span id="id8"></span><h3><a class="toc-backref" href="#id26">Log groups</a><a class="headerlink" href="#log-groups" title="Permalink to this headline">¶</a></h3>
+<dl class="simple">
+<dt>/aws/lambda/&lt;environment&gt;-log-stream-lambda</dt><dd><p>Logs generated by the lambda function used to stream logs from Cloudwatch</p>
+</dd>
+<dt>cloudtrail</dt><dd><p>Cloudtrail logs</p>
+</dd>
+<dt>&lt;environment&gt;-&lt;application&gt;-nginx</dt><dd><p>Access JSON logs from the nginx running directly in front of individual apps. In the case of the router app, this is
+the main nginx proxy logs.</p>
+</dd>
+<dt>&lt;environment&gt;-&lt;application&gt;-application</dt><dd><p>Application JSON logs generated by the app.</p>
+</dd>
+<dt>&lt;environment&gt;-nginx-json</dt><dd><p>Deprecated. These logs were JSON access logs from the main nginx reverse proxy auto scaling group before we migrated
+to the new router app hosted by the PaaS. These are kept for long term storage.</p>
+</dd>
+<dt>sns/&lt;region&gt;/&lt;aws account id&gt;/s3_file_upload_notification_&lt;environment&gt;</dt><dd><p>Logs of SNS delivery attempts notifying the antivirus api of file uploads to certain buckets</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="zipkin-tracing">
+<h3><a class="toc-backref" href="#id27">Zipkin &amp; Tracing</a><a class="headerlink" href="#zipkin-tracing" title="Permalink to this headline">¶</a></h3>
+<p>Http-handling apps on digital marketplace support <a class="reference external" href="https://github.com/openzipkin/b3-propagation">Zipkin headers</a> and
+where possible use these to annotate the following fields onto all log messages that they emit.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">requestId</span></code> (which is driven by the zipkin “trace id” and should probably be renamed as such at some point)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spanId</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">parentSpanId</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">isSampled</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">debugFlag</span></code></p></li>
+</ul>
+</div></blockquote>
+<p>In cases where a new onwards request is made an extra <code class="docutils literal notranslate"><span class="pre">childSpanId</span></code> field is added denoting the assigned span id of
+the new request.</p>
+<p>These fields being propagated across internal requests and annotated onto standard log messages allows the
+<a class="reference external" href="https://github.com/alphagov/digitalmarketplace-logdia">logdia tool</a> to piece together events related to a
+request in a graphical form given a dump of json log data obtained from kibana.</p>
+<img alt="../_images/kbseqdia-screenshot.png" src="../_images/kbseqdia-screenshot.png" />
+<div class="section" id="sampling-debugging">
+<h4><a class="toc-backref" href="#id28">Sampling &amp; Debugging</a><a class="headerlink" href="#sampling-debugging" title="Permalink to this headline">¶</a></h4>
+<p>The <code class="docutils literal notranslate"><span class="pre">isSampled</span></code> and <code class="docutils literal notranslate"><span class="pre">debugFlag</span></code> fields of log entries are controlled by their respective zipkin headers. These are
+manually settable on requests from GDS IPs, but additionally our
+<a class="reference external" href="https://github.com/alphagov/digitalmarketplace-router">router app</a> randomly sets a small proportion (at time of
+writing 1 in 256) of incoming requests as <code class="docutils literal notranslate"><span class="pre">isSampled</span></code> to allow us to build up a background reference of requests’
+performance-related behaviour and give us a good likelihood of some requests that are part of a “storm” being provided
+with extra diagnostic information.</p>
+<p>The actual <em>meaning</em> of these flags and their observance by the app is really up to the developer. <em>Broadly</em>, the
+“sampled” flag should be used to increase the log verbosity for a particular request, particularly adding information
+or extra log entries that would aid in timing and determining performance characteristics. It should <strong>not</strong> do this to
+an excessive degree or output log messages which would themselves degrade the performance of the request as this flag
+is set on <em>real users’</em> requests (such degradation would of course also defeat our ability to get a realistic view
+of a request’s performance). Another ramification of this flag being set on <em>real users’</em> requests is that developers
+should stick to “the rules” on including Personally Identifiable Information in these messages.</p>
+<p>The “debug” flag instructs an app to go a step further and include information that would normally be considered too
+verbose to emit regularly but would aid in trying to debug the actions of a request in a live environment.</p>
+</div>
+</div>
+</div>
+<div class="section" id="monitoring">
+<span id="id9"></span><h2><a class="toc-backref" href="#id29">Monitoring</a><a class="headerlink" href="#monitoring" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="prometheus-monitoring-dashboards">
+<h3><a class="toc-backref" href="#id30">Prometheus monitoring dashboards</a><a class="headerlink" href="#prometheus-monitoring-dashboards" title="Permalink to this headline">¶</a></h3>
+<p>Reliability Engineering provide us with <a class="reference external" href="https://prom-3.monitoring.gds-reliability.engineering">Prometheus</a> servers
+and <a class="reference external" href="https://grafana-paas.cloudapps.digital">Grafana dashboards</a> for visualisation.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>When creating new widgets on a Grafana dashboard consider if it needs to handle blue-green deployments. You can see
+how to combine metrics for apps deploying and retiring in the <cite>_RE monitoring documentation</cite>.</p>
+</div>
+</div>
+<div class="section" id="prometheus-sources">
+<h3><a class="toc-backref" href="#id31">Prometheus sources</a><a class="headerlink" href="#prometheus-sources" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="generic-re-metrics">
+<h4><a class="toc-backref" href="#id32">Generic RE metrics</a><a class="headerlink" href="#generic-re-metrics" title="Permalink to this headline">¶</a></h4>
+<p>Default metrics for each app/stage are collected using the
+<a class="reference external" href="https://github.com/alphagov/paas-prometheus-exporter">PaaS Prometheus Exporter app</a>. This includes the following:</p>
+<ul class="simple">
+<li><p>Disk usage (bytes and %)</p></li>
+<li><p>CPU usage (%)</p></li>
+<li><p>App instance crashes</p></li>
+<li><p>Memory usage</p></li>
+<li><p>500 status requests</p></li>
+<li><p>Request duration</p></li>
+</ul>
+<p>The Prometheus exporter app also collects stats for the database backing service attached to the API app, including
+transactions, connections, I/O and cache hits.</p>
+<p>The raw metrics are visible at <a class="reference external" href="https://digitalmarketplace-paas-prometheus-exporter.cloudapps.digital/metrics">https://digitalmarketplace-paas-prometheus-exporter.cloudapps.digital/metrics</a> (access is
+whitelisted to GDS IPs). The Grafana dashboards (see <a class="reference internal" href="#id10"><span class="std std-ref">below</span></a>) are used to visualise this data.</p>
+</div>
+<div class="section" id="setting-up-the-prometheus-exporter-app">
+<span id="digitalmarketplace-paas-prometheus-exporter"></span><h4><a class="toc-backref" href="#id33">Setting up the Prometheus exporter app</a><a class="headerlink" href="#setting-up-the-prometheus-exporter-app" title="Permalink to this headline">¶</a></h4>
+<p>The Prometheus exporter app itself is run on PaaS, in the <code class="docutils literal notranslate"><span class="pre">monitoring</span></code> space. Detailed instructions on how the
+exporter app is set up can be found in the
+<a class="reference external" href="https://docs.cloud.service.gov.uk/monitoring_apps.html#use-the-paas-prometheus-exporter-app">PaaS documentation</a>.</p>
+<p>To deploy or update an instance of the exporter app a developer should clone the repo, define the relevant variables
+in the <code class="docutils literal notranslate"><span class="pre">manifest.yml</span></code> (in this case the <code class="docutils literal notranslate"><span class="pre">USERNAME</span></code> and <code class="docutils literal notranslate"><span class="pre">PASSWORD</span></code> of the
+<a class="reference external" href="https://github.com/alphagov/digitalmarketplace-credentials/blob/master/vars/monitoring.yaml">PaaS user</a>,
+the app name <code class="docutils literal notranslate"><span class="pre">-</span> <span class="pre">name:</span> <span class="pre">digitalmarketplace-paas-prometheus-exporter</span></code> and the
+<code class="docutils literal notranslate"><span class="pre">API_ENDPOINT=https://api.cloud.service.gov.uk</span></code>) which will then scrape our app instances for metrics.</p>
+<p>Clone and prepare the repo:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cf</span> <span class="n">target</span> <span class="o">-</span><span class="n">s</span> <span class="n">monitoring</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">alphagov</span><span class="o">/</span><span class="n">digitalmarketplace</span><span class="o">-</span><span class="n">credentials</span><span class="o">.</span><span class="n">git</span>
+<span class="n">cd</span> <span class="n">digitalmarketplace</span><span class="o">-</span><span class="n">credentials</span>
+</pre></div>
+</div>
+<p>Make the relevant changes to the <code class="docutils literal notranslate"><span class="pre">manifest.yml</span></code> then:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cf</span> <span class="n">push</span> <span class="o">-</span><span class="n">f</span> <span class="n">manifest</span><span class="o">.</span><span class="n">yml</span> <span class="n">digitalmarketplace</span><span class="o">-</span><span class="n">paas</span><span class="o">-</span><span class="n">prometheus</span><span class="o">-</span><span class="n">exporter</span>
+</pre></div>
+</div>
+<p>You should then be able to hit the metrics page at <a class="reference external" href="https://digitalmarketplace-paas-prometheus-exporter.cloudapps.digital/metrics">https://digitalmarketplace-paas-prometheus-exporter.cloudapps.digital/metrics</a></p>
+<p>This app is <a class="reference external" href="https://reliability-engineering.cloudapps.digital/monitoring-alerts.html#ip-whitelist-your-applications-metrics-endpoint">IP whitelisted</a>
+using the GDS <code class="docutils literal notranslate"><span class="pre">re-ip-whitelist-service</span></code> available on the PaaS marketplace (<code class="docutils literal notranslate"><span class="pre">cf</span> <span class="pre">marketplace</span></code>) deployed using the
+command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cf</span> <span class="n">create</span><span class="o">-</span><span class="n">user</span><span class="o">-</span><span class="n">provided</span><span class="o">-</span><span class="n">service</span> <span class="n">re</span><span class="o">-</span><span class="n">ip</span><span class="o">-</span><span class="n">whitelist</span><span class="o">-</span><span class="n">service</span> <span class="o">-</span><span class="n">r</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">re</span><span class="o">-</span><span class="n">ip</span><span class="o">-</span><span class="n">whitelist</span><span class="o">-</span><span class="n">service</span><span class="o">.</span><span class="n">cloudapps</span><span class="o">.</span><span class="n">digital</span>
+<span class="n">cf</span> <span class="n">bind</span><span class="o">-</span><span class="n">route</span><span class="o">-</span><span class="n">service</span> <span class="n">cloudapps</span><span class="o">.</span><span class="n">digital</span> <span class="n">re</span><span class="o">-</span><span class="n">ip</span><span class="o">-</span><span class="n">whitelist</span><span class="o">-</span><span class="n">service</span> <span class="o">--</span><span class="n">hostname</span> <span class="n">digitalmarketplace</span><span class="o">-</span><span class="n">paas</span><span class="o">-</span><span class="n">prometheus</span><span class="o">-</span><span class="n">exporter</span>
+</pre></div>
+</div>
+<p>The above is only necessary on initial set up.</p>
+<p>Once the app is up and running and collecting metrics we need to bind the prometheus service to the app:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cf</span> <span class="n">create</span><span class="o">-</span><span class="n">service</span> <span class="n">gds</span><span class="o">-</span><span class="n">prometheus</span> <span class="n">prometheus</span> <span class="n">digitalmarketplace</span><span class="o">-</span><span class="n">prometheus</span>
+<span class="n">cf</span> <span class="n">bind</span><span class="o">-</span><span class="n">service</span> <span class="n">digitalmarketplace</span><span class="o">-</span><span class="n">paas</span><span class="o">-</span><span class="n">prometheus</span><span class="o">-</span><span class="n">exporter</span> <span class="n">digitalmarketplace</span><span class="o">-</span><span class="n">prometheus</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="updating-the-prometheus-exporter-app">
+<h4><a class="toc-backref" href="#id34">Updating the Prometheus exporter app</a><a class="headerlink" href="#updating-the-prometheus-exporter-app" title="Permalink to this headline">¶</a></h4>
+<p>Similarly to above we need to clone the repo and target the correct stage. After that we can just push without a manifest to preserve the current environment variables that are set:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cf</span> <span class="n">target</span> <span class="o">-</span><span class="n">s</span> <span class="n">monitoring</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">alphagov</span><span class="o">/</span><span class="n">paas</span><span class="o">-</span><span class="n">prometheus</span><span class="o">-</span><span class="n">exporter</span><span class="o">.</span><span class="n">git</span>
+<span class="n">cd</span> <span class="n">paas</span><span class="o">-</span><span class="n">prometheus</span><span class="o">-</span><span class="n">exporter</span>
+<span class="n">cf</span> <span class="n">push</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">manifest</span> <span class="n">digitalmarketplace</span><span class="o">-</span><span class="n">paas</span><span class="o">-</span><span class="n">prometheus</span><span class="o">-</span><span class="n">exporter</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="custom-app-metrics">
+<h4><a class="toc-backref" href="#id35">Custom app metrics</a><a class="headerlink" href="#custom-app-metrics" title="Permalink to this headline">¶</a></h4>
+<p>To capture information about individual requests or endpoints on an app, we need to publish custom metrics.
+This involves:</p>
+<ul>
+<li><p>Creating a metrics blueprint and endpoint on the app, using the dmutils.metrics <code class="docutils literal notranslate"><span class="pre">DMGDSMetrics</span></code> class (based on the
+<a class="reference external" href="https://github.com/alphagov/gds_metrics_python/tree/master/gds_metrics">GDS Metrics Python library</a>). See an
+example of the endpoint and blueprint on the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-brief-responses-frontend/pull/96/files">brief-responses-frontend app</a>.</p></li>
+<li><p>Adding the <code class="docutils literal notranslate"><span class="pre">/_metrics</span></code> route and the <code class="docutils literal notranslate"><span class="pre">digitalmarketplace_prometheus</span></code> backing service to the app’s manifest. See
+the vars for the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-aws/blob/master/vars/common.yml#L57">brief-responses-frontend app</a>)</p></li>
+<li><p>Adding the <code class="docutils literal notranslate"><span class="pre">re-ip-whitelist-service</span></code> route service to restrict access to the app’s <code class="docutils literal notranslate"><span class="pre">/_metrics</span></code> path with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cf</span> <span class="n">bind</span><span class="o">-</span><span class="n">route</span><span class="o">-</span><span class="n">service</span> <span class="n">cloudapps</span><span class="o">.</span><span class="n">digital</span> <span class="n">re</span><span class="o">-</span><span class="n">ip</span><span class="o">-</span><span class="n">whitelist</span><span class="o">-</span><span class="n">service</span> <span class="o">--</span><span class="n">hostname</span> <span class="n">dm</span><span class="o">-&lt;</span><span class="n">stage</span><span class="o">&gt;</span> <span class="o">--</span><span class="n">path</span> <span class="o">/&lt;</span><span class="n">app_route</span><span class="o">&gt;/</span><span class="n">_metrics</span>
+</pre></div>
+</div>
+</li>
+</ul>
+<p>The prometheus exporter app can then access the raw custom metrics at <a class="reference external" href="https://api.preview.marketplace.team/_metrics">https://api.preview.marketplace.team/_metrics</a>
+(adjust for app/stage accordingly). Developers can bypass the whitelisting and view the metrics at <a class="reference external" href="https://api.preview.cloudapps.digital/_metrics">https://api.preview.cloudapps.digital/_metrics</a>.</p>
+<p>Currently we only have a Grafana dashboard visualisation for the Brief Responses Frontend custom metrics.</p>
+</div>
+</div>
+<div class="section" id="id10">
+<span id="id11"></span><h3><a class="toc-backref" href="#id36">Grafana dashboards</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<p>We have dashes for viewing our metrics hosted by <a class="reference external" href="https://reliability-engineering.cloudapps.digital/">Reliability Engineering</a>. Any metric in Prometheus is available to
+graph in Grafana. These dashes also record their complete history of changes so reverting to old versions is simple
+if an update doesn’t go according to plan.</p>
+<p>To view the dashes sign in using your <code class="docutils literal notranslate"><span class="pre">cabinet-office.gov.uk</span></code> email. To edit the Digital Marketplace dashes a current
+team member will need to add you to the Digital Marketplace ‘team’.</p>
+</div>
+</div>
+<div class="section" id="alerting">
+<span id="id12"></span><h2><a class="toc-backref" href="#id37">Alerting</a><a class="headerlink" href="#alerting" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="cloudwatch-alerts">
+<h3><a class="toc-backref" href="#id38">Cloudwatch alerts</a><a class="headerlink" href="#cloudwatch-alerts" title="Permalink to this headline">¶</a></h3>
+<p>We have alerts set up in CloudWatch for several metrics. If these alerts are triggered then we are notified via
+the <a class="reference external" href="https://slack.com/app_redirect?channel=dm-2ndline">#dm-2ndline</a> Slack channel.</p>
+<p>We have basic alerts for:</p>
+<ul class="simple">
+<li><p>production 500s</p></li>
+<li><p>production 429s</p></li>
+<li><p>production slow requests</p></li>
+</ul>
+<p>We also have alerts set up to indicate a problem with our logging or metric shipping. These should alert us if we have
+no logs added to CloudWatch log groups for 15 minutes for each environment and application. Coverage by health checks
+and smoke tests should mean we only alert if something goes wrong with our logging rather than a lack of traffic.
+These are set up programatically in the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-aws/tree/master/terraform/modules/logging/alarms">alarms sub-module</a> of the logging module in terraform.</p>
+<p>Any triggered alerts should be <a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html#responding-to-alerts"><span class="std std-ref">investigated by 2nd line developers</span></a>.</p>
+</div>
+<div class="section" id="pingdom-alerts">
+<h3><a class="toc-backref" href="#id39">Pingdom Alerts</a><a class="headerlink" href="#pingdom-alerts" title="Permalink to this headline">¶</a></h3>
+<p>We have a <a class="reference external" href="https://pingdom.com">Pingdom</a> account which checks our website every minute and notifies
+us by email within a minute of noticing an app being down.</p>
+<p>We have checks running on the status pages for our five public front end apps. We have both an IPv4 and IPv6 version of
+our checks. Note, we do not have checks on the API, search API or admin front end as the status pages are not
+accessible to the public however the status of the api and search-api can be inferred by the <code class="docutils literal notranslate"><span class="pre">buyer-frontend</span></code>
+check which requests the status page with its dependencies (the <code class="docutils literal notranslate"><span class="pre">api</span></code> and <code class="docutils literal notranslate"><span class="pre">search-api</span></code>)</p>
+<p>If a check fails, then an email is sent to both the <code class="docutils literal notranslate"><span class="pre">support&#64;digitalmarketplace.service.gov.uk</span></code> and
+<code class="docutils literal notranslate"><span class="pre">digital-marketplace-development&#64;digital.cabinet-office.gov.uk</span></code> google groups.</p>
+<p>To <a class="reference external" href="https://my.pingdom.com">log in</a> to Pingdom use the details in the password file <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-credentials/blob/master/pass/pingdom.com/digitalmarketplace">digitalmarketplace-credentials/pass/pingdom.com/digitalmarketplace</a>.</p>
+</div>
+<div class="section" id="grafana-alerts">
+<h3><a class="toc-backref" href="#id40">Grafana Alerts</a><a class="headerlink" href="#grafana-alerts" title="Permalink to this headline">¶</a></h3>
+<p>We have two Grafana alerts described as <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-aws/blob/master/grafana/dm-alarms.json">code</a> that trigger based on these metrics:</p>
+<ul class="simple">
+<li><p>the number of 200 requests on the router app</p></li>
+<li><p>custom metrics on the Brief Responses FE (we intended to roll out to other FE apps, but we haven’t found the time yet)</p></li>
+</ul>
+<p>There may be other ad-hoc/temporary alerts (not described as code) - you can view all of them on the <cite>DM Alarms</cite> dashboard.</p>
+</div>
+<div class="section" id="ncsc-webcheck">
+<span id="id16"></span><h3><a class="toc-backref" href="#id41">NCSC WebCheck</a><a class="headerlink" href="#ncsc-webcheck" title="Permalink to this headline">¶</a></h3>
+<p>We have a shared account with NCSC’s <a class="reference external" href="https://www.webcheck.service.ncsc.gov.uk/faq">WebCheck</a> service that can be found in
+the password file <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-credentials/blob/master/pass/webcheck.service.ncsc.gov.uk/digitalmarketplace">digitalmarketplace-credentials/pass/webcheck.service.ncsc.gov.uk/digitalmarketplace</a>.</p>
+<p>This service is, as of February 2018, still quite new and does not offer an
+extensive <a class="reference external" href="https://www.webcheck.service.ncsc.gov.uk/packages">set of features</a>, but it will continually monitor our site to give
+some assurance that our service is not vulnerable to major exploits or lacking
+obvious security hardening.</p>
+<p>By default, we are on the quiet package (the ‘noisy’ package is still under
+development), which means it makes very few requests to our site and so does
+not degrade performance in any way. It will e-mail us when it notices a finding
+which it categories as ‘advisory’ or higher, so we should not need to monitor
+the dashboard manually.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="maintenance-mode.html" class="btn btn-neutral float-right" title="Maintenance Mode" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="github-actions.html" class="btn btn-neutral float-left" title="GitHub Actions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

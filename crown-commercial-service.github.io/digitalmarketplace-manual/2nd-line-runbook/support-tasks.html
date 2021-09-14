@@ -1,0 +1,917 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Support Tasks &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Responding to Cloudwatch alerts" href="investigating-alerts.html" />
+    <link rel="prev" title="Novations" href="novations.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="novations.html">Novations</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Support Tasks</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#support-process">Support process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#users">Users</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#inviting-a-new-admin-user">Inviting a new admin user</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#changing-a-user-s-email">Changing a user’s email</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#user-account-keeps-becoming-inactive">User account keeps becoming inactive</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#user-cannot-subscribe-to-email-alerts">User cannot subscribe to email alerts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#removing-personal-data">Removing personal data</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#removing-personal-data-from-a-supplier">Removing personal data from a supplier</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#getting-email-lists-for-user-research">Getting email lists for user research</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#updating-dos-briefs">Updating DOS Briefs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#updating-incorrect-brief-award-details">Updating incorrect Brief award details</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#making-changes-to-a-brief">Making changes to a Brief</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#withdrawing">Withdrawing</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#removing">Removing</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#changing-the-owner">Changing the owner</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#supplier-queries">Supplier queries</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#updating-supplier-duns-numbers">Updating Supplier DUNS numbers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#novations">Novations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#supplier-has-made-a-mistake-when-signing-framework-agreement">Supplier has made a mistake when signing framework agreement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#supplier-wishes-to-update-supplier-authorised-representative">Supplier wishes to update Supplier Authorised Representative</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#adding-or-updating-a-modern-slavery-statement">Adding or updating a Modern Slavery statement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#adding-or-updating-a-service-document">Adding or updating a service document</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#change-supplier-details-on-dos-service-csvs">Change supplier details on DOS service CSVs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#supplier-querying-their-dos-brief-submission">Supplier querying their DOS brief submission</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#general-investigation-tips">General investigation tips</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#checking-logs">Checking logs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#checking-audit-events">Checking audit events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#checking-user-login-events">Checking user login events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#requests-for-sharing-users-information-or-exporting-data">Requests for sharing users information or exporting data</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Support Tasks</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/2nd-line-runbook/support-tasks.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="support-tasks">
+<span id="id1"></span><h1><a class="toc-backref" href="#id5">Support Tasks</a><a class="headerlink" href="#support-tasks" title="Permalink to this headline">¶</a></h1>
+<p>There are a number of common support requests we receive that admins cannot carry out themselves. See <a class="reference external" href="https://trello.com/c/D7b1I37D/118-readme-about-2nd-line-and-this-board">the Trello board</a> for more information about how we do second line.</p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#support-tasks" id="id5">Support Tasks</a></p>
+<ul>
+<li><p><a class="reference internal" href="#support-process" id="id6">Support process</a></p></li>
+<li><p><a class="reference internal" href="#users" id="id7">Users</a></p>
+<ul>
+<li><p><a class="reference internal" href="#inviting-a-new-admin-user" id="id8">Inviting a new admin user</a></p></li>
+<li><p><a class="reference internal" href="#changing-a-user-s-email" id="id9">Changing a user’s email</a></p></li>
+<li><p><a class="reference internal" href="#user-account-keeps-becoming-inactive" id="id10">User account keeps becoming inactive</a></p></li>
+<li><p><a class="reference internal" href="#user-cannot-subscribe-to-email-alerts" id="id11">User cannot subscribe to email alerts</a></p></li>
+<li><p><a class="reference internal" href="#removing-personal-data" id="id12">Removing personal data</a></p>
+<ul>
+<li><p><a class="reference internal" href="#removing-personal-data-from-a-supplier" id="id13">Removing personal data from a supplier</a></p></li>
+<li><p><a class="reference internal" href="#getting-email-lists-for-user-research" id="id14">Getting email lists for user research</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#updating-dos-briefs" id="id15">Updating DOS Briefs</a></p>
+<ul>
+<li><p><a class="reference internal" href="#updating-incorrect-brief-award-details" id="id16">Updating incorrect Brief award details</a></p></li>
+<li><p><a class="reference internal" href="#making-changes-to-a-brief" id="id17">Making changes to a Brief</a></p>
+<ul>
+<li><p><a class="reference internal" href="#withdrawing" id="id18">Withdrawing</a></p></li>
+<li><p><a class="reference internal" href="#removing" id="id19">Removing</a></p></li>
+<li><p><a class="reference internal" href="#changing-the-owner" id="id20">Changing the owner</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#supplier-queries" id="id21">Supplier queries</a></p>
+<ul>
+<li><p><a class="reference internal" href="#updating-supplier-duns-numbers" id="id22">Updating Supplier DUNS numbers</a></p></li>
+<li><p><a class="reference internal" href="#novations" id="id23">Novations</a></p></li>
+<li><p><a class="reference internal" href="#supplier-has-made-a-mistake-when-signing-framework-agreement" id="id24">Supplier has made a mistake when signing framework agreement</a></p></li>
+<li><p><a class="reference internal" href="#supplier-wishes-to-update-supplier-authorised-representative" id="id25">Supplier wishes to update Supplier Authorised Representative</a></p></li>
+<li><p><a class="reference internal" href="#adding-or-updating-a-modern-slavery-statement" id="id26">Adding or updating a Modern Slavery statement</a></p></li>
+<li><p><a class="reference internal" href="#adding-or-updating-a-service-document" id="id27">Adding or updating a service document</a></p></li>
+<li><p><a class="reference internal" href="#change-supplier-details-on-dos-service-csvs" id="id28">Change supplier details on DOS service CSVs</a></p></li>
+<li><p><a class="reference internal" href="#supplier-querying-their-dos-brief-submission" id="id29">Supplier querying their DOS brief submission</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#general-investigation-tips" id="id30">General investigation tips</a></p>
+<ul>
+<li><p><a class="reference internal" href="#checking-logs" id="id31">Checking logs</a></p></li>
+<li><p><a class="reference internal" href="#checking-audit-events" id="id32">Checking audit events</a></p></li>
+<li><p><a class="reference internal" href="#checking-user-login-events" id="id33">Checking user login events</a></p></li>
+<li><p><a class="reference internal" href="#requests-for-sharing-users-information-or-exporting-data" id="id34">Requests for sharing users information or exporting data</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="support-process">
+<h2><a class="toc-backref" href="#id6">Support process</a><a class="headerlink" href="#support-process" title="Permalink to this headline">¶</a></h2>
+<p>Support requests from CCS should be sent to the developer team via <code class="docutils literal notranslate"><span class="pre">ccsrequests&#64;digitalmarketplace.service.gov.uk</span></code>.
+This gets forwarded to the Digital Marketplace 2nd line google group and creates a ticket in Zendesk which is our primary support tool. When you receive a support request, check the following before responding:</p>
+<ul class="simple">
+<li><p>Did it come in to the <code class="docutils literal notranslate"><span class="pre">ccsrequests</span></code>/DM 2nd line email group? If the request was sent to you individually, push back
+asking to resend to correct address. This is important for team visibility and tracking how many requests we receive.</p></li>
+<li><p>Is the request asking for help with something admins can already do? <a class="reference internal" href="../developing-the-digital-marketplace/users.html#users"><span class="std std-ref">Check the permissions for different admin roles</span></a>.</p></li>
+<li><p>Check whether the request is something we should be handling (see <a class="reference external" href="https://trello.com/c/Uji4WJ1A/1001-handling-ccs-support-requests">https://trello.com/c/Uji4WJ1A/1001-handling-ccs-support-requests</a>).
+If you’re not sure or need to escalate a serious issue, ask a senior developer or product/delivery manager.</p></li>
+<li><p>Check that someone has not already responded in Zendesk.</p></li>
+<li><p>Check the ticket doesn’t require a file attachment in response. If an attachment is needed, do a reply-all email including the attachment (this prevents the CCS user needing to create a Zendesk account to access the attachment). Then update the ticket status in Zendesk as described below.</p></li>
+</ul>
+<p>If the request meets the criteria above, respond in Zendesk, setting an appropriate ticket status e.g. ‘Pending’ or ‘Solved’.</p>
+<p>If you use a script or API query in preparing your response, it is useful to include this as an Internal note on the ticket for others to refer back to.</p>
+<p>If you’re not sure about any of the above, ask! Talk to a Product or Delivery Manager (or your friendly senior dev).</p>
+</div>
+<div class="section" id="users">
+<h2><a class="toc-backref" href="#id7">Users</a><a class="headerlink" href="#users" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="inviting-a-new-admin-user">
+<h3><a class="toc-backref" href="#id8">Inviting a new admin user</a><a class="headerlink" href="#inviting-a-new-admin-user" title="Permalink to this headline">¶</a></h3>
+<p>Requests to setup an admin account must be approved and come from a CCS member with an existing admin account. The request should also specify the role for the account. Note that you can only select one role per account. For more information on admin roles and permissions, <a class="reference internal" href="../developing-the-digital-marketplace/users.html#digitalmarketplace-admins"><span class="std std-ref">check the section on admin accounts under users</span></a>.</p>
+<p>To invite a new admin user or to deactivate or change permissions for an existing user, follow the same steps <a class="reference internal" href="../managing-people-and-secret-things/accounts.html#managing-admin-accounts"><span class="std std-ref">used to add or remove Digital Marketplace administrator accounts for developers</span></a>.</p>
+</div>
+<div class="section" id="changing-a-user-s-email">
+<h3><a class="toc-backref" href="#id9">Changing a user’s email</a><a class="headerlink" href="#changing-a-user-s-email" title="Permalink to this headline">¶</a></h3>
+<p>Buyers cannot change the email address on their account. We recommend two options for buyers:</p>
+<ul class="simple">
+<li><p>Create a new account with their new email address. They can still log in to their old account (e.g. to view past
+opportunities) as long as they know the password for it.</p></li>
+<li><p>Ask their own IT department to set up email forwarding to their new email address, so that they still
+receive anything sent to the old address.</p></li>
+</ul>
+<p>Suppliers can add a new email address to their account by inviting a contributor. They can remove any inactive email
+addresses without needing to raise a support request, however CCS admins can also invite/remove contributors if needed.</p>
+<p>Admin accounts must be invited/removed by a developer, using the <code class="docutils literal notranslate"><span class="pre">admin-manager</span></code> account.</p>
+</div>
+<div class="section" id="user-account-keeps-becoming-inactive">
+<h3><a class="toc-backref" href="#id10">User account keeps becoming inactive</a><a class="headerlink" href="#user-account-keeps-becoming-inactive" title="Permalink to this headline">¶</a></h3>
+<p>Sometimes you’ll be made aware of an account that is repeatedly becoming inactive.
+This is likely because when we send a <a class="reference external" href="email">Notify email</a> to a user and the mailserver responds with an undeliverable
+error (also commonly referred to as a <a class="reference external" href="https://mailchimp.com/help/soft-vs-hard-bounces">hard bounce</a>)
+we deactivate the account.</p>
+<p>This is the correct behaviour because emails, particularly those sent by <a class="reference external" href="https://www.notifications.service.gov.uk">Notify</a>, are an integral part of our service.</p>
+<p>The actual mechanism by which this is achieved is a <a class="reference external" href="https://www.notifications.service.gov.uk/services/95316ff0-e555-462d-a6e7-95d26fbfd091/api/callbacks/delivery-status-callback">Notify callback</a> which POSTs to a <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-api/blob/e9aee7084477eeebc7ffbbb19f755446661b6dfb/app/callbacks/views/notify.py#L19">view on the api</a> which
+deactivates the user.</p>
+<p>The method to check whether or not this is the cause of the user becoming inactive is helpfully detailed above in the
+<a class="reference internal" href="#checking-audit-events"><span class="std std-ref">Checking audit events</span></a> section.</p>
+<p>Something like the below will find this type of audit event:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>  digitalmarketplace-scripts$ ./scripts/api-clients-shell.py preview
+
+data.find_audit_events_iter(object_id=&lt;user_id&gt;, object_type=&#39;users&#39;, audit_type=AuditTypes.update_user)
+</pre></div>
+</div>
+</div>
+<div class="section" id="user-cannot-subscribe-to-email-alerts">
+<h3><a class="toc-backref" href="#id11">User cannot subscribe to email alerts</a><a class="headerlink" href="#user-cannot-subscribe-to-email-alerts" title="Permalink to this headline">¶</a></h3>
+<p>For Digital Marketplace email alerts managed by Mailchimp (see <a class="reference internal" href="../infrastructure/emails.html#mailchimp-emails"><span class="std std-ref">the emails
+section of this manual</span></a> for what is included in this) users
+can experience issues if they try to resubscribe after unsubscribing.</p>
+<p>If a user reports being unable to subscribe to email alerts, instead receiving
+the error message “This email address cannot be used to sign up for Digital
+Marketplace alerts. Please use a different email address…”, this is because
+they have previously unsubscribed and Mailchimp won’t let us resubscribe them.</p>
+<p>Mailchimp tries to protect users from being resubscribed without their consent;
+if a user has asked to be removed then we shouldn’t be able to add them back.
+See the <a class="reference external" href="https://mailchimp.com/help/resubscribe-a-contact/#Resend_a_Confirmation_Email">Mailchimp documentation on resubscribing</a> for more information on
+the rationale for this.</p>
+<p>There is a workaround, which is to send the user a link to the Mailchimp signup
+form for the mailing list they want to rejoin. This is a form hosted by
+Mailchimp rather than on the Digital Marketplace service, created by following
+the steps in the <a class="reference external" href="https://mailchimp.com/help/share-your-signup-form/">Mailchimp documentation on sharing your signup form</a>.</p>
+<p>Description list of Mailchimp mailing lists and signup form URLs:</p>
+<dl>
+<dt>Framework announcements</dt><dd><p>Normally signed up to at <a class="reference external" href="https://www.digitalmarketplace.service.gov.uk/suppliers/mailing-list">https://www.digitalmarketplace.service.gov.uk/suppliers/mailing-list</a>.</p>
+<p>Mailchimp signup form at <a class="reference external" href="https://us5.list-manage.com/subscribe?u=2f3ed6987c26fa8f18b3cdd5d&amp;id=7534b3e89a">https://us5.list-manage.com/subscribe?u=2f3ed6987c26fa8f18b3cdd5d&amp;id=7534b3e89a</a>.</p>
+</dd>
+</dl>
+<p>For other mailing lists a signup form may need to be created first. Note that
+Mailchimp will give you a short link for the form, however the service manual
+recommends against using short links.</p>
+</div>
+<div class="section" id="removing-personal-data">
+<h3><a class="toc-backref" href="#id12">Removing personal data</a><a class="headerlink" href="#removing-personal-data" title="Permalink to this headline">¶</a></h3>
+<p>As per the Digital Marketplace’s commitment to upholding GDPR regulations our users have the right to request that
+their personal data be removed from our datasets. This is detailed in our <a class="reference external" href="https://docs.google.com/document/d/19o1SxcslnEIvkQ_G39HLI-JRa-m2uKDQY55-sV4eg84/view#heading=h.c7ah01db3945">GDPR documentation</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Note that their data will still exist in our backups but the removal will be propagated over 2 years.
+This is inline with the policy outlined in our <a class="reference external" href="https://docs.google.com/document/d/19o1SxcslnEIvkQ_G39HLI-JRa-m2uKDQY55-sV4eg84/view#heading=h.c7ah01db3945">GDPR documentation</a>.</p>
+</div>
+<p>For all user types run the script to remove their data from our database and mailchimp:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>digitalmarketplace-scripts$ ./scripts/remove-user-personal-information.py production &lt;user email address&gt;
+</pre></div>
+</div>
+<div class="section" id="removing-personal-data-from-a-supplier">
+<h4><a class="toc-backref" href="#id13">Removing personal data from a supplier</a><a class="headerlink" href="#removing-personal-data-from-a-supplier" title="Permalink to this headline">¶</a></h4>
+<p>If the user is a ‘supplier’ user then they may have been entered as a contact for the relevant supplier.
+This can be deleted by issuing the following:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>digitalmarketplace-scripts$ ./scripts/api-clients-shell.py preview
+
+data.get_supplier(&lt;SUPPLIER_ID&gt;)
+data.remove_contact_information_personal_data(&lt;SUPPLIER_ID&gt;, &lt;CONTACT_ID&gt;)
+</pre></div>
+</div>
+<p>If there is a request to remove all personal information from a supplier, and
+the supplier is not on any framework, then the steps above should be followed
+for all users and contact information on the supplier object.</p>
+<p>You should also check whether the supplier has an application in progress for
+any frameworks that might happen to be open at the time of the request. If they
+have started an application you should remove the supplier declaration:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">remove_supplier_declaration</span><span class="p">(</span><span class="o">&lt;</span><span class="n">SUPPLIER_ID</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="n">FRAMEWORK_SLUG</span><span class="o">&gt;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="getting-email-lists-for-user-research">
+<h4><a class="toc-backref" href="#id14">Getting email lists for user research</a><a class="headerlink" href="#getting-email-lists-for-user-research" title="Permalink to this headline">¶</a></h4>
+<p>Users of the Digital Marketplace can opt in to being invited to participate in user research. To get the list of email addresses of opted-in users, log in to the Digital Marketplace as a Framework Manager admin. The links to download the lists are on the admin dashboard.</p>
+</div>
+</div>
+</div>
+<div class="section" id="updating-dos-briefs">
+<h2><a class="toc-backref" href="#id15">Updating DOS Briefs</a><a class="headerlink" href="#updating-dos-briefs" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="updating-incorrect-brief-award-details">
+<h3><a class="toc-backref" href="#id16">Updating incorrect Brief award details</a><a class="headerlink" href="#updating-incorrect-brief-award-details" title="Permalink to this headline">¶</a></h3>
+<p>Buyers must supply details of their awarded contract value and start date. If they enter the wrong award details
+(e.g. ‘£10.000’ instead of ‘£10,000’) then they must raise a support request. A developer then needs to update the details
+via an API request.</p>
+<p>Award details may also need to be manually updated if the buyer account is inactive (e.g. the user has left the buying
+organisation).</p>
+<p>To update the award details:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>digitalmarketplace-scripts$ ./scripts/api-clients-shell.py preview
+
+brief_id = 12345
+brief_response_id = data.get_brief(brief_id)[&#39;briefs&#39;][&#39;awardedBriefResponseId&#39;]
+award_details = data.get_brief_response(brief_response_id)[&#39;briefResponses&#39;][&#39;awardDetails&#39;]
+
+# Make your changes to award_details...
+award_details[&#39;awardedContractStartDate&#39;] = &#39;2525-01-01&#39;
+award_details[&#39;awardedContractValue&#39;] = &quot;20000.01&quot;  # £20,000.01
+
+data.update_brief_award_details(
+    brief_id,
+    brief_response_id,
+    award_details,
+)
+</pre></div>
+</div>
+<p>or:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>POST `/briefs/&lt;int:brief_id&gt;/award/&lt;int:brief_response_id&gt;/contract-details`
+{
+    &quot;awardDetails&quot;: {
+        &quot;awardedContractStartDate&quot;: &quot;2525-01-01&quot;,
+        &quot;awardedContractValue&quot;: &quot;20000.01&quot;
+    },
+    &quot;updated_by&quot;: &quot;developers.email@digital.cabinet-office.gov.uk&quot;
+}
+</pre></div>
+</div>
+<p>If the buyer has not awarded the brief at all, the status on the winning BriefResponse must be changed first:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">update_brief_award_brief_response</span><span class="p">(</span>
+    <span class="n">brief_id</span><span class="p">,</span>
+    <span class="n">brief_response_id</span><span class="p">,</span>
+  <span class="p">)</span>
+</pre></div>
+</div>
+<p>or:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>POST `/briefs/&lt;int:brief_id&gt;/award`
+{
+    &quot;briefResponseId&quot;: 12345,
+    &quot;updated_by&quot;: &quot;your.email@digital.cabinet-office.gov.uk&quot;
+}
+</pre></div>
+</div>
+<p>To mark a brief as unsuccessful or cancelled:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>POST `/briefs/&lt;int:brief_id&gt;/&lt;cancel|unsuccessful&gt;`
+{&quot;updated_by&quot;: &quot;developers.email@digital.cabinet-office.gov.uk&quot;}
+</pre></div>
+</div>
+<p>Make sure to check the public brief page to confirm the correct outcome is displayed.</p>
+</div>
+<div class="section" id="making-changes-to-a-brief">
+<h3><a class="toc-backref" href="#id17">Making changes to a Brief</a><a class="headerlink" href="#making-changes-to-a-brief" title="Permalink to this headline">¶</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You should seek explicit CCS DOS Category approval to perform any of the following actions</p>
+</div>
+<p>Briefs are designed not to be changed once published as that may constitute a breach of procurement regulations.
+Changing a brief part-way through a procurement could unfairly benefit one supplier over another.</p>
+<p>However a brief is not a binding contract to actually exchange money or sign a contract
+(commonly referred to as a call-off contract).</p>
+<p>A buyer may decide they no longer want whatever it was they were procuring so we allow buyers to:</p>
+<ul class="simple">
+<li><p>withdraw a brief while it is live and suppliers are making bids</p></li>
+<li><p>cancel a brief once its tender period has ended</p></li>
+</ul>
+<p>These states signify that the buyer will not be signing a contract based on the outcome of the brief.</p>
+<p>Sometimes a supplier needs more information than the buyer provided on the original brief. Because we can’t allow the
+buyer to change the brief, and because we don’t want to unfairly benefit one supplier over another by giving them
+more information than everyone else, this information is given by the clarification question process.</p>
+<p>The supplier can ask a question about the information they think should have been included in the brief, and the buyer
+publishes a response to that question openly on the brief. This supplementary information is provided transparently
+and all suppliers are notified that a question has been answered and supplementary information is available.</p>
+<p>This all means that it is very rare that a developer should have to withdraw or remove a brief but is has been
+discussed as part of threat modelling scenarios.</p>
+<ul class="simple">
+<li><p>A buyer wants to legitimately withdraw an opportunity but has lost access to their email address</p></li>
+<li><p>A malicious buyer account posts defamatory information</p></li>
+<li><p>A buyer accidentally posts a brief containing security-breaching data or personally identifiable information</p></li>
+</ul>
+<div class="section" id="withdrawing">
+<h4><a class="toc-backref" href="#id18">Withdrawing</a><a class="headerlink" href="#withdrawing" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>digitalmarketplace-scripts$ ./scripts/api-clients-shell.py preview
+
+data.withdraw_brief(&lt;BRIEF_ID&gt;)
+</pre></div>
+</div>
+</div>
+<div class="section" id="removing">
+<h4><a class="toc-backref" href="#id19">Removing</a><a class="headerlink" href="#removing" title="Permalink to this headline">¶</a></h4>
+<p>Briefs cannot be deleted, or unpublished, because brief responses may be orphaned as a result.</p>
+<p>Removing data from public view would have to be done directly in the production database. Publicly visible brief details
+are stored in the <code class="docutils literal notranslate"><span class="pre">briefs</span></code> table <code class="docutils literal notranslate"><span class="pre">data</span></code> JSON column. The current accepted wisdom would be to overwrite the
+offending field of this data blob with a string such as <code class="docutils literal notranslate"><span class="pre">'&lt;REMOVED&gt;'</span></code></p>
+<p>You should then <a class="reference internal" href="../infrastructure/elasticsearch.html#create-index"><span class="std std-ref">create a new</span></a> <code class="docutils literal notranslate"><span class="pre">briefs</span></code> index and
+<a class="reference internal" href="../infrastructure/elasticsearch.html#update-index-alias"><span class="std std-ref">redirect the</span></a> <code class="docutils literal notranslate"><span class="pre">briefs-digital-outcomes-and-specialist</span></code> alias to your new index.</p>
+<p>Finally, extract a list of suppliers who have responded to the brief and ask CCS to message them concerning the removal.</p>
+</div>
+<div class="section" id="changing-the-owner">
+<h4><a class="toc-backref" href="#id20">Changing the owner</a><a class="headerlink" href="#changing-the-owner" title="Permalink to this headline">¶</a></h4>
+<p>We sometimes get asked to change the owner of a brief. We can’t do this safely. The API gives us no way to do this, and it’s hard to know whether the requester is authorised.</p>
+<p>Instead, suggest that the requester accesses the owner’s email to get access to the owning buyer account.</p>
+</div>
+</div>
+</div>
+<div class="section" id="supplier-queries">
+<h2><a class="toc-backref" href="#id21">Supplier queries</a><a class="headerlink" href="#supplier-queries" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="updating-supplier-duns-numbers">
+<h3><a class="toc-backref" href="#id22">Updating Supplier DUNS numbers</a><a class="headerlink" href="#updating-supplier-duns-numbers" title="Permalink to this headline">¶</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>A supplier’s DUNS number should only be done if CCS have raised a specific request, giving the supplier ID(s).</p>
+<p>Make sure the CCS data controller is aware of any changes requested if they aren’t the one making the request.</p>
+</div>
+<p>To update a DUNS number for one supplier, first check that the new number isn’t already in use:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>GET `/suppliers?duns_number=123456789`
+</pre></div>
+</div>
+<p>or:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>digitalmarketplace-scripts$ ./scripts/api-clients-shell.py preview
+
+data.find_suppliers(duns_number=&lt;DUNS_NUMBER&gt;)
+</pre></div>
+</div>
+<p>Update the DUNS number:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>POST `/suppliers/&lt;int:supplier_id&gt;`
+{
+    &quot;updated_by&quot;: &quot;developers.email@digital.cabinet-office.gov.uk&quot;,
+    &quot;suppliers&quot;: {
+        &quot;dunsNumber&quot;: &quot;123456789&quot;   # Must be a string, not an integer
+    }
+}
+</pre></div>
+</div>
+<p>or:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>digitalmarketplace-scripts$ ./scripts/api-clients-shell.py preview
+
+data.update_supplier(&lt;SUPPLIER_ID&gt;, {&#39;dunsNumber&#39;: &#39;&lt;DUNS_NUMBER&gt;&#39;})
+</pre></div>
+</div>
+<p>Any declarations for open applications will be updated, but any other declarations won’t.</p>
+<p>To swap DUNS numbers for two suppliers, run <code class="docutils literal notranslate"><span class="pre">oneoff/swap-supplier-duns.py</span></code> from the root of the scripts repo:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">scripts</span><span class="o">/</span><span class="n">oneoff</span><span class="o">/</span><span class="n">swap</span><span class="o">-</span><span class="n">supplier</span><span class="o">-</span><span class="n">duns</span><span class="o">.</span><span class="n">py</span> <span class="o">&lt;</span><span class="n">SUPPLIER_ID_1</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">SUPPLIER_ID_2</span><span class="o">&gt;</span> <span class="o">--</span><span class="n">updated</span><span class="o">-</span><span class="n">by</span><span class="o">=&lt;</span><span class="n">YOUR_WORK_EMAIL</span><span class="o">&gt;</span> <span class="o">--</span><span class="n">stage</span><span class="o">=</span><span class="n">production</span>
+</pre></div>
+</div>
+<p>The two keyword options are not optional and must to be included.</p>
+</div>
+<div class="section" id="novations">
+<h3><a class="toc-backref" href="#id23">Novations</a><a class="headerlink" href="#novations" title="Permalink to this headline">¶</a></h3>
+<p>This is when one supplier takes over another supplier, and wants to sell their services.</p>
+<p>See <a class="reference internal" href="novations.html#novations"><span class="std std-ref">Novations</span></a> for more details.</p>
+</div>
+<div class="section" id="supplier-has-made-a-mistake-when-signing-framework-agreement">
+<span id="re-sign"></span><h3><a class="toc-backref" href="#id24">Supplier has made a mistake when signing framework agreement</a><a class="headerlink" href="#supplier-has-made-a-mistake-when-signing-framework-agreement" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are unfamiliar with framework agreements and how they work, see the <a class="reference internal" href="../content-and-frameworks/framework-agreements.html#framework-agreements"><span class="std std-ref">Framework Agreements manual page</span></a> for detailed info.</p>
+</div>
+<p>A supplier may have made a mistake when signing a framework agreement, or wish for a different user associated with the supplier account to sign the agreement.</p>
+<p>Tell CCS to ask the user to find the link in the email they received inviting them to sign their framework agreement. From this page, they can re-sign the agreement and a new countersigned document will be generated with the updated details.</p>
+<p>In the case where the agreement is not standard, the supplier should collaborate with CCS to produce the countersigned agreement. When ready, a developer can upload it following these steps:</p>
+<ol class="arabic simple">
+<li><p>Confirm that the <code class="docutils literal notranslate"><span class="pre">FrameworkAgreement</span></code> object exists. You can find this using <code class="docutils literal notranslate"><span class="pre">data.get_supplier_framework_info</span></code> in the API client.</p></li>
+<li><p>Confirm that the <code class="docutils literal notranslate"><span class="pre">countersigned</span></code> field is True, <code class="docutils literal notranslate"><span class="pre">countersignedAt</span></code> has a timestamp and <code class="docutils literal notranslate"><span class="pre">countersignedDetails</span></code> is not empty.</p></li>
+<li><p>Confirm that the agreement document is signed and countersigned.</p></li>
+<li><p>If all points above match, use <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-scripts/blob/master/scripts/upload-counterpart-agreements.py">https://github.com/alphagov/digitalmarketplace-scripts/blob/master/scripts/upload-counterpart-agreements.py</a> to upload the new updated countersigned agreement (check script for instructions)</p></li>
+<li><p>Confirm on the API that the <code class="docutils literal notranslate"><span class="pre">FrameworkAgreement</span></code> object points to the new document</p></li>
+</ol>
+</div>
+<div class="section" id="supplier-wishes-to-update-supplier-authorised-representative">
+<h3><a class="toc-backref" href="#id25">Supplier wishes to update Supplier Authorised Representative</a><a class="headerlink" href="#supplier-wishes-to-update-supplier-authorised-representative" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are unfamiliar with framework agreements and how they work, see the <a class="reference internal" href="../content-and-frameworks/framework-agreements.html#framework-agreements"><span class="std std-ref">Framework Agreements manual page</span></a> for detailed info.</p>
+</div>
+<p>The DOS5 contract produced by the e-signature flow includes a ‘Supplier Authorised Representative’ section which is populated based on the declaration questions answered by the supplier. A supplier may wish to change these so that different details appear on the contract.</p>
+<p>These fields are based on the <code class="docutils literal notranslate"><span class="pre">contactNameContractNotice</span></code> and <code class="docutils literal notranslate"><span class="pre">contactEmailContractNotice</span></code> fields in the supplier’s declaration, to update them run the following in the API client shell:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">update_supplier_declaration</span><span class="p">(</span><span class="o">&lt;</span><span class="n">SUPPLIER_ID</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;&lt;FRAMEWORK_SLUG&gt;&#39;</span><span class="p">,{</span><span class="s1">&#39;contactNameContractNotice&#39;</span><span class="p">:</span> <span class="s1">&#39;&lt;NAME&gt;&#39;</span><span class="p">,</span>  <span class="s1">&#39;contactEmailContractNotice&#39;</span><span class="p">:</span> <span class="s1">&#39;&lt;EMAIL_ADDRESS&gt;&#39;</span><span class="p">})</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="adding-or-updating-a-modern-slavery-statement">
+<h3><a class="toc-backref" href="#id26">Adding or updating a Modern Slavery statement</a><a class="headerlink" href="#adding-or-updating-a-modern-slavery-statement" title="Permalink to this headline">¶</a></h3>
+<p>Once framework applications have closed, suppliers can’t edit their Modern Slavery statement themselves, so they will have to raise a support ticket.</p>
+<p>For DOS, modern slavery statements are not publicly available. However the support team may request them, so we should update them anyway.</p>
+<ol class="arabic">
+<li><p>Make sure CCS Support provided the supplier ID and the new document.</p></li>
+<li><p>Check that the document is under 5MB and is either Open Document Format (ODF) or PDF/A (eg .pdf, .odt).</p></li>
+<li><p>Run the script from <code class="docutils literal notranslate"><span class="pre">digitalmarketplace-scripts</span></code> to upload the file and set it as the supplier’s modern slavery statement for the framework:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">AWS_PROFILE</span><span class="o">=</span><span class="n">production</span><span class="o">-</span><span class="n">infrastructure</span> <span class="n">scripts</span><span class="o">/</span><span class="n">upload</span><span class="o">-</span><span class="n">modern</span><span class="o">-</span><span class="n">slavery</span><span class="o">-</span><span class="n">statement</span><span class="o">.</span><span class="n">py</span> <span class="o">&lt;</span><span class="n">file_path</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">supplier_id</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">framework</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">s3_file_name</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<p>For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">AWS_PROFILE</span><span class="o">=</span><span class="n">production</span><span class="o">-</span><span class="n">infrastructure</span> <span class="n">scripts</span><span class="o">/</span><span class="n">upload</span><span class="o">-</span><span class="n">modern</span><span class="o">-</span><span class="n">slavery</span><span class="o">-</span><span class="n">statement</span><span class="o">.</span><span class="n">py</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">file</span><span class="o">.</span><span class="n">pdf</span> <span class="mi">123456</span> <span class="n">g</span><span class="o">-</span><span class="n">cloud</span><span class="o">-</span><span class="mi">12</span> <span class="n">modern</span><span class="o">-</span><span class="n">slavery</span><span class="o">-</span><span class="n">declaration</span><span class="o">-</span><span class="mi">2020</span><span class="o">-</span><span class="mi">11</span><span class="o">-</span><span class="mf">19.</span><span class="n">pdf</span>
+</pre></div>
+</div>
+<p>For G-Cloud, check one of the supplier’s services to make sure the new document is visible.</p>
+</div>
+<div class="section" id="adding-or-updating-a-service-document">
+<h3><a class="toc-backref" href="#id27">Adding or updating a service document</a><a class="headerlink" href="#adding-or-updating-a-service-document" title="Permalink to this headline">¶</a></h3>
+<p>Suppliers can replace their own Service Definition Document once the framework is live, but they cannot remove it
+completely. Occasionally it’s necessary to remove the Service Definition Document (e.g. following a novation), however
+from G-Cloud 12 onwards the document is mandatory, so a replacement must be provided.</p>
+<p>To remove a Service Definition Document:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">update_service</span><span class="p">(</span><span class="o">&lt;</span><span class="n">service_id</span><span class="o">&gt;</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;serviceDefinitionDocumentURL&#39;</span><span class="p">:</span> <span class="kc">None</span><span class="p">})</span>
+</pre></div>
+</div>
+<p>To update a service document, ensure the new file is present in the production S3 documents bucket. The filename should
+be in the format <code class="docutils literal notranslate"><span class="pre">&lt;service_id&gt;-&lt;document-type&gt;-&lt;datestamp&gt;.pdf</span></code>, for example <code class="docutils literal notranslate"><span class="pre">12345678901-pricing-document-2020-01-01.pdf</span></code>.</p>
+<p>Then update the service with the full <a class="reference external" href="https://assets.digitalmarketplace.service.gov.uk/">https://assets.digitalmarketplace.service.gov.uk/</a>… path:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">update_service</span><span class="p">(</span><span class="o">&lt;</span><span class="n">service_id</span><span class="o">&gt;</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;serviceDefinitionDocumentURL&#39;</span><span class="p">:</span> <span class="s1">&#39;https://assets...&#39;</span><span class="p">})</span>
+<span class="n">data</span><span class="o">.</span><span class="n">update_service</span><span class="p">(</span><span class="o">&lt;</span><span class="n">service_id</span><span class="o">&gt;</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;sfiaRateDocumentURL&#39;</span><span class="p">:</span> <span class="s1">&#39;https://assets...&#39;</span><span class="p">})</span>
+<span class="n">data</span><span class="o">.</span><span class="n">update_service</span><span class="p">(</span><span class="o">&lt;</span><span class="n">service_id</span><span class="o">&gt;</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;termsAndConditionsDocumentURL&#39;</span><span class="p">:</span> <span class="s1">&#39;https://assets...&#39;</span><span class="p">})</span>
+<span class="n">data</span><span class="o">.</span><span class="n">update_service</span><span class="p">(</span><span class="o">&lt;</span><span class="n">service_id</span><span class="o">&gt;</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;pricingDocumentURL&#39;</span><span class="p">:</span> <span class="s1">&#39;https://assets...&#39;</span><span class="p">})</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="change-supplier-details-on-dos-service-csvs">
+<h3><a class="toc-backref" href="#id28">Change supplier details on DOS service CSVs</a><a class="headerlink" href="#change-supplier-details-on-dos-service-csvs" title="Permalink to this headline">¶</a></h3>
+<p>When buyers <a class="reference external" href="https://www.digitalmarketplace.service.gov.uk/buyers/frameworks/digital-outcomes-and-specialists-4/requirements/digital-specialists">start a DOS opportunity on a particular lot</a>, they have access to a CSV download of supplier services for
+that lot. These CSVs are generated by a developer when the framework opens and uploaded to a public S3 bucket (see
+more info on this process at <a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html#making-dos-services-live"><span class="std std-ref">making DOS services live</span></a>).</p>
+<p>Sometimes suppliers need to change the details of their services during a framework, for example adding a new specialist
+role or lowering day rates. These service changes can be made by a CCS Category admin, however they are not
+automatically reflected in the public CSVs available to buyers.</p>
+<p>The DOS service export scripts take a long time to run, and need ‘cleaning’ before they’re suitable for publishing to a
+public bucket to remove any sensitive information. For ad hoc change requests it’s quicker and easier to manually edit
+the CSV instead. Make sure to follow the same upload process on S3, remembering to:</p>
+<ul class="simple">
+<li><p>update the ‘Last updated’ line at the top of the CSV</p></li>
+<li><p>follow the existing file name pattern</p></li>
+<li><p>set the <code class="docutils literal notranslate"><span class="pre">Content-Disposition</span></code> header to <code class="docutils literal notranslate"><span class="pre">attachment</span></code></p></li>
+<li><p>set the <code class="docutils literal notranslate"><span class="pre">Cache-Control</span></code> header to <code class="docutils literal notranslate"><span class="pre">max-age=3600</span></code></p></li>
+<li><p>make the file readable to the public</p></li>
+</ul>
+</div>
+<div class="section" id="supplier-querying-their-dos-brief-submission">
+<h3><a class="toc-backref" href="#id29">Supplier querying their DOS brief submission</a><a class="headerlink" href="#supplier-querying-their-dos-brief-submission" title="Permalink to this headline">¶</a></h3>
+<p>It is important to suppliers that their brief responses are received by the buyer but there is some evidence that
+suppliers can neglect to either complete their response or to hit submit before the deadline.
+In these cases we often recieve support requests from suppliers, via CCS, who want to find out if there was any platform
+instability that could have impacted the submission of their brief.</p>
+<p>Digital Marketplace has robust <a class="reference internal" href="../infrastructure/logging.html#monitoring"><span class="std std-ref">Monitoring</span></a>, <a class="reference internal" href="../infrastructure/logging.html#alerting"><span class="std std-ref">Alerting</span></a> and <a class="reference internal" href="../infrastructure/logging.html#logging"><span class="std std-ref">Logging</span></a> and we use this to
+investigate every error returned from the platform.
+The case of user not being able to submit a brief would constitute a P1-P3 incident in line
+with our incident grading scale detailed in the <a class="reference internal" href="incidents.html#incidents"><span class="std std-ref">Incidents</span></a> section of this manual.
+This is significant because the steps taken in managing such incidents include proactively contacting CCS Support to
+notify them of impact to users and degradation of service.</p>
+<p>What this all means is that if a user is served an error from a Digital Marketplace server whilst submitting a brief
+CCS would be aware of it.</p>
+<p>If you have received a support request from CCS asking whether Digital Marketplace has experienced any instability
+that could affect the submission of brief responses or if you can investigate whether any users were served errors
+whilst submitting a brief response please reply with the standardised response on the <a class="reference external" href="https://trello.com/c/IDhzTNCB/1447-supplier-querying-brief-submission">template card</a> on the
+<a class="reference external" href="https://trello.com/b/NnlGJoWD/2nd-line-support">Digital Marketplace 2ndLine Trello Board</a>.</p>
+<p>In the case of such instability it is possible to check whether:</p>
+<ul class="simple">
+<li><p>the user made a request to submit their brief response</p></li>
+<li><p>whether that request actioned the submission of their brief response</p></li>
+</ul>
+<p>You will need the supplier id, brief id, access to credentials and the scripts repo and access to Kibana:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>digitalmarketplace-scripts$ ./scripts/api-clients-shell.py preview
+
+supplier_id=&lt;SUPPLIER_ID&gt;
+brief_id=&lt;BRIEF_ID&gt;
+
+from dmapiclient.audit import AuditTypes
+
+brief_response_id = data.find_brief_responses(
+    supplier_id= supplier_id,
+    brief_id=brief_id,
+    status=&#39;draft,awarded,pending-awarded,submitted&#39;
+)[&#39;briefResponses&#39;][0][&#39;id&#39;]
+
+audits = data.find_audit_events(
+    object_type=&#39;brief-responses&#39;,
+    object_id=brief_response_id,
+    data_supplier_id= supplier_id,
+    audit_type=AuditTypes.submit_brief_response
+)[&#39;auditEvents&#39;]
+
+print(&#39;&quot;/brief-responses/&#39; + str(brief_response_id) + &#39;/submit&quot;&#39;)
+print(audits)
+</pre></div>
+</div>
+<p>The above will print a string containing the brief_response_id of the brief response (like
+<code class="docutils literal notranslate"><span class="pre">&quot;/brief-responses/12345/submit&quot;</span></code>). You can then search for this in Kibana which will tell you if we received a
+request from the user to submit their brief response.</p>
+<p>It will also print whether we have an audit event record of the request having actioned the submission of their brief
+response.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you want to look up the suppliers updates to the brief response you can change the <code class="docutils literal notranslate"><span class="pre">audit_type</span></code> passed
+to <code class="docutils literal notranslate"><span class="pre">find_audit_events</span></code> to <code class="docutils literal notranslate"><span class="pre">AuditTypes.update_brief_response</span></code>.</p>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="../infrastructure/logging.html#searching-logs-in-kibana"><span class="std std-ref">Searching logs in Kibana</span></a></p>
+</div>
+</div>
+</div>
+<div class="section" id="general-investigation-tips">
+<h2><a class="toc-backref" href="#id30">General investigation tips</a><a class="headerlink" href="#general-investigation-tips" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="checking-logs">
+<h3><a class="toc-backref" href="#id31">Checking logs</a><a class="headerlink" href="#checking-logs" title="Permalink to this headline">¶</a></h3>
+<p>Our platform logs are available in Kibana for 30 days. For logs going further back, use AWS Cloudwatch. See the
+<a class="reference internal" href="../infrastructure/logging.html#logging"><span class="std std-ref">Logging and Monitoring</span></a> manual page for more information.</p>
+<p>Notify email logs are stored for 7 days. See the <a class="reference internal" href="../infrastructure/emails.html#emails"><span class="std std-ref">Email integration</span></a> manual page for more information.
+We also log messages about Notify delivery receipts using our API app, so if an email was sent more than 7 days ago
+there will still be a record of it in our own logs. See <a class="reference internal" href="../infrastructure/emails.html#notify-callbacks"><span class="std std-ref">our Notify callbacks</span></a> manual page.</p>
+</div>
+<div class="section" id="checking-audit-events">
+<span id="id4"></span><h3><a class="toc-backref" href="#id32">Checking audit events</a><a class="headerlink" href="#checking-audit-events" title="Permalink to this headline">¶</a></h3>
+<p>Occasionally we’ll need to get a list of supplier actions from the audit events, (for example, to check whether a
+supplier completed part of their framework application).</p>
+<p>One way to do this is via the API client. The easiest way to initialise it is via <code class="docutils literal notranslate"><span class="pre">scripts/api-clients-shell.py</span></code> in
+the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-scripts/blob/master/scripts/api-clients-shell.py">scripts repo</a>.  This will initialise the <code class="docutils literal notranslate"><span class="pre">DataAPIClient</span></code> in a Python shell, fetching the credentials from your
+local environment rather than having to copy and paste the key into the shell.</p>
+<p>For example, to find all the update draft service events for supplier ID 12345 (using the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-apiclient/blob/master/dmapiclient/audit.py#L5">API client AuditTypes</a>):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>digitalmarketplace-scripts$ ./scripts/api-clients-shell.py preview
+
+&gt; audits = data.find_audit_events_iter(data_supplier_id=12345, audit_type=AuditTypes.update_draft_service)
+&gt; for audit in audits:
+&gt;    print(audit)
+
+{&#39;acknowledged&#39;: False, &#39;createdAt&#39;: &#39;2019-01-23T00:12:23.456789Z&#39;, &#39;data&#39;: {&#39;draftId&#39;: 654321, &#39;serviceId&#39;: None, &#39;supplierId&#39;: 12345, &#39;updateJson&#39;: {&#39;serviceManagerPriceMax&#39;: &#39;890&#39;}}, &#39;id&#39;: 5123456, &#39;links&#39;: {&#39;self&#39;: &#39;https://api.digitalmarketplace.service.gov.uk/audit-events&#39;}, &#39;objectId&#39;: 123456, &#39;objectType&#39;: &#39;DraftService&#39;, &#39;type&#39;: &#39;update_draft_service&#39;, &#39;user&#39;: &#39;12345@example.com&#39;}
+{&#39;acknowledged&#39;: False, &#39;createdAt&#39;: &#39;2019-02-23T00:12:23.456789Z&#39;, &#39;data&#39;: {&#39;draftId&#39;: 654321, &#39;serviceId&#39;: None, &#39;supplierId&#39;: 12345, &#39;updateJson&#39;: {&#39;technicalArchitectLocations&#39;: [&#39;Offsite&#39;]}}, &#39;id&#39;: 5123457, &#39;links&#39;: {&#39;self&#39;: &#39;https://api.digitalmarketplace.service.gov.uk/audit-events&#39;}, &#39;objectId&#39;: 123456, &#39;objectType&#39;: &#39;DraftService&#39;, &#39;type&#39;: &#39;update_draft_service&#39;, &#39;user&#39;: &#39;12345@example.com&#39;}
+</pre></div>
+</div>
+<p>Make sure to use <code class="docutils literal notranslate"><span class="pre">find_audit_events_iter()</span></code>, otherwise only the first page of audit events will be returned.</p>
+<p>Other useful API client filters:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="n">client</span><span class="o">.</span><span class="n">find_audit_events_iter</span><span class="p">(</span><span class="n">object_type</span><span class="o">=</span><span class="s2">&quot;suppliers&quot;</span><span class="p">,</span> <span class="n">object_id</span><span class="o">=</span><span class="mi">12345</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="n">client</span><span class="o">.</span><span class="n">find_audit_events_iter</span><span class="p">(</span><span class="n">user</span><span class="o">=</span><span class="s2">&quot;12345@example.com&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Note that the list of queryable object types is found in the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-api/blob/master/app/main/views/audits.py#L26">API repo’s audits.py view</a>.</p>
+</div>
+<div class="section" id="checking-user-login-events">
+<h3><a class="toc-backref" href="#id33">Checking user login events</a><a class="headerlink" href="#checking-user-login-events" title="Permalink to this headline">¶</a></h3>
+<p>A user’s ‘last logged in date’ is recorded in the database, along with the number of subsequent failed logins.</p>
+<p>Successful and failed logins are also recorded in the User Frontend application logs. These are available for 30 days in
+Kibana, or in Cloudwatch.</p>
+<p>Get the hashed version of the user’s email address with the utils helper function:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="kn">from</span> <span class="nn">dmutils.email.helpers</span> <span class="kn">import</span> <span class="n">hash_string</span>
+<span class="o">&gt;</span> <span class="n">hash_string</span><span class="p">(</span><span class="s1">&#39;info@example.com&#39;</span><span class="p">)</span>
+<span class="o">&gt;</span> <span class="s1">&#39;-xpHV_g7dOWofBVUyGibqxLQlnT54V2zZsNjarRSAEw=&#39;</span>
+</pre></div>
+</div>
+<p>Kibana search query:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">message</span><span class="p">:</span> <span class="s2">&quot;-xpHV_g7dOWofBVUyGibqxLQlnT54V2zZsNjarRSAEw=&quot;</span>
+</pre></div>
+</div>
+<p>To search in Cloudwatch:</p>
+<ul class="simple">
+<li><p>Log in to the AWS console</p></li>
+<li><p>Switch to the correct region (e.g. <code class="docutils literal notranslate"><span class="pre">eu-west-1</span></code>)</p></li>
+<li><p>Switch to a production role</p></li>
+<li><p>Go to CloudWatch &gt; CloudWatch Logs &gt; Log groups &gt; production-user-frontend-application</p></li>
+<li><p>Select ‘Search All’</p></li>
+<li><p>Set a date range</p></li>
+<li><p>Search for the hashed string</p></li>
+</ul>
+</div>
+<div class="section" id="requests-for-sharing-users-information-or-exporting-data">
+<h3><a class="toc-backref" href="#id34">Requests for sharing users information or exporting data</a><a class="headerlink" href="#requests-for-sharing-users-information-or-exporting-data" title="Permalink to this headline">¶</a></h3>
+<p>Ensure first that any requests for user data meets our <a class="reference external" href="https://www.digitalmarketplace.service.gov.uk/privacy-notice">privacy policy</a>.</p>
+<p>You can find all buyers under a certain email domain by running:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>digitalmarketplace-scripts$ ./scripts/api-clients-shell.py preview
+
+&gt; domain = &#39;my.domain.com&#39;
+&gt; users = [u[&#39;emailAddress&#39;] for u in data.find_users_iter(role=&#39;buyer&#39;) if u[&#39;active&#39;] and u[&#39;emailAddress&#39;].split(&#39;@&#39;)[-1] == domain]
+&gt; print(users)
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="investigating-alerts.html" class="btn btn-neutral float-right" title="Responding to Cloudwatch alerts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="novations.html" class="btn btn-neutral float-left" title="Novations" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

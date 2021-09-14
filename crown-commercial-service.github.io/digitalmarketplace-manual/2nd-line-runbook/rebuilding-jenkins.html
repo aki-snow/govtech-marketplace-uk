@@ -1,0 +1,574 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Rebuilding Jenkins from scratch &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Rotating API keys" href="rotate-keys.html" />
+    <link rel="prev" title="Upgrading Jenkins" href="upgrading-jenkins.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Rebuilding Jenkins from scratch</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#restoring-an-existing-jenkins-instance">Restoring an existing Jenkins instance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-a-new-jenkins-instance">Creating a new Jenkins instance</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#creating-the-aws-resources-for-the-new-instance">Creating the AWS resources for the new instance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#granting-the-box-access-to-test-environments">Granting the box access to test environments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#creating-a-new-oauth-app-in-github">Creating a new OAuth app in Github</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#provision-the-box-with-ansible">Provision the box with Ansible</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#checking-everything-is-working-and-secure">Checking everything is working and secure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#copying-build-history-from-an-old-instance-to-a-new-instance">Copying build history from an old instance to a new instance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#changing-the-url-for-the-new-instance">Changing the URL for the new instance</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Rebuilding Jenkins from scratch</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/2nd-line-runbook/rebuilding-jenkins.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rebuilding-jenkins-from-scratch">
+<span id="rebuilding-jenkins"></span><h1><a class="toc-backref" href="#id1">Rebuilding Jenkins from scratch</a><a class="headerlink" href="#rebuilding-jenkins-from-scratch" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#rebuilding-jenkins-from-scratch" id="id1">Rebuilding Jenkins from scratch</a></p>
+<ul>
+<li><p><a class="reference internal" href="#restoring-an-existing-jenkins-instance" id="id2">Restoring an existing Jenkins instance</a></p></li>
+<li><p><a class="reference internal" href="#creating-a-new-jenkins-instance" id="id3">Creating a new Jenkins instance</a></p>
+<ul>
+<li><p><a class="reference internal" href="#creating-the-aws-resources-for-the-new-instance" id="id4">Creating the AWS resources for the new instance</a></p></li>
+<li><p><a class="reference internal" href="#granting-the-box-access-to-test-environments" id="id5">Granting the box access to test environments</a></p></li>
+<li><p><a class="reference internal" href="#creating-a-new-oauth-app-in-github" id="id6">Creating a new OAuth app in Github</a></p></li>
+<li><p><a class="reference internal" href="#provision-the-box-with-ansible" id="id7">Provision the box with Ansible</a></p></li>
+<li><p><a class="reference internal" href="#checking-everything-is-working-and-secure" id="id8">Checking everything is working and secure</a></p></li>
+<li><p><a class="reference internal" href="#copying-build-history-from-an-old-instance-to-a-new-instance" id="id9">Copying build history from an old instance to a new instance</a></p></li>
+<li><p><a class="reference internal" href="#changing-the-url-for-the-new-instance" id="id10">Changing the URL for the new instance</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="restoring-an-existing-jenkins-instance">
+<h2><a class="toc-backref" href="#id2">Restoring an existing Jenkins instance</a><a class="headerlink" href="#restoring-an-existing-jenkins-instance" title="Permalink to this headline">¶</a></h2>
+<p>If you’re restoring a Jenkins instance that’s disappeared for some reason, you can reuse the existing <code class="docutils literal notranslate"><span class="pre">jenkins</span></code>
+Terraform module definition in the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-aws/blob/master/terraform/accounts/main/main.tf">digitalmarketplace-aws repo</a>.</p>
+<p>Run <code class="docutils literal notranslate"><span class="pre">AWS_PROFILE=main-infrastructure</span> <span class="pre">make</span> <span class="pre">plan</span></code> then <code class="docutils literal notranslate"><span class="pre">AWS_PROFILE=main-infrastructure</span> <span class="pre">make</span> <span class="pre">apply</span></code> from the main
+account folder.</p>
+</div>
+<div class="section" id="creating-a-new-jenkins-instance">
+<span id="new-jenkins-instance"></span><h2><a class="toc-backref" href="#id3">Creating a new Jenkins instance</a><a class="headerlink" href="#creating-a-new-jenkins-instance" title="Permalink to this headline">¶</a></h2>
+<p>To create a new Jenkins instance (e.g. for testing), you’ll need to:</p>
+<ul class="simple">
+<li><p>Create the AWS resources for the new Jenkins instance using Terraform.</p></li>
+<li><p>Set up authorisation for the new instance</p></li>
+<li><p>Provision the Jenkins app using Ansible</p></li>
+<li><p>Set up a new URL for the instance</p></li>
+<li><p>Copy any data (e.g. build history) from the old instance to the new instance</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>These steps assume that the <a class="reference internal" href="../infrastructure/jenkins.html#shared-jenkins-infrastructure"><span class="std std-ref">shared AWS infrastructure</span></a> for all Jenkins instances (the IAM profile/policy
+document, ELB certificate, EBS snapshot policy and the S3 bucket to store access logs) are already set up for the
+account. If you need to rebuild the shared resources, check with the team first.</p>
+</div>
+<div class="section" id="creating-the-aws-resources-for-the-new-instance">
+<h3><a class="toc-backref" href="#id4">Creating the AWS resources for the new instance</a><a class="headerlink" href="#creating-the-aws-resources-for-the-new-instance" title="Permalink to this headline">¶</a></h3>
+<p>The infrastructure on which each Jenkins instance relies on is created in the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-aws/tree/master/terraform/modules/jenkins/jenkins">jenkins.jenkins module</a>. of the <code class="docutils literal notranslate"><span class="pre">main</span></code>
+AWS account. The module can be instantiated in the <code class="docutils literal notranslate"><span class="pre">main</span></code> account as many times as we like (typically once).</p>
+<p>Define a new Jenkins module in the main account’s <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-aws/blob/master/terraform/accounts/main/jenkins.tf">jenkins.tf</a>, with a unique name to allow Terraform to namespace
+resources:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">module</span> <span class="s2">&quot;jenkins2_the_jenkinsening&quot;</span> <span class="p">{</span> <span class="o">...</span>
+</pre></div>
+</div>
+<p>The module will require the following variables to be defined:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 72%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Variable</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">source</span></code></p></td>
+<td><p>The relative path to the Jenkins module.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">name</span></code></p></td>
+<td><p>A unique name for the AWS resources, to allow name spacing.
+A good value for this would be the module block name.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">dev_user_ips</span></code></p></td>
+<td><p>A list of IP addresses to allowlist for the security groups. Automatically injected
+from the credentials repo using var.dev_user_ips.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">jenkins_public_key_name</span></code></p></td>
+<td><p>The name of the key pair which will be put on the ec2 to allow access.
+This can be reused. If you use the existing variable <code class="docutils literal notranslate"><span class="pre">var.jenkins_public_key</span></code>
+you will be able to reuse the private key defined in our credentials repo.
+Alternatively, generate a new key pair and use the name here.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">jenkins_instance_profile</span></code></p></td>
+<td><p>The name of the shared instance profile to use to give Jenkins its
+permissions (this should exist already).</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">jenkins_wildcard_elb_cert_arn</span></code></p></td>
+<td><p>The arn of the shared ELB certificate defined in the main account. Terraform grabs
+this automatically with <code class="docutils literal notranslate"><span class="pre">aws_acm_certificate.jenkins_wildcard_elb_certificate.arn</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">ami_id</span></code></p></td>
+<td><p>The ID of the machine image you want to base your image on. If you’re upgrading the
+server to a new operating system, or fixing security issues, this is what you’ll want
+to update. New images can be found <a class="reference external" href="https://cloud-images.ubuntu.com/locator/">here</a>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">instance_type</span></code></p></td>
+<td><p>The type of EC2 instance to use. Currently we use <code class="docutils literal notranslate"><span class="pre">t3.large</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">dns_zone_id</span></code></p></td>
+<td><p>The id of our DNS zone. Terraform grabs this automatically with
+<code class="docutils literal notranslate"><span class="pre">aws_route53_zone.marketplace_team.zone_id</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">dns_name</span></code></p></td>
+<td><p>The DNS address of the new instance, for example <code class="docutils literal notranslate"><span class="pre">ci2.marketplace.team</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">log_bucket_name</span></code></p></td>
+<td><p>The name of the shared S3 bucket that jenkins should log to (this should exist already).</p></td>
+</tr>
+</tbody>
+</table>
+<p>From the main account Terraform project, <code class="docutils literal notranslate"><span class="pre">digitalmarketplace-aws/terraform/accounts/main</span></code> run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ AWS_PROFILE=main-infrastructure make plan
+</pre></div>
+</div>
+<p>This will plan the new module and output to stdout what it’s going to do. Check it carefully to make sure everything
+looks correct. If all looks good, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ AWS_PROFILE=main-infrastructure make apply
+</pre></div>
+</div>
+<p>This will cause Terraform to actually create the module. Cross your fingers.</p>
+<p>If there are any errors, Terraform will let you know. If there are you will need to fix them and then <code class="docutils literal notranslate"><span class="pre">plan</span></code> and
+<code class="docutils literal notranslate"><span class="pre">apply</span></code> again. If not, then all the new infrastructure should be up and running. You may need to wait a little while
+for DNS records to be propagated, but you should be able to ssh into the new instance immediately using the elastic IP
+address created (find it through the AWS console).</p>
+<p>You should now have created:</p>
+<ul class="simple">
+<li><p>a new EC2 instance</p></li>
+<li><p>a new elastic load balancer (ELB), that uses the shared certificate</p></li>
+<li><p>a new DNS ‘A’ record in Route 53</p></li>
+<li><p>new security groups for the EC2 and ELB instances</p></li>
+</ul>
+</div>
+<div class="section" id="granting-the-box-access-to-test-environments">
+<h3><a class="toc-backref" href="#id5">Granting the box access to test environments</a><a class="headerlink" href="#granting-the-box-access-to-test-environments" title="Permalink to this headline">¶</a></h3>
+<p>To run some jobs Jenkins needs access to our Preview and Staging environments and Admin interfaces which are not publicly accessible by default.</p>
+<ul class="simple">
+<li><p>Find the Public IPv4 address of the instance as displayed in the AWS EC2 Console.</p></li>
+<li><p>Add it to the <code class="docutils literal notranslate"><span class="pre">user_ips</span></code>, <code class="docutils literal notranslate"><span class="pre">dev_user_ips</span></code> and <code class="docutils literal notranslate"><span class="pre">admin_user_ips</span></code> blocks in the credentials files: <code class="docutils literal notranslate"><span class="pre">vars/preview.yaml</span></code> <code class="docutils literal notranslate"><span class="pre">vars/staging.yaml</span></code> and <code class="docutils literal notranslate"><span class="pre">vars/production.yaml</span></code>.</p></li>
+<li><p>Once the changes have been merged, re-release the router app in all environments, using the Jenkins Job <a class="reference external" href="https://ci.marketplace.team/job/release-app-paas/">Release application to PaaS</a>.</p></li>
+</ul>
+</div>
+<div class="section" id="creating-a-new-oauth-app-in-github">
+<h3><a class="toc-backref" href="#id6">Creating a new OAuth app in Github</a><a class="headerlink" href="#creating-a-new-oauth-app-in-github" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p>Log into Github as the dm-ssp-jenkins user. Credentials are in the
+credentials repo in <code class="docutils literal notranslate"><span class="pre">pass/github.com/jenkins-ci</span></code>. You will need someone
+with 2FA for dm-ssp-jenkins handy.</p></li>
+<li><p>Go to <code class="docutils literal notranslate"><span class="pre">Settings</span> <span class="pre">/</span> <span class="pre">Developer</span> <span class="pre">Settings</span> <span class="pre">/</span> <span class="pre">OAuth</span> <span class="pre">Apps</span></code> and click <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">OAuth</span> <span class="pre">App</span></code>.</p></li>
+<li><p>Give it a friendly name. Something like <code class="docutils literal notranslate"><span class="pre">Jenkins</span> <span class="pre">2</span> <span class="pre">OAuth</span> <span class="pre">app</span></code>.</p></li>
+<li><p>Set <code class="docutils literal notranslate"><span class="pre">Homepage</span> <span class="pre">URL</span></code> as the full URL to the new instance, for example <code class="docutils literal notranslate"><span class="pre">https://ci2.marketplace.team</span></code></p></li>
+<li><p>Application description is optional.</p></li>
+<li><p>Set <code class="docutils literal notranslate"><span class="pre">Authorization</span> <span class="pre">callback</span> <span class="pre">URL</span></code> to <code class="docutils literal notranslate"><span class="pre">&lt;Homepage</span> <span class="pre">URL&gt;/securityRealm/finishLogin</span></code>. To follow the example from above
+you would use <code class="docutils literal notranslate"><span class="pre">https://ci2.marketplace.team/securityRealm/finishLogin</span></code></p></li>
+<li><p>Click <code class="docutils literal notranslate"><span class="pre">Register</span> <span class="pre">application</span></code> and take note of the provided <code class="docutils literal notranslate"><span class="pre">Client</span> <span class="pre">ID</span></code> and <code class="docutils literal notranslate"><span class="pre">Client</span> <span class="pre">Secret</span></code>.</p></li>
+<li><p>Add the client id and client secret for the app to <code class="docutils literal notranslate"><span class="pre">digitalmarketplace-credentials/jenkins-vars/jenkins.yaml</span></code>. They
+need to be stored as a nested dict under <code class="docutils literal notranslate"><span class="pre">jenkins_github_auth_by_hostname</span></code> with the host name for the new instance
+as the key, along side the existing application. For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">jenkins_github_auth_by_hostname</span><span class="p">:</span>
+    <span class="n">ci2</span><span class="o">.</span><span class="n">marketplace</span><span class="o">.</span><span class="n">team</span><span class="p">:</span>
+        <span class="n">client_id</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">CLIENT</span><span class="o">-</span><span class="n">ID</span><span class="o">&gt;</span>
+        <span class="n">client_secret</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">CLIENT</span><span class="o">-</span><span class="n">SECRET</span><span class="o">&gt;</span>
+    <span class="n">ci</span><span class="o">.</span><span class="n">marketplace</span><span class="o">.</span><span class="n">team</span><span class="p">:</span>
+      <span class="o">.....</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="provision-the-box-with-ansible">
+<h3><a class="toc-backref" href="#id7">Provision the box with Ansible</a><a class="headerlink" href="#provision-the-box-with-ansible" title="Permalink to this headline">¶</a></h3>
+<p>In the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-jenkins">digitalmarketplace-jenkins repo</a>, update <code class="docutils literal notranslate"><span class="pre">/playbooks/hosts</span></code> with:</p>
+<ul class="simple">
+<li><p>The URL of the new instance</p></li>
+<li><p>The data volume ID. Usually this will be <code class="docutils literal notranslate"><span class="pre">jenkins_data_device=/dev/disk/by-id/nvme-Amazon_Elastic_Block_Store_&lt;VOLUME_ID_WITHOUT_HYPHENS&gt;</span></code></p></li>
+</ul>
+<p>If you used a new ssh key pair when defining <code class="docutils literal notranslate"><span class="pre">jenkins_public_key_name</span></code>, you will need to update <code class="docutils literal notranslate"><span class="pre">deploy-jenkins.sh</span></code>
+to copy your new private key to the <code class="docutils literal notranslate"><span class="pre">$PRIVATE_KEY_FILE</span></code> variable. If you used the existing key, do nothing.</p>
+<p>Run the full Ansible playbook from the root of the Jenkins repo as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ make install
+</pre></div>
+</div>
+<p>This will start the Ansible playbook for Jenkins, and apply all configuration to the instance. Answer “yes” if
+prompted about authenticity by ssh. The process make take around 20 minutes so get some biscuits.</p>
+<p>When running <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">install</span></code>, all jobs will be disabled by default. This is so jobs don’t run unexpectedly once Jenkins
+is up and running.</p>
+<p>Once Ansible is finished, you should be able to access the new Jenkins at the URL you defined earlier.</p>
+</div>
+<div class="section" id="checking-everything-is-working-and-secure">
+<h3><a class="toc-backref" href="#id8">Checking everything is working and secure</a><a class="headerlink" href="#checking-everything-is-working-and-secure" title="Permalink to this headline">¶</a></h3>
+<p>When you login to the new Jenkins server for the first time, there are some things you’ll want to check:</p>
+<ul class="simple">
+<li><p>Are all the jobs disabled? When you’re first setting up a new Jenkins instance you probably don’t want it to start
+building things right away. The Ansible playbook should have disabled all jobs, but it’s worth checking before you
+get some nasty surprises!</p></li>
+<li><p>Is the server accessible outside of the GDS building? It shouldn’t be! See if you can access it when your device is
+connected to the GovWifi network or tethered to your phone.</p></li>
+<li><p>You might need to dismiss the “access control for builds” warning (see <a class="reference external" href="https://trello-attachments.s3.amazonaws.com/57b583de94cf4f9efa1eb1b9/5cff763c4bfd2e0c86d3633d/0af647191fca25fb4000d58b1f74cae7/image.png">this screenshot</a> for an example).
+This warning isn’t relevant for us, as we don’t use access control for Jenkins users.</p></li>
+</ul>
+</div>
+<div class="section" id="copying-build-history-from-an-old-instance-to-a-new-instance">
+<h3><a class="toc-backref" href="#id9">Copying build history from an old instance to a new instance</a><a class="headerlink" href="#copying-build-history-from-an-old-instance-to-a-new-instance" title="Permalink to this headline">¶</a></h3>
+<p>It’s important that we maintain the history of some of our jobs, if possible, for audit purposes. We can get the builds
+of these jobs onto a new box by copying certain files over. We don’t have an automated way of doing this at the moment.
+This is a method for how it <em>has</em> been done. There may (read probably) be better ways.</p>
+<ul>
+<li><p>ssh on to the old instance (lets assume it’s using <code class="docutils literal notranslate"><span class="pre">ci</span></code> as the subdomain):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ssh -i &lt;path to private key&gt; ubuntu@ci.marketplace.team
+</pre></div>
+</div>
+</li>
+<li><p>Switch to the <code class="docutils literal notranslate"><span class="pre">jenkins</span></code> user:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sudo su - jenkins
+</pre></div>
+</div>
+</li>
+<li><p>Compress the contents of the jobs directory:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ tar -zcvf /tmp/jobs.tgz --exclude &#39;workspace**&#39; /data/jenkins/jobs/
+</pre></div>
+</div>
+</li>
+<li><p>Copy the file to the new instance (lets assume it’s using <code class="docutils literal notranslate"><span class="pre">ci2</span></code> as the subdomain), from your local machine run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ scp ubuntu@ci.marketplace.team:/tmp/jobs.tgz /tmp
+$ scp /tmp/jobs.tgz ubuntu@ci2.marketplace.team:/tmp
+</pre></div>
+</div>
+</li>
+<li><p>Unpack the file on the new machine:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ssh ubuntu@ci2.marketplace.team
+$ sudo su - jenkins
+$ tar -xvf /tmp/jobs.tgz -C /
+</pre></div>
+</div>
+</li>
+<li><p>Restart the new instance by going to: <code class="docutils literal notranslate"><span class="pre">https://ci2.marketplace.team/safeRestart</span></code></p></li>
+<li><p>Once done, the history of the old jobs should appear on the new instance. Any pipelines will need to be restarted as
+this doesn’t seem to transfer their current state across.</p></li>
+<li><p>Delete the compressed files created on the local and remote machines.</p></li>
+</ul>
+</div>
+<div class="section" id="changing-the-url-for-the-new-instance">
+<h3><a class="toc-backref" href="#id10">Changing the URL for the new instance</a><a class="headerlink" href="#changing-the-url-for-the-new-instance" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>You may want to change the URL of the new instance. We normally use <code class="docutils literal notranslate"><span class="pre">ci.marketplace.team</span></code>.</p></li>
+<li><p>If so, update the <code class="docutils literal notranslate"><span class="pre">dns_name</span></code> variable in the new module definition in the <code class="docutils literal notranslate"><span class="pre">main.tf</span></code> file of the main account. If
+there is another module already using this name, you may need to change or remove it first.</p></li>
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">plan</span></code> then <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">apply</span></code>.</p></li>
+<li><p>It may take a few minutes for DNS setting to propagate.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="rotate-keys.html" class="btn btn-neutral float-right" title="Rotating API keys" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="upgrading-jenkins.html" class="btn btn-neutral float-left" title="Upgrading Jenkins" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

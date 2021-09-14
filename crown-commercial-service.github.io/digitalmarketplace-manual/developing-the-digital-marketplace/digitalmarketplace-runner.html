@@ -1,0 +1,384 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Digital Marketplace Runner (‘dmrunner’) &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Nix Environments" href="nix.html" />
+    <link rel="prev" title="Recording decisions on the Digital Marketplace" href="decision-records.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Digital Marketplace Runner (‘dmrunner’)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#repository">Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setup">Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#commands">Commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#debugging">Debugging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#possible-improvements">Possible improvements</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Digital Marketplace Runner (‘dmrunner’)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/developing-the-digital-marketplace/digitalmarketplace-runner.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="digital-marketplace-runner-dmrunner">
+<span id="digitalmarketplace-runner"></span><h1>Digital Marketplace Runner (‘dmrunner’)<a class="headerlink" href="#digital-marketplace-runner-dmrunner" title="Permalink to this headline">¶</a></h1>
+<p>Running the Digital Marketplace code locally involves running 4 backing services (<code class="docutils literal notranslate"><span class="pre">nginx</span></code>, <code class="docutils literal notranslate"><span class="pre">Elasticsearch</span></code>,
+<code class="docutils literal notranslate"><span class="pre">Redis</span></code> and <code class="docutils literal notranslate"><span class="pre">Postgres</span></code>), 2 APIs (data and search), and 6 frontend apps (<code class="docutils literal notranslate"><span class="pre">admin</span></code>, <code class="docutils literal notranslate"><span class="pre">briefs</span></code>, <code class="docutils literal notranslate"><span class="pre">brief-responses</span></code>,
+<code class="docutils literal notranslate"><span class="pre">buyer</span></code>, <code class="docutils literal notranslate"><span class="pre">supplier</span></code>, <code class="docutils literal notranslate"><span class="pre">user</span></code>). It has a further set of mostly decentralised/loosely documented dependencies such as
+<code class="docutils literal notranslate"><span class="pre">Node</span></code>, <code class="docutils literal notranslate"><span class="pre">NPM</span></code>, <code class="docutils literal notranslate"><span class="pre">AWS</span> <span class="pre">CLI</span></code>, etc. This can make it a fairly laborious and inconsistent task for a new
+developer to quickly know what to install and how to get up and running.</p>
+<p>The dmrunner was developed during a firebreak to try to make it easier to get new developers up and running,
+sanity-check certain dependencies, and make it simpler to start and maintain the full suite of Digital Marketplace code.</p>
+<div class="section" id="repository">
+<h2>Repository<a class="headerlink" href="#repository" title="Permalink to this headline">¶</a></h2>
+<p>The code for the runner can be found at: <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-runner">https://github.com/alphagov/digitalmarketplace-runner</a></p>
+<p>This has been in use since Q2 2018 and, after the initial setup, has
+presented few issues for ongoing use. The initial setup can be slightly error-prone, but most of the problems should
+have been resolved by now.</p>
+</div>
+<div class="section" id="setup">
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h2>
+<p><strong>READ THE REQUIREMENTS IN THE REPOSITORY’S README.MD</strong></p>
+<p>In theory, a new developer should be able to clone this repository locally (e.g. to <code class="docutils literal notranslate"><span class="pre">~/dmp</span></code>), install the requirements,
+and then run <code class="docutils literal notranslate"><span class="pre">invoke</span> <span class="pre">setup</span></code>. This should run through some pre-flight checks to validate that the correct dependencies
+are available. If they aren’t, the user should be told what they need to install. It will then download all the core
+Digital Marketplace code and bootstrap them by installing dependencies, setting up backing services with the data they
+require (e.g. a database dump for Postgres and indexing for Elasticsearch), and terminate once everything is good to go.
+The developer can then either fall back to running their code manually, or simply run <code class="docutils literal notranslate"><span class="pre">invoke</span> <span class="pre">run</span></code> to have the dmrunner
+maintain services and apps for them.</p>
+</div>
+<div class="section" id="commands">
+<h2>Commands<a class="headerlink" href="#commands" title="Permalink to this headline">¶</a></h2>
+<p>After the dmrunner has started all of the Digital Marketplace apps, you will enter command mode, which exposes a number
+of shortcuts for maintaining the running processes. These can be listed by typing ‘h’ or ‘help’.</p>
+<p>This is a summary of the main commands available:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> <span class="n">h</span> <span class="o">/</span>     <span class="n">help</span> <span class="o">-</span> <span class="n">Display</span> <span class="n">this</span> <span class="n">help</span> <span class="n">file</span><span class="o">.</span>
+ <span class="n">s</span> <span class="o">/</span>   <span class="n">status</span> <span class="o">-</span> <span class="n">Check</span> <span class="n">status</span> <span class="k">for</span> <span class="n">your</span> <span class="n">apps</span><span class="o">.</span>
+ <span class="n">b</span> <span class="o">/</span>   <span class="n">branch</span> <span class="o">-</span> <span class="n">Check</span> <span class="n">which</span> <span class="n">branches</span> <span class="n">your</span> <span class="n">apps</span> <span class="n">are</span> <span class="n">running</span> <span class="n">against</span><span class="o">.</span>
+ <span class="n">r</span> <span class="o">/</span>  <span class="n">restart</span> <span class="o">-</span> <span class="n">Restart</span> <span class="nb">any</span> <span class="n">apps</span> <span class="n">that</span> <span class="n">have</span> <span class="n">gone</span> <span class="n">down</span> <span class="p">(</span><span class="n">using</span> <span class="s1">&#39;make run-app&#39;</span><span class="p">)</span><span class="o">.</span>
+<span class="n">rb</span> <span class="o">/</span>  <span class="n">rebuild</span> <span class="o">-</span> <span class="n">Rebuild</span> <span class="ow">and</span> <span class="n">restart</span> <span class="nb">any</span> <span class="n">failed</span> <span class="ow">or</span> <span class="n">down</span> <span class="n">apps</span> <span class="n">using</span> <span class="s1">&#39;make run-all&#39;</span><span class="o">.</span>
+ <span class="n">f</span> <span class="o">/</span>   <span class="nb">filter</span> <span class="o">-</span> <span class="n">Start</span> <span class="n">showing</span> <span class="n">logs</span> <span class="n">only</span> <span class="kn">from</span> <span class="nn">specified</span> <span class="n">apps</span><span class="o">*</span>
+<span class="n">fe</span> <span class="o">/</span> <span class="n">frontend</span> <span class="o">-</span> <span class="n">Run</span> <span class="s1">&#39;make frontend-build&#39;</span> <span class="n">against</span> <span class="n">specified</span> <span class="n">apps</span><span class="o">*</span>
+ <span class="n">k</span> <span class="o">/</span>     <span class="n">kill</span> <span class="o">-</span> <span class="n">Kill</span> <span class="n">specified</span> <span class="n">apps</span><span class="o">*</span>
+ <span class="n">q</span> <span class="o">/</span>     <span class="n">quit</span> <span class="o">-</span> <span class="n">Terminate</span> <span class="nb">all</span> <span class="n">running</span> <span class="n">services</span> <span class="ow">and</span> <span class="n">apps</span> <span class="ow">and</span> <span class="n">drop</span> <span class="n">back</span> <span class="n">to</span> <span class="n">your</span> <span class="n">shell</span><span class="o">.</span>
+ <span class="n">e</span> <span class="o">/</span>      <span class="n">env</span> <span class="o">-</span> <span class="s1">&#39;delete&#39;</span><span class="p">,</span> <span class="s1">&#39;set&#39;</span><span class="p">,</span> <span class="s1">&#39;list&#39;</span> <span class="n">environment</span> <span class="n">variables</span> <span class="k">for</span> <span class="n">apps</span> <span class="p">(</span><span class="n">requires</span> <span class="n">app</span> <span class="n">restart</span> <span class="k">for</span> <span class="n">effect</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Where a command is annotated with an asterisk (*), you can provide a space-separated list of strings to match against
+app names. For example, the command <code class="docutils literal notranslate"><span class="pre">kill</span> <span class="pre">buyer</span> <span class="pre">briefs</span> <span class="pre">search</span></code> will match the buyer-frontend, briefs-frontend, and
+search-api, then kill those three apps. If no match string is specified, <em>all</em> apps will match.</p>
+</div>
+<div class="section" id="debugging">
+<h2>Debugging<a class="headerlink" href="#debugging" title="Permalink to this headline">¶</a></h2>
+<p>The dmrunner supports dropping into <code class="docutils literal notranslate"><span class="pre">pdb</span></code> (but not <code class="docutils literal notranslate"><span class="pre">ipdb</span></code>) shells. Edit your code and insert
+<code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">pdb;</span> <span class="pre">pdb.set_trace()</span></code> and wait for the app to be reloaded, then trigger the relevant code (e.g. by visiting
+the appropriate page in your browser) and wait for dmrunner to attach you to the process. While an app has a PDB shell
+active, you will no longer be in dmrunner command mode and your input will instead go directly to the debugger. Use
+normal <code class="docutils literal notranslate"><span class="pre">pdb</span></code> commands as you will; when the debugging session terminates (either by quitting out, or by changing
+the code in the app and triggering a reload) you should drop back to dmrunner’s command mode.</p>
+</div>
+<div class="section" id="possible-improvements">
+<h2>Possible improvements<a class="headerlink" href="#possible-improvements" title="Permalink to this headline">¶</a></h2>
+<p>It should be possible to integrate nix so that all of the apps use the <code class="docutils literal notranslate"><span class="pre">default.nix</span></code> files to run.
+This would remove the requirement for a number of dependencies to be installed globally on the host system
+(e.g. <code class="docutils literal notranslate"><span class="pre">Postgres</span></code>, …) and should provide a more reproducible and generally-simpler setup.
+The end goal would be that users only need to clone the dmrunner repo, install <code class="docutils literal notranslate"><span class="pre">Nix</span></code>, <code class="docutils literal notranslate"><span class="pre">Docker</span></code> for Mac,
+and they’d be good to go.</p>
+<p>The code could use some refactoring. As mentioned above this was developed in a firebreak and initially intended to be
+a personal utility. As more people come to rely on the code refactoring would become useful. DMRunner, in its current
+incarnation, is likely to require exponentially more support as more users rely on it. This means that the value in
+refactoring to make the code easier to understand grows at a similar rate.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="nix.html" class="btn btn-neutral float-right" title="Nix Environments" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="decision-records.html" class="btn btn-neutral float-left" title="Recording decisions on the Digital Marketplace" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

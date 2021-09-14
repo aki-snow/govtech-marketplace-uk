@@ -1,0 +1,633 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Contract variations &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Adding a new form field type" href="adding-a-new-form-field-type.html" />
+    <link rel="prev" title="Framework agreements" href="framework-agreements.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Contract variations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-a-contract-variation">What is a contract variation?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-workflow-for-a-contract-variation">The workflow for a contract variation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-create-a-new-contract-variation">How to create a new contract variation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#create-contract-variation-yaml-file">1 - Create contract variation YAML file</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#update-digitalmarketplace-frameworks-version">2 - Update digitalmarketplace-frameworks version</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#commit-new-version">3 - Commit new version</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#creating-a-contract-variation-email-template">4 - Creating a contract variation email template</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-variation-to-the-database">5 - Add variation to the database</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-countersign-a-contract-variation">How to countersign a contract variation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#add-countersignature-to-the-database">6 - Add countersignature to the database</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#contract-variations-in-pictures">Contract variations in pictures</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#without-a-contract-variation">Without a contract variation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#once-a-contract-variation-is-added">Once a contract variation is added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#once-a-contract-variation-is-accepted-by-the-supplier">Once a contract variation is accepted by the supplier</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#once-a-variation-is-countersigned-by-ccs">Once a variation is countersigned by CCS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Contract variations</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/content-and-frameworks/contract-variations.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="contract-variations">
+<span id="id1"></span><h1><a class="toc-backref" href="#id2">Contract variations</a><a class="headerlink" href="#contract-variations" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#contract-variations" id="id2">Contract variations</a></p>
+<ul>
+<li><p><a class="reference internal" href="#what-is-a-contract-variation" id="id3">What is a contract variation?</a></p></li>
+<li><p><a class="reference internal" href="#the-workflow-for-a-contract-variation" id="id4">The workflow for a contract variation</a></p></li>
+<li><p><a class="reference internal" href="#how-to-create-a-new-contract-variation" id="id5">How to create a new contract variation</a></p>
+<ul>
+<li><p><a class="reference internal" href="#create-contract-variation-yaml-file" id="id6">1 - Create contract variation YAML file</a></p></li>
+<li><p><a class="reference internal" href="#update-digitalmarketplace-frameworks-version" id="id7">2 - Update digitalmarketplace-frameworks version</a></p></li>
+<li><p><a class="reference internal" href="#commit-new-version" id="id8">3 - Commit new version</a></p></li>
+<li><p><a class="reference internal" href="#creating-a-contract-variation-email-template" id="id9">4 - Creating a contract variation email template</a></p></li>
+<li><p><a class="reference internal" href="#add-variation-to-the-database" id="id10">5 - Add variation to the database</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#how-to-countersign-a-contract-variation" id="id11">How to countersign a contract variation</a></p>
+<ul>
+<li><p><a class="reference internal" href="#add-countersignature-to-the-database" id="id12">6 - Add countersignature to the database</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#contract-variations-in-pictures" id="id13">Contract variations in pictures</a></p>
+<ul>
+<li><p><a class="reference internal" href="#without-a-contract-variation" id="id14">Without a contract variation</a></p></li>
+<li><p><a class="reference internal" href="#once-a-contract-variation-is-added" id="id15">Once a contract variation is added</a></p></li>
+<li><p><a class="reference internal" href="#once-a-contract-variation-is-accepted-by-the-supplier" id="id16">Once a contract variation is accepted by the supplier</a></p></li>
+<li><p><a class="reference internal" href="#once-a-variation-is-countersigned-by-ccs" id="id17">Once a variation is countersigned by CCS</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="what-is-a-contract-variation">
+<h2><a class="toc-backref" href="#id3">What is a contract variation?</a><a class="headerlink" href="#what-is-a-contract-variation" title="Permalink to this headline">¶</a></h2>
+<p>Contract variations is a feature which allows variation to framework contracts and call off contracts to be changed and
+accepted through a web interface rather than the traditional way of downloading a document, printing it, signing it and
+scanning it back to the requester. The contract variations feature also allows an easy way to have visibility of the
+changes that were amended and also only focuses on the specific areas which are changed. It is user friendly and
+accessible.</p>
+</div>
+<div class="section" id="the-workflow-for-a-contract-variation">
+<h2><a class="toc-backref" href="#id4">The workflow for a contract variation</a><a class="headerlink" href="#the-workflow-for-a-contract-variation" title="Permalink to this headline">¶</a></h2>
+<p>Ideally (demonstrated in the order of this manual entry and the screenshots section):</p>
+<ol class="arabic simple">
+<li><p>A contract variation is proposed by CCS</p></li>
+<li><p>The content of the variation will be finalised with CCS, legal and content</p></li>
+<li><p>The date for the variation to go to suppliers is finalised</p></li>
+<li><p>The date for CCS countersigning the variation is finalised</p></li>
+<li><p>An email is prepared linking suppliers to the variation page</p></li>
+<li><p>The variation is added to the database at the given time</p></li>
+<li><p>The email is sent to suppliers</p></li>
+<li><p>(Follow up prompt emails may be sent)</p></li>
+<li><p>The supplier accepts the variation</p></li>
+<li><p>The countersignature is performed on the proposed date</p></li>
+</ol>
+<p>The supplier can still accept the variation after the countersignature date has passed. Until then the platform will
+reflect that they have not accepted the agreement.</p>
+<p>As soon as they accept it the agreement will appear as countersigned.</p>
+</div>
+<div class="section" id="how-to-create-a-new-contract-variation">
+<h2><a class="toc-backref" href="#id5">How to create a new contract variation</a><a class="headerlink" href="#how-to-create-a-new-contract-variation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="create-contract-variation-yaml-file">
+<h3><a class="toc-backref" href="#id6">1 - Create contract variation YAML file</a><a class="headerlink" href="#create-contract-variation-yaml-file" title="Permalink to this headline">¶</a></h3>
+<p>Create a new file in:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">digitalmarketplace</span><span class="o">-</span><span class="n">frameworks</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework</span><span class="o">-</span><span class="n">family</span><span class="o">&gt;/</span><span class="n">messages</span><span class="o">/</span><span class="n">contract_variation_</span><span class="o">&lt;</span><span class="n">contract_variation_id</span><span class="o">&gt;.</span><span class="n">yml</span>
+</pre></div>
+</div>
+<p>Use the following template:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>variation_description_not_in_place: |
+  The Crown Commercial Service (CCS) has made some changes to the framework agreement and call-off contract (reference XXXXXX).&lt;br/&gt;&lt;br/&gt;
+  You must accept these changes for your company and have the legal authority to do so.
+
+variation_not_yet_agreed_extra: |
+  To put these changes into effect, we need you to review and accept them here.
+  You can [download a PDF version of these changes](/suppliers/frameworks/g-cloud-9/files/g-cloud-9-contract-variation.pdf).
+
+variation_description_not_in_place_but_agreed: |
+  You have accepted the Crown Commercial Service’s changes to the framework agreement and call-off contract  (reference XXXXXX). These changes are listed here.&lt;br/&gt;&lt;br/&gt;
+  They will come into effect when CCS has countersigned them. We’ll let you know when this happens.
+
+variation_description_in_place: |
+  You have accepted the Crown Commercial Service’s changes to the framework agreement and call-off contract (reference XXXXXX). These changes are listed here. &lt;br/&gt;&lt;br/&gt;
+  CCS has countersigned the changes.
+
+variation_comes_in_effect_description: |
+  We’ll tell you when CCS has countersigned the changes and they come into effect.
+
+variation_agreement_label: |
+  I have the legal authority to accept these changes and agree that the company will be bound by them.
+
+confirmation_message: |
+  You’ve accepted the proposed changes. They’ll come into effect when CCS has countersigned them. We’ll let you know when this happens.
+
+framework_agreement_changes:
+  -
+    clause: &#39;X.X.X&#39;
+    change:
+      This is stuff that is not being changed.....
+      &lt;span class=&quot;visuallyhidden&quot;&gt;start deletion&lt;/span&gt;
+        &lt;del&gt;
+          This is what is being deleted
+        &lt;/del&gt;
+      &lt;span class=&quot;visuallyhidden&quot;&gt;end deletion&lt;/span&gt;
+      &lt;span class=&quot;visuallyhidden&quot;&gt;start insertion&lt;/span&gt;
+        &lt;ins&gt;
+          This is what is being added
+        &lt;/ins&gt;
+      &lt;span class=&quot;visuallyhidden&quot;&gt;end insertion&lt;/span&gt;
+
+call_off_contract_changes:
+  -
+    clause: &#39;X.X.X&#39;
+    change:
+      This is stuff that is not being changed.....
+      &lt;span class=&quot;visuallyhidden&quot;&gt;start deletion&lt;/span&gt;
+        &lt;del&gt;
+          This is what is being deleted
+        &lt;/del&gt;
+      &lt;span class=&quot;visuallyhidden&quot;&gt;end deletion&lt;/span&gt;
+      &lt;span class=&quot;visuallyhidden&quot;&gt;start insertion&lt;/span&gt;
+        &lt;ins&gt;
+          This is what is being added
+        &lt;/ins&gt;
+      &lt;span class=&quot;visuallyhidden&quot;&gt;end insertion&lt;/span&gt;
+</pre></div>
+</div>
+</div>
+<div class="section" id="update-digitalmarketplace-frameworks-version">
+<h3><a class="toc-backref" href="#id7">2 - Update digitalmarketplace-frameworks version</a><a class="headerlink" href="#update-digitalmarketplace-frameworks-version" title="Permalink to this headline">¶</a></h3>
+<p>Follow <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-frameworks/#versioning">the process in the readme</a>.</p>
+</div>
+<div class="section" id="commit-new-version">
+<h3><a class="toc-backref" href="#id8">3 - Commit new version</a><a class="headerlink" href="#commit-new-version" title="Permalink to this headline">¶</a></h3>
+<p>Commit changes using the following message:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Bump</span> <span class="n">version</span> <span class="n">to</span> <span class="n">X</span><span class="o">.</span><span class="n">X</span><span class="o">.</span><span class="n">X</span>
+<span class="n">Adds</span> <span class="ow">in</span> <span class="n">contract</span> <span class="n">variation</span> <span class="k">for</span> <span class="o">&lt;</span><span class="n">framework</span><span class="o">-</span><span class="n">family</span><span class="o">&gt;.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="creating-a-contract-variation-email-template">
+<h3><a class="toc-backref" href="#id9">4 - Creating a contract variation email template</a><a class="headerlink" href="#creating-a-contract-variation-email-template" title="Permalink to this headline">¶</a></h3>
+<p>Add new template to:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">digitalmarketplace</span><span class="o">-</span><span class="n">supplier</span><span class="o">-</span><span class="n">frontend</span><span class="o">/</span><span class="n">app</span><span class="o">/</span><span class="n">templates</span><span class="o">/</span><span class="n">emails</span><span class="o">/&lt;</span><span class="n">framework</span><span class="o">-</span><span class="n">family</span><span class="o">&gt;</span><span class="n">_variation_</span><span class="o">&lt;</span><span class="n">variation_id</span><span class="o">&gt;</span><span class="n">_agreed</span><span class="o">.</span><span class="n">html</span>
+</pre></div>
+</div>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head lang=&quot;en&quot;&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;/head&gt;
+
+&lt;body style=&quot;font-size:120%;&quot;&gt;
+  Dear supplier,
+  &lt;br /&gt;
+  &lt;br /&gt; Thanks for accepting the proposed ‘contract variation’ to the Digital Outcomes and Specialists (DOS2) framework agreement and call-off contract.
+  &lt;br /&gt;
+  &lt;br /&gt; The contract variation will only come into effect when all suppliers have accepted the changes and the Crown Commercial Service has countersigned it - we’ll let you know when this happens.
+  &lt;br /&gt;
+  &lt;br /&gt; Until then, you must use the published framework agreement and call-off contract:
+  &lt;br /&gt;
+  &lt;a href=&quot;https://www.gov.uk/government/publications/digital-outcomes-and-specialists-2-framework-agreement&quot;&gt;
+    https://www.gov.uk/government/publications/digital-outcomes-and-specialists-2-framework-agreement
+  &lt;/a&gt;
+  &lt;br /&gt;
+  &lt;a href=&quot;https://www.gov.uk/government/publications/digital-outcomes-and-specialists-2-call-off-contract&quot;&gt;
+    https://www.gov.uk/government/publications/digital-outcomes-and-specialists-2-call-off-contract
+  &lt;/a&gt;
+  &lt;br /&gt;
+  &lt;br /&gt; Thanks,
+  &lt;br /&gt; The Digital Marketplace team
+&lt;/body&gt;
+
+&lt;/html&gt;
+</pre></div>
+</div>
+</div>
+<div class="section" id="add-variation-to-the-database">
+<h3><a class="toc-backref" href="#id10">5 - Add variation to the database</a><a class="headerlink" href="#add-variation-to-the-database" title="Permalink to this headline">¶</a></h3>
+<p>Api:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//&lt;</span><span class="n">environment</span><span class="o">-</span><span class="n">url</span><span class="o">&gt;/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework</span><span class="o">-</span><span class="n">slug</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>Example Payload:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s2">&quot;frameworks&quot;</span><span class="p">:</span> <span class="p">{</span>
+      <span class="s2">&quot;frameworkAgreementDetails&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="s2">&quot;contractNoticeNumber&quot;</span><span class="p">:</span> <span class="s2">&quot;2017/S 046-085247&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;frameworkAgreementVersion&quot;</span><span class="p">:</span> <span class="s2">&quot;RM1557ix&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;frameworkExtensionLength&quot;</span><span class="p">:</span> <span class="s2">&quot;12 months&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;frameworkRefDate&quot;</span><span class="p">:</span> <span class="s2">&quot;08-05-2017&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;frameworkURL&quot;</span><span class="p">:</span> <span class="s2">&quot;https://www.gov.uk/government/publications/g-cloud-9-framework-agreement&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;lotDescriptions&quot;</span><span class="p">:</span> <span class="p">{</span>
+              <span class="s2">&quot;cloud-hosting&quot;</span><span class="p">:</span> <span class="s2">&quot;Lot 1: Cloud hosting&quot;</span><span class="p">,</span>
+              <span class="s2">&quot;cloud-software&quot;</span><span class="p">:</span> <span class="s2">&quot;Lot 2: Cloud software&quot;</span><span class="p">,</span>
+              <span class="s2">&quot;cloud-support&quot;</span><span class="p">:</span> <span class="s2">&quot;Lot 3: Cloud support&quot;</span>
+          <span class="p">},</span>
+          <span class="s2">&quot;lotOrder&quot;</span><span class="p">:</span> <span class="p">[</span>
+              <span class="s2">&quot;cloud-hosting&quot;</span><span class="p">,</span>
+              <span class="s2">&quot;cloud-software&quot;</span><span class="p">,</span>
+              <span class="s2">&quot;cloud-support&quot;</span>
+          <span class="p">],</span>
+          <span class="s2">&quot;pageTotal&quot;</span><span class="p">:</span> <span class="mi">34</span><span class="p">,</span>
+          <span class="s2">&quot;signaturePageNumber&quot;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+          <span class="s2">&quot;variations&quot;</span><span class="p">:</span> <span class="p">{</span>
+              <span class="s2">&quot;1&quot;</span><span class="p">:</span> <span class="p">{</span>
+                  <span class="s2">&quot;createdAt&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-02-13T17:03:00.000000Z&quot;</span>
+              <span class="p">}</span>
+          <span class="p">}</span>
+      <span class="p">}</span>
+  <span class="p">},</span>
+  <span class="s2">&quot;updated_by&quot;</span><span class="p">:</span> <span class="s2">&quot;Kev&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="how-to-countersign-a-contract-variation">
+<h2><a class="toc-backref" href="#id11">How to countersign a contract variation</a><a class="headerlink" href="#how-to-countersign-a-contract-variation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="add-countersignature-to-the-database">
+<h3><a class="toc-backref" href="#id12">6 - Add countersignature to the database</a><a class="headerlink" href="#add-countersignature-to-the-database" title="Permalink to this headline">¶</a></h3>
+<p>Api:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//&lt;</span><span class="n">environment</span><span class="o">-</span><span class="n">url</span><span class="o">&gt;/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework</span><span class="o">-</span><span class="n">slug</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>Example Payload:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="s2">&quot;frameworks&quot;</span><span class="p">:</span> <span class="p">{</span>
+      <span class="s2">&quot;frameworkAgreementDetails&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="s2">&quot;contractNoticeNumber&quot;</span><span class="p">:</span> <span class="s2">&quot;2017/S 046-085247&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;frameworkAgreementVersion&quot;</span><span class="p">:</span> <span class="s2">&quot;RM1557ix&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;frameworkExtensionLength&quot;</span><span class="p">:</span> <span class="s2">&quot;12 months&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;frameworkRefDate&quot;</span><span class="p">:</span> <span class="s2">&quot;08-05-2017&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;frameworkURL&quot;</span><span class="p">:</span> <span class="s2">&quot;https://www.gov.uk/government/publications/g-cloud-9-framework-agreement&quot;</span><span class="p">,</span>
+          <span class="s2">&quot;lotDescriptions&quot;</span><span class="p">:</span> <span class="p">{</span>
+              <span class="s2">&quot;cloud-hosting&quot;</span><span class="p">:</span> <span class="s2">&quot;Lot 1: Cloud hosting&quot;</span><span class="p">,</span>
+              <span class="s2">&quot;cloud-software&quot;</span><span class="p">:</span> <span class="s2">&quot;Lot 2: Cloud software&quot;</span><span class="p">,</span>
+              <span class="s2">&quot;cloud-support&quot;</span><span class="p">:</span> <span class="s2">&quot;Lot 3: Cloud support&quot;</span>
+          <span class="p">},</span>
+          <span class="s2">&quot;lotOrder&quot;</span><span class="p">:</span> <span class="p">[</span>
+              <span class="s2">&quot;cloud-hosting&quot;</span><span class="p">,</span>
+              <span class="s2">&quot;cloud-software&quot;</span><span class="p">,</span>
+              <span class="s2">&quot;cloud-support&quot;</span>
+          <span class="p">],</span>
+          <span class="s2">&quot;pageTotal&quot;</span><span class="p">:</span> <span class="mi">34</span><span class="p">,</span>
+          <span class="s2">&quot;signaturePageNumber&quot;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+          <span class="s2">&quot;variations&quot;</span><span class="p">:</span> <span class="p">{</span>
+              <span class="s2">&quot;1&quot;</span><span class="p">:</span> <span class="p">{</span>
+                  <span class="s2">&quot;createdAt&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-02-13T17:03:00.000000Z&quot;</span><span class="p">,</span>
+                  <span class="s2">&quot;countersignedAt&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-04-30T10:00:00.000000Z&quot;</span><span class="p">,</span>
+                  <span class="s2">&quot;countersignerName&quot;</span><span class="p">:</span> <span class="s2">&quot;Css Person&quot;</span><span class="p">,</span>
+                  <span class="s2">&quot;countersignerRole&quot;</span><span class="p">:</span> <span class="s2">&quot;Category Lead&quot;</span><span class="p">,</span>
+              <span class="p">}</span>
+          <span class="p">}</span>
+      <span class="p">}</span>
+  <span class="p">},</span>
+  <span class="s2">&quot;updated_by&quot;</span><span class="p">:</span> <span class="s2">&quot;Kev&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="contract-variations-in-pictures">
+<h2><a class="toc-backref" href="#id13">Contract variations in pictures</a><a class="headerlink" href="#contract-variations-in-pictures" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="without-a-contract-variation">
+<h3><a class="toc-backref" href="#id14">Without a contract variation</a><a class="headerlink" href="#without-a-contract-variation" title="Permalink to this headline">¶</a></h3>
+<p>Before you add a contract variation to the database, the framework documents page will look like this:</p>
+<p><a class="reference external" href="https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9">https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9</a></p>
+<img alt="../_images/1_documents_page_without_variation.png" src="../_images/1_documents_page_without_variation.png" />
+</div>
+<div class="section" id="once-a-contract-variation-is-added">
+<h3><a class="toc-backref" href="#id15">Once a contract variation is added</a><a class="headerlink" href="#once-a-contract-variation-is-added" title="Permalink to this headline">¶</a></h3>
+<p>Once you’ve added a contract variation using steps 1-5 above, you’ll get a link to the variation on the documents page
+and a new page will be available:</p>
+<p><a class="reference external" href="https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9">https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9</a></p>
+<img alt="../_images/2_documents_page_with_variation.png" src="../_images/2_documents_page_with_variation.png" />
+<p><a class="reference external" href="https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9/contract-variation/1">https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9/contract-variation/1</a></p>
+<img alt="../_images/3_variation_page_top.png" src="../_images/3_variation_page_top.png" />
+<img alt="../_images/4_variation_page_bottom.png" src="../_images/4_variation_page_bottom.png" />
+</div>
+<div class="section" id="once-a-contract-variation-is-accepted-by-the-supplier">
+<h3><a class="toc-backref" href="#id16">Once a contract variation is accepted by the supplier</a><a class="headerlink" href="#once-a-contract-variation-is-accepted-by-the-supplier" title="Permalink to this headline">¶</a></h3>
+<p>Once a supplier has accepted the contract variation by accepting on the contract variation page, the framework documents
+page will look the same, but the variation page will reflect the acceptance:</p>
+<p><a class="reference external" href="https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9">https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9</a></p>
+<img alt="../_images/5_documents_page_variation_accepted.png" src="../_images/5_documents_page_variation_accepted.png" />
+<p><a class="reference external" href="https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9/contract-variation/1">https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9/contract-variation/1</a></p>
+<img alt="../_images/6_variation_page_variation_accepted.png" src="../_images/6_variation_page_variation_accepted.png" />
+</div>
+<div class="section" id="once-a-variation-is-countersigned-by-ccs">
+<h3><a class="toc-backref" href="#id17">Once a variation is countersigned by CCS</a><a class="headerlink" href="#once-a-variation-is-countersigned-by-ccs" title="Permalink to this headline">¶</a></h3>
+<p>Once a variation is countersigned by using step 6, both pages will indicate that there is an accepted variation:</p>
+<p><a class="reference external" href="https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9">https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9</a></p>
+<img alt="../_images/7_documents_page_variation_accepted_countersigned.png" src="../_images/7_documents_page_variation_accepted_countersigned.png" />
+<p><a class="reference external" href="https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9/contract-variation/1">https://www.preview.marketplace.team/suppliers/frameworks/g-cloud-9/contract-variation/1</a></p>
+<img alt="../_images/8_variation_page_variation_accepted_countersigned.png" src="../_images/8_variation_page_variation_accepted_countersigned.png" />
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="adding-a-new-form-field-type.html" class="btn btn-neutral float-right" title="Adding a new form field type" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="framework-agreements.html" class="btn btn-neutral float-left" title="Framework agreements" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

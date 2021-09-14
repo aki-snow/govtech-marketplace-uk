@@ -1,0 +1,554 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Application architecture &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Browser and accessibility support" href="browser-support.html" />
+    <link rel="prev" title="Adding a new repository" href="adding-repos.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Application architecture</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overall-architecture">Overall architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#applications">Applications</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#data-api">Data API</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#search-api">Search API</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#antivirus-api">Antivirus API</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#user-frontend">User Frontend</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#buyer-frontend">Buyer Frontend</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#briefs-frontend">Briefs Frontend</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#brief-responses-frontend">Brief Responses Frontend</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#supplier-frontend">Supplier Frontend</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#admin-frontend">Admin frontend</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Router app</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#asynchronous-processes">Asynchronous processes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Application architecture</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/developing-the-digital-marketplace/application-architecture.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="application-architecture">
+<span id="id1"></span><h1><a class="toc-backref" href="#id8">Application architecture</a><a class="headerlink" href="#application-architecture" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#application-architecture" id="id8">Application architecture</a></p>
+<ul>
+<li><p><a class="reference internal" href="#overall-architecture" id="id9">Overall architecture</a></p></li>
+<li><p><a class="reference internal" href="#applications" id="id10">Applications</a></p>
+<ul>
+<li><p><a class="reference internal" href="#data-api" id="id11">Data API</a></p></li>
+<li><p><a class="reference internal" href="#search-api" id="id12">Search API</a></p></li>
+<li><p><a class="reference internal" href="#antivirus-api" id="id13">Antivirus API</a></p></li>
+<li><p><a class="reference internal" href="#user-frontend" id="id14">User Frontend</a></p></li>
+<li><p><a class="reference internal" href="#buyer-frontend" id="id15">Buyer Frontend</a></p></li>
+<li><p><a class="reference internal" href="#briefs-frontend" id="id16">Briefs Frontend</a></p></li>
+<li><p><a class="reference internal" href="#brief-responses-frontend" id="id17">Brief Responses Frontend</a></p></li>
+<li><p><a class="reference internal" href="#supplier-frontend" id="id18">Supplier Frontend</a></p></li>
+<li><p><a class="reference internal" href="#admin-frontend" id="id19">Admin frontend</a></p></li>
+<li><p><a class="reference internal" href="#id5" id="id20">Router app</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#asynchronous-processes" id="id21">Asynchronous processes</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="overall-architecture">
+<h2><a class="toc-backref" href="#id9">Overall architecture</a><a class="headerlink" href="#overall-architecture" title="Permalink to this headline">¶</a></h2>
+<p>There are nine main <a class="reference external" href="http://flask.pocoo.org/">Flask</a> applications that run together to provide the Digital Marketplace service.  These are
+backed by a <a class="reference external" href="https://www.postgresql.org/">PostgreSQL</a> database as the main data store, and an <a class="reference external" href="https://www.elastic.co/">Elasticsearch</a> index of currently available
+services on the G-Cloud framework and opportunities (briefs) on the DOS framework.</p>
+<img alt="../_images/application-architecture.png" src="../_images/application-architecture.png" />
+<p>(The <a class="reference external" href="https://drive.google.com/open?id=1C__IUxav-VbMNGgWB1skiOuRiM7DVmcQ">architecture diagram source</a> can be opened using draw.io in Google Drive if it needs to be edited.)</p>
+<p>Frontend applications, the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-router">router app</a> and both APIs are run on <a class="reference external" href="https://cloud.service.gov.uk/">GOV.UK PaaS</a>. All incoming requests are received
+through an instance of the PaaS <a class="reference external" href="https://docs.cloud.service.gov.uk/deploying_services/use_a_custom_domain/#managing-custom-domains-using-the-cdn-route-service">cdn-route service</a> and passed to the router. The router then routes them to the
+right host within the PaaS, for example any request matching <code class="docutils literal notranslate"><span class="pre">search-api.*</span></code> goes to the Search API.</p>
+<p>Our frontend apps are all on the same <code class="docutils literal notranslate"><span class="pre">www.*</span></code> subdomain. We configure PaaS to route requests to the correct app
+based on the path prefixes, e.g. <code class="docutils literal notranslate"><span class="pre">/suppliers/opportunities</span></code> routes to the brief-responses app (see the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-aws/blob/master/vars/common.yml">full list
+of routes</a>).  An application can have multiple path prefixes routed to it (for example, in the buyer-frontend).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Although requests are routed through a CDN service we
+<a class="reference external" href="https://docs.cloud.service.gov.uk/deploying_services/use_a_custom_domain/#caching">do not have caching activated</a>
+as we <cite>‘forward all headers’</cite>. Instead we use the service to have a custom domain and auto-renewed TLS certificates.</p>
+</div>
+</div>
+<div class="section" id="applications">
+<h2><a class="toc-backref" href="#id10">Applications</a><a class="headerlink" href="#applications" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="data-api">
+<span id="id2"></span><h3><a class="toc-backref" href="#id11">Data API</a><a class="headerlink" href="#data-api" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-api">https://github.com/alphagov/digitalmarketplace-api</a></p>
+<p>The data API is the gatekeeper to the main database: making calls to the API is the only way the frontend apps can
+fetch or store data.  It contains JSON schemas for each JSON data field in the database and uses these to validate
+any data sent to be stored - if the sent data does not match the schema then a validation error (<a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400">400 Bad Request</a>)
+is raised and the invalid data will not be stored.</p>
+<p>If updates are made to services that are indexed in Elasticsearch then the data API knows to send a corresponding
+update to our index via the Search API.</p>
+</div>
+<div class="section" id="search-api">
+<span id="id3"></span><h3><a class="toc-backref" href="#id12">Search API</a><a class="headerlink" href="#search-api" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-search-api">https://github.com/alphagov/digitalmarketplace-search-api</a></p>
+<p>The search API is a wrapper layer in front of Elasticsearch.  It is used by the buyer frontend to fetch search
+results for queries about G-Cloud services.</p>
+<p>Search data is indexed overnight via the <cite>ES indexes Jenkins jobs</cite>. These jobs do not create new indices, but simply
+overwrite the index currently pointed to by each framework alias.</p>
+<p>New indices are only created and aliased if the entire data set needs to be reindexed, e.g. following a database
+reset or a change in the mapping. This is done with two scripts for each framework:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">index-to-search-services.py</span></code>  -  Creating a new index with a date suffix e.g. ‘g-cloud-9-2018-01-01’</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">update-index-alias.py</span></code>  -  Pointing the alias at the new index and deleting the old index</p></li>
+</ul>
+</div></blockquote>
+<p>See the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-scripts">Scripts repo README</a> for usage and examples of these scripts.</p>
+<p>See the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-search-api">Search API README</a> for more details on Elasticsearch mappings and indexing.</p>
+</div>
+<div class="section" id="antivirus-api">
+<span id="id4"></span><h3><a class="toc-backref" href="#id13">Antivirus API</a><a class="headerlink" href="#antivirus-api" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-antivirus-api">https://github.com/alphagov/digitalmarketplace-antivirus-api</a></p>
+<p>The Antivirus API is responsible for ensuring the files stored in our S3 buckets are free of viruses. It is usually
+activated by SNS notifications resulting from S3 upload events, but can also scan data on demand if necessary. As
+a “high risk” app, it holds very few credentials, minimizing the impact from a compromised instance.</p>
+<p>For more information on the Antivirus API, see <a class="reference internal" href="../infrastructure/antivirus.html#antivirus"><span class="std std-ref">The Antivirus API</span></a>.</p>
+</div>
+<div class="section" id="user-frontend">
+<span id="frontend-apps"></span><h3><a class="toc-backref" href="#id14">User Frontend</a><a class="headerlink" href="#user-frontend" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-user-frontend">https://github.com/alphagov/digitalmarketplace-user-frontend</a></p>
+<p>All URLs served by this app begin <code class="docutils literal notranslate"><span class="pre">/user</span></code>.</p>
+<p>This app includes routes for:</p>
+<ul class="simple">
+<li><p>Login and forgotten password pages for buyers, suppliers and admins (the frontend apps share a
+secret so the same login cookie works for all apps).</p></li>
+<li><p>The second part of buyer and supplier user creation (from when user clicks the activation link)
+using an encrypted token generated by the briefs or supplier frontend apps.</p></li>
+</ul>
+</div>
+<div class="section" id="buyer-frontend">
+<h3><a class="toc-backref" href="#id15">Buyer Frontend</a><a class="headerlink" href="#buyer-frontend" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-buyer-frontend">https://github.com/alphagov/digitalmarketplace-buyer-frontend</a></p>
+<p>This app includes routes for:</p>
+<ul class="simple">
+<li><p>Homepage and all main <code class="docutils literal notranslate"><span class="pre">www.</span></code> routes that do not require a login</p></li>
+<li><p>Direct award procurements i.e. G-Cloud</p></li>
+</ul>
+<p>It also currently includes routes for the public list of published Digital Outcomes and Specialists
+opportunities.</p>
+</div>
+<div class="section" id="briefs-frontend">
+<h3><a class="toc-backref" href="#id16">Briefs Frontend</a><a class="headerlink" href="#briefs-frontend" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-briefs-frontend">https://github.com/alphagov/digitalmarketplace-briefs-frontend</a></p>
+<p>All URLs served by this app begin <code class="docutils literal notranslate"><span class="pre">/buyers</span></code>.</p>
+<p>This app includes routes for buyers writing requirements for procurements with Digital Outcomes and Specialists.</p>
+<p>It also currently includes routes for creation of buyer accounts (up until sending the activation link)
+and the buyer dashboard.</p>
+</div>
+<div class="section" id="brief-responses-frontend">
+<h3><a class="toc-backref" href="#id17">Brief Responses Frontend</a><a class="headerlink" href="#brief-responses-frontend" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-brief-responses-frontend">https://github.com/alphagov/digitalmarketplace-brief-responses-frontend</a></p>
+<p>All URLs served by this app begin <code class="docutils literal notranslate"><span class="pre">/suppliers/opportunities</span></code>.</p>
+<p>This app includes routes used by suppliers responding to briefs (opportunities), i.e. tendering for work in
+Digital Outcomes and Specialists. More specifically, we have:</p>
+<ul class="simple">
+<li><p>The suppliers opportunities dashboard</p></li>
+<li><p>Asking clarification questions about briefs</p></li>
+<li><p>Creating and editing brief responses</p></li>
+</ul>
+</div>
+<div class="section" id="supplier-frontend">
+<h3><a class="toc-backref" href="#id18">Supplier Frontend</a><a class="headerlink" href="#supplier-frontend" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-supplier-frontend">https://github.com/alphagov/digitalmarketplace-supplier-frontend</a></p>
+<p>All URLs served by this app begin <code class="docutils literal notranslate"><span class="pre">/suppliers</span></code>.</p>
+<p>This app includes routes for:</p>
+<ul class="simple">
+<li><p>Creation of supplier accounts (up until sending the activation link)</p></li>
+<li><p>Applying to get on to a framework</p></li>
+<li><p>Managing services on the marketplace</p></li>
+<li><p>Returning framework agreement documents</p></li>
+</ul>
+</div>
+<div class="section" id="admin-frontend">
+<h3><a class="toc-backref" href="#id19">Admin frontend</a><a class="headerlink" href="#admin-frontend" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-admin-frontend">https://github.com/alphagov/digitalmarketplace-admin-frontend</a></p>
+<p>All URLs served by this app begin <code class="docutils literal notranslate"><span class="pre">/admin</span></code>.</p>
+<p>This app includes routes for:</p>
+<ul class="simple">
+<li><p>All pages behind an admin login, such as:</p>
+<ul>
+<li><p>Viewing framework application statistics during a procurement</p></li>
+<li><p>Support team editing services and managing supplier/buyer user accounts</p></li>
+<li><p>CCS Sourcing team users managing framework contracts (countersigning framework agreements)</p></li>
+<li><p>CCS Sourcing team users viewing and updating suppliers’ framework agreement declarations</p></li>
+</ul>
+</li>
+</ul>
+<p>Note, we have six different admin roles: <code class="docutils literal notranslate"><span class="pre">admin</span></code>, <code class="docutils literal notranslate"><span class="pre">admin-ccs-sourcing</span></code>, <code class="docutils literal notranslate"><span class="pre">admin-ccs-category</span></code>,
+<code class="docutils literal notranslate"><span class="pre">admin-ccs-data-controller</span></code>, <code class="docutils literal notranslate"><span class="pre">admin-framework-manager</span></code> and <code class="docutils literal notranslate"><span class="pre">admin-manager</span></code> which have different permissions
+for admin actions they are allowed to perform.</p>
+</div>
+<div class="section" id="id5">
+<h3><a class="toc-backref" href="#id20">Router app</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-router">https://github.com/alphagov/digitalmarketplace-router</a></p>
+<p>Our router app is an NGINX application that routes incoming requests to the correct host in PaaS. The routing within
+PaaS to specific frontend apps is configured by the <a class="reference internal" href="../infrastructure/paas.html#paas"><span class="std std-ref">PaaS manifest</span></a>, during deployment.</p>
+<p>The router app also:</p>
+<ul class="simple">
+<li><p>provides a <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication">Basic Auth</a> header for incoming traffic to access the frontend apps</p></li>
+<li><p>restricts traffic to preview and staging environments to GDS IP addresses</p></li>
+<li><p>restricts traffic to the admin interface to GDS and CCS IP addresses</p></li>
+<li><p>provides <a class="reference internal" href="../infrastructure/rate-limiting.html#rate-limiting"><span class="std std-ref">Rate Limiting</span></a> for the platform</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For more details on the router app, see the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-router">router README</a>.</p>
+</div>
+</div>
+</div>
+<div class="section" id="asynchronous-processes">
+<h2><a class="toc-backref" href="#id21">Asynchronous processes</a><a class="headerlink" href="#asynchronous-processes" title="Permalink to this headline">¶</a></h2>
+<p>Occasionally we have the need to make apps perform actions outside the scope of a request, or at least outside the
+scope of the <em>current</em> request. This can be for performance reasons (not wanting to make the requester wait around
+while something is being done in the background) or because a delayed action is required. So far we have strongly
+resisted the temptation to have an “async task queue”, because such a thing is something of a pain to manage. In its
+place we have “made do” with a number of solutions:</p>
+<ul class="simple">
+<li><p><strong>Periodic jobs</strong> running from jenkins. If the task creation results in the system making a persistent record of
+its existence (in the database or as a file on S3 for example), a nightly, hourly (or possibly even more frequent)
+jenkins job could run to find &amp; execute outstanding tasks. An example of this is the
+<code class="docutils literal notranslate"><span class="pre">generate-framework-agreement-counterpart-signature-pages.py</span></code> <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-scripts/blob/master/scripts/generate-framework-agreement-counterpart-signature-pages.py">script</a> which <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-jenkins/blob/main/job_definitions/generate_upload_and_notify_counterpart_signature_pages.yml">runs nightly</a> , generating a
+countersignature page for each supplier that had its framework agreement approved during the previous day and
+sending a notification to the supplier. It’s usually best to make such scripts simply look for <em>any</em> outstanding
+tasks rather than use a time window to look for tasks created since the last run - it’s hard for a script to know
+reliably when the last <em>successful</em> run was. It’s also helpful to make the effect of the script as
+atomic/transactional as possible to reduce the possibility of a failing task getting stuck in an in-between state,
+or have a task get marked as complete prematurely, only for a later phase to fail. However, frequently the design
+of our API makes this difficult.</p></li>
+<li><p>In the <a class="reference internal" href="#antivirus-api"><span class="std std-ref">Antivirus API</span></a> we cheat by using AWS’s <strong>SNS</strong> retry mechanism as a makeshift queue. A “task”
+(notification) that is unable to be “processed” (delivered) at a particular time, possibly due to load, will have
+its delivery retried for up to an hour after creation. Any notifications still unable to be processed at the end
+of this period will generate an alert and a “catchup job” runs nightly to find any outstanding jobs and process
+them, thus reliability is achieved.</p></li>
+<li><p>The <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-apiclient">API client</a> has some limited support for an operation mode we call “<strong>async-not-async</strong>”. It’s named as such
+because it gives the appearance of being a way to send “asynchronous” requests to an API endpoint, allowing
+control to return to the calling process, while actually being a total cheat underneath. It simply sets the
+request’s read timeout to an extremely low value, causing the request to give up waiting for a response shortly
+after the request headers have been successfully sent. This works because web frameworks &amp; servers don’t generally
+have the ability to propagate “connection closed” information up the stack, therefore allowing the request
+processing to continue to completion on the server long after the connection has been aborted.</p></li>
+</ul>
+<p>While fine for many needs (mostly those involving the triggering of side effects), this is insufficient as soon as
+the calling process cares about the response, because it will never get it - it’s not <em>real</em> async, after all.
+Then again, if a calling process <em>really</em> cares about the response from a request and wants to wait around for
+that response, a developer should be asking themselves what they’re actually expecting to be <em>asynchronous</em> about
+their job.</p>
+<dl class="simple">
+<dt>Caveats of using this mechanism include:</dt><dd><ul class="simple">
+<li><p>a very limited ability for the caller to determine if the request was successful</p></li>
+<li><p>nginx occasionally spitting out a <a class="reference external" href="https://httpstatuses.com/499">499 Client Closed</a> error &amp; log when it
+realizes the connection has been torn down before it can respond</p></li>
+<li><p>as with most async call mechanisms, the ability for the client to inadvertently flood the receiver with
+thousands of requests in a very short amount of time with very little penalty to itself</p></li>
+</ul>
+</dd>
+</dl>
+<p>An example of where we use this mechanism is the <a class="reference internal" href="#data-api"><span class="std std-ref">Data API</span></a> endpoint that propagates a service update to the
+<a class="reference internal" href="#search-api"><span class="std std-ref">Search API</span></a>. These calls can be optionally made to omit the wait for this propagation to complete. Again, for
+reliability this use relies on a <em>periodic job</em> that updates the full index every night to provide reliability and
+ensure that its action actually takes place.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="browser-support.html" class="btn btn-neutral float-right" title="Browser and accessibility support" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="adding-repos.html" class="btn btn-neutral float-left" title="Adding a new repository" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,470 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>The Antivirus API &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="AWS accounts and access" href="aws-accounts.html" />
+    <link rel="prev" title="Useful API endpoints for frameworks" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">The Antivirus API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-scans-are-initiated">How scans are initiated</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#automatically-triggered-on-new-uploads-via-sns">Automatically triggered on new uploads via SNS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-catchup-job">The catchup job</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#actions-on-virus-detection">Actions on virus detection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#functional-smoulder-tests">Functional/Smoulder tests</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>The Antivirus API</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/infrastructure/antivirus.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="the-antivirus-api">
+<span id="antivirus"></span><h1><a class="toc-backref" href="#id1">The Antivirus API</a><a class="headerlink" href="#the-antivirus-api" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#the-antivirus-api" id="id1">The Antivirus API</a></p>
+<ul>
+<li><p><a class="reference internal" href="#how-scans-are-initiated" id="id2">How scans are initiated</a></p>
+<ul>
+<li><p><a class="reference internal" href="#automatically-triggered-on-new-uploads-via-sns" id="id3">Automatically triggered on new uploads via SNS</a></p></li>
+<li><p><a class="reference internal" href="#the-catchup-job" id="id4">The catchup job</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#actions-on-virus-detection" id="id5">Actions on virus detection</a></p></li>
+<li><p><a class="reference internal" href="#functional-smoulder-tests" id="id6">Functional/Smoulder tests</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>The <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-antivirus-api/">Antivirus API</a> exists as a separate app which
+doesn’t interact directly with other digitalmarketplace apps - rather it is an app which is designed to operate on
+files existing in S3 buckets and store the results of its scans back into the S3 bucket object’s “tags”.</p>
+<p>The S3 scanning process operates on specific object <em>versions</em> rather than object keys. This simplifies things
+because the contents of an object-version are immutable so this reduces concerns around concurrent updates, stale scan
+results etc. It also ensures we don’t have any old infected versions of things lying about. Each object-version can however
+have an independent set of <a class="reference external" href="https://docs.aws.amazon.com/AmazonS3/latest/dev/object-tagging.html">tags</a> associated with
+it and these tags <em>can</em> be updated after the creation of the object-version. This is what is used to store the results of
+the virus scan and allows us to mark object-versions as “clean” or “dirty”.</p>
+<p>Given an S3 bucket name, object key and object version id, a broad overview of the process the API will follow is:</p>
+<blockquote>
+<div><ul>
+<li><p>First the object version’s tags will be checked to see if this object has already been scanned. If it has, the API
+won’t bother going any further. At time of writing there isn’t <em>yet</em> the ability to force a re-scanning of the
+file anyway, but this wouldn’t be hard to add.</p></li>
+<li><p>The file’s contents are downloaded and passed to a <code class="docutils literal notranslate"><span class="pre">clamd</span></code> process running locally on the app.</p></li>
+<li><p>The S3 object version’s tags are set according to the result:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 76%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Tag key</p></th>
+<th class="head"><p>Tag value</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">avStatus.result</span></code></p></td>
+<td><p>Either <code class="docutils literal notranslate"><span class="pre">pass</span></code> or <code class="docutils literal notranslate"><span class="pre">fail</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">avStatus.clamdVerStr</span></code></p></td>
+<td><p>Metadata about scanning process, including clamd and virus definition version</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">avStatus.ts</span></code></p></td>
+<td><p>ISO timestamp of scan</p></td>
+</tr>
+</tbody>
+</table>
+<p>All <code class="docutils literal notranslate"><span class="pre">avStatus.*</span></code> tags are intended to belong together and describe a single scanning event, so an update of <em>any</em>
+of these tags should begin with <strong>all</strong> existing <code class="docutils literal notranslate"><span class="pre">avStatus.*</span></code> tags first being cleared out.</p>
+</li>
+</ul>
+</div></blockquote>
+<p>The actual procedure followed performs a few more steps than listed here in an attempt to reduce the possibility of race
+conditions arising from concurrent scanning requests.</p>
+<div class="section" id="how-scans-are-initiated">
+<h2><a class="toc-backref" href="#id2">How scans are initiated</a><a class="headerlink" href="#how-scans-are-initiated" title="Permalink to this headline">¶</a></h2>
+<p>There are two ways that scans are initiated for an object-version - using them together allows us to avoid the
+complexity of managing a stateful work queue while still making it quite hard for an uploaded object-version to “slip
+through the net” without being scanned.</p>
+<div class="section" id="automatically-triggered-on-new-uploads-via-sns">
+<h3><a class="toc-backref" href="#id3">Automatically triggered on new uploads via SNS</a><a class="headerlink" href="#automatically-triggered-on-new-uploads-via-sns" title="Permalink to this headline">¶</a></h3>
+<p>The Antivirus API receives <a class="reference external" href="https://docs.aws.amazon.com/sns/latest/dg/sns-http-https-endpoint-as-subscriber.html">HTTPS callbacks</a>
+from <a class="reference external" href="https://docs.aws.amazon.com/sns">Amazon SNS</a> when a new object-version is uploaded to one of our buckets. Receiving
+one of these callbacks will initiate the scan procedure for the relevant object-version, however there are some caveats
+due to the fact that SNS is a <em>notification</em> system and not strictly a message queue.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Because the scanning procedure is performed <em>during</em> the callback’s request-handling cycle, it only has a limited
+amount of time in which to complete its work. An SNS callback allows a maximum of 15 seconds, after which time it
+will terminate the connection. In normal circumstances this should be plenty of time, so it’s unlikely to be an issue.
+Even if the procedure <em>does</em> end up taking more than the allowed time, the various layers of our web serving
+infrastructure don’t tend to propagate information about prematurely closed connections, so the actual procedure is
+likely to be given the full amount of time our wsgi server allows for response processing (typically 60s), long after
+SNS has hung up. In such a case, SNS will believe the notification attempt to have failed and will retry later. However,
+when retried the procedure should discover the object-version to have already been scanned and return quickly with a
+succesful response, ending the retries.</p></li>
+<li><p>SNS will only retry delivery of a notification a limited number of times (currently 5), giving up after an hour.
+After this point, SNS will have effectively forgotten about this event and there is a danger that the upload in
+question could slip through the net. Because this is something we should probably be aware of, we’ve set up SNS to
+log delivery attempts to cloudwatch firstly as a permanent record, but also as a means to trigger an alert when SNS
+gives up on a notification. This is probably a sign that there is something seriously wrong with this mechanism.</p></li>
+</ul>
+</div></blockquote>
+<p>To allow these SNS messages the Antivirus API has a non-IP-restricted URL path at
+<code class="docutils literal notranslate"><span class="pre">https://antivirus-api.digitalmarketplace.service.gov.uk/callbacks</span></code> mapped through to it by the router.</p>
+</div>
+<div class="section" id="the-catchup-job">
+<h3><a class="toc-backref" href="#id4">The catchup job</a><a class="headerlink" href="#the-catchup-job" title="Permalink to this headline">¶</a></h3>
+<p>Because of the worry of missed SNS messages, we also have a “catchup” job running nightly to try and catch unscanned, recently
+created object-versions. As much as it would be nice to scan whole buckets for <em>any</em> unscanned object-versions, this is
+not practical due to the fact that it (seems to be) impossible to fetch object-version tags from S3 in bulk and
+separately requesting every set of tags for each object-version in a bucket on every run would be prohibitively slow.</p>
+<p>The job, running every 24h, is set to look at object-versions uploaded in the last (just over) 48h, allowing for a
+single night’s run to fail safely without being corrected for before uploads could start being missed.</p>
+<p>The actual job consists of a single script, <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-scripts/blob/master/dmscripts/virus_scan_s3_bucket.py">virus_scan_s3_bucket.py</a>,
+which sends requests to the Antivirus API’s “main” interface at <code class="docutils literal notranslate"><span class="pre">https://antivirus-api.digitalmarketplace.service.gov.uk</span></code>
+to perform the individual scans and report the results.</p>
+</div>
+</div>
+<div class="section" id="actions-on-virus-detection">
+<h2><a class="toc-backref" href="#id5">Actions on virus detection</a><a class="headerlink" href="#actions-on-virus-detection" title="Permalink to this headline">¶</a></h2>
+<p>The Antivirus API will:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>tag the object-version as possibly infected in the S3 bucket</p></li>
+<li><p>email the developers via the 2nd line mailing list</p></li>
+<li><p>if run via the overnight catchup script, the Jenkins job will fail</p></li>
+</ul>
+</div></blockquote>
+<p>No automatic attempt is currently made to rectify the situation - if no developer takes action, the file will stay in
+the S3 bucket as though nothing had happened. This is partly because of the complexity of performing some kind of file
+rollback in the face of possible concurrent scan requests for either the same version of an object or multiple versions
+of an object uploaded in quick succession. This is also done because it’s not always clear what the best action to take
+in all circumstances <em>is</em> and it’s thought that it’s probably better to trust a developer to use their judgement.</p>
+<p>Developers are advised to refer to ClamAV’s <a class="reference external" href="https://www.clamav.net/documents/interpreting-scan-alerts-faq">Interpreting Scan Alerts FAQ</a> to help determine the next action.</p>
+</div>
+<div class="section" id="functional-smoulder-tests">
+<h2><a class="toc-backref" href="#id6">Functional/Smoulder tests</a><a class="headerlink" href="#functional-smoulder-tests" title="Permalink to this headline">¶</a></h2>
+<p>Because an actual virus alert is a rare occurrence, and the outward appearance of an antivirus system that isn’t
+working is basically the same as that of an antivirus system which simply hasn’t been exposed to any viruses, it’s nice
+to have some reassurance that the Antivirus API is actually functioning correctly and able to produce alerts. What’s
+more, this is an “operational” property rather than just being a property of the code in use - therefore we really want
+to be able to run this check in production to ensure that a <em>specific environment’s</em> scanning loop is currently
+operational.</p>
+<p>We also would rather ensure the actual scanning engine is working instead of simply triggering it to send a mock “virus
+found” response. Because it’s a very bad idea to have a “real” sample virus kicking about our systems, even for this
+purpose, we upload an <a class="reference external" href="https://en.wikipedia.org/wiki/EICAR_test_file">EICAR test file</a> to generate the alert.</p>
+<p>We have a smoulder test that ensures:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>The SNS callback to the Antivirus API is operational.</p></li>
+<li><p>The Antivirus API is able to access the file on S3 to scan.</p></li>
+<li><p>The Antivirus API’s <code class="docutils literal notranslate"><span class="pre">clamd</span></code> is actually functioning and equipped with a working virus definition file.</p></li>
+<li><p>The Antivirus API is able to send an alert email through <a class="reference external" href="https://www.notifications.service.gov.uk/">Notify</a>.</p></li>
+</ul>
+</div></blockquote>
+<p>To prevent these tests producing <em>actual</em> alerts while still allowing us to check that a particular alert email was
+sent to Notify, the Antivirus API’s alert-sending code has a specific branch it takes when a file is identified
+as infected with EICAR (and <em>only</em> EICAR). In this case, the alert email is instead sent to a “dummy” email address
+and uses a Notify <a class="reference external" href="https://docs.notifications.service.gov.uk/python.html#reference-optional">reference</a> based on
+the file’s hash for unique identifiability of emails generated for a specific <em>run</em>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="aws-accounts.html" class="btn btn-neutral float-right" title="AWS accounts and access" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html" class="btn btn-neutral float-left" title="Useful API endpoints for frameworks" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

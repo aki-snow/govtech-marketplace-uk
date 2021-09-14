@@ -1,0 +1,358 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Load testing &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Automated testing" href="automated-testing.html" />
+    <link rel="prev" title="Google Analytics" href="google-analytics.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Load testing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-to-test">What to test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-much-load">How much load</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#writing-the-tests">Writing the tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#running-the-tests">Running the tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#overload-testing">Overload testing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Load testing</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/developing-the-digital-marketplace/load-testing.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="load-testing">
+<span id="id1"></span><h1>Load testing<a class="headerlink" href="#load-testing" title="Permalink to this headline">¶</a></h1>
+<p>We don’t normally worry much about performance. The Digital Marketplace can handle normal load. If we have problems, it’s bad, but not the end of the world - users can retry later.</p>
+<p>However, on the day that a framework closes, we see much more traffic than normal. On these days, the consequence of the Digital Marketplace failing is also much higher. If a supplier is unable to submit their application on the final day, it is too late. This can cause quite a bit of bother, as happened for G-Cloud 12.</p>
+<p>As a result, we do load testing (sometimes called performance testing) in advance. This lets us find out whether the Digital Marketplace is likely to stand up to the peak in traffic. Finding out about performance problems early helps us fix them before they impact users.</p>
+<p>This page explains how to do performance testing. It is based on how we did the testing for DOS 5. You should update this page after you do the next round of load testing.</p>
+<div class="section" id="what-to-test">
+<h2>What to test<a class="headerlink" href="#what-to-test" title="Permalink to this headline">¶</a></h2>
+<p>Your goal is to answer the question: “will the Digital Marketplace stand up to the load of closing day?” First, you need to work out what load you expect. Your load should match reality as closely as possible. Otherwise, you run the risk of missing performance problems, as we saw with G12.</p>
+<p>Frameworks of the same type tend to be quite similar. So you can use the traffic seen on the closing day of the previous framework of the same type to produce your estimate.</p>
+<p>On a closing day, the vast majority of user traffic hits user-frontend and supplier-frontend. You can use Google Analytics and/or the server logs to see what requests those users were making. Pay close attention to requests that are expensive or are known to be problematic, such as file uploads.</p>
+<p>Construct user journeys that between them match the pattern and level of requests you saw. You can use <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-performance-testing/tree/master/user-files/simulations">previous load test scenarios</a>, user maps and other resources you can find to help guide you.</p>
+<p>See <a class="reference external" href="https://docs.google.com/document/d/1LMKq2PlhIuDiXEiOVv7wlqctVpWjQFLpD4pG6VqAh5Y/">the DOS 5 load testing plan (GDS only)</a> for an example.</p>
+</div>
+<div class="section" id="how-much-load">
+<h2>How much load<a class="headerlink" href="#how-much-load" title="Permalink to this headline">¶</a></h2>
+<p>You now know what your traffic should look like. How much of it do you need to give yourself enough confidence?</p>
+<p>Look at the number of submitted services for previous frameworks of the same type. If the trend continues, how much larger will this framework be than the previous one? For DOS 5, we estimated this as 20%.</p>
+<p>On top of this, you need to account for unexpected spikes and underestimation. For DOS, we’ve seen previous spikes of up to 2x normal closing day load. So for DOS 5, we tested at 4x predicted load, which was 4.8x the load seen for DOS 4.</p>
+</div>
+<div class="section" id="writing-the-tests">
+<h2>Writing the tests<a class="headerlink" href="#writing-the-tests" title="Permalink to this headline">¶</a></h2>
+<p>You now know what user journeys you want to test, and at what rate. Now you need to configure the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-performance-testing">performance tests</a> to match this.</p>
+<p>Follow the readme and previous examples in the repo, and also the <a class="reference external" href="https://gatling.io/docs/current/quickstart/">Gatling docs</a>.</p>
+</div>
+<div class="section" id="running-the-tests">
+<h2>Running the tests<a class="headerlink" href="#running-the-tests" title="Permalink to this headline">¶</a></h2>
+<p>You will want to run your tests against staging. This is a close approximation of production, but won’t affect real users. Before you run your test:</p>
+<ol class="arabic simple">
+<li><p>Inform PaaS, Notify and Cyber. If your test creates a large number of suppliers inform Duns &amp; Bradstreet.</p></li>
+<li><p><a class="reference internal" href="../infrastructure/paas.html#scaling-apps"><span class="std std-ref">Scale up staging</span></a>. You want it to match the scale you will use in production on the closing day.</p></li>
+<li><p>Ensure your framework is in the correct state in staging.</p></li>
+<li><p>Create any test users/suppliers needed by your test.</p></li>
+<li><p>Make sure your internet connection is sufficient. The DOS 5 tests needed a 1/1 MB/s up/down connection.</p></li>
+<li><p>Warn the team in the <code class="docutils literal notranslate"><span class="pre">dm-2ndline</span></code> channel.</p></li>
+</ol>
+<p>Now you can run the tests. Save a copy of the results and any interesting graphs in <a class="reference external" href="https://drive.google.com/drive/folders/1BbUKyJened57KX0KMIkmgWMEaWdlYdty">the Drive folder (GDS only)</a>.</p>
+</div>
+<div class="section" id="overload-testing">
+<h2>Overload testing<a class="headerlink" href="#overload-testing" title="Permalink to this headline">¶</a></h2>
+<p>Additionally, you may want to test how the Digital Marketplace behaves if it receives more traffic than you expect. For example, if there is an outage users will retry their failed requests. This can cause substantial increases in traffic which can make the outage worse. For G12, we saw about 5x normal traffic during the outage.</p>
+<p>Thus, for DOS 5, we ran an additional load test where we ramped the traffic up to 6x. This level of traffic indicates that there is probably already an outage in progress. So we relaxed our requirements for errors and response times.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="automated-testing.html" class="btn btn-neutral float-right" title="Automated testing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="google-analytics.html" class="btn btn-neutral float-left" title="Google Analytics" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

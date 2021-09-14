@@ -1,0 +1,360 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Database migrations &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Docker strategies" href="docker-strategies.html" />
+    <link rel="prev" title="Splitting or adding a frontend application" href="splitting-applications.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Database migrations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#create-a-new-migration">Create a new migration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#browse-migrations">Browse migrations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#new-column-defaults">New column defaults</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Database migrations</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/developing-the-digital-marketplace/database-migrations.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="database-migrations">
+<span id="id1"></span><h1>Database migrations<a class="headerlink" href="#database-migrations" title="Permalink to this headline">¶</a></h1>
+<p>We use <a class="reference external" href="https://alembic.sqlalchemy.org/en/latest/">alembic</a> for our database migrations.</p>
+<div class="section" id="create-a-new-migration">
+<h2>Create a new migration<a class="headerlink" href="#create-a-new-migration" title="Permalink to this headline">¶</a></h2>
+<p>This is explained on the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-api/#migrations">API Github repository</a>.</p>
+</div>
+<div class="section" id="browse-migrations">
+<h2>Browse migrations<a class="headerlink" href="#browse-migrations" title="Permalink to this headline">¶</a></h2>
+<p>They can be found on the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-api/tree/master/migrations/versions">API Github repository</a>.</p>
+</div>
+<div class="section" id="new-column-defaults">
+<h2>New column defaults<a class="headerlink" href="#new-column-defaults" title="Permalink to this headline">¶</a></h2>
+<p>It’s important to be careful when adding new columns with default values. Though it’s tempting to do this all at once,
+setting the <code class="docutils literal notranslate"><span class="pre">DEFAULT</span></code> at <code class="docutils literal notranslate"><span class="pre">ALTER</span> <span class="pre">TABLE</span></code> time, this tends to cause locking problems and interruptions when working
+on a database in live use. The problem being that the operation has to take an exclusive lock on the table while each
+row is re-written with the new non-null default value. And this can take some time on larger tables, all the while
+regular users (even read-only ones!) can’t access the table in any way.</p>
+<p>Further information:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://web.archive.org/web/20171028123655/http://www.craigkerstiens.com/2017/09/10/better-postgres-migrations/">http://www.craigkerstiens.com/2017/09/10/better-postgres-migrations/</a></p></li>
+<li><p><a class="reference external" href="http://web.archive.org/web/20180424143208/https://fluca1978.github.io/2018/04/17/PostgreSQLALterTable.html">https://fluca1978.github.io/2018/04/17/PostgreSQLALterTable.html</a></p></li>
+</ul>
+<p>The solution is to add the new column as a nullable, <code class="docutils literal notranslate"><span class="pre">DEFAULT</span></code>-less column initially and to set the default value
+in a second command. This will leave the existing rows as <code class="docutils literal notranslate"><span class="pre">NULL</span></code> but will use the default value for newly created
+rows. It is often suggested that the existing rows are left to be back-filled by setting each row’s value to its
+default whenever an old row needs to be updated and allowing the values to be populated “naturally” over the course of
+time, however I suspect in practise people would find this difficult to manage and annoying if they’re itching to be
+able to apply a <code class="docutils literal notranslate"><span class="pre">NOT</span> <span class="pre">NULL</span></code> constraint to the new column.</p>
+<p>In such situations one possible approach may be to set rows to their defaults afterwards in batches using <code class="docutils literal notranslate"><span class="pre">UPDATE</span></code>
+commands. However, doing all of these in the same transaction wouldn’t solve the problem as <code class="docutils literal notranslate"><span class="pre">UPDATE</span></code> touching a row
+takes an exclusive lock on that row, and locks are only released at the end of a transaction. By the end of the
+transaction, all rows would be locked. To be effective, each of these batch updates would have to be done in their
+own transaction and probably therefore separate migrations. So the table-altering migration would be followed up by
+a number of (let’s say, 8?) similar migrations which simply performed <em>one</em> of the commands:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">UPDATE</span> <span class="n">some_table</span> <span class="n">SET</span> <span class="n">some_new_field</span> <span class="o">=</span> <span class="n">DEFAULT</span> <span class="n">WHERE</span> <span class="nb">id</span> <span class="o">%</span> <span class="mi">8</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</pre></div>
+</div>
+<p>through:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">UPDATE</span> <span class="n">some_table</span> <span class="n">SET</span> <span class="n">some_new_field</span> <span class="o">=</span> <span class="n">DEFAULT</span> <span class="n">WHERE</span> <span class="nb">id</span> <span class="o">%</span> <span class="mi">8</span> <span class="o">=</span> <span class="mi">7</span><span class="p">;</span>
+</pre></div>
+</div>
+<p>This has the advantages that only 1/8 of the table ever gets locked at a time and that 1/8 only gets locked
+for 1/8 of the time. 8 is only chosen as an example here, but I don’t expect any developer will have the patience to
+create many more migrations than that.</p>
+<p>These could now be safely followed up by a migration that adds a <code class="docutils literal notranslate"><span class="pre">NOT</span> <span class="pre">NULL</span></code> constraint if so needed.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="docker-strategies.html" class="btn btn-neutral float-right" title="Docker strategies" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="splitting-applications.html" class="btn btn-neutral float-left" title="Splitting or adding a frontend application" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,475 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Users &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Google Analytics" href="google-analytics.html" />
+    <link rel="prev" title="URLs" href="urls.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="urls.html">URLs</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Users</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#buyers">Buyers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#approved-email-domains">Approved email domains</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#suppliers">Suppliers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#admins">Admins</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#admin-manager">admin-manager</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#admin-framework-manager">admin-framework-manager</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#admin">admin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#admin-ccs-sourcing">admin-ccs-sourcing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#admin-ccs-data-controller">admin-ccs-data-controller</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#admin-ccs-category">admin-ccs-category</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Users</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/developing-the-digital-marketplace/users.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="users">
+<span id="id1"></span><h1><a class="toc-backref" href="#id2">Users</a><a class="headerlink" href="#users" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#users" id="id2">Users</a></p>
+<ul>
+<li><p><a class="reference internal" href="#buyers" id="id3">Buyers</a></p>
+<ul>
+<li><p><a class="reference internal" href="#approved-email-domains" id="id4">Approved email domains</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#suppliers" id="id5">Suppliers</a></p></li>
+<li><p><a class="reference internal" href="#admins" id="id6">Admins</a></p>
+<ul>
+<li><p><a class="reference internal" href="#admin-manager" id="id7">admin-manager</a></p></li>
+<li><p><a class="reference internal" href="#admin-framework-manager" id="id8">admin-framework-manager</a></p></li>
+<li><p><a class="reference internal" href="#admin" id="id9">admin</a></p></li>
+<li><p><a class="reference internal" href="#admin-ccs-sourcing" id="id10">admin-ccs-sourcing</a></p></li>
+<li><p><a class="reference internal" href="#admin-ccs-data-controller" id="id11">admin-ccs-data-controller</a></p></li>
+<li><p><a class="reference internal" href="#admin-ccs-category" id="id12">admin-ccs-category</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This section is designed to give the reasoning for the different user types on Digital Marketplace.</p>
+<p>For information on the data stored for a given user type head to the <a class="reference internal" href="data-model.html#entities-and-what-they-are"><span class="std std-ref">Entities and what they are</span></a> section.</p>
+</div>
+<p>Digital Marketplace facilitates <a class="reference internal" href="#buyers">Buyers</a> buying things from <a class="reference internal" href="#suppliers">Suppliers</a>.
+It also allows <a class="reference internal" href="#admins">Admins</a> to self serve reports, and to view and update data. The activities an admin can undertake
+depends on what type of admin role they are logged in as.</p>
+<p>For security reasons, users are logged out after 1 hour of inactivity. ‘Activity’ means refreshing a page, navigating
+to a new page, or submitting a form.</p>
+<div class="section" id="buyers">
+<h2><a class="toc-backref" href="#id3">Buyers</a><a class="headerlink" href="#buyers" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">buyer</span></code> user accounts are created by public sector buyers. The email address a buyer user signs up with must have a
+domain that matches one of the domains registered as belonging to a public sector organisation on the Digital Marketplace.</p>
+<img alt="../_images/creating-a-buyer-account.png" src="../_images/creating-a-buyer-account.png" />
+<p>A Buyer user account enables a user to:</p>
+<ul class="simple">
+<li><p>Create, update, delete, and award G-Cloud ‘direct award’ searches</p></li>
+<li><p>Create, update, delete, and award Digital Outcomes and Specialists ‘further competition’ briefs</p></li>
+<li><p>Answer questions from suppliers about their briefs</p></li>
+</ul>
+<div class="section" id="approved-email-domains">
+<h3><a class="toc-backref" href="#id4">Approved email domains</a><a class="headerlink" href="#approved-email-domains" title="Permalink to this headline">¶</a></h3>
+<p>The list of public sector email domains is stored in the database’s <code class="docutils literal notranslate"><span class="pre">buyer_email_domains</span></code> table. The list is not
+exhaustive (i.e. it doesn’t currently contain domains for every public sector organisation).
+Administrator accounts with the <code class="docutils literal notranslate"><span class="pre">admin</span></code> role <a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html#buyer-domain-allow-list"><span class="std std-ref">are able to add domains to this list</span></a>. The full list is viewable at
+<a class="reference external" href="https://api.digitalmarketplace.service.gov.uk/buyer-email-domains">the buyer-email-domains API endpoint</a> (an api
+token is  required). Currently there is no way for a non-developer to view this list.</p>
+<p>The validation function that checks if an email address is valid is
+<a class="reference external" href="https://github.com/alphagov/digitalmarketplace-api/blob/master/app/validation.py#L360">defined in the api</a>.
+It checks that the email address ends with an approved domain. This means that subdomains usually don’t need to be
+added, e.g. <code class="docutils literal notranslate"><span class="pre">gov.uk</span></code> already exists so <code class="docutils literal notranslate"><span class="pre">newdepartment.gov.uk</span></code> should not be added (the admin frontend will prevent
+you from doing so).</p>
+</div>
+</div>
+<div class="section" id="suppliers">
+<h2><a class="toc-backref" href="#id5">Suppliers</a><a class="headerlink" href="#suppliers" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">supplier</span></code> user accounts are for members of an organisation (company) that want to sell services to the public sector
+buyers. There can be many supplier user accounts for one supplier organisation. These additional accounts are, in some
+places, referred to as contributors however there is no functional difference between a supplier and a contributor account.</p>
+<p>At the point of initial registration of a supplier organisation a supplier user account is created for the individual
+signing up the organisation. This individual can then invite others to create accounts and contribute to the management
+of the organisation’s Digital Marketplace account.</p>
+<p>When a supplier organisation is initially registered with Digital Marketplace they need to provide a DUNS Number. This
+is expected to be unique and is a way for us to prevent the same organisation registering multiple times.</p>
+<p>A Supplier user account enables a user to:</p>
+<ul class="simple">
+<li><p>Apply to a framework on behalf of their organisation (when a framework is open for applications) by:</p></li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li><p>(optional) Ask clarification questions about a framework/ framework iteration</p></li>
+<li><p>Completing a declaration</p></li>
+<li><p>Adding services</p></li>
+<li><p>Uploading a signed framework agreement</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p>Edit their services</p></li>
+<li><p>Create, edit and delete responses to a buyers brief/ opportunity</p></li>
+<li><p>Ask clarification questions about a brief</p></li>
+</ul>
+</div>
+<div class="section" id="admins">
+<span id="digitalmarketplace-admins"></span><h2><a class="toc-backref" href="#id6">Admins</a><a class="headerlink" href="#admins" title="Permalink to this headline">¶</a></h2>
+<p>There are 6 types of admin account; <code class="docutils literal notranslate"><span class="pre">admin</span></code>, <code class="docutils literal notranslate"><span class="pre">admin-manager</span></code>, <code class="docutils literal notranslate"><span class="pre">admin-framework-manager</span></code>, <code class="docutils literal notranslate"><span class="pre">admin-ccs-sourcing</span></code>,
+<code class="docutils literal notranslate"><span class="pre">admin-ccs-data-controller</span></code> and <code class="docutils literal notranslate"><span class="pre">admin-ccs-category</span></code>.
+Note that these account types are displayed using more user friendly labels in the admin interface, the <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-admin-frontend/blob/527eca037b6ba3cbbe50e2a8899c31e2157fe746/app/templates/view_admin_users.html#L28-L32">mappings</a> can be found in the digitalmarketplace-admin-frontend codebase.
+They are designed to mirror the roles and responsibilities of the users that are assigned these accounts.</p>
+<p>For futher information on admin roles and responsibilities see:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.google.com/spreadsheets/d/1Cuvp0qcuBBeg5MpjAZDXzJRdSAXx0ors82B7xCSItwI/view">Admin Roles/ Permissions</a> Google sheet</p></li>
+</ul>
+<p>Some ‘admin’ tasks need to be carried out by a developer. See <a class="reference internal" href="../2nd-line-runbook/support-tasks.html#support-tasks"><span class="std std-ref">Support Tasks</span></a>.</p>
+<div class="section" id="admin-manager">
+<h3><a class="toc-backref" href="#id7">admin-manager</a><a class="headerlink" href="#admin-manager" title="Permalink to this headline">¶</a></h3>
+<p>The sole responsibility of the <cite>admin-manager</cite> type is to distribute invitations to other admin users; therefore this
+user has access only to the invite and suspend admin users tasks.</p>
+<p>There is only one <cite>admin-manager</cite> on production and its username and password are kept in the credentials repo.</p>
+<img alt="../_images/admin-manager.png" src="../_images/admin-manager.png" />
+</div>
+<div class="section" id="admin-framework-manager">
+<h3><a class="toc-backref" href="#id8">admin-framework-manager</a><a class="headerlink" href="#admin-framework-manager" title="Permalink to this headline">¶</a></h3>
+<p>This role gives the user the ability to view and download user data as well as upload documents and clarification questions.</p>
+<p>The admin framework manager is generally the GDS product manager that is managing a framework opening.</p>
+<img alt="../_images/admin-framework-manager.png" src="../_images/admin-framework-manager.png" />
+</div>
+<div class="section" id="admin">
+<h3><a class="toc-backref" href="#id9">admin</a><a class="headerlink" href="#admin" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Supporting user accounts</p></li>
+</ul>
+<p>The admin role is given to users who need to conduct support tasks (inc. developers). It allows the user to view details
+about services and user accounts as well as managing supplier information and accounts.</p>
+<img alt="../_images/admin.png" src="../_images/admin.png" />
+</div>
+<div class="section" id="admin-ccs-sourcing">
+<h3><a class="toc-backref" href="#id10">admin-ccs-sourcing</a><a class="headerlink" href="#admin-ccs-sourcing" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Auditing framework applications</p></li>
+</ul>
+<p>These users can check/edit declarations and countersign framework agreements. They are mainly concerned with the
+supplier onboarding process at the beginning of a framework’s lifecycle.</p>
+<img alt="../_images/admin-ccs-sourcing.png" src="../_images/admin-ccs-sourcing.png" />
+</div>
+<div class="section" id="admin-ccs-data-controller">
+<h3><a class="toc-backref" href="#id11">admin-ccs-data-controller</a><a class="headerlink" href="#admin-ccs-data-controller" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Managing data</p></li>
+</ul>
+<p>These users can edit supplier information. They ensure consistency of data between CCS sources (Salesforce SFTC and
+Supplier Registration Service) and the Digital Marketplace.</p>
+<img alt="../_images/admin-ccs-data-controller.png" src="../_images/admin-ccs-data-controller.png" />
+</div>
+<div class="section" id="admin-ccs-category">
+<h3><a class="toc-backref" href="#id12">admin-ccs-category</a><a class="headerlink" href="#admin-ccs-category" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Managing services</p></li>
+</ul>
+<p>These users can edit and remove a supplier’s services. These are CCS users who manage the framework offerings while the
+framework is live.</p>
+<img alt="../_images/admin-ccs-category.png" src="../_images/admin-ccs-category.png" />
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="google-analytics.html" class="btn btn-neutral float-right" title="Google Analytics" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="urls.html" class="btn btn-neutral float-left" title="URLs" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

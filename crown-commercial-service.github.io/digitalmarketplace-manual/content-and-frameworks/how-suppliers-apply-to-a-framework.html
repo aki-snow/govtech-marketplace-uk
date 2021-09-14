@@ -1,0 +1,439 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>How suppliers apply to a framework &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Framework agreements" href="framework-agreements.html" />
+    <link rel="prev" title="Framework lifecycle for developers" href="framework-lifecycle-for-developers.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developing-the-digital-marketplace/production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">How suppliers apply to a framework</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#at-any-time">0 - at any time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#coming">1 - coming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#open">2 - open</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#re-using-declaration-answers">Re-using declaration answers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#copying-services">Copying services</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pending">3 - pending</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#standstill">4 - standstill</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#live">5 - live</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">G-Cloud</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#dos">DOS</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#expired">6 - expired</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>How suppliers apply to a framework</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/content-and-frameworks/how-suppliers-apply-to-a-framework.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="how-suppliers-apply-to-a-framework">
+<span id="framework-lifecycle-for-suppliers"></span><h1>How suppliers apply to a framework<a class="headerlink" href="#how-suppliers-apply-to-a-framework" title="Permalink to this headline">¶</a></h1>
+<p>Here’s what suppliers can do at each stage of a framework.</p>
+<p>For more information about framework stages, see <a class="reference internal" href="framework-lifecycle-for-developers.html#framework-lifecycle-for-developers"><span class="std std-ref">Framework lifecycle for Developers</span></a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is intended as a developer reference.</p>
+<p>Suppliers should follow the GOV.UK guidance when applying for <a class="reference external" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">G-Cloud</a> and <a class="reference external" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">Digital Outcomes and Specialists</a> frameworks.</p>
+</div>
+<div class="section" id="at-any-time">
+<h2>0 - at any time<a class="headerlink" href="#at-any-time" title="Permalink to this headline">¶</a></h2>
+<p>New suppliers can sign up to the <a class="reference external" href="https://www.digitalmarketplace.service.gov.uk/suppliers/mailing-list">Mailchimp mailing list</a> for notifications about when a framework application window is about
+to open.</p>
+<p>Existing suppliers will be emailed about new frameworks by default.</p>
+</div>
+<div class="section" id="coming">
+<h2>1 - coming<a class="headerlink" href="#coming" title="Permalink to this headline">¶</a></h2>
+<p>Suppliers can create an account. To do this they will need a DUNS number that is:</p>
+<ul class="simple">
+<li><p>valid (exists in the Dun &amp; Bradstreet API)</p></li>
+<li><p>not in use by an existing supplier</p></li>
+</ul>
+<p>Suppliers from large organisations with multiple DUNS numbers should ensure they are using the correct number
+for the organisation that is intending to sell services.</p>
+</div>
+<div class="section" id="open">
+<h2>2 - open<a class="headerlink" href="#open" title="Permalink to this headline">¶</a></h2>
+<p>Suppliers need to:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>log in</p></li>
+<li><p>start the application (all users on the supplier account will receive an automated email receipt)</p></li>
+<li><p>confirm their company details</p></li>
+<li><p>make their declaration</p></li>
+<li><p>submit services</p></li>
+</ul>
+</div></blockquote>
+<p>Suppliers can also submit clarification questions up until the clarification question deadline.
+They will receive an email receipt with a reference number, so that when answers are published they can search by the
+reference number.</p>
+<dl class="simple">
+<dt>Suppliers receive emails when:</dt><dd><ul class="simple">
+<li><p>new clarification questions and answers have been posted</p></li>
+<li><p>it’s the last day for clarification questions</p></li>
+<li><p>it’s the last day of applications</p></li>
+<li><p>when applications have closed</p></li>
+</ul>
+</dd>
+</dl>
+<p>One week before applications close, suppliers with incomplete applications receive an email listing the steps they have
+left to do.</p>
+<div class="section" id="re-using-declaration-answers">
+<h3>Re-using declaration answers<a class="headerlink" href="#re-using-declaration-answers" title="Permalink to this headline">¶</a></h3>
+<p>Suppliers can re-use declaration answers if they had made a previous application to any valid framework.</p>
+<p>Only answers from the most recent framework iteration can be re-used, for example, a supplier on both G11 and DOS4
+could only re-use their DOS4 declaration answers for a G12 application.</p>
+</div>
+<div class="section" id="copying-services">
+<h3>Copying services<a class="headerlink" href="#copying-services" title="Permalink to this headline">¶</a></h3>
+<p>Suppliers can copy services from the previous iteration of the same framework, e.g. G11 services can be copied
+to G12. Services cannot be copied from older iterations (e.g. G10 services cannot be copied to G12).</p>
+<p>Services that have been suspended or removed cannot be copied for a framework application.</p>
+<p>A service can only be copied once. For example, if a G11 service has been copied for a G12 application, it is will no
+longer show on the list of copiable G11 services. However if the supplier deletes the G12 service, it will reappear on
+the G11 list.</p>
+<p>Only a limited number of fields can be edited on a copied service. If the service has changed significantly, the
+supplier should create a new service instead of copying.</p>
+</div>
+</div>
+<div class="section" id="pending">
+<h2>3 - pending<a class="headerlink" href="#pending" title="Permalink to this headline">¶</a></h2>
+<p>Suppliers can no longer edit their declaration or services. They can view their application answers in read-only format.</p>
+<p>Suppliers receive an email stating whether they have submitted a complete application, or if it was incomplete.</p>
+<p>If CCS evaluate the supplier as ‘failed’, the supplier will receive a ‘failure letter’ via email directly from CCS
+during the pending period.</p>
+</div>
+<div class="section" id="standstill">
+<h2>4 - standstill<a class="headerlink" href="#standstill" title="Permalink to this headline">¶</a></h2>
+<p>Suppliers are able to challenge CCS’s decision during standstill.</p>
+<p>If CCS evaluate the supplier as ‘passed’, GDS send an Intention To Award email just prior to standstill. This includes a link
+to the framework agreement signing journey.</p>
+<p>A supplier user with legal authority must log in, agree to the terms of the framework and electronically sign the
+agreement (G12 onwards) or upload a signed signature page (DOS4 and earlier).</p>
+<p>If the supplier does not sign the framework agreement, they will not be allowed to sell services.</p>
+</div>
+<div class="section" id="live">
+<h2>5 - live<a class="headerlink" href="#live" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>G-Cloud<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Once a G-Cloud framework is live, the supplier can edit a limited number of fields on their G-Cloud services:</p>
+<ul class="simple">
+<li><p>Service name</p></li>
+<li><p>Service description</p></li>
+<li><p>Service features and benefits</p></li>
+<li><p>Service definition document</p></li>
+</ul>
+<p>Any changes made by suppliers are applied immediately, but are also visible to CCS Admins.</p>
+<p>Suppliers can also remove a service, for example if they are no longer able to offer it.</p>
+</div>
+<div class="section" id="dos">
+<h3>DOS<a class="headerlink" href="#dos" title="Permalink to this headline">¶</a></h3>
+<p>Once a DOS framework is live, the supplier can apply for DOS opportunities if they have a service on the appropriate lot.
+For a Digital Specialist opportunity, the supplier must have stated they can provide the correct specialist role for
+the opportunity.</p>
+<p>If the supplier wishes to add a new specialist role or change details of a role (e.g. day rate), they must contact CCS.</p>
+<p>We send suppliers a daily email for each lot listing the new opportunities from the past day. They can also find <a class="reference external" href="https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities">new opportunities on the website</a>, or via <a class="reference external" href="https://twitter.com/dosalerts">people who scrape the Digital Marketplace</a>. We don’t expose open opportunities via a public API or other machine readable format.</p>
+<p>Suppliers can see their applications for opportunities on the previous iteration of the framework, as these procurements
+will still be ongoing.</p>
+</div>
+</div>
+<div class="section" id="expired">
+<h2>6 - expired<a class="headerlink" href="#expired" title="Permalink to this headline">¶</a></h2>
+<p>Suppliers can no longer edit services for expired frameworks.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="framework-agreements.html" class="btn btn-neutral float-right" title="Framework agreements" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="framework-lifecycle-for-developers.html" class="btn btn-neutral float-left" title="Framework lifecycle for developers" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,706 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>URLs &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Users" href="users.html" />
+    <link rel="prev" title="Moving data between environments" href="moving-data.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">URLs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#buyer-frontend">Buyer Frontend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#user-frontend">User Frontend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#briefs-frontend">Briefs Frontend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#supplier-frontend">Supplier Frontend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#brief-responses-frontend">Brief Responses Frontend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#admin-frontend">Admin Frontend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#api">API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#search-api">Search API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#special-urls">Special urls</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#status">/_status</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#metrics">/_metrics</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>URLs</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/developing-the-digital-marketplace/urls.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="urls">
+<span id="id1"></span><h1><a class="toc-backref" href="#id2">URLs</a><a class="headerlink" href="#urls" title="Permalink to this headline">¶</a></h1>
+<p>This is a snapshot of the URLs used across the Digital Marketplace, as of 10th October 2019.</p>
+<p>It isn’t meant to be a living document of all current URLs, but rather give an overview of how we
+structure URLs across the Digital Marketplace.</p>
+<p>If you do need an up-to-date list of the routes an app supports, or want to
+update this page, you can ask any app to report the routes it knows by running
+this command in the app directory:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>(venv) $ python application.py list_routes
+</pre></div>
+</div>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#urls" id="id2">URLs</a></p>
+<ul>
+<li><p><a class="reference internal" href="#buyer-frontend" id="id3">Buyer Frontend</a></p></li>
+<li><p><a class="reference internal" href="#user-frontend" id="id4">User Frontend</a></p></li>
+<li><p><a class="reference internal" href="#briefs-frontend" id="id5">Briefs Frontend</a></p></li>
+<li><p><a class="reference internal" href="#supplier-frontend" id="id6">Supplier Frontend</a></p></li>
+<li><p><a class="reference internal" href="#brief-responses-frontend" id="id7">Brief Responses Frontend</a></p></li>
+<li><p><a class="reference internal" href="#admin-frontend" id="id8">Admin Frontend</a></p></li>
+<li><p><a class="reference internal" href="#api" id="id9">API</a></p></li>
+<li><p><a class="reference internal" href="#search-api" id="id10">Search API</a></p></li>
+<li><p><a class="reference internal" href="#special-urls" id="id11">Special urls</a></p>
+<ul>
+<li><p><a class="reference internal" href="#status" id="id12">/_status</a></p></li>
+<li><p><a class="reference internal" href="#metrics" id="id13">/_metrics</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="buyer-frontend">
+<h2><a class="toc-backref" href="#id3">Buyer Frontend</a><a class="headerlink" href="#buyer-frontend" title="Permalink to this headline">¶</a></h2>
+<p><strong>Homepage</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span>
+</pre></div>
+</div>
+<p><strong>Static content pages</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="mi">404</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">-</span><span class="n">guide</span>
+<span class="o">/</span><span class="n">cookies</span>
+<span class="o">/</span><span class="n">crown</span><span class="o">-</span><span class="n">hosting</span>
+<span class="o">/</span><span class="n">crown</span><span class="o">-</span><span class="n">hosting</span><span class="o">/</span><span class="n">framework</span>
+<span class="o">/</span><span class="n">digital</span><span class="o">-</span><span class="n">services</span><span class="o">/</span><span class="n">framework</span>
+<span class="o">/</span><span class="n">g</span><span class="o">-</span><span class="n">cloud</span><span class="o">/</span><span class="n">buyers</span><span class="o">-</span><span class="n">guide</span>
+<span class="o">/</span><span class="n">g</span><span class="o">-</span><span class="n">cloud</span><span class="o">/</span><span class="n">framework</span>
+<span class="o">/</span><span class="n">g</span><span class="o">-</span><span class="n">cloud</span><span class="o">/</span><span class="n">suppliers</span><span class="o">-</span><span class="n">guide</span>
+<span class="o">/</span><span class="n">help</span>
+<span class="o">/</span><span class="n">privacy</span><span class="o">-</span><span class="n">notice</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">-</span><span class="n">guide</span>
+<span class="o">/</span><span class="n">terms</span><span class="o">-</span><span class="ow">and</span><span class="o">-</span><span class="n">conditions</span>
+</pre></div>
+</div>
+<p><strong>Searching for G-Cloud services</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">g</span><span class="o">-</span><span class="n">cloud</span>
+<span class="o">/</span><span class="n">g</span><span class="o">-</span><span class="n">cloud</span><span class="o">/</span><span class="n">search</span>
+<span class="o">/</span><span class="n">g</span><span class="o">-</span><span class="n">cloud</span><span class="o">/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">service_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">g</span><span class="o">-</span><span class="n">cloud</span><span class="o">/</span><span class="n">suppliers</span>
+<span class="o">/</span><span class="n">g</span><span class="o">-</span><span class="n">cloud</span><span class="o">/</span><span class="n">supplier</span><span class="o">/&lt;</span><span class="n">supplier_id</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p><strong>Creating a G-Cloud direct award project</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_family</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">start</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">choose</span><span class="o">-</span><span class="n">lot</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">projects</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">save</span><span class="o">-</span><span class="n">search</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_id</span><span class="o">&gt;/</span><span class="n">end</span><span class="o">-</span><span class="n">search</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_id</span><span class="o">&gt;/</span><span class="n">results</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_id</span><span class="o">&gt;/</span><span class="n">results</span><span class="o">/</span><span class="n">download</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_id</span><span class="o">&gt;/</span><span class="n">did</span><span class="o">-</span><span class="n">you</span><span class="o">-</span><span class="n">award</span><span class="o">-</span><span class="n">contract</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_id</span><span class="o">&gt;/</span><span class="n">which</span><span class="o">-</span><span class="n">service</span><span class="o">-</span><span class="n">won</span><span class="o">-</span><span class="n">contract</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_id</span><span class="o">&gt;/</span><span class="n">outcomes</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">outcome_id</span><span class="o">&gt;/</span><span class="n">tell</span><span class="o">-</span><span class="n">us</span><span class="o">-</span><span class="n">about</span><span class="o">-</span><span class="n">contract</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_id</span><span class="o">&gt;/</span><span class="n">why</span><span class="o">-</span><span class="n">didnt</span><span class="o">-</span><span class="n">you</span><span class="o">-</span><span class="n">award</span><span class="o">-</span><span class="n">contract</span>
+</pre></div>
+</div>
+<p><strong>Digital Outcomes and Specialists opportunities</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/&lt;</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">opportunities</span>
+<span class="o">/&lt;</span><span class="n">framework_family</span><span class="o">&gt;/</span><span class="n">opportunities</span><span class="o">/&lt;</span><span class="n">brief_id</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="user-frontend">
+<h2><a class="toc-backref" href="#id4">User Frontend</a><a class="headerlink" href="#user-frontend" title="Permalink to this headline">¶</a></h2>
+<p><strong>User account management</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">create</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">encoded_token</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">login</span>
+<span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">logout</span>
+<span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">notifications</span><span class="o">/</span><span class="n">user</span><span class="o">-</span><span class="n">research</span>
+<span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">reset</span><span class="o">-</span><span class="n">password</span>
+<span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">reset</span><span class="o">-</span><span class="n">password</span><span class="o">/&lt;</span><span class="n">token</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">change</span><span class="o">-</span><span class="n">password</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="briefs-frontend">
+<h2><a class="toc-backref" href="#id5">Briefs Frontend</a><a class="headerlink" href="#briefs-frontend" title="Permalink to this headline">¶</a></h2>
+<p><strong>Buying from Digital Outcomes and Specialists</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">buyers</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">create</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/</span><span class="n">user</span><span class="o">-</span><span class="n">research</span><span class="o">-</span><span class="n">studios</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/</span><span class="n">create</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">copy</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">delete</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">publish</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">responses</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">responses</span><span class="o">/</span><span class="n">download</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">withdraw</span>
+
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">supplier</span><span class="o">-</span><span class="n">questions</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">supplier</span><span class="o">-</span><span class="n">questions</span><span class="o">/</span><span class="n">answer</span><span class="o">-</span><span class="n">question</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">timeline</span>
+
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/&lt;</span><span class="n">section_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">edit</span><span class="o">/&lt;</span><span class="n">section_slug</span><span class="o">&gt;/&lt;</span><span class="n">question_id</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p><strong>Awarding a Digital Outcomes and Specialists opportunity</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">award</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">award</span><span class="o">-</span><span class="n">contract</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">cancel</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">cancel</span><span class="o">-</span><span class="n">award</span>
+<span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">requirements</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">award</span><span class="o">/&lt;</span><span class="n">brief_response_id</span><span class="o">&gt;/</span><span class="n">contract</span><span class="o">-</span><span class="n">details</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="supplier-frontend">
+<h2><a class="toc-backref" href="#id6">Supplier Frontend</a><a class="headerlink" href="#supplier-frontend" title="Permalink to this headline">¶</a></h2>
+<p><strong>Supplier account management</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">suppliers</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">supply</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">create</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">create</span><span class="o">/</span><span class="n">start</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">create</span><span class="o">/</span><span class="n">account</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">create</span><span class="o">/</span><span class="n">company</span><span class="o">-</span><span class="n">details</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">create</span><span class="o">/</span><span class="n">company</span><span class="o">-</span><span class="n">summary</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">create</span><span class="o">/</span><span class="n">duns</span><span class="o">-</span><span class="n">number</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">create</span><span class="o">/</span><span class="n">complete</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">edit</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">details</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">duns</span><span class="o">-</span><span class="n">number</span><span class="o">/</span><span class="n">edit</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">organisation</span><span class="o">-</span><span class="n">size</span><span class="o">/</span><span class="n">edit</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">registered</span><span class="o">-</span><span class="n">address</span><span class="o">/</span><span class="n">edit</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">registered</span><span class="o">-</span><span class="n">company</span><span class="o">-</span><span class="n">name</span><span class="o">/</span><span class="n">edit</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">registration</span><span class="o">-</span><span class="n">number</span><span class="o">/</span><span class="n">edit</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">trading</span><span class="o">-</span><span class="n">status</span><span class="o">/</span><span class="n">edit</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">what</span><span class="o">-</span><span class="n">buyers</span><span class="o">-</span><span class="n">will</span><span class="o">-</span><span class="n">see</span><span class="o">/</span><span class="n">edit</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">invite</span><span class="o">-</span><span class="n">user</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">mailing</span><span class="o">-</span><span class="nb">list</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">users</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">users</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">user_id</span><span class="o">&gt;/</span><span class="n">deactivate</span>
+</pre></div>
+</div>
+<p><strong>Managing framework applications and services</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">assets</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">documents</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/&lt;</span><span class="n">document_name</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">assets</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/&lt;</span><span class="n">document_name</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">agreement</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">agreements</span><span class="o">/&lt;</span><span class="n">document_name</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">agreement_id</span><span class="o">&gt;/</span><span class="n">contract</span><span class="o">-</span><span class="n">review</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">agreement_id</span><span class="o">&gt;/</span><span class="n">signature</span><span class="o">-</span><span class="n">upload</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">agreement_id</span><span class="o">&gt;/</span><span class="n">signer</span><span class="o">-</span><span class="n">details</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">contract</span><span class="o">-</span><span class="n">variation</span><span class="o">/&lt;</span><span class="n">variation_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">create</span><span class="o">-</span><span class="n">agreement</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">declaration</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">declaration</span><span class="o">/</span><span class="n">edit</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">section_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">declaration</span><span class="o">/</span><span class="n">reuse</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">declaration</span><span class="o">/</span><span class="n">start</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">files</span><span class="o">/&lt;</span><span class="n">path</span><span class="p">:</span><span class="n">filepath</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">updates</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">opportunities</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/</span><span class="n">create</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">service_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">complete</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">copy</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">delete</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">edit</span><span class="o">/&lt;</span><span class="n">section_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">edit</span><span class="o">/&lt;</span><span class="n">section_id</span><span class="o">&gt;/&lt;</span><span class="n">question_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/&lt;</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">remove</span><span class="o">/&lt;</span><span class="n">section_id</span><span class="o">&gt;/&lt;</span><span class="n">question_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/</span><span class="n">copy</span><span class="o">-</span><span class="nb">all</span><span class="o">-</span><span class="n">previous</span><span class="o">-</span><span class="n">framework</span><span class="o">-</span><span class="n">services</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/</span><span class="n">copy</span><span class="o">-</span><span class="n">previous</span><span class="o">-</span><span class="n">framework</span><span class="o">-</span><span class="n">service</span><span class="o">/&lt;</span><span class="n">service_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">submissions</span><span class="o">/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/</span><span class="n">previous</span><span class="o">-</span><span class="n">services</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">services</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">service_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">edit</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">section_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">remove</span>
+
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">service_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">service_id</span><span class="o">&gt;/&lt;</span><span class="n">path</span><span class="p">:</span><span class="n">trailing_path</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="brief-responses-frontend">
+<h2><a class="toc-backref" href="#id7">Brief Responses Frontend</a><a class="headerlink" href="#brief-responses-frontend" title="Permalink to this headline">¶</a></h2>
+<p><strong>Suppliers applying for Digital Outcomes and Specialists opportunities</strong>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">opportunities</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">opportunities</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">ask</span><span class="o">-</span><span class="n">a</span><span class="o">-</span><span class="n">question</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">opportunities</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">question</span><span class="o">-</span><span class="ow">and</span><span class="o">-</span><span class="n">answer</span><span class="o">-</span><span class="n">session</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">opportunities</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">responses</span><span class="o">/</span><span class="n">result</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">opportunities</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">responses</span><span class="o">/</span><span class="n">start</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">opportunities</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">responses</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_response_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">opportunities</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">responses</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_response_id</span><span class="o">&gt;/</span><span class="n">application</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">opportunities</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">responses</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_response_id</span><span class="o">&gt;/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">question_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">opportunities</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">responses</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_response_id</span><span class="o">&gt;/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">question_id</span><span class="o">&gt;/</span><span class="n">edit</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="admin-frontend">
+<h2><a class="toc-backref" href="#id8">Admin Frontend</a><a class="headerlink" href="#admin-frontend" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">admin</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">admin</span><span class="o">-</span><span class="n">users</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">admin</span><span class="o">-</span><span class="n">users</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">admin_user_id</span><span class="o">&gt;/</span><span class="n">edit</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">admin</span><span class="o">-</span><span class="n">users</span><span class="o">/</span><span class="n">invite</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">agreements</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">buyers</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">add</span><span class="o">-</span><span class="n">buyer</span><span class="o">-</span><span class="n">domains</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">communications</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">communications</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">delete</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">comm_type</span><span class="o">&gt;/&lt;</span><span class="n">safepurepath</span><span class="p">:</span><span class="n">filepath</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">communications</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">files</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">comm_type</span><span class="o">&gt;/&lt;</span><span class="n">safepurepath</span><span class="p">:</span><span class="n">filepath</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/</span><span class="n">outcomes</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">user</span><span class="o">-</span><span class="n">research</span><span class="o">/</span><span class="n">download</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">users</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">users</span><span class="o">/&lt;</span><span class="n">report_type</span><span class="o">&gt;/</span><span class="n">download</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">search</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">services</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">service_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">edit</span><span class="o">/&lt;</span><span class="n">section_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">edit</span><span class="o">/&lt;</span><span class="n">section_id</span><span class="o">&gt;/&lt;</span><span class="n">question_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">updates</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">updates</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">audit_id</span><span class="o">&gt;/</span><span class="n">approve</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">services</span><span class="o">/</span><span class="n">status</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">service_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">services</span><span class="o">/</span><span class="n">updates</span><span class="o">/</span><span class="n">unapproved</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">static</span><span class="o">/&lt;</span><span class="n">path</span><span class="p">:</span><span class="n">filename</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">statistics</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">agreement</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">agreements</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">agreements</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/&lt;</span><span class="n">document_name</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">agreements</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="nb">next</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">countersigned</span><span class="o">-</span><span class="n">agreements</span><span class="o">-</span><span class="n">remove</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">countersigned</span><span class="o">-</span><span class="n">agreements</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">edit</span><span class="o">/</span><span class="n">declarations</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">edit</span><span class="o">/</span><span class="n">declarations</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_slug</span><span class="o">&gt;/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">section_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">edit</span><span class="o">/</span><span class="n">duns</span><span class="o">-</span><span class="n">number</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">edit</span><span class="o">/</span><span class="n">name</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">edit</span><span class="o">/</span><span class="n">registered</span><span class="o">-</span><span class="n">address</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">edit</span><span class="o">/</span><span class="n">registered</span><span class="o">-</span><span class="n">company</span><span class="o">-</span><span class="n">number</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">edit</span><span class="o">/</span><span class="n">registered</span><span class="o">-</span><span class="n">name</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">invite</span><span class="o">-</span><span class="n">user</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">move</span><span class="o">-</span><span class="n">existing</span><span class="o">-</span><span class="n">user</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">services</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">agreements</span><span class="o">/&lt;</span><span class="n">agreement_id</span><span class="o">&gt;/</span><span class="n">approve</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">agreements</span><span class="o">/&lt;</span><span class="n">agreement_id</span><span class="o">&gt;/</span><span class="n">on</span><span class="o">-</span><span class="n">hold</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">agreements</span><span class="o">/&lt;</span><span class="n">agreement_id</span><span class="o">&gt;/</span><span class="n">unapprove</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">users</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">users</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">user_id</span><span class="o">&gt;/</span><span class="n">activate</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">users</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">user_id</span><span class="o">&gt;/</span><span class="n">deactivate</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">users</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">user_id</span><span class="o">&gt;/</span><span class="n">unlock</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">users</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">users</span><span class="o">/</span><span class="n">download</span><span class="o">/</span><span class="n">buyers</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">users</span><span class="o">/</span><span class="n">download</span><span class="o">/</span><span class="n">buyers</span><span class="o">/</span><span class="n">user</span><span class="o">-</span><span class="n">research</span>
+<span class="o">/</span><span class="n">admin</span><span class="o">/</span><span class="n">users</span><span class="o">/</span><span class="n">download</span><span class="o">/</span><span class="n">suppliers</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="api">
+<h2><a class="toc-backref" href="#id9">API</a><a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span>
+<span class="o">/</span><span class="n">agreements</span>
+<span class="o">/</span><span class="n">agreements</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">agreement_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">agreements</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">agreement_id</span><span class="o">&gt;/</span><span class="n">approve</span>
+<span class="o">/</span><span class="n">agreements</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">agreement_id</span><span class="o">&gt;/</span><span class="n">on</span><span class="o">-</span><span class="n">hold</span>
+<span class="o">/</span><span class="n">agreements</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">agreement_id</span><span class="o">&gt;/</span><span class="n">sign</span>
+<span class="o">/</span><span class="n">archived</span><span class="o">-</span><span class="n">services</span>
+<span class="o">/</span><span class="n">archived</span><span class="o">-</span><span class="n">services</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">archived_service_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">audit</span><span class="o">-</span><span class="n">events</span>
+<span class="o">/</span><span class="n">audit</span><span class="o">-</span><span class="n">events</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">audit_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">audit</span><span class="o">-</span><span class="n">events</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">audit_id</span><span class="o">&gt;/</span><span class="n">acknowledge</span>
+<span class="o">/</span><span class="n">brief</span><span class="o">-</span><span class="n">responses</span>
+<span class="o">/</span><span class="n">brief</span><span class="o">-</span><span class="n">responses</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_response_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">brief</span><span class="o">-</span><span class="n">responses</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_response_id</span><span class="o">&gt;/</span><span class="n">submit</span>
+<span class="o">/</span><span class="n">briefs</span>
+<span class="o">/</span><span class="n">briefs</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">briefs</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">award</span>
+<span class="o">/</span><span class="n">briefs</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">award</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_response_id</span><span class="o">&gt;/</span><span class="n">contract</span><span class="o">-</span><span class="n">details</span>
+<span class="o">/</span><span class="n">briefs</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/&lt;</span><span class="nb">any</span><span class="p">(</span><span class="n">publish</span><span class="p">,</span> <span class="n">withdraw</span><span class="p">,</span> <span class="n">cancel</span><span class="p">,</span> <span class="n">unsuccessful</span><span class="p">):</span><span class="n">action</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">briefs</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">clarification</span><span class="o">-</span><span class="n">questions</span>
+<span class="o">/</span><span class="n">briefs</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">copy</span>
+<span class="o">/</span><span class="n">briefs</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">brief_id</span><span class="o">&gt;/</span><span class="n">services</span>
+<span class="o">/</span><span class="n">buyer</span><span class="o">-</span><span class="n">email</span><span class="o">-</span><span class="n">domains</span>
+<span class="o">/</span><span class="n">callbacks</span>
+<span class="o">/</span><span class="n">callbacks</span><span class="o">/</span><span class="n">notify</span>
+<span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_external_id</span><span class="o">&gt;/</span><span class="n">cancel</span>
+<span class="o">/</span><span class="n">draft</span><span class="o">-</span><span class="n">services</span>
+<span class="o">/</span><span class="n">draft</span><span class="o">-</span><span class="n">services</span><span class="o">/</span><span class="n">copy</span><span class="o">-</span><span class="n">from</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">service_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">draft</span><span class="o">-</span><span class="n">services</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">draft_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">draft</span><span class="o">-</span><span class="n">services</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">draft_id</span><span class="o">&gt;/</span><span class="n">complete</span>
+<span class="o">/</span><span class="n">draft</span><span class="o">-</span><span class="n">services</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">draft_id</span><span class="o">&gt;/</span><span class="n">copy</span>
+<span class="o">/</span><span class="n">draft</span><span class="o">-</span><span class="n">services</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">draft_id</span><span class="o">&gt;/</span><span class="n">publish</span>
+<span class="o">/</span><span class="n">draft</span><span class="o">-</span><span class="n">services</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">draft_id</span><span class="o">&gt;/</span><span class="n">update</span><span class="o">-</span><span class="n">status</span>
+<span class="o">/</span><span class="n">draft</span><span class="o">-</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/&lt;</span><span class="n">lot_slug</span><span class="o">&gt;/</span><span class="n">copy</span><span class="o">-</span><span class="n">published</span><span class="o">-</span><span class="n">from</span><span class="o">-</span><span class="n">framework</span>
+<span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/</span><span class="n">projects</span>
+<span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_external_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_external_id</span><span class="o">&gt;/</span><span class="n">lock</span>
+<span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_external_id</span><span class="o">&gt;/</span><span class="n">none</span><span class="o">-</span><span class="n">suitable</span>
+<span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_external_id</span><span class="o">&gt;/</span><span class="n">record</span><span class="o">-</span><span class="n">download</span>
+<span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_external_id</span><span class="o">&gt;/</span><span class="n">searches</span>
+<span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_external_id</span><span class="o">&gt;/</span><span class="n">searches</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">search_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_external_id</span><span class="o">&gt;/</span><span class="n">services</span>
+<span class="o">/</span><span class="n">direct</span><span class="o">-</span><span class="n">award</span><span class="o">/</span><span class="n">projects</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">project_external_id</span><span class="o">&gt;/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">award</span>
+<span class="o">/</span><span class="n">frameworks</span>
+<span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">interest</span>
+<span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">stats</span>
+<span class="o">/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">suppliers</span>
+<span class="o">/</span><span class="n">frameworks</span><span class="o">/</span><span class="n">transition</span><span class="o">-</span><span class="n">dos</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">outcomes</span>
+<span class="o">/</span><span class="n">outcomes</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">outcome_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">services</span>
+<span class="o">/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">update</span><span class="o">/</span><span class="n">acknowledge</span>
+<span class="o">/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">service_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">revert</span>
+<span class="o">/</span><span class="n">services</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">service_id</span><span class="o">&gt;/</span><span class="n">status</span><span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">status</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">contact</span><span class="o">-</span><span class="n">information</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">contact_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">contact</span><span class="o">-</span><span class="n">information</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">contact_id</span><span class="o">&gt;/</span><span class="n">remove</span><span class="o">-</span><span class="n">personal</span><span class="o">-</span><span class="n">data</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">frameworks</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">declaration</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">frameworks</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;/</span><span class="n">variation</span><span class="o">/&lt;</span><span class="n">variation_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">supplier_id</span><span class="o">&gt;/</span><span class="n">frameworks</span><span class="o">/</span><span class="n">interest</span>
+<span class="o">/</span><span class="n">suppliers</span><span class="o">/</span><span class="n">export</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">users</span>
+<span class="o">/</span><span class="n">users</span><span class="o">/</span><span class="n">auth</span>
+<span class="o">/</span><span class="n">users</span><span class="o">/</span><span class="n">check</span><span class="o">-</span><span class="n">buyer</span><span class="o">-</span><span class="n">email</span>
+<span class="o">/</span><span class="n">users</span><span class="o">/</span><span class="n">export</span><span class="o">/&lt;</span><span class="n">framework_slug</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">users</span><span class="o">/</span><span class="n">valid</span><span class="o">-</span><span class="n">admin</span><span class="o">-</span><span class="n">email</span>
+<span class="o">/</span><span class="n">users</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">user_id</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">users</span><span class="o">/&lt;</span><span class="nb">int</span><span class="p">:</span><span class="n">user_id</span><span class="o">&gt;/</span><span class="n">remove</span><span class="o">-</span><span class="n">personal</span><span class="o">-</span><span class="n">data</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="search-api">
+<h2><a class="toc-backref" href="#id10">Search API</a><a class="headerlink" href="#search-api" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span>
+<span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">index_name</span><span class="o">&gt;</span>
+<span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">index_name</span><span class="o">&gt;/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">doc_type</span><span class="o">&gt;/</span><span class="n">aggregations</span>
+<span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">index_name</span><span class="o">&gt;/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">doc_type</span><span class="o">&gt;/</span><span class="n">search</span>
+<span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">index_name</span><span class="o">&gt;/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">doc_type</span><span class="o">&gt;/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">document_id</span><span class="o">&gt;</span>
+<span class="o">/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">index_name</span><span class="o">&gt;/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">doc_type</span><span class="o">&gt;/&lt;</span><span class="n">string</span><span class="p">:</span><span class="n">service_id</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="special-urls">
+<h2><a class="toc-backref" href="#id11">Special urls</a><a class="headerlink" href="#special-urls" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="status">
+<h3><a class="toc-backref" href="#id12">/_status</a><a class="headerlink" href="#status" title="Permalink to this headline">¶</a></h3>
+<p>All the apps have a <code class="docutils literal notranslate"><span class="pre">/_status</span></code> heathcheck endpoint. This can be used to find out information about the system.
+The data returned is defined in <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-utils/blob/master/dmutils/status.py">dmutils status.py</a>.</p>
+<p>On the frontends these are publicly accessible and as such can be viewed at <code class="docutils literal notranslate"><span class="pre">/_status</span></code> on a given apps route.</p>
+</div>
+<div class="section" id="metrics">
+<h3><a class="toc-backref" href="#id13">/_metrics</a><a class="headerlink" href="#metrics" title="Permalink to this headline">¶</a></h3>
+<p>All the apps have a <code class="docutils literal notranslate"><span class="pre">/_metrics</span></code> endpoint. The metrics endpoint exposes app
+level metrics to the GDS Prometheus service. This service scrapes the
+<code class="docutils literal notranslate"><span class="pre">/_metrics</span></code>
+endpoint of any app that it is bound to.</p>
+<p>The endpoint is protected by ip whitelisting and requests through the router are disallowed. This means that the metrics
+endpoint is only accessible through <code class="docutils literal notranslate"><span class="pre">dm-&lt;STAGE&gt;.cloudapps.digital</span></code> domain requests that bypass the router and
+by GDS trusted IPs.</p>
+<p>For more see the <a class="reference internal" href="../infrastructure/logging.html#monitoring"><span class="std std-ref">monitoring</span></a> and <a class="reference internal" href="../infrastructure/logging.html#alerting"><span class="std std-ref">alerting</span></a> sections of the manual.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="users.html" class="btn btn-neutral float-right" title="Users" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="moving-data.html" class="btn btn-neutral float-left" title="Moving data between environments" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

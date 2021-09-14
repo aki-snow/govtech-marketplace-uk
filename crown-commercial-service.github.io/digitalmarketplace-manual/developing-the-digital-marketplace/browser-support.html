@@ -1,0 +1,450 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Browser and accessibility support &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Environments" href="environments.html" />
+    <link rel="prev" title="Application architecture" href="application-architecture.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Browser and accessibility support</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Browser support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#browser-support-considerations">Browser support considerations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#assistive-technology-support">Assistive technology support</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nix.html">Nix Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-model.html">Data model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Browser and accessibility support</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/developing-the-digital-marketplace/browser-support.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="browser-and-accessibility-support">
+<span id="browser-support"></span><h1>Browser and accessibility support<a class="headerlink" href="#browser-and-accessibility-support" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id1">
+<h2>Browser support<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>We currently support the following browsers:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 69%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Operating system</p></th>
+<th class="head"><p>Browser</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Windows</strong></p></td>
+<td><p>Internet Explorer 11</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>Edge (latest versions)</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>Google Chrome (latest versions)</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>Mozilla Firefox (latest versions)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>macOS</strong></p></td>
+<td><p>Safari 12 and later</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>Google Chrome (latest versions)</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>Mozilla Firefox (latest versions)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>iOS</strong></p></td>
+<td><p>Safari for iOS 9.3 and later</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>Google Chrome (latest versions)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Android</strong></p></td>
+<td><p>Google Chrome (latest versions)</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>Samsung Internet (latest versions)</p></td>
+</tr>
+</tbody>
+</table>
+<p>The starting point for our browser support is the <a class="reference external" href="https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices#browsers-to-test-in">GOV.UK Service Manual</a>.</p>
+<p>However, because our service has a high number of internal government users
+(who may only have access to older versions of Internet Explorer) we also use
+our own <a class="reference internal" href="google-analytics.html#google-analytics"><span class="std std-ref">Google Analytics</span></a> to extend our support where appropriate.</p>
+<p>We have a recurring 2nd line task to <a class="reference internal" href="#browser-review"><span class="std std-ref">review</span></a> this table every six months (as
+the service manual is reviewed every six months). Decisions are made with input from product
+managers and should take into account the below considerations.</p>
+<p>The last change to our browser support table was in September 2019 when we
+dropped support for IE9 and IE10 as the combined percentage of visitors to our
+site using these browsers was less than 1% in the past three months. As a rule
+we will support browsers with a share above 1%.</p>
+<p>All reviews should have the details logged below for future reference.</p>
+<span class="target" id="browser-review"></span><table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 33%" />
+<col style="width: 47%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Date</p></th>
+<th class="head"><p>Outcome</p></th>
+<th class="head"><p>Details</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>May 2021</strong></p></td>
+<td><p>No action</p></td>
+<td><p><a class="reference external" href="https://trello.com/c/SmSv00VA">ticket</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>September 2019</strong></p></td>
+<td><p>Drop support for IE9 and IE10</p></td>
+<td><p><a class="reference external" href="https://trello.com/c/5mGyubUn">ticket</a></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>August 2019</strong></p></td>
+<td><p>No action</p></td>
+<td><p><a class="reference external" href="https://trello.com/c/3B4rDBQt">ticket</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>October 2018</strong></p></td>
+<td><p>Drop support for IE8</p></td>
+<td><p><a class="reference external" href="https://trello.com/c/4zKstip2">ticket</a></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>March 2018</strong></p></td>
+<td><p>Drop support for IE6 and IE7</p></td>
+<td><p><a class="reference external" href="https://trello.com/c/06BhH9ow">ticket</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="browser-support-considerations">
+<h2>Browser support considerations<a class="headerlink" href="#browser-support-considerations" title="Permalink to this headline">¶</a></h2>
+<p>Whenever the browser support table is reviewed the considerations that take
+place should be documented and added to the table <a class="reference internal" href="#browser-review"><span class="std std-ref">above</span></a>.
+This section just tries to list some common considerations that should come up
+when reviewing browser support.</p>
+<p>Older versions of browsers typically require custom support; for example,
+frontend apps will typically have one or more additional CSS stylesheets (e.g.
+<a class="reference external" href="https://github.com/alphagov/digitalmarketplace-buyer-frontend/blob/master/app/assets/scss/application-ie7.scss">digitalmarketplace-buyer-frontend/app/assets/scss/application-ie7.scss</a>).
+For browsers that we support, we need to keep these stylesheets up-to-date. For
+browsers that we used to support but now do not, it should be fine to leave the
+old stylesheets if the maintenance cost is negligible.</p>
+<p>Browsers (especially older browsers but in some cases newer browsers as well)
+may also require javascript ‘shims’ to support newer HTML classes, such as the
+<a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details">details</a> tag. In cases where this is required, the <a class="reference external" href="https://github.com/alphagov/govuk-frontend">GOV.UK Design
+System</a> repository should be used as the authoritative source for such code.</p>
+<p>As well as considering who needs to access our service, we also need to
+consider the security of our website and our users. The Digital Marketplace
+uses HTTPS to secure all connections, but this has an effect on the browsers we
+can support. Occasionally flaws are found in the HTTPS protocol, and new
+features or sometimes new versions are needed to maintain security for users,
+but these new features are not always made available on all browsers.</p>
+<p>On such an occasion we should be notified by <a class="reference internal" href="../infrastructure/logging.html#ncsc-webcheck"><span class="std std-ref">NCSC WebCheck</span></a>, and we will
+then have to make a decision whether to support the new feature conditionally
+and allow older browsers to use the website (with the risk of increased
+vulnerability), or make the new feature mandatory to increase the site security
+(and make it more difficult for some users to access the site). This <a class="reference external" href="https://trello.com/c/zGVE4bLa">ticket</a>
+from October 2018 shows an example of this decision making process at work.</p>
+<p>We also have to take into account what our hosts GOV.UK PaaS will support. The
+Digital Marketplace uses the <a class="reference external" href="https://docs.cloud.service.gov.uk/deploying_services/use_a_custom_domain/#managing-custom-domains-using-the-cdn-route-service">cdn-route</a> service to manage its custom domain,
+which means that HTTPS configuration changes should be run past the PaaS team
+first.</p>
+</div>
+<div class="section" id="assistive-technology-support">
+<h2>Assistive technology support<a class="headerlink" href="#assistive-technology-support" title="Permalink to this headline">¶</a></h2>
+<p>The GOV.UK Service Manual also has <a class="reference external" href="https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies#what-to-test">guidance</a> on which assistive technologies
+we should be testing with, for example the JAWS screen reader.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="environments.html" class="btn btn-neutral float-right" title="Environments" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="application-architecture.html" class="btn btn-neutral float-left" title="Application architecture" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

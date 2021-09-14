@@ -1,0 +1,650 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Data model &mdash; digitalmarketplace-manual 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Development and deployment process" href="development-and-deployment-process.html" />
+    <link rel="prev" title="Nix Environments" href="nix.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> digitalmarketplace-manual
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Digital Marketplace background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/deportalising.html">History: From G-Cloud 5 to G-Cloud 8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/finding-things.html">Finding Things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/journeys.html">User Journeys on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../digital-marketplace-background/gdpr.html">GDPR</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developing the Digital Marketplace</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="accessing-the-api.html">Accessing the API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="adding-repos.html">Adding a new repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="application-architecture.html">Application architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="browser-support.html">Browser and accessibility support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="environments.html">Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-setup.html">Developer setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="decision-records.html">Recording decisions on the Digital Marketplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="digitalmarketplace-runner.html">Digital Marketplace Runner (‘dmrunner’)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nix.html">Nix Environments</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Data model</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overview-of-the-api-data-model">Overview of the API data model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#entities-and-what-they-are">Entities and what they are</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#suppliers">Suppliers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#users">Users</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#frameworks">Frameworks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#lots">Lots</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#one-service-lots">One-Service Lots</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#supplier-frameworks">Supplier-Frameworks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#draft-services">Draft Services</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#services">Services</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#archived-services">Archived Services</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#briefs">Briefs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#brief-responses">Brief Responses</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#direct-award-projects">Direct Award Projects</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#direct-award-searches">Direct Award Searches</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#direct-award-search-result-entries">Direct Award Search Result Entries</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#audit-events">Audit Events</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="development-and-deployment-process.html">Development and deployment process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-migration.html">Migrating the Digital Marketplace frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="moving-data.html">Moving data between environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="urls.html">URLs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="google-analytics.html">Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="load-testing.html">Load testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="automated-testing.html">Automated testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="splitting-applications.html">Splitting or adding a frontend application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="database-migrations.html">Database migrations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docker-strategies.html">Docker strategies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontend-assets-and-tools.html">Frontend assets and tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-typing-strategy.html">Python typing strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="production-guidelines.html">Guidelines for accessing production data and systems</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content and frameworks</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-frameworks.html">Preparing to add a new framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html">Framework lifecycle for developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/how-suppliers-apply-to-a-framework.html">How suppliers apply to a framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/framework-agreements.html">Framework agreements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/contract-variations.html">Contract variations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/adding-a-new-form-field-type.html">Adding a new form field type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/finding-content.html">Finding content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/changing-content.html">Changing content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../content-and-frameworks/useful-api-endpoints-for-frameworks.html">Useful API endpoints for frameworks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Infrastructure</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/antivirus.html">The Antivirus API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-accounts.html">AWS accounts and access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/aws-resources.html">AWS Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/code-backups.html">Code backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/database-backups.html">Database backups</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/domains.html">Domains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/emails.html">Email integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/elasticsearch.html">Elasticsearch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/jenkins.html">Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/github-actions.html">GitHub Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/logging.html">Logging, monitoring and alerting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/maintenance-mode.html">Maintenance Mode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/python-environments.html">Python environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html">What is PaaS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/paas.html#deploying-digital-marketplace-apps-to-gov-uk-paas">Deploying Digital Marketplace apps to GOV.UK PaaS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/rate-limiting.html">Rate Limiting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/upgrading-backend-services.html">Upgrading backend services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../infrastructure/session-management.html">Session Management</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Managing People and Secret Things</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/credentials.html">Credentials and secrets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/accounts.html">Adding and removing access for new starters / leavers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../managing-people-and-secret-things/production-access.html">Requirements for access to production environments</a></li>
+</ul>
+<p class="caption"><span class="caption-text">2nd Line Runbook</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/incidents.html">Incidents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html">Logging in to databases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/logging-in-to-paas-databases.html#resetting-brief-data-with-conduit">Resetting brief data with conduit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/blocking-ips.html">IP Restrictions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/upgrading-jenkins.html">Upgrading Jenkins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rebuilding-jenkins.html">Rebuilding Jenkins from scratch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/rotate-keys.html">Rotating API keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/debugging-paas-app-instances.html">Debugging PaaS App Instances</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/vulnerability-scanning.html">Vulnerability scanning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/novations.html">Novations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/support-tasks.html">Support Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/investigating-alerts.html">Responding to Cloudwatch alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../2nd-line-runbook/buyer-domain-allow-list.html">Buyer Domain Allow List</a></li>
+</ul>
+<p class="caption"><span class="caption-text">What is this?</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/alphagov/digitalmarketplace-manual/blob/master/README.md">README</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">digitalmarketplace-manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Data model</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/Crown-Commercial-Service/digitalmarketplace-manual/blob/main/manual/developing-the-digital-marketplace/data-model.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="data-model">
+<span id="id1"></span><h1><a class="toc-backref" href="#id9">Data model</a><a class="headerlink" href="#data-model" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#data-model" id="id9">Data model</a></p>
+<ul>
+<li><p><a class="reference internal" href="#overview-of-the-api-data-model" id="id10">Overview of the API data model</a></p></li>
+<li><p><a class="reference internal" href="#entities-and-what-they-are" id="id11">Entities and what they are</a></p>
+<ul>
+<li><p><a class="reference internal" href="#suppliers" id="id12">Suppliers</a></p></li>
+<li><p><a class="reference internal" href="#users" id="id13">Users</a></p></li>
+<li><p><a class="reference internal" href="#frameworks" id="id14">Frameworks</a></p></li>
+<li><p><a class="reference internal" href="#lots" id="id15">Lots</a></p>
+<ul>
+<li><p><a class="reference internal" href="#one-service-lots" id="id16">One-Service Lots</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#supplier-frameworks" id="id17">Supplier-Frameworks</a></p></li>
+<li><p><a class="reference internal" href="#draft-services" id="id18">Draft Services</a></p></li>
+<li><p><a class="reference internal" href="#services" id="id19">Services</a></p></li>
+<li><p><a class="reference internal" href="#archived-services" id="id20">Archived Services</a></p></li>
+<li><p><a class="reference internal" href="#briefs" id="id21">Briefs</a></p></li>
+<li><p><a class="reference internal" href="#brief-responses" id="id22">Brief Responses</a></p>
+<ul>
+<li><p><a class="reference internal" href="#direct-award-projects" id="id23">Direct Award Projects</a></p></li>
+<li><p><a class="reference internal" href="#direct-award-searches" id="id24">Direct Award Searches</a></p></li>
+<li><p><a class="reference internal" href="#direct-award-search-result-entries" id="id25">Direct Award Search Result Entries</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#audit-events" id="id26">Audit Events</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="overview-of-the-api-data-model">
+<h2><a class="toc-backref" href="#id10">Overview of the API data model</a><a class="headerlink" href="#overview-of-the-api-data-model" title="Permalink to this headline">¶</a></h2>
+<p>So you’ve imported data into your development database… what have you actually got in there and how does it fit together?
+This is an overview of how the API sees things:</p>
+<img alt="../_images/digital-marketplace-data-model-2019-07-09.png" src="../_images/digital-marketplace-data-model-2019-07-09.png" />
+<p>(White arrows for inheritence, black arrows for foreign key columns with their names.
+Yellowish classes don’t have corresponding tables in the database. Blueish classes are the common API end-points.
+The diagram does not include constraints and indexes.)</p>
+</div>
+<div class="section" id="entities-and-what-they-are">
+<span id="id2"></span><h2><a class="toc-backref" href="#id11">Entities and what they are</a><a class="headerlink" href="#entities-and-what-they-are" title="Permalink to this headline">¶</a></h2>
+<p>There are a relatively small number of key entities that we deal with. If you want a full list of their attributes then
+you can check the model files at the <code class="docutils literal notranslate"><span class="pre">/app/models/</span></code> subdirectory of the API and/or <code class="docutils literal notranslate"><span class="pre">\d</span></code> to describe your tables in Postgres. This is intended as
+a high-level description of the entities we represent and the relationships between them rather than a detailed specification.</p>
+<div class="section" id="suppliers">
+<h3><a class="toc-backref" href="#id12">Suppliers</a><a class="headerlink" href="#suppliers" title="Permalink to this headline">¶</a></h3>
+<p>Our <code class="docutils literal notranslate"><span class="pre">Suppliers</span></code> are companies that want to sell things to government via the Digital Marketplace. Any company can sign up
+for an account by providing their name, <a class="reference external" href="https://www.dnb.co.uk/duns-number.html">DUNS number</a> and some <code class="docutils literal notranslate"><span class="pre">ContactInformation</span></code> (name, phone number, website,
+email address and postal address).  Things are set up in the database so that suppliers can have multiple <code class="docutils literal notranslate"><span class="pre">ContactInformation</span></code>
+entries if a need for that is identified, but at present the frontend apps only allow one to be set per supplier.</p>
+</div>
+<div class="section" id="users">
+<h3><a class="toc-backref" href="#id13">Users</a><a class="headerlink" href="#users" title="Permalink to this headline">¶</a></h3>
+<p>Our <code class="docutils literal notranslate"><span class="pre">Users</span></code> model is used to store email addresses and (hashed) passwords of users who can log in to the Digital Marketplace.
+Each user has a single <code class="docutils literal notranslate"><span class="pre">role</span></code>, which can be one of the following:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">supplier</span></code> - users are associated with a supplier account and have a reference to the associated supplier ID.
+Suppliers have at least one associated <code class="docutils literal notranslate"><span class="pre">supplier</span></code> user and can have multiple users, all of whom can perform the
+same set of tasks within a supplier account.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">buyer</span></code> - users are created by government buyers.  Buyer accounts are required to create briefs for procuring
+Digital Outcomes and Specialists services (there is no need to log in to be able to buy from G-Cloud).
+Unlike supplier users there is no associated “Buyer” entity - buyer accounts are standalone.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">admin</span></code>, <code class="docutils literal notranslate"><span class="pre">admin-manager</span></code>, <code class="docutils literal notranslate"><span class="pre">admin-framework-manager</span></code>, <code class="docutils literal notranslate"><span class="pre">admin-ccs-sourcing</span></code>, <code class="docutils literal notranslate"><span class="pre">admin-ccs-data-controller</span></code> and <code class="docutils literal notranslate"><span class="pre">admin-ccs-category</span></code>
+- these roles have access to our admin frontend application and can perform different sets of tasks within the admin app.</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="frameworks">
+<h3><a class="toc-backref" href="#id14">Frameworks</a><a class="headerlink" href="#frameworks" title="Permalink to this headline">¶</a></h3>
+<p>A framework is an agreement between the government and suppliers that sets out the basic terms under which individual
+contracts can be awarded to suppliers.</p>
+<p>There are two main frameworks that Digital Marketplace is concerned with: the G-Cloud Framework, and the Digital Outcomes
+and Specialists Framework.</p>
+<p>In terms of our data model and apps you can think of <code class="docutils literal notranslate"><span class="pre">Frameworks</span></code> as being the things that services belong to, and that
+govern their lifecycle.
+The entries in our frameworks table are technically framework <em>iterations</em> e.g. G-Cloud <strong>8</strong>,
+Digital Outcomes and Specialists <strong>2</strong>, with the framework itself stored as <code class="docutils literal notranslate"><span class="pre">Framework.framework</span></code> in the table.</p>
+<p>There are two main parts to the lifecycle of a framework on the Digital Marketplace:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>The “application” stage, when suppliers apply to be on a framework and define the services that they want to provide.</p></li>
+<li><p>The “live” stage, when buyers can buy services from successful suppliers via the Digital Marketplace.</p></li>
+</ol>
+</div></blockquote>
+<p>For more about the framework lifecycle and statuses see <a class="reference internal" href="../content-and-frameworks/framework-lifecycle-for-developers.html#framework-lifecycle-for-developers"><span class="std std-ref">Framework lifecycle for developers</span></a></p>
+</div>
+<div class="section" id="lots">
+<h3><a class="toc-backref" href="#id15">Lots</a><a class="headerlink" href="#lots" title="Permalink to this headline">¶</a></h3>
+<p>Our frameworks are designed for buyers to buy all sorts of things, and <code class="docutils literal notranslate"><span class="pre">Lots</span></code> are the highest-level categories that
+services are put into. Each framework has a set of Lots, and all Services on that framework belong to one of those Lots.
+When suppliers define a service they want to supply on a framework the lot is the first thing they choose.  Each lot
+has a different set of questions to help suppliers define their service (e.g. the “Cloud Hosting” lot has questions
+about uptime, security and pricing models, but the “Digital Specialists” lot asks about specialisms, location and day rate).</p>
+<p>These are the Lots for our frameworks:</p>
+<blockquote>
+<div><dl class="simple">
+<dt>G-Cloud 4 to G-Cloud 8:</dt><dd><ul class="simple">
+<li><p>Infrastructure as a Service (IaaS)</p></li>
+<li><p>Platform as a Service (PaaS)</p></li>
+<li><p>Software as a Service (SaaS)</p></li>
+<li><p>Specialist Cloud Services (SCS)</p></li>
+</ul>
+</dd>
+<dt>G-Cloud 9, 10, 11 &amp; 12:</dt><dd><ul class="simple">
+<li><p>Cloud Hosting</p></li>
+<li><p>Cloud Software</p></li>
+<li><p>Cloud Support</p></li>
+</ul>
+</dd>
+<dt>Digital Outcomes and Specialists 1, 2, 3, 4 &amp; 5:</dt><dd><ul class="simple">
+<li><p>Digital Outcomes <cite>[One-Service Lot]</cite></p></li>
+<li><p>Digital Specialists <cite>[One-Service Lot]</cite></p></li>
+<li><p>User Research Studios</p></li>
+<li><p>User Research Participants <cite>[One-Service Lot]</cite></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+<div class="section" id="one-service-lots">
+<h4><a class="toc-backref" href="#id16">One-Service Lots</a><a class="headerlink" href="#one-service-lots" title="Permalink to this headline">¶</a></h4>
+<p>Services on some Digital Outcomes and Specialists lots are restricted to one service per lot, and include lot-specific
+questions that are assessed as part of the framework application. This means that it’s possible for suppliers to fail
+on particular lots but still be awarded on to the framework overall.</p>
+</div>
+</div>
+<div class="section" id="supplier-frameworks">
+<h3><a class="toc-backref" href="#id17">Supplier-Frameworks</a><a class="headerlink" href="#supplier-frameworks" title="Permalink to this headline">¶</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">SupplierFramework</span></code> model holds information about Suppliers’ applications to frameworks.  When a supplier first
+shows interest in applying to a framework (by pressing the big green “Start application” button) a <cite>supplier_framework</cite>
+entry is created by adding a row with the relevant supplier ID and framework ID.  Responses to the supplier declaration
+questions (one part of the framework application process) are stored in the <code class="docutils literal notranslate"><span class="pre">declaration</span></code> JSON field as they are
+submitted, and when applications close and are assessed the result (i.e. was the supplier awarded onto the framework or
+not) is stored in the <code class="docutils literal notranslate"><span class="pre">on_framework</span></code> field.</p>
+</div>
+<div class="section" id="draft-services">
+<h3><a class="toc-backref" href="#id18">Draft Services</a><a class="headerlink" href="#draft-services" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">DraftServices</span></code> are the services submitted by suppliers as part of their application to be on a framework, and describe
+the services that the supplier wants to sell to government.  Draft services have an associated Supplier, Framework and
+Lot, and a JSON <code class="docutils literal notranslate"><span class="pre">data</span></code> field that contains the supplier’s responses to the relevant service definition questions for
+that framework and lot. Service <code class="docutils literal notranslate"><span class="pre">data</span></code> POSTed to the API is validated against a JSON schema before being saved - if the
+data POSTed to the API doesn’t match the relevant schema for the framework and lot then it returns a validation error and
+doesn’t save the data.</p>
+<p>Statuses of Draft Services are as follows:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>not-submitted</strong> - the service could be complete or incomplete, but remains <code class="docutils literal notranslate"><span class="pre">not-submitted</span></code> until the supplier hits
+the green button to say they want to submit the service as part of their framework application</p></li>
+<li><p><strong>submitted</strong> - the service is complete and the supplier has hit the green button to say they want to submit the
+service as part of their framework application</p></li>
+<li><p><strong>failed</strong> - For services on <a class="reference internal" href="#one-service-lots">One-Service Lots</a> if any of the lot-specific questions are answered incorrectly then
+the service is marked as <code class="docutils literal notranslate"><span class="pre">failed</span></code>, effectively failing the lot because there is only one service allowed for these
+lots.  Those that answer all lot-specific questions correctly remain as <code class="docutils literal notranslate"><span class="pre">submitted</span></code>.</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="services">
+<h3><a class="toc-backref" href="#id19">Services</a><a class="headerlink" href="#services" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">Services</span></code> are the things available to buy on the Digital Marketplace.  They begin life as draft services, created by
+suppliers during their application to a framework. Once the applications have been assessed and the SupplierFrameworks
+marked as <code class="docutils literal notranslate"><span class="pre">on_framework</span></code> or not the draft services for suppliers marked as <code class="docutils literal notranslate"><span class="pre">on_framework</span></code> are published to become “real”
+services.  A new Service ID is generated and stored as a pseudo-foreign key against the original draft service, which are not
+deleted when they are published (see commants at lines <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-api/blob/master/app/models/main.py#L1003">1003</a> &amp; <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-api/blob/master/app/models/main.py#L1214">1214</a> of <code class="docutils literal notranslate"><span class="pre">api/app/models/main.py</span></code>).</p>
+<p>Services on the G-Cloud framework have a service page on the Digital Marketplace at
+<a class="reference external" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/services">https://www.digitalmarketplace.service.gov.uk/g-cloud/services</a>/&lt;service_id&gt; and are indexed in Elasticsearch to be found
+by buyers using our search pages.</p>
+<p>Services on the Digital Outcomes and Specialists framework are not shown individually on the Marketplace and can not be
+searched for, but instead are used to determine which suppliers are eligible to apply to which opportunities (A.K.A. Briefs).</p>
+<p>Statuses of Services can be confusing due to historical reasons <a class="footnote-reference brackets" href="#id6" id="id5">*</a>, and are as follows:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>published</strong> - most services have this status. It means they are available to buy on the Digital Marketplace.</p></li>
+<li><p><strong>enabled</strong> - suppliers can turn off services that they no longer wish to provide. When a supplier turns off one of
+their services it is assigned the status <code class="docutils literal notranslate"><span class="pre">enabled</span></code> and (for G-Cloud services) removed from the search index.</p></li>
+<li><p><strong>disabled</strong> - administrators can turn off services that are not appropriate for a framework using the admin console.
+When an admin user turns off a service it is assigned the status <code class="docutils literal notranslate"><span class="pre">disabled</span></code> and (for G-Cloud services) removed from
+the search index. The URL for that service is still accessible and returns a <code class="docutils literal notranslate"><span class="pre">410</span></code> status code and a banner saying
+the service is no longer available.</p></li>
+<li><p><strong>deleted</strong> - developers can hide services completely from our buyer and supplier users through the API. This is
+different to the status <code class="docutils literal notranslate"><span class="pre">disabled</span></code> in that accessing the URL for a <code class="docutils literal notranslate"><span class="pre">deleted</span></code> G-Cloud service will return a 404
+and not show any information about the service. Setting a service to status <code class="docutils literal notranslate"><span class="pre">deleted</span></code> should only be done when we
+are requested by CCS to delete all information about a supplier. We should instead use status <code class="docutils literal notranslate"><span class="pre">disabled</span></code> for the
+majority of service suspensions.</p></li>
+</ul>
+</div></blockquote>
+<dl class="footnote brackets">
+<dt class="label" id="id6"><span class="brackets"><a class="fn-backref" href="#id5">*</a></span></dt>
+<dd><p>It used to be the case that suppliers could re-activate a service after disabling it, so <cite>enabled</cite> services could
+be turned back on by the supplier, whereas services <cite>disabled</cite> by an admin user could not.
+Things have changed now so that <cite>enabled</cite> and <cite>disabled</cite> statuses are functionally equivalent in the frontend -
+to turn any service back on suppliers need to raise a support ticket, but both statuses still exist in our data.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="archived-services">
+<h3><a class="toc-backref" href="#id20">Archived Services</a><a class="headerlink" href="#archived-services" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">ArchivedServices</span></code> are used to keep track of changes to services over time.  Whenever a change is made to a service a
+snapshot of the service is stored as an archived service, allowing us to find how a service looked at a particular time.
+The archived services are also used to show the “before and after” diff page in the admin app, so that CCS can review
+and acknowledge any edits that are made to services.</p>
+<p>Statuses of ArchivedServices are the same as for the Services they are copies of.</p>
+</div>
+<div class="section" id="briefs">
+<h3><a class="toc-backref" href="#id21">Briefs</a><a class="headerlink" href="#briefs" title="Permalink to this headline">¶</a></h3>
+<p>Buyers on the Digital Outcomes and Specialists framework can create <code class="docutils literal notranslate"><span class="pre">Briefs</span></code> to describe the work they want done.
+(Somewhat confusingly we <strong>never</strong> use the word “brief” in any user-facing pages - they are known as <strong>requirements</strong>
+to buyers as they write and publish them, and <strong>opportunities</strong> to suppliers as they view them to find relevant pieces
+of work).</p>
+<p>Briefs belong to a Framework and a Lot on that framework, and are associated with the User that created them via the
+<code class="docutils literal notranslate"><span class="pre">BriefUser</span></code> model (only users with role <code class="docutils literal notranslate"><span class="pre">buyer</span></code> can create briefs).</p>
+<p>While a brief has status <code class="docutils literal notranslate"><span class="pre">live</span></code>, suppliers can submit clarification questions through the Digital Marketplace.  These questions
+are emailed to the associated buyer and the buyer must publish both the question an answer as a <code class="docutils literal notranslate"><span class="pre">BriefClarificationQuestion</span></code>.
+These are simple entities that have a Brief ID and two text fields for the supplier’s question and buyer’s answer. All
+<code class="docutils literal notranslate"><span class="pre">BriefClarificationQuestion</span></code> records are shown in the “Questions asked by suppliers” section of the opportunity page.</p>
+<p>Statuses of <code class="docutils literal notranslate"><span class="pre">Brief</span></code> records are not stored as an explicit field in the database, but are a “hybrid property” derived from a
+combination of our Brief and BriefResponse models as follows:</p>
+<ul class="simple">
+<li><p><strong>draft</strong> - when first created by a buyer, a brief has <code class="docutils literal notranslate"><span class="pre">draft</span></code> status.</p></li>
+<li><p><strong>live</strong> - when the buyer hits the “Publish” button for their brief a <code class="docutils literal notranslate"><span class="pre">published_at</span></code> timestamp is set in the
+database. Briefs can be published for either one or two weeks, so once the <code class="docutils literal notranslate"><span class="pre">published_at</span></code> time exists the
+<code class="docutils literal notranslate"><span class="pre">applications_closed_at</span></code> time can be calculated as either one or two weeks from the <code class="docutils literal notranslate"><span class="pre">published_at</span></code> date.
+A brief has status <code class="docutils literal notranslate"><span class="pre">live</span></code> as long as <code class="docutils literal notranslate"><span class="pre">published_at</span></code> has been set and the current time is before the
+<code class="docutils literal notranslate"><span class="pre">applications_closed_at</span></code> time.  During the <code class="docutils literal notranslate"><span class="pre">live</span></code> period suppliers can apply to do the work specified in the
+brief.</p></li>
+<li><p><strong>closed</strong> - if <code class="docutils literal notranslate"><span class="pre">published_at</span></code> is set and the current time is after the <code class="docutils literal notranslate"><span class="pre">applications_closed_at</span></code> time and the
+buyer has not updated the outcome of the brief, then the brief is <code class="docutils literal notranslate"><span class="pre">closed</span></code>.  Suppliers can no longer apply to it
+and the buyer should evaluate the responses they received and award the work to the best supplier.</p></li>
+<li><p><strong>withdrawn</strong> - sometimes buyers decide they don’t want to go ahead with their procurement. In this case they can
+raise a support ticket to withdraw their brief.  A <code class="docutils literal notranslate"><span class="pre">withdrawn_at</span></code> timestamp is set in the database, and any brief
+with a <code class="docutils literal notranslate"><span class="pre">withdrawn_at</span></code> time has status <code class="docutils literal notranslate"><span class="pre">withdrawn</span></code>.</p></li>
+<li><p><strong>awarded</strong> - once a buyer has shortlisted and chosen a supplier, they must provide the name of the supplier
+and the contract details (contract value and start date). These contract details are stored on the winning
+supplier’s BriefResponse (see below). If a brief has a corresponding BriefResponse with these details, its status is
+<code class="docutils literal notranslate"><span class="pre">awarded</span></code>.</p></li>
+<li><p><strong>cancelled</strong> - if the buyer did not go ahead with the brief (e.g. they no longer have the budget) then they still
+have to let us know the outcome via a form on their dashboard. A <code class="docutils literal notranslate"><span class="pre">cancelled_at</span></code> timestamp is set and the brief has
+status <code class="docutils literal notranslate"><span class="pre">cancelled</span></code>.</p></li>
+<li><p><strong>unsuccessful</strong> - similar to the <code class="docutils literal notranslate"><span class="pre">cancelled</span></code> status, if the buyer could not find a suitable supplier, (e.g. no
+qualified suppliers applied) then the buyer must let us know via a form on their dashboard. An <code class="docutils literal notranslate"><span class="pre">unsuccessful_at</span></code>
+timestamp is set and the brief has status <code class="docutils literal notranslate"><span class="pre">unsuccessful</span></code>.</p></li>
+</ul>
+<p>The status of the <code class="docutils literal notranslate"><span class="pre">Brief</span></code> model is also denormalized into the ElasticSearch index by the API, whenever a brief is published, or
+whenever a published brief changes. This denormalization is also updated when the briefs are indexed overnight, which means
+the rollover from <code class="docutils literal notranslate"><span class="pre">live</span></code> to <code class="docutils literal notranslate"><span class="pre">closed</span></code> works as expected. Should briefs ever need to change status at some other time of day
+than around midnight, this process would need to be reviewed.</p>
+</div>
+<div class="section" id="brief-responses">
+<h3><a class="toc-backref" href="#id22">Brief Responses</a><a class="headerlink" href="#brief-responses" title="Permalink to this headline">¶</a></h3>
+<p>When suppliers respond to an opportunity (<code class="docutils literal notranslate"><span class="pre">Brief</span></code>) to apply for the work a <code class="docutils literal notranslate"><span class="pre">BriefResponse</span></code> is created that associates the
+Brief ID and Supplier ID, and that stores the supplier’s responses to the brief in a <code class="docutils literal notranslate"><span class="pre">data</span></code> JSON field.  When the brief
+closes all the <cite>BriefResponse</cite> records received can be downloaded by the buyer as a spreadsheet for evaluation.</p>
+<dl class="simple">
+<dt>Similar to Briefs, the status of a BriefResponse is a hybrid property, derived as follows:</dt><dd><ul class="simple">
+<li><p><strong>draft</strong> - when a supplier begins their application to a brief, the BriefResponse has a default status of
+<code class="docutils literal notranslate"><span class="pre">draft</span></code>.</p></li>
+<li><p><strong>submitted</strong> - when a supplier submits their application to a brief, the <code class="docutils literal notranslate"><span class="pre">submitted_at</span></code> datestamp is set
+and the BriefResponse has status <code class="docutils literal notranslate"><span class="pre">submitted</span></code>.</p></li>
+<li><p><strong>pending-awarded</strong> - when a buyer has selected the BriefResponse as their winning supplier, but has not yet given
+any contract details via the (multi-page) form on their dashboard, the BriefResponse has status <code class="docutils literal notranslate"><span class="pre">pending-awarded</span></code>.</p></li>
+<li><p><strong>awarded</strong> - when a buyer has selected the BriefResponse as their winning supplier, and has confirmed the contract
+value and start date, an <code class="docutils literal notranslate"><span class="pre">awarded_at</span></code> timestamp is set on the BriefResponse and it has status <code class="docutils literal notranslate"><span class="pre">awarded</span></code>.</p></li>
+</ul>
+</dd>
+</dl>
+<div class="section" id="direct-award-projects">
+<h4><a class="toc-backref" href="#id23">Direct Award Projects</a><a class="headerlink" href="#direct-award-projects" title="Permalink to this headline">¶</a></h4>
+<p>G-Cloud is a Direct Award framework that encapsulates a catalogue of services which buyers can search and filter through
+when looking to procure cloud commodity services. This process requires gradually refining searches with different
+criteria. A <code class="docutils literal notranslate"><span class="pre">DirectAwardProject</span></code> encapsulates a number of searches and other activity that a buyer is undertaking
+to fulfill a single procurement.</p>
+<p>Users are associated with projects through the <code class="docutils literal notranslate"><span class="pre">DirectAwardProjectUser</span></code> model.</p>
+</div>
+<div class="section" id="direct-award-searches">
+<h4><a class="toc-backref" href="#id24">Direct Award Searches</a><a class="headerlink" href="#direct-award-searches" title="Permalink to this headline">¶</a></h4>
+<p>A <code class="docutils literal notranslate"><span class="pre">DirectAwardProject</span></code> record can contain multiple searches relating to a single procurement. Only one search can be <code class="docutils literal notranslate"><span class="pre">active</span></code>
+at a time in a given <code class="docutils literal notranslate"><span class="pre">DirectAwardProject</span></code>, and that search represents the set of criteria that they intend to use to
+create a list of suppliers that are eligible to provide the required services and which must be compared to determine
+who will be awarded the contract.</p>
+<p>When a search is saved to a <code class="docutils literal notranslate"><span class="pre">DirectAwardProject</span></code>, the current timestamp is recorded along with the Search API URL
+corresponding to the search performed. The newly saved search is marked as <code class="docutils literal notranslate"><span class="pre">active</span></code> and all other records are flipped
+to <code class="docutils literal notranslate"><span class="pre">inactive</span></code>.</p>
+</div>
+<div class="section" id="direct-award-search-result-entries">
+<h4><a class="toc-backref" href="#id25">Direct Award Search Result Entries</a><a class="headerlink" href="#direct-award-search-result-entries" title="Permalink to this headline">¶</a></h4>
+<p>When a <code class="docutils literal notranslate"><span class="pre">DirectAwardProject</span></code> is downloaded, the current <code class="docutils literal notranslate"><span class="pre">active</span></code> search is re-run to retrieve the list of matching
+services in the catalogue at that moment in time. This list of services is recorded in the table
+<code class="docutils literal notranslate"><span class="pre">DirectAwardSearchResultEntry</span></code> model against the archived service ID and the <code class="docutils literal notranslate"><span class="pre">DirectAwardSearch</span></code> ID.</p>
+</div>
+</div>
+<div class="section" id="audit-events">
+<h3><a class="toc-backref" href="#id26">Audit Events</a><a class="headerlink" href="#audit-events" title="Permalink to this headline">¶</a></h3>
+<p>We store <code class="docutils literal notranslate"><span class="pre">AuditEvent</span></code> records for all actions taken on the Marketplace that we might need to trace back to find who did them <a class="footnote-reference brackets" href="#id8" id="id7">†</a>,
+such as:</p>
+<ul class="simple">
+<li><p>User account creation/update</p></li>
+<li><p>Draft service creation/update/deletion</p></li>
+<li><p>Service updates</p></li>
+<li><p>Brief creation/publishing/withdrawl</p></li>
+<li><p>Suppliers registering for frameworks, sending clarification questions and uploading framework agreement documents</p></li>
+<li><p>Admin users disabling services, countersigning framework agreement documents</p></li>
+</ul>
+<p>The AuditEvent table deliberately doesn’t store any foreign keys directly, but does store an <code class="docutils literal notranslate"><span class="pre">object_type</span></code> and <code class="docutils literal notranslate"><span class="pre">object_id</span></code>
+that can be used to find the related database objects if necessary.</p>
+<dl class="footnote brackets">
+<dt class="label" id="id8"><span class="brackets"><a class="fn-backref" href="#id7">†</a></span></dt>
+<dd><p>You can see the full list of AuditTypes at <a class="reference external" href="https://github.com/alphagov/digitalmarketplace-apiclient/blob/main/dmapiclient/audit.py">https://github.com/alphagov/digitalmarketplace-apiclient/blob/main/dmapiclient/audit.py</a></p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="development-and-deployment-process.html" class="btn btn-neutral float-right" title="Development and deployment process" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="nix.html" class="btn btn-neutral float-left" title="Nix Environments" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2013 - 2021 Digital Marketplace
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
