@@ -6,9 +6,9 @@
 
 **内容確認URL**
 
-https://aki-snow.github.io/govtech-marketplace-uk/crown-commercial-service.github.io/
+https://aki-snow.github.io/govtech-marketplace-uk/crown-commercial-service.github.io/index.html
 
-https://aki-snow.github.io/govtech-marketplace-uk/www.gov.uk/
+https://aki-snow.github.io/govtech-marketplace-uk/www.gov.uk/index.html
 
 
 **ファイルの取得**
