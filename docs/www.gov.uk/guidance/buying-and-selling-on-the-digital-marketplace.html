@@ -66,6 +66,26 @@
 </head>
 
   <body>
+<form name="yourForm">
+    <select name="yourSelect" onChange="gTranslate()">
+        <option value="">Languages</option>
+        <option value="https://translate.google.com/translate?hl=en&sl=en&tl=ja&u=">日本語</option>
+        <option value="https://translate.google.com/translate?hl=ja&sl=ja&tl=en&u=">English</option>
+    </select>
+    </form>
+    
+    <!-- Googleウェブサイト翻訳を代替するJavaScriptの本体 -->
+    <script type="text/javascript">
+    function gTranslate(){
+        var getUrl= location.href;
+        if (document.yourForm.yourSelect.value == ""){
+            return;
+        } else {
+            var postUrl= document.yourForm.yourSelect.value + getUrl;
+        }
+        window.open(postUrl, '_blank');
+    }
+    </script>
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
     
