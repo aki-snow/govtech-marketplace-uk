@@ -10,7 +10,7 @@ https://aki-snow.github.io/govtech-marketplace-uk/
 
 https://aki-snow.github.io/govtech-marketplace-uk/crown-commercial-service.github.io/digitalmarketplace-manual/index.html
 
-https://aki-snow.github.io/govtech-marketplace-uk/www.gov.uk/guidance/index.html
+https://aki-snow.github.io/govtech-marketplace-uk/www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace.html
 
 
 **ファイルの取得**
