@@ -1,0 +1,1096 @@
+
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  International Law Enforcement Development Contract - Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="15336#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../opportunities">Supplier opportunities</a>
+    </li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <section
+    data-module="dm-banner"
+    role="region"
+    aria-label="This opportunity is closed for applications"
+    class="dm-banner"
+>
+    <h2
+        class="dm-banner__title dm-banner__title--large"
+    >
+        This opportunity is closed for applications
+    </h2>
+        <div class="dm-banner__body">
+            The deadline was Tuesday 17 August 2021
+        </div>
+    
+</section>
+  </div>
+</div>
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <span class="govuk-caption-l">Home Office DDaT (Digital, Data &amp; Technology)</span>
+    <h1 class="govuk-heading-l">International Law Enforcement Development Contract</h1>
+    <span data-lot="digital-outcomes"></span>
+  </div>
+</div>
+
+<div class="govuk-grid-row govuk-!-margin-bottom-9">
+  <div class="govuk-grid-column-one-third app-stat-block" id="incomplete-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0 govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">6</span>
+      <span class="govuk-body govuk-!-font-weight-bold">Incomplete applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">4 SME, 2 large</p>
+</div>
+<div class="govuk-grid-column-one-third app-stat-block" id="completed-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0  govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">10</span>
+      <span class="govuk-body govuk-!-font-weight-bold ">Completed applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">5 SME, 5 large</p>
+</div>
+
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-visually-hidden">Important dates</h2>
+
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8" id="opportunity-important-dates">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Published
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Tuesday 3 August 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Deadline for asking questions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Tuesday 10 August 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Closing date for applications
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Tuesday 17 August 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+  <h2 id="opportunity-attributes-1" class="govuk-heading-m app-summary-list-heading">Overview</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Off-payroll (IR35) determination
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Supply of resource: the off-payroll rules will apply to any workers engaged through a qualifying intermediary, such as their own limited company
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Summary of the work
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The I-LEAP programme will enhance the ability of law enforcement agencies in the UK  and in partner countries to access, share and act upon international law enforcement alerts. It will  provide a greater number of higher quality alerts, available in real-time through a new technological solution and business processes.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Latest start date
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Wednesday 1 December 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Expected contract length
+        </dt>
+        <dd class="govuk-summary-list__value">
+          2 years
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Location
+        </dt>
+        <dd class="govuk-summary-list__value">
+          London
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Organisation the work is for
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Home Office DDaT (Digital, Data &amp; Technology)
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Budget range
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Anticipated spend of £8M over 2 years - £4M p.a.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-2" class="govuk-heading-m app-summary-list-heading">About the work</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Why the work is being done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          To ensure that the technical capabilities and technical, regulatory and compliance requirements are satisfied for the real-time exchange of law enforcement and public security information between the UK and European countries.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Problem to be solved
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Following the loss of access to the Schengen Information System following the UKs Exit from the EU there is a need to deliver capability to UK law enforcement agencies to exchange alerts information with equivalent agencies in partner countries, in real-time and at volume: this is critical to keeping the public safe from the threat posed by international criminality, cross-border crime and foreign national offenders; bringing criminals to justice; and maintaining the UK’s leading role on the international stage.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Who the users are and what they need to do
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Key customer/stakeholders are UK Borders Force, UK Policing and other UK law enforcement and public security agencies. The programme outcomes will improve information exchanges with equivalent agencies in European countries.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Early market engagement
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Not applicable
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Any work that’s already been done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The I-LEAP Programme started in June 2020  and  planned to complete in March 2024, when I-LEAP will move into Business As Usual operation. <br>The programme will develop and put into operation, system capabilities for Borders Officers to:<br>1.	Provide real-time and enhanced INTERPOL alerts data services <br>2.	Provide increased value in alerts data by exploiting additional data sources <br>3.	Provide increased volumes and value from new sources of alerts data on international criminality by means of bilateral agreements.<br>The Programme  has connectivity with INTERPOL and due to pilot activity with policing in Autumn 2021.  Engagements with  partner countries have begun.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Existing team
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The existing programme  team is jointly resourced by the Home Office and a commercial supplier with whom contractual arrangements will come to an end in March 2022.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Current phase
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Alpha
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-3" class="govuk-heading-m app-summary-list-heading">Work setup</h2>
+  
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Address where the work will take place
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Home Office Team is based at Croydon, with occasional work at other Home Office locations.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Working arrangements
+        </dt>
+        <dd class="govuk-summary-list__value">
+          General office hours are 9-5, Monday to Friday. All contractors provided by the winning bidder will be inside IR35.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Security clearance
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Supplier personnel will require Home Office SC and NPPV3 security clearance and need to be compliant with BPSS and CTC. Home Office SC clearance must be in place before commencing a role on the Programme.<br>The Home Office will support this activity.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-4" class="govuk-heading-m app-summary-list-heading">Additional information</h2>
+  
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional terms and conditions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Not applicable
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-5" class="govuk-heading-m app-summary-list-heading">Skills and experience</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">Buyers will use the essential and nice-to-have skills and experience to help them evaluate suppliers’ technical competence.</p>
+  
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Essential skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Resources: availability/mobilisation and flexibility to scale in accordance with need. Covering a range of business change, management and technical skills including infrastructure (architect), development, testing, delivery and Programme management skills</li>
+          <li>Responding with agility and flexibility to changing demands and priorities e.g. from customer needs or own analysis.</li>
+          <li>Service design, transition and support: ability to design and introduce new &#39;service wraps&#39; as well as manage and support these services within the Home Office’s strategic environment.</li>
+          <li>Systems development, installation and integration: innovate, build on solution designs, successfully manage multiple development and test environments through to integration, testing, relevant acceptances  and deployment.</li>
+          <li>Knowledge of relevant Open Source and proprietary technologies: examples include: Java 11+; Docker/Kubernetes; PostgreSQL; Elasticsearch; AWS RDS, API or SQS; Hibernate, Spring Framework; Jenkins</li>
+          <li>Stakeholder engagement and management, including identification and measurement of benefits: Experience of managing internal and external stakeholders in a complex and challenging environment</li>
+          <li>Knowledge and experience of programme and project management methodologies to support Home Office leadership</li>
+          <li>Experience of aligning business programme delivery planning with the requirements and constraints of customer technical strategy.</li>
+          <li>Proven capability in the development of secure systems: demonstrable experience of security tools and techniques used in delivering Critical National Infrastructure</li>
+          <li>Working successfully in a challenging and complex public-sector environment or similar.</li>
+          <li>The Supplier will be required to collaborate as part of a multi-supplier environment delivering the end to end I-LEAP Services.</li>
+          <li>Describe key strategies that you would propose in order to manage the risks of delivering a new national system into a large, complex operational environment.</li>
+          <li>How would you manage taking on the development service, minimising impact when the programme is at the end of a pilot moving to national rollout, without losing programme momentum</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Nice-to-have skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>. Demonstrable skills in provision of Project Management Information: project reporting and escalation to ensure immediate and appropriate action is taken</li>
+          <li>Business change implementation and change management: demonstrate practical experience of working collaboratively across delivery organisations to achieve targeted business outcomes</li>
+          <li>Ability to self-organise, work to own initiative and with minimal supervision.</li>
+          <li>Management of dispute resolution (conflict) in one team/other contractors/stakeholder environments.</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-6" class="govuk-heading-m app-summary-list-heading">How suppliers will be evaluated</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">All suppliers will be asked to provide a written proposal.</p>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          How many suppliers to evaluate
+        </dt>
+        <dd class="govuk-summary-list__value">
+          3
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Proposal criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Interacting and working effectively with large-scale and autonomous programmes in separate organisations</li>
+          <li>Working with secure data in law enforcement and public security environments</li>
+          <li>Ability to create a technical architecture to satisfy requirements mandated across several technical policy environments</li>
+          <li>Migration of systems from proprietary technologies to Open Source</li>
+          <li>Ability to respond quickly and effectively to rapidly evolving technical demands in a fluctuating Client environment</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Cultural fit criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Work collaboratively as part of a joint team of Customer staff and other suppliers</li>
+          <li>Be open, honest and transparent in line with Civil Service Code</li>
+          <li>Demonstrate a commitment to knowledge sharing and participation in upskilling Customer staff</li>
+          <li>Have a committed, proactive and ethical approach to work</li>
+          <li>Be flexible in adapting to meet changing priorities and business requirements</li>
+          <li>A track record of recognising the importance Health and Wellbeing of all staff involved in Programme Delivery</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Payment approach
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Time and materials
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional assessment methods
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Work history</li>
+          <li>Presentation</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Evaluation weighting
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <p class="govuk-body govuk-!-margin-top-0 govuk-!-margin-bottom-1">Technical competence</p>
+        <div>50%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Cultural fit</p>
+        <div>20%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Price</p>
+        <div>30%</div>
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  </div>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    
+
+<h2 id="clarification-questions" class="govuk-heading-m app-summary-list-heading">Questions asked by suppliers</h2>
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          1. The existing programme team is jointly resourced by the Home Office and a commercial supplier” please could you tell us who the commercial supplier is?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Sopra Steria Ltd
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          2. Given the switch to distributed working over the past year and the value for money that that offers. Would the Home Office be open to distributed working with regular on-site meetings throughout the duration of the contract?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Yes - the Home Office would be open to consider this.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          3. Will the classification of the work allow it to be undertaken as a distributed/remote project utilising a secure OFFICIAL SENSITIVE approved network?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We have examples of this already on other Home Office Programmes - I think this should be possible.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          4. For question 13, can confirm the perspective from which the question should be answered – is it from a technical perspective, business change perspective, service transition to BAU perspective, or all of the above?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          All the above.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          5. Responding with agility and flexibility to changing demands and priorities e.g. from customer needs or own analysis.” Would you like us to focus on agility and flexibility of resourcing (e.g. quickly mobilising teams) or are you looking for other examples of flexibility (e.g. changes to governance?)
+        </dt>
+        <dd class="govuk-summary-list__value">
+          focus on agility and flexibility of resourcing (e.g. quickly mobilising teams)
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          6. Can you please clarify what you mean by “service wraps.”
+        </dt>
+        <dd class="govuk-summary-list__value">
+          This means the service management elements. The easiest example is 1st, 2nd,3rd line support in an IT service scenario. 1st line take the call and identify high level problem, fix if able... if unable pass to 2nd and 3rd line as appropriate.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../g-cloud/suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>

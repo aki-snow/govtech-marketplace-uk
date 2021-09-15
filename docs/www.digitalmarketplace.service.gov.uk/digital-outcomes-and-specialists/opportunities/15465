@@ -1,0 +1,1275 @@
+
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  NHSBSA Architecture Delivery Partner (Stage 1) - Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="15465#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../opportunities">Supplier opportunities</a>
+    </li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <section
+    data-module="dm-banner"
+    role="region"
+    aria-label="This opportunity is closed for applications"
+    class="dm-banner"
+>
+    <h2
+        class="dm-banner__title dm-banner__title--large"
+    >
+        This opportunity is closed for applications
+    </h2>
+        <div class="dm-banner__body">
+            The deadline was Monday 6 September 2021
+        </div>
+    
+</section>
+  </div>
+</div>
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <span class="govuk-caption-l">NHS Business Service Authority</span>
+    <h1 class="govuk-heading-l">NHSBSA Architecture Delivery Partner (Stage 1)</h1>
+    <span data-lot="digital-outcomes"></span>
+  </div>
+</div>
+
+<div class="govuk-grid-row govuk-!-margin-bottom-9">
+  <div class="govuk-grid-column-one-third app-stat-block" id="incomplete-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0 govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">12</span>
+      <span class="govuk-body govuk-!-font-weight-bold">Incomplete applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">9 SME, 3 large</p>
+</div>
+<div class="govuk-grid-column-one-third app-stat-block" id="completed-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0  govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">18</span>
+      <span class="govuk-body govuk-!-font-weight-bold ">Completed applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">14 SME, 4 large</p>
+</div>
+
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-visually-hidden">Important dates</h2>
+
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8" id="opportunity-important-dates">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Published
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Monday 23 August 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Deadline for asking questions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Monday 30 August 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Closing date for applications
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Monday 6 September 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+  <h2 id="opportunity-attributes-1" class="govuk-heading-m app-summary-list-heading">Overview</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Off-payroll (IR35) determination
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Contracted out service: the off-payroll rules do not apply
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Summary of the work
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The NHSBSA architecture function is delivering architecture work, which impacts across Technology, Digital and Data.  The capability of our Architecture Delivery Partner ensures that the function realises its ambitions.<br><br>The DDaT functions supports approximately 3000 staff, across multiple sites. These and our Strategy can be found on: <a href="https://www.nhsbsa.nhs.uk/what-we-do/strategy-business-plan-and-annual-report" class="govuk-link" rel="external">https://www.nhsbsa.nhs.uk/what-we-do/strategy-business-plan-and-annual-report</a>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Latest start date
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Friday 1 October 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Expected contract length
+        </dt>
+        <dd class="govuk-summary-list__value">
+          2 Years with an Option to extend for 12 months
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Location
+        </dt>
+        <dd class="govuk-summary-list__value">
+          No specific location, for example they can work remotely
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Organisation the work is for
+        </dt>
+        <dd class="govuk-summary-list__value">
+          NHS Business Service Authority
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Budget range
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Our projections of the type of resources required for the work packages that are currently in scope are NHS Agenda for Change Roles at Bands 7, 8a and 8b.  In year one our projected architecture work packages will require (4) band 7, (7)  band 8a and (1) band 8b, a few roles will be for less than the full 12 months this may vary. <br><br>We are currently projecting a 25% reduction in year 2 and a further 50% reduction in year 3.<br><br>We would be interested in commercial models that give us savings and flexibility in financial and contractual terms.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-2" class="govuk-heading-m app-summary-list-heading">About the work</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Why the work is being done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The NHSBSA is an Arm’s Length Body of the Department of Health and Social Care.  <br><br>We provide a platform for at scale, national payments for primary care services to dentists and pharmacists.  We support the NHS People Plan providing employment, HR and payroll platforms, as well as providing financial support to NHS students and managing the NHS Pension scheme.  We also provide a wide range of services direct to the public to help citizens in gaining access to the healthcare and support with costs to which they are entitled. <br><br>The NHSBSA technology environment has recently undergone significant change which has ended a long-term IT outsource contract with Capita bringing some services in house and establishing new contracts for others.<br><br>We have a mixed infrastructure estate with the majority of data and applications residing in the Crown Hosting data centres.  However, all new applications and services are being developed for cloud first and public cloud platforms.   <br><br>We have consolidated separate technology functions and built new teams.  Maturing these new teams by investing in both additional capacity, new capabilities and modern tooling is now a key feature of our strategy.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Problem to be solved
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The Architecture function within the BSA&#39;s Technology tower is seeking to complement its existing capability to enable rapid progress of a number of key delivery activities.  These activities will be delivered by either a work package describing the creation of a blended team, extending internal NHS BSA teams that need additional capacity; or via a full work package encompassing an independent delivery.  In the event of a blended team, the work package will describe skills, capabilities and outcomes and also facilitate knowledge transfer whilst we develop and grow capability from within.   A full work package will also describe working with the rest of the NHS BSA to ensure successful delivery, handover and knowledge transfer. <br><br>The deliverables will require work between Technology, Digital and Data to ensure that the architecture team can realise its ambitions whilst continuing to mature the function. <br><br>The NHS BSA DDaT functions support approximately 3000 staff, across multiple sites. These and our Strategy can be found on: <a href="https://www.nhsbsa.nhs.uk/what-we-do/strategy-business-plan-and-annual-report" class="govuk-link" rel="external">https://www.nhsbsa.nhs.uk/what-we-do/strategy-business-plan-and-annual-report</a>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Who the users are and what they need to do
+        </dt>
+        <dd class="govuk-summary-list__value">
+          This service complies to most BSA users and Stakeholders. This contract will support the delivery of various projects which spans across a number of service users. The Delivery Partner is required to assess costs in accordance with NHS Agenda for Change Rates.<br><br>The following role types are just some of the roles we will require:<br><br>Please provide your all-inclusive Daily Rates for:<br>Band 7 (Technical Analyst)<br>Band 8a (Technical Architect, Security Architect)<br>Band 8b (Solutions Architect, Senior Data Architect)
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Early market engagement
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We held a webinar on the 19th July 2021.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Any work that’s already been done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          New Requirement.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Existing team
+        </dt>
+        <dd class="govuk-summary-list__value">
+          This is one of two contracts with similar descriptions but a focus on different skillsets and types of delivery.  This Architecture Delivery Partner contract focuses on architecture and design work packages.  The other contract for an Technical Delivery Partner focuses on activity that will bring those specific designs into production.<br><br>We recognise that some suppliers might specialise in one or other of these skill areas and this contract pair could be let to the same, or to different more specialised, providers.<br><br>We are looking for a partner(s) to support these services over an initial period of up to 3 years.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Current phase
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Not started
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-3" class="govuk-heading-m app-summary-list-heading">Work setup</h2>
+  
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Address where the work will take place
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The NHSBSA Headquarters are in Newcastle upon Tyne; we are open to remote working but essential collaboration activity will happen during UK working hours.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Working arrangements
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Suppliers may need to fulfil work packages (either full teams or augmenting our teams) at short notice, working NHS BSA and possibly other departments and arms length bodies to deliver architecture outcomes. Working arrangements for a particular project will be specified in a Statement of Work.<br><br>We estimate a maximum of 10 concurrent Statements of Work.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Security clearance
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Not required
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-4" class="govuk-heading-m app-summary-list-heading">Additional information</h2>
+  
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional terms and conditions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          To be provided at the next of stage of this process.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-5" class="govuk-heading-m app-summary-list-heading">Skills and experience</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">Buyers will use the essential and nice-to-have skills and experience to help them evaluate suppliers’ technical competence.</p>
+  
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Essential skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Using at least 1 example of where you have done this before, describe your process to collect client-requirements and enhance client relationships. Section Weighting 25%, Question Weighting is 3.33%.</li>
+          <li>Describe your experience of delivering multiple outcome based pieces of work within a framework agreement and will cover period of time (2-3 years)? Section Weighting 25%, Question Weighting is 3.33%.</li>
+          <li>Provide an example of deploying multiple teams to different projects. How many teams could you field concurrently and how will you manage onboarding? Section Weighting 25%, Question Weighting is 3.33%.</li>
+          <li>You are required to oversee a variety of SoW&#39;s-running across numerous-departments/projects. Provide an example of where you have managed DDaT-resources/demands of concurrent SoW&#39;s? Section Weighting 25%, Question Weighting is 3.33%.</li>
+          <li>Provide an example of where you have added value/influenced strategic-direction, supported change for an organisation and the projects your teams are working on. Section Weighting 25%, Question Weighting is 3.33%.</li>
+          <li>Provide an example of where you have closely managed affordability and value for money whilst delivering outcomes on work packages? Section Weighting 25%, Question Weighting is 3.33%.</li>
+          <li>This Question relates to an example work package, Please contact Saima Wahid s.wahid@nhs.net for detailed information. Section Weighting 25% , Question Weighting 5%.</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Nice-to-have skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Describe assurance of technical fitness for resources you&#39;ll provide to fulfil work packages. Describe how your recruitment and ongoing professional-development support ensures this. Section Weighting 10%, Question Weighting is 1.5%.</li>
+          <li>How do you manage your colleagues whilst they are allocated to clients and working on work package deliveries. Section Weighting 10%, Question Weighting is 1.5%.</li>
+          <li>Please provide an example of how you have successfully embedded a multi-disciplinary team, describing your approach to onboarding and enabling-blended-team(s) to deliver a successful-outcome. Section Weighting10%, Question Weighting is 3%.</li>
+          <li>Please provide an example of any major issues in team(s) and/or the management and delivery of work, include the successful outcome? Section Weighting 10%, Question Weighting is 4%.</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-6" class="govuk-heading-m app-summary-list-heading">How suppliers will be evaluated</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">All suppliers will be asked to provide a written proposal.</p>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          How many suppliers to evaluate
+        </dt>
+        <dd class="govuk-summary-list__value">
+          6
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Proposal criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          To be provided at the next of the procurement, following shortlisting. This Section will be 30% of the Technical competence score.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Cultural fit criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          To be confirmed at the next stage of the procurement process following Shortlist. This Section is 15% of the overall score.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Payment approach
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Time and materials
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional assessment methods
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Case study</li>
+          <li>Work history</li>
+          <li>Reference</li>
+          <li>Presentation</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Evaluation weighting
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <p class="govuk-body govuk-!-margin-top-0 govuk-!-margin-bottom-1">Technical competence</p>
+        <div>65%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Cultural fit</p>
+        <div>15%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Price</p>
+        <div>20%</div>
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  </div>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    
+
+<h2 id="clarification-questions" class="govuk-heading-m app-summary-list-heading">Questions asked by suppliers</h2>
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          1. For the Essential skills and experience question “This Question relates to an example work package, Please contact Saima Wahid s.wahid@nhs.net for detailed information. Section Weighting 25%, Question Weighting 5%.”. What kind of response is expected in 100 words?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Please email me on s.wahid@nhs.net for the whole of question 7 as it exceeds the word limit. Many Thanks.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          2. Is this a re-let of an existing service with an incumbent supplier?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          This is a new service requirement for the NHSBSA.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          3. Q1. Could the Authority provide the procurement timelines including shortlisting, presentation and award?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A1. The next stage will be published on 17th September and Presentation’s may take place the week commencing 20th September.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          4. Q2. Could the Authority provide Capped day rates for the required roles?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A2. Please align the day rates to Agenda for Change rates as described in the description, this will be assessed at the second stage of the process.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          5. Q3. Please can you explain what you mean by “blended team’ in the statement below....These activities will be delivered by either a work package describing the creation of a blended team, extending internal NHS BSA teams that need additional capacity; or via a full work package encompassing an independent delivery.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A3. The term “blended team” will be used when a Statement of Work is raised for a work package, which describes a detailed task, which then requires a mix of resource to support.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          6. Q4. We assume that resources can work from outside UK (offshore) also. Please confirm.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A4. It is preferred for resource to be provided onshore.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          7. Q5. Who from your team will be scoring applications for this opportunity and what positions do they hold?<br>A5. The Evaluation Panel will be made up of Enterprise Architects and Technology Governance individuals.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A5. The Evaluation Panel will be made up of Enterprise Architects and Technology Governance individuals.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          8. Would it be possible to request access to a copy of the webinar presentation or a recording of the event to allow our bid team to review?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          If you require a copy of the presentation from the Webinar, please email me at s.wahid@nhs.net.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          9. Q6. Are you expecting to pay the salaries of the bands for the roles you require throughout the contract? As we have found that the average basic salary for the skills you require are higher then the bands expected.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A6. We need the supplier to clarify what their rates would be to bring in a team with skills commensurate to those roles. The agenda for change roles are there to define the skill levels required rather than to define the budget.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          10. Q7. The opportunity states: “The Delivery Partner is required to assess costs in accordance with NHS Agenda for Change Rates.”<br>Are you expecting supplier/partner rates for these roles to fall within the Agenda for Change bands i.e.:<br>Band 7 (Technical Analyst) £40k-£45k or sub £200/day?<br>Band 8a (Technical Architect, Security Architect) £47k-£53k or c£227/day?<br>Band 8b (Solutions Architect, Senior Data Architect) £54k-£63k or c£265/day?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A7. We need the supplier to clarify what their rates would be to bring in a team with skills commensurate to those roles. The agenda for change roles are there to define the skill levels required rather than to define the budget.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          11. Q9. In response to question 7 :“This Question relates to an example work package, Please contact Saima Wahid s.wahid@nhs.net for detailed information. Section Weighting 25%, Question Weighting 5%.”, could the Authority please confirm:<br>1.	The response needs to be submitted via email to s.wahid@nhs.net and not to be uploaded on the digtialmarketplace with the rest of the response<br>2.	What will be the word count limit if the submission to Q7 is via email.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A9. The answer will need to be emailed to s.wahid@nhs.net and it will have a 500 word count limit.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          12. Q11. We note that against ‘Additional terms and conditions’ it is mentioned that these will be provided at the next of stage of this process. Could you provide an early view of these T&amp;C at this stage.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A11. There are no additional terms over and above the DOS Framework terms.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          13. Q13. Bullet point 1 begins “Using at least 1 example of where you have done this before,...”.<br>Please can you clarify what “done this before” refers to?<br>Is it general requirements gathering, establishing client relationships or delivering an architectural solution, or something else.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A13. The 100 word response will need to state, a past example of requirements being gathered for the delivery of an architecture solution, whilst building a client relationship.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          14. Q14. Could you provide the timetable of procurement events from now till 1st October 2021, e.g. short-list of phase 1, stage 2 start etc.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A14. Following this shortlist stage, the next stage will be published on the 17th September, Presentations to take place week commencing 20th September. The evaluation will be concluded by the end of September and following an internal contract award approval process, contract notifications will be sent out before mid October.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          15. Q15. Could you confirm if all 12 resources in scope are required to start latest by 01st October.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A15. At the earliest end of October and/or at the latest Early November.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          16. Q16. Please can you define what you mean relating to bandings and daily rate? Are the bands outlined aligned to a specific rate card?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A16. Use Agenda for Change rates as an example, how provide your own rates for the types of roles required and that you have available?
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          17. Q16. Please can you confirm if this opportunity is being published on any other procurement frameworks/tools such as Bravo?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A16. The second stage will be published on Atamis for short listed suppliers only.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          18. Q17. In respect of the supplier’s experience of managing DDaT-resources/demands (question 4 under ‘Essential skills and experience’), could you confirm if suppliers are able to provide examples from the private sector for equivalent roles.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A17. Yes, this would be acceptable.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          19. Q18. Could you advise if it is a mandatory criteria for suppliers responding to this DOS requirement to have experience of performing and/or managing Architecture DDaT roles in a Public Sector environment.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A18. We do not want to limit to public sector experience only, private is acceptable.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          20. Is there a rate cap for these roles?<br>Band 7 (Technical Analyst)<br>Band 8a (Technical Architect, Security Architect)<br>Band 8b (Solutions Architect, Senior Data Architect)
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Again the supplier to define their rate card and use Agenda for Change as an example for types of roles.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../g-cloud/suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>

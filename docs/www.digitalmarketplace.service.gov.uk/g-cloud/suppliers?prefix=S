@@ -1,0 +1,1647 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  Suppliers starting with S – Cloud hosting, software and support – Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="suppliers?prefix=S#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../g-cloud">Cloud hosting, software and support</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="suppliers">Suppliers</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">S</li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+
+  <h1 class="govuk-heading-xl">Suppliers starting with S</h1>
+
+
+<div id="global-atoz-navigation">
+  <nav role="navigation" aria-label="Suppliers">
+    <ol>
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=A">A</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=B">B</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=C">C</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=D">D</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=E">E</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=F">F</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=G">G</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=H">H</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=I">I</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=J">J</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=K">K</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=L">L</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=M">M</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=N">N</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=O">O</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=P">P</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Q">Q</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=R">R</a>
+          </li>
+        
+      
+        
+          <li class="selected">
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <strong>S</strong>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=T">T</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=U">U</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=V">V</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=W">W</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=X">X</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Y">Y</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Z">Z</a>
+          </li>
+        
+      
+      
+        <li>
+          <span class="govuk-visually-hidden">Suppliers starting with </span>
+          <a class="govuk-link" href="suppliers?prefix=other">1–9</a>
+        </li>
+      
+    </ol>
+  </nav>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <div class="supplier-list">
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711820">S12 Solutions</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702240">S2K DevOps</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We offer Software Development, DevOps, Solutions Architecture, Systems Administration and Automation service. We are a team with a combined experience of more than 20 years. We have contributed to many trend setting projects and have set our own trends within the project development, delivery and support.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703763">S3 Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            A specialist IT Security service provider serving the UK &amp; Europe.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/580509">S8080 Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            S8080 is an ISO27001 certified digital agency established in 2000.
+
+Expertise includes user research; creative UX, visual, content and service design; agile, test-driven, open-source development; fully-managed cloud hosting; and pan-disability, usability and security testing.
+
+Clients include central, devolved and local government, ministerial/non-ministerial departments, emergency services, local government and education.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92591">Saadian Technologies UK Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Saadian provides software and digital services supporting people to improve their lives and helping hundreds of organisations function effectively, including: MoJ, HMPPS, HMRC, 41 Police Services, NCA, Local Authorities, Thirteen Housing Group and Tees Valley Lettings Partnership. Our mission is to be a reliable, innovative and flexible delivery partner.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709955">Saba Software (UK) Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Saba Software provides cloud-based intelligent talent management solutions. The Company offers a set of people cloud applications including recruiting, enterprise learning, talent management, and collaboration solutions as well as off the shelf and bespoke learning content.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712326">Safehaus Group Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are a SME Consultancy with extensive experience across the Public Sector with cleared experienced resources upto DV.
+
+We focus on  Business Strategy, Sourcing and Supply Chain, P3 Delivery and People Development to support clients organisational, operational and digital transformation journeys.
+
+A SME organisation we are agile and flexible .
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702446">Safenames Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716809">SAFE SHORES MONITORING LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Safe Shores&#39; unique approach to safety management helps to keep remote workers, unsupervised staff and individuals living in fear of crime, safe! 
+
+Established in 1998, we are a multi-award winning personal security service provider and the UK’s longest established BS8484 lone worker monitoring service. We support your duty of care.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/713168">Safesmart</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Fire and health &amp; safety compliance management company, primarily known for cloud-based Smartlog® software for business organisations and non-profit institutions. The system incorporates multiple compliance functions into one central hub, such as health &amp; safety awareness training, risk assessments, accident reporting, asset management and a sophisticated premises management facility.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711899">Safe Steps Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Safe Steps is a digital falls risk assessment tool, designed to reduce falls in care homes.
+
+We use a dynamic set of assessment questions to create individual, personalised care plans. Co-created with care professionals, Safe Steps provides a consistent way for care organisations to implement a streamlined falls prevention strategy.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712522">SafetyCulture (UK) Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            iAuditor is an inspection app used to empower your workers in the field. Combined with the web platform, iAuditor provides visibility and insights to help raise safety and quality standards across an organisation. Your team can collect consistent data, standardise operations, send reports, identify failed areas and get problems resolved.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716760">Safran Software Solutions AS</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715656">Safran Software Solutions LLC</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Since 1997 Safran has designed and developed software to enable all our customers to manage the most complex of projects.   With a particular focus on Risk Management, Safran is a world leading supplier of risk analytics and scheduling software.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711598">Sagaciti Consulting Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Sagaciti provides bespoke solutions through evidence-based understanding and decision making. Using our proprietary, cloud-based, diagnostic Insight Software™, we work on programmes of all sizes supporting clients to understand the as-is; conduct risk and readiness assessments; design &amp; implement the to-be; develop Strategy; and, implement and manage effective, sustainable change.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711229">Sagittarius</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Sagittarius is a global digital agency delivering marketing and consultancy services – from discovery, content and user experience design to Sitecore website and application development using agile delivery management. We also provide a range of hosting and support options for 24/7 Enterprise level businesses. Microsoft and Gold Sitecore Solutions Partner.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707053">SAGlobal (Europe) Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            sa.global provides Microsoft Dynamics implementation services and industry-specific solutions to customers in over 80 countries worldwide, for Microsoft Dynamics 365 Finance, PSA, Customer Engagement, and AX. We are a direct CSP partner with Gold certification in Business Applications competency, and our services cover private and public cloud based deployments.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92350">SA Group Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            SA Group is a Cyber Security, P3M, Digital and Technical consultancy working in vital and highly complex Public Sector and Commercial markets. We specialise in helping clients in technical and digital environments scope and deliver against their critical challenges.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712561">SAIEVOLVE LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/717047">SAI (UK) LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            SAI (UK) Limited is a privately held management and IT outsourcing services consulting company with its headquarters based in United Kingdom with a subsidiary in Finland . Provides cloud based software services, solutions and bespoke in Conversational AI, Healthcare, Automotive &amp; others.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709270">Salad</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Based in Bournemouth, Salad is a creatively led design and communications agency that produces Beautifully Effective® brands and first-in-class digital experiences. For 17 years, we have built a reputation for quality craftsmanship in brand strategy, design, web development and marketing. Our strength is telling other people about yours.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/580525">Salesagility Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We engage with government, public sector and enterprise clients to deliver open source CRM solutions that reduce cost and vendor lock-in.
+
+We&#39;re known for our deep and expert knowledge of CRM, our open source credentials and for our ability to transform business process requirements into elegant, robust, usable CRM functionality.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716584">SALIENT DISCOVERY LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Salient Discovery is a UK and South African based eDiscovery, forensic and cognitive analytics company that leverages its extensive experience to deliver a pragmatic, flexible, scale-able and highly cost-effective platform for legal, investigatory and compliance needs.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716425">SALTVPN LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702928">Salvie Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Salvie is the premium service connecting patients to GP practices and all healthcare providers,  throughout the UK.  Our vision is twofold:
+- to make it easier for patients to get help from the right person
+- to make it easier for healthcare professionals to help their patients.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715427">Samsara Networks Inc.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92831">Sanderson Government &amp; Defence Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Sanderson specialise in delivering Resource &amp; Consultancy Services to a wide range of Government, Security and Defence organisations. We deliver specialist Vendor accredited resource on a Statement of Work or Time-Hire basis, covering a portfolio of digital and technology platforms, our resource are cleared to SC and DV.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708197">Sandgate Systems Limited (Every)</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Sandgate Systems Limited provides the end-to-end compliance management system, Every. Every is used by thousands of organisations that want to improve their management and reporting of compliance. Areas covered include management of contracts, procurement, capital planning, maintenance, accidents, assets/inventory, policies, training and risk.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703183">Sandhata Technologies Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Sandhata covers systems integration holistically offering services that span middleware development, continuous delivery, DevOps, service virtualization and test automation. Founded by specialists with extensive experience in the telecoms and banking sectors, Sandhata is a privately held IT services company with bases in the UK, US and India and operating worldwide.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708805">Sandhill Consultants Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            From installation, through implementation, to best usage and support, Sandhill provides a collaborative approach when it comes to consultancy; providing assistance for all erwin products, and have been doing so for nearly 30 years. Our consultants have an excellent reputation, delivering solutions built on knowledge, skills and first-hand experience.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93404">Sandyx</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are a Manchester based Salesforce.com implementation and integration partner. We work with Salesforce.com to deliver robust cloud, mobile and enterprise integration solutions to the world’s most successful companies.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716633">SANJ CONSULTING LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701126">Sans Souci Consulting Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Sans Souci Consulting is a multi-sector business consultancy specialising in Digital Transformation and Business/Data Analysis.  Our no-code partnerships/services, together with Microsoft Office 365 and Microsoft Dynamics 365 modules, allows us to provide clients with an end-to-end solution that transforms how they do business and enables positive change and digital transformation.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703712">Santriya Technologies</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Mobile App Development, Cloud and DevOps Support Partner
+
+Mobile App Development Company in iOS, Android and Windows. Complete delivery of mobile app development including mobile or product  app strategy, UX and UI design, software architectural design, agile development,  TDD, BDD,  automation testing, deployment, promotion, cloud implementation, devops and IT support.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708553">SAPFIX LTD.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            AJ Infosystems  is engaged in providing SAP, AWS, Celonis, Oracle Business Intelligence and analytics consulting solutions 
+SAP Audits and Advisory Services, SAP B1, SAP Training
+AWS and Celonis end to end implementation, Support &amp; training
+Oracle Discoverer &amp; BI services 
+AWS and Celonis Consulting and Recruitment Support
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716285">SAPHISLE LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716924">SAPIEN HEALTH LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702039">Sapient Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Sapient is a digital marketing and consulting company that provides experience-driven digital services to clients. The company is part of the Publicis Group and has operations across 37 different locations worldwide. 
+
+www.sapient.com
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92995">Sapphire</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Since 1996, Sapphire is a dedicated provider of cyber security services and technology. We help protect the assets, data and users for thousands of businesses against known and emerging threats. Our experience means we can address these painpoints, quantify the risk, offer pragmatic advice and effective technical controls.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92801">SAP UK Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            SAP is at the center of today’s technology revolution. The market leader in enterprise application software, SAP helps organisations fight the damaging effects of complexity, generate new opportunities for innovation and growth, and deliver superior cost efficient citizenship services.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/705238">SARACEN CONSULTANCY LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Saracen Consultancy provide architecture and security services to public and private sector clients.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706416">Sarax Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Sarax is a solutions company that is expert in Cloud implementation and migration and associated business change projects. We provide a full range of support services including: project design/planning and management, risk management, business case development/management, solutions design, tender support and application support. We develop &#34;your cloud, your way.&#34;
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707218">Sarcen Consulting Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Sarcen Consulting is a professional services firm that delivers practical high value services to customers in the private and public sector.
+
+We are totally independent and our commitment is always 100% to our customers, whether they are large public sector organisations, commercial multi-nationals or owners of SME businesses.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/710832">Sardina Systems</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Sardina Systems Ltd specializes in cloud platforms, from designing to building and delivering scalable, reliable, rapidly deployable and upgradable cloud infrastructure, all on OpenStack and Kubernetes. 
+Sardina Systems offers services to operate and support cloud environments.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701291">SAS Global Communications Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We provide WAN, LAN, WiFi &amp; Cloud services. Our Hybrid &amp; SD WAN-ready networks improve cost and delivery by mixing carriers and technologies, delivering circuits within 2 days using 4G. We improve application performance by monitoring the entire application-path. We power services for major carriers and our NPS is &gt;70.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93019">SAS Software</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            SAS, the global leader in business analytics is the powerful capability behind successful public and private sector initiatives across the globe tackling debt, fraud and error, optimising operations and using data to gain unique insight and prediction to make informed decisions.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701258">Satalia (NPcomplete)</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Satalia builds AI solutions that solve industries hardest efficiency problems, including those of Tesco and PwC. Our capability in machine learning (predictions) and optimisation (decision-making), emphasis on long-term relationships, agile methodologies and access to talent via academia and our culture, enables us to build technologies that radically improve organisational decision-making.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701366">Satellite Applications Catapult Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            The Satellite Applications Catapult is an independent innovation and technology company, created to foster growth across the economy through the exploitation of space. We help organisations make use of and benefit from satellite technologies, and bring together multi-disciplinary teams to generate ideas and solutions in an open innovation environment.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701283">SATIGO</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We’re a passionate team of consultants that provide workforce solutions to technology first clients. Residency is a challenger consultancy specialising in government digital transformation.  We understand the guiding principles behind Government Digital Services and have proven delivery experience having delivered multiple successful engagements across G-Cloud and DOS frameworks.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701796">Savanti Consulting</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Practitioner-led cyber security services. We remove the fear, uncertainty and doubt associated with cyber risk, allowing you to get on with what you do best. Our core strengths lie in the delivery of security leadership, strategy and major transformations for large organisations, as well as providing specialist security skill sets.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93445">Savant Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Savant are a long established SME providing innovative solutions for critical business processes.  Services include project management, software design, development, implementation and support (24/7).  Migration and testing of cloud systems and planning and advisory services for cloud projects.   Savant deliver solutions needed to support your business.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700488">Savience Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Savience is a supplier of outpatient clinic management and unscheduled care information technology software solutions. We specialise in enabling patients to register their arrival and manage their journey through healthcare organisations enabling them to know where they are, where they need to be, and when they need to be there.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711827">Sayari Analytics</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Sayari provides beneficial ownership &amp; financial intelligence data with full evidentiary sourcing from LATAM, MENA, Eurasia, and offshore financial centers. We power financial crime, tax evasion, money laundering, asset tracing, and illicit network analysis use cases with bulk data, graph-powered APIs, and investigator front-end applications.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711307">SBC IT Support &amp; Hosting</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Providers of High quality remote and onsite IT Support to SME&#39;s covering all sectors, nationwide from manufacturing to financial services.
+
+We also provide cloud services such as backup, disaster recovery,co-lo rack space and hosted desktop and server services  from our 2 ISO accredited UK datacentres.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712057">SBC Systems (UK) Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/583479">Scan Optics Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Scan Optics Ltd provide technical and support services to a wide range of government agencies throughout the UK. We manufacture and re-sell, support and maintain document processing hardware and software systems, as well as Document Management Solutions. Our technical services division provide professional support services specific to client requirements
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716297">SCANQUO LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Software used to specify contracts and control pricing in facilities management services. A digital scan of the premises is used to manage key costs e.g. contract cleaning services, ground maintenance,  and stock/equipment inventory management. 
+
+The software can be used to plan social distancing arrangements on return to work post-COVID-19.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93381">Scapa Technologies</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Load, monitoring, and performance testing tools for virtual desktops, server based computed and web applications
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707353">SCARCe-IT</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Scarce IT Services are a UK ServiceNow Specialist sales and services provider, delivering quality, cost-effective, end to end managed implementation, phase2+ enhancement, reimplementation and platform support services.  We specialise in 100% remote implementation and support of the ServiceNow Enterprise Cloud Platform, particularly in ITSM, ITOM, ITBM and IT Cyber/Security.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703838">SCB Global Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Our 16 years of expertise in voice over IP places us at the forefront of the telecommunications industry today. With our high-level expertise and years of experience supplying solutions to the public sector, we can provide feature rich, simple and cost-effective business telephony, Microsoft Teams and data connectivity solutions.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712872">Schindler IT-Solutions GmbH</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706855">Scholar Web Services Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Scholar is a technically led Infrastructure as a Service (IaaS) and Managed Services Provider (MSP). We specialise in cloud infrastructure and managed services for clients with high uptime and business-critical workloads. Our clients include international software companies, e-health apps, eCommerce, cybersecurity, manufacturing &amp; counterfeit intelligence software.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703967">School Business Services</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            School Business Services is a leading global specialist in providing support services and products to the education sector. 
+
+Our core specialisms include: 
+*Budget &amp; staff management software - SBS Budgets
+*Finance &amp; Business Support
+*ICT Support &amp; Procurement
+*MIS Support
+*HR &amp; Payroll
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709204">School Cloud Systems Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Award winning web-based software with outstanding customer support. We provide the market leading Parents Evening, Clubs &amp; Events and Room Booking software to over 4,000 schools. We also provide the Room Booking System to universities, small businesses and student unions.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716853">SCHVITZ LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cloud services company specializing in design and delivery of Government sector GDS solutions based on Microsoft Power Apps back-end and NodeJS front-end in AWS and Azure cloud environments.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709546">Scientia Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Scientia is the leading provider of academic timetabling and resource management software primarily for the Higher Education sector and our products are successfully used by Universities, colleges and other organisations worldwide.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/580714">Scott Logic Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            A software development company and consultancy, helping clients to deliver best-in-class software solutions with project delivery, user experience design and software development. Services are built upon quality people with Agile engagement focused on clients’ needs. We gain a deep understanding of requirements, and tailor our services to meet these exactly.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702623">ScreenCloud</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Organisations don&#39;t take advantage of screens because digital signage is too complicated and expensive.
+
+Screens are left blank, out of date or playing TV News on mute.
+
+What&#39;s needed is a simple way to put content on screens, on existing hardware (NUC, Amazon Fire TV etc.)
+
+The solution is ScreenCloud.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/717123">SCREEN MOGULS LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92710">Scroll</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Scroll has been a trusted supplier of content to the public sector since 2004, with 250 content experts across the UK.
+
+We offer digital services for content, including content design, strategy, training. We played a significant role in designing content for GOV.UK and services that passed the Digital Service Standard.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711274">SCR TRACKER LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Get your Single Central Record Online. Instantly know if you are Ofsted or ISI ready. Built-in Multi-Academy-Trust support, see all your schools status from a single portal and get automatically notified when they aren&#39;t. We also synchronise with your MIS!
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93648">Scrumconnect</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We have expertise in * backlog,discovery,user centred design *Deep understanding of finding user needs,OpenSource, 
+Our agile software delivery practitioners combine technical excellence and business pragmatism to deliver simple bespoke software solutions to big business problems.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711942">SCS(Skeen Computing Services Ltd)</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712832">SD6</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            sd6 is a multi-disciplinary consultancy practice that helps clients structure, initiate and deliver complex projects and programmes.
+
+sd6 uses techniques and know-how derived from supporting a large number major programmes across the public sector.
+
+sd6 is particularly focused in supporting the NHS with their next-generation EHR / EPR strategies.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714044">SDS TECHNOLOGIES LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706838">Seaforth Analytical Services Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Data Analytics  Specialists
+Business Intelligence company specialising in powerful BI dashboards and advanced Supply Chain Analytics | Procurement | Inventory Management | Optimisation | Lean Six Sigma | Master Data Management | Interim Management.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706639">Seagreen-Bell Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Capable and experienced team of delivery focused consultants. Skilled at support healthcare, legal and local businesses in realising business improvement and transforming services and systems to improve business efficiency.
+Over 40years experience in healthcare finance, NHS &amp; independent sectors and IT programme delivery within healthcare, finance and legal sectors.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714258">SEARCE LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716931">SEARCHLIGHT CONSULTING (SEARCHLIGHT BUSINESS SERVICES LIMITED)</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Searchlight help our clients to make better technology decisions. We are recognised experts in programme, project and change management, and enterprise architecture services. We help clients - establish effective governance; manage risk; achieve maximum outcomes from programmes and project; and deliver value - ensuring benefits are rapidly realised.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712894">SeatLive Ticketing Services Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714627">SEATON PARTNERS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Seaton Partners is a UK Microsoft Gold Partner with global reach. We implement, integrate, optimise and manage complete Dynamics 365 business solutions. We&#39;re close-knit team who are honest, ambitious and pragmatic. We use technology to help our customers do what is right, not easy.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93689">SEAtS Software</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            SEAtS  is the Blended Learning Timetabling, Student Attendance, and Learning Analytics Platform for Education.  SEAtS apps, alerts, dashboards and workflows helps institutions road-map successful student  outcomes through their engagement, retention, and attendance policies and processes.  SEAtS also offer solutions for placements, space utilisation, UKVI, NHS  and other stakeholder compliance obligations.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714664">Secnetics Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Secnetics provides a comprehensive Cloud Security Architecture, Engineering and Consulting service to support you through the requirements, design, planning, testing, implementation, assessment and unification of your Security Operation functions, Core, Critical and Advanced Security Controls to avoid, detect, counteract and minimise risk whilst protecting your security posture.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715944">SECTOR IT SOLUTIONS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92742">Secura Hosting Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Secura supports organisations that depend on critical online applications. Our Virtual Private Cloud technology, Azure management services and round-the-clock support are designed to keep applications and services online 24 hours a day, 365 days a year.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/579312">SecureCloud+ Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            SecureCloud+ is a trusted provider of secure
+communication and collaboration services for
+Defence and Government. The company delivers demanding, innovative ICT managed services to Public Sector customers for  at all tiers of the government IT security classification system.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/580587">Secure Information Assurance Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            An established, innovative provider of secure cloud and collaboration solutions. We were the first company to enable &#34;restricted over the internet&#34; access for the UK Government.  We provide secure cloud hosting and managed services with connectivity to HMG networks including PSN, HSCN and the RLI.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715553">Secure Sensor Innovative Design Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703625">Securious Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Securious is a PCI QSA and cyber security compliance company.   Consulting in Payment Card Industry Standards and ISO 27001. Additional services include pentesting, vulnerability scanning, cyber essentials certification and Security Operations Centre (SOC). We&#39;ll help improve systems, achieve accreditation and educate teams to win business, satisfy customers and avoid surprises.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701827">Security Alliance Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Security Alliance is a London based cyber threat intelligence product and services company.
+We help our clients gain continuous clarity of their real and greatest cyber threats.
+We deliver cyber intelligence services across the globe. Our clients include Governments, Central Banks, Healthcare, Financial Services, Transportation, Energy, Research and Consulting firms.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712234">Security Architecture and Application Security Group</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We have a 20-year pedigree of providing independent, specialist, cyber security testing and advisory services. 
+
+Our consultants hold leading industry qualifications covering Security Architecture (SABSA, TOGAF), Application Security and Compliance (PCI Professional). 
+
+Within Application Security we design, test and break applications to provide assurance.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715481">SecurityHQ</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            SecurityHQ (trading name of Si Consult), is a Global MSSP that monitors networks 24/7, ensure complete visibility and protection against cyber threats. Threats can be external and internal. Which means that the right combination of tools, skills, people and processes are essential, to manage, detect and defend from malicious activity.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/581031">Security Risk Management Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            SRM’s specialist consultants cover the full scope of the Governance, Risk and Compliance agenda including ISO 27001, GDPR,  PCI DSS and Cyber Essentials. Additionally, SRM provide Business Continuity and Disaster Recovery Planning, Computer &amp; Network Forensics and manual Penetration Testing. SRM actively supply Cyber Security services to Her Majesty&#39;s Government.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712138">Securium Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716432">SEERS GROUP LTD.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712633">Segero Consultants Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Segero are a wholly-independent IT Infrastructure, Applications, and Telecommunications consultancy. We have extensive expertise in cost reduction analysis, contract negotiation, hardware and application strategy, tendering and procurement processes, service provider management, and industry-wide benchmarking.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716557">SEGMENTATION GROUP LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701211">Selcom</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Selcom provide consultancy, connectivity, and website &amp; application hosting for a raft of small to medium private companies and much larger public sector and private sector organisations.
+Selcom are also UK Integrators for the vjoon multi-channel publishing system
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715776">SELDON TECHNOLOGIES LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Machine learning deployment for enterprise
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/717015">Select</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+    </div>
+    
+  <nav class="dm-pagination" role="navigation" aria-label="Pagination">
+    <ul class="dm-pagination__list">
+      
+      
+        
+        <li class="dm-pagination__item dm-pagination__item--next">
+          <a href="suppliers?prefix=S&amp;page=2&amp;framework=g-cloud"
+            class="dm-pagination__link"
+            rel="next"
+          >
+            <span class="dm-pagination__link-title">
+              <svg class="dm-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
+                <path d="m10.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"/>
+              </svg>
+              <span class="dm-pagination__link-text">
+                Next page
+              </span>
+            </span>
+            
+          </a>
+        </li> 
+      
+    </ul>
+ </nav>
+
+  </div>
+</div>
+
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>

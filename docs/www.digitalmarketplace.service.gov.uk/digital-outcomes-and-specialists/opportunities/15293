@@ -1,0 +1,1324 @@
+
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  Design, UX, and user testing of the Discover Uni website to support prospective HE students - Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="15293#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../opportunities">Supplier opportunities</a>
+    </li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <section
+    data-module="dm-banner"
+    role="region"
+    aria-label="This opportunity is closed for applications"
+    class="dm-banner"
+>
+    <h2
+        class="dm-banner__title dm-banner__title--large"
+    >
+        This opportunity is closed for applications
+    </h2>
+        <div class="dm-banner__body">
+            The deadline was Friday 6 August 2021
+        </div>
+    
+</section>
+  </div>
+</div>
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <span class="govuk-caption-l">Office for Students</span>
+    <h1 class="govuk-heading-l">Design, UX, and user testing of the Discover Uni website to support prospective HE students</h1>
+    <span data-lot="digital-outcomes"></span>
+  </div>
+</div>
+
+<div class="govuk-grid-row govuk-!-margin-bottom-9">
+  <div class="govuk-grid-column-one-third app-stat-block" id="incomplete-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0 govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">22</span>
+      <span class="govuk-body govuk-!-font-weight-bold">Incomplete applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">20 SME, 2 large</p>
+</div>
+<div class="govuk-grid-column-one-third app-stat-block" id="completed-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0  govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">21</span>
+      <span class="govuk-body govuk-!-font-weight-bold ">Completed applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">20 SME, 1 large</p>
+</div>
+
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-visually-hidden">Important dates</h2>
+
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8" id="opportunity-important-dates">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Published
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Friday 23 July 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Deadline for asking questions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Friday 30 July 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Closing date for applications
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Friday 6 August 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+  <h2 id="opportunity-attributes-1" class="govuk-heading-m app-summary-list-heading">Overview</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Off-payroll (IR35) determination
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Contracted out service: the off-payroll rules do not apply
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Summary of the work
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Design, user research and testing services for the Discover Uni website.  To enhance the presentation of existing and new content, including data insight, to enable better user-experience, access, user-journeys, understanding and use of the information and data to inform the course choice decisions of potential higher education students.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Latest start date
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Monday 4 October 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Expected contract length
+        </dt>
+        <dd class="govuk-summary-list__value">
+          1 year with an option to extend by a further 1 year
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Location
+        </dt>
+        <dd class="govuk-summary-list__value">
+          No specific location, for example they can work remotely
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Organisation the work is for
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Office for Students
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Budget range
+        </dt>
+        <dd class="govuk-summary-list__value">
+          £50k to £60k inclusive of VAT. This covers the entire length of the contract even if it is extended.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-2" class="govuk-heading-m app-summary-list-heading">About the work</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Why the work is being done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The Office for Students manages the Discover Uni website on behalf of the four UK higher education funding and regulatory bodies. We are seeking to make improvements and further development of the website to incorporate new data and content, as well as enhance existing design and functionality in response to user testing and feedback.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Problem to be solved
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We need to:<br>1. Make it easier for users to take away key messages from new and existing data and content on the website <br>2. Revise the information architecture and structure for effective user journeys and to incorporate additional content <br>3. Provide access to/incorporate content from 3rd party expert bodies and sources.<br>4.  Test and refine the newly developed course comparison tool and planned new content<br><br>We also require 2-3 days per month design resource for incremental enhancements to call off as needed.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Who the users are and what they need to do
+        </dt>
+        <dd class="govuk-summary-list__value">
+          As a potential applicant to higher education courses in the UK , I need to be able to easily navigate the website, to engage with the content, to understand what it is telling me and how it can help me compare courses, so that I can make informed course choices.<br>As a teacher/adviser, I need the information, advice and data insight that is useful for me and for students researching their HE choices.<br>OfS needs to be confident that the information and data insight prospective students access on the Discover Uni website is accessible, meaningful and provides good user journeys/experience.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Early market engagement
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Testing of designs identified users want to be able to better compare multiple courses and to more easily understand the data-based insight provided.  The designs are being implemented in a new course comparison tool which we will need to further test/refine after it is released to live.  User-feedback indicates a need for advice on information architecture, user-journeys and tracking/monitoring user-journeys. Our development roadmap has a number of new information and advice content proposals for which user testing is required.<br>Guidelines mean designs must fit house style, accessibility guidelines (we are WCAG 2.01 AA compliant) and be responsive/suitable for mobile use, and page-text needs to appear consistently in Welsh language version.  Designs for data presentation/content need to be researched/tested with users reflecting a mix of demographics and other user characteristics from across the UK.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Any work that’s already been done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          User-centred research and testing informed the Discover Uni beta website launched in 2019. User tested design enhancements were made to the website pages during 2020 along with significant development and presentation of course data/information, improved search filters and new course comparison tool on the website. Findings from previous user research and feedback and guidance on parameters for the design work will be provided, along with some design assets for reference/as potential starting points for further testing/designs.  Designs need to be provided in suitable formats required by the website developers.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Existing team
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The OfS will provide product ownership, analyst and content management roles to work with the team.  Development is outsourced and some liaison with hosting and development supplier may be required. Some resource/facility for user-surveys may be available
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Current phase
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Live
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-3" class="govuk-heading-m app-summary-list-heading">Work setup</h2>
+  
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Address where the work will take place
+        </dt>
+        <dd class="govuk-summary-list__value">
+          No specific location, supplier can work remotely.  Office for Students is based at Nicholson House, Lime Kiln Close, Stoke Gifford, Bristol BS34 8SR
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Working arrangements
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The supplier is expected to work closely with OfS team, undertake some travel and conduct user research/testing off-site (potentially across UK and/or remotely).  There is no separate budget for travel costs or expenses so this should be included in the overall project costs.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Security clearance
+        </dt>
+        <dd class="govuk-summary-list__value">
+          None applicable
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-4" class="govuk-heading-m app-summary-list-heading">Additional information</h2>
+  
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional terms and conditions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          None
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-5" class="govuk-heading-m app-summary-list-heading">Skills and experience</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">Buyers will use the essential and nice-to-have skills and experience to help them evaluate suppliers’ technical competence.</p>
+  
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Essential skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Demonstrable experience of designing services which present complex data sets and insight in an engaging and informative way to users with varying levels of interest and understanding of statistical information.</li>
+          <li>Experience of research with users, ideally focused on the target student and teacher/adviser audiences.</li>
+          <li>Be able to deploy the effective, experienced team members with the range of UX, design and user testing skills to start work no later than October 2021</li>
+          <li>Able to bring information architecture skills/experience to optimise content engagement and user journeys.</li>
+          <li>Experience of designing and developing digital services and meeting the WCAG 2.1 and Digital Service Standard.</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Nice-to-have skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Experience of working with the UK education/higher education sector</li>
+          <li>Experience of digital design for HE pre-applicant/applicant audiences</li>
+          <li>Experience of user testing/research and designing for school leavers (16-18-year olds), mature students and teachers.</li>
+          <li>Able to provide expertise/skills to support continued improvement using Google analytics, user journey analytics and user feedback</li>
+          <li>Understanding of student data and HE information</li>
+          <li>Evidence of successfully using video, images and other media to enhance websites</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-6" class="govuk-heading-m app-summary-list-heading">How suppliers will be evaluated</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">All suppliers will be asked to provide a written proposal.</p>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          How many suppliers to evaluate
+        </dt>
+        <dd class="govuk-summary-list__value">
+          5
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Proposal criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>How the approach meets our needs and those of our users (20%)</li>
+          <li>Previous experience and work designing for data-based insight presentation (10%)</li>
+          <li>Team structure, knowledge and experience (10%)</li>
+          <li>Proposed timescales for the work (9%)</li>
+          <li>Ability to carry out research and testing with a broad range of users on a UK-wide basis (11%)</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Cultural fit criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>How they work as a team and collaboratively with our organisation and other suppliers where necessary (2%)</li>
+          <li>Shares knowledge and experience with clients, is transparent and collaborative when making decisions and solving problems (2%)</li>
+          <li>Takes responsibility for delivering to agreed timescales and for the quality of their work (2%)</li>
+          <li>Able to demonstrate the value of their approach and understanding of the importance/value of data insight and analytics (2%)</li>
+          <li>Able to demonstrate they understand the importance of impartiality and clarity in the provision of information and advice for users (2%)</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Payment approach
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Fixed price
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional assessment methods
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Presentation
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Evaluation weighting
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <p class="govuk-body govuk-!-margin-top-0 govuk-!-margin-bottom-1">Technical competence</p>
+        <div>60%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Cultural fit</p>
+        <div>10%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Price</p>
+        <div>30%</div>
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  </div>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    
+
+<h2 id="clarification-questions" class="govuk-heading-m app-summary-list-heading">Questions asked by suppliers</h2>
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          1. What CMS, if any, does the site use?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The website uses Wagtail CMS.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          2. What technical experience is required?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We are not sure what is meant by this question, however we would expect a supplier to have experience of online testing with users and of designing and developing digital services and meeting the WCAG 2.1 and Digital Service Standard.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          3. Please can you tell us more about the ‘complex data sets’ you present on the site – is it what’s shown here <a href="https://www.officeforstudents.org.uk/data-and-analysis/official-statistics/?" class="govuk-link" rel="external">https://www.officeforstudents.org.uk/data-and-analysis/official-statistics/?</a>
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The website is Discover Uni (DU), not the Office for Students website.  DU displays the Unistats dataset.  You can see the current data on course pages.  This is being updated in the autumn (it is updated weekly and may be revised annually depending on the source data that is presented.).
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          4. Please explain more about your expectations for this ‘Demonstrable experience of designing services which present complex data sets and insight in an engaging and informative way to users with varying levels of interest and understanding of statistical information’ requirement
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A central role of Discover Uni is the presentation of the Unsitats dataset, which is complex and fairly extensive. Presentation of the statistics and supporting information, advice and guidance presents challenges given the wide ranging users and audience. In particular, we need to ensure that the information and data insight prospective students access on the Discover Uni website is easy to take key messages from, with reduced potential for misinterpretation. We therefore need to see evidence of experience in this area and examples of successful designs.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          5. Is there an incumbent supplier?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          There is no contract in place at the moment.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          6. In the proposal criteria, please clarify your expectations about ‘previous experience and work for data-based insight presentation’?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Please see clarification in response to question 4.  We would expect a supplier to have experience and understanding of how to present data/statistics in a way which is clear, accessible and informative.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          7. Are you expecting the solution to remain on Wagtail CMS? Is replatforming an option?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          There are no plans to change the CMS platform. We would consider a proposal for change but cost and Value for Money are likely to be prohibitive.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          8. Would the costs for “2-3 days per month design resource for incremental enhancements to call off as needed” need to be included within the £50-60k budget?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Yes
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          9. Re: “Provide access to/incorporate content from 3rd party expert bodies and sources”. Where is this content held? What integrations, if any, will be required?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Incorporating 3rd party content is in planning phase, to position Discover Uni as a curated service providing access to the best quality information and advice from expert sources.  We anticipate needing to use a range of approaches, from hosting credited content and resources on our pages, APIs, widgets etc.  We don&#39;t anticipate any full integrations at this point. We will want testing/advice on crediting content from 3rd parties, addressing the need for continuity of &#39;voice&#39; and the presentation style of content across the website.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          10. Is this the same opportunity 11759 published Feb 2020 and was awarded at that point? If so has anything changed in the requirements?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          This is an opportunity to build on the work undertaken on the website since March 2020.  It is not the same.  The focus of requirements is to build on the design and user testing which has been applied to the website and to extend the content and user journeys, work which we were not able to undertake under the previously awarded contract due to time/development resource constraints.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          11. We would request clarification about exactly what you are looking for in the 2 – 3 days call-off. Can you confirm the exact level of support, what level of skill would be required and would it need to be a named resource?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We anticipate that this will be ad hoc services which we may need to call on, drawing on the skillset encompassed under the contract - i.e. design, testing, advice on user journeys etc.  The nature of the resource required may vary and will be dependent on the call off requirements, but we do not see this as being beyond the scope of the resource/expertise outlined in the opportunity notice.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          12. In terms of the Information Architecture and the user journey requirements. Is the project to provide advice on the improvements to both or to provide this and implement the advised changes? All within the budget?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The requirement is to provide advice and suggestions on these elements, with relevant user testing as appropriate. It would not include implementation.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          13. Should you elect to extend the contract by 1 year, do you anticipate that the 2-3 days per month of support would continue for the second year at no additional cost?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          If we extend the contract beyond 1 year, we anticipate that this would be on the basis of there being budget remaining/unspent in the contract. We do not expect this to equate to 2-3 days per month of support and would therefore not expect this to be planned for by a supplier.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          14. Who are your target demographic? Is there a specific overseas market or growth area that needs to be considered for this project?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Our target audiences are school/college students (14-18) in the UK and internationally, mature/returners to education, teachers and advisers, parents/carers.  There is no particular overseas target demographic at this time.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          15. Do you have a rough breakdown of the project delivery stages feeding into development and launch timelines? Please could you share that.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          No, we do not have a confirmed project delivery plan at this stage.  We will share the content roadmap with the appointed supplier.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          16. Who are the stakeholders for the project we would need to engage with? We would recommend just a single main point of contact who would manage any internal sign off/feedback.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The internal OfS Discover Uni team are the main contact points.  In addition, there may be a need for supporting liaison with key internal and external stakeholders. This might take the form of occasional short presentations of user testing/recommendations.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          17. Is test participant recruitment and incentive to be included in the cost, or will you be able to provide test candidates?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The test participant recruitment and any incentive is to be included in the cost.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          18. Does the supplier have freedom to choose whatever test platform they prefer for the testing?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The supplier can select the test platform to be used, which we would expect to be of current technology and accessibility standards.  This will also need to meet requirements and standards around participant consents and privacy standards, which should be borne in mind.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          19. Is the development agency open to us temporarily adding behavioural tracking code to the prototype during user testing to enrich the results (e.g. interaction tracking, scroll heatmaps etc)?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We would be happy to consider this and to discuss with our development supplier.  We would need to understand the costs/resource demand it would entail, the value it would add and be confident of any privacy/consent arrangements in place.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          20. Please can you stipulate the duration of the anticipated ‘incremental enhancements’ stage?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          It is anticipated the incremental enhancements will be delivered over 2-3 month sprints, though the timeframes will depend on associated technical development work involved.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          21. Will you share any existing research findings that you have conducted as part of project onboarding?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Yes, we will share any previous research findings as appropriate.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          22. Do you have a set of fixed deliverables required as an outcome of a successful project that the supplier needs to deliver? Please can you share that.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Deliverables will be set out and agreed as part of the requirements briefs which will be provided for each/all elements of the work.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          23. Can you please provide an overview of the web architecture. For instance, does it integrate with CRM or API services for courses etc. Are there any areas of the platform that we should consider taking advantage of within the UX (e.g. integrations, elastic search?)Equally, are there any other systems that you are planning to plug into the website that we could take advantage of (e.g. marketo forms, social feed (Taggbox))?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The site is built with an Azure serverless toolset using python (and html, javascript and sass). This includes the Azure search and API management, Azure Postgres SQL Server - CMS storage system to store content data and admin/moderators/editors credentials, and Highcharts - to build charts in wagtail CMS.  We recently set up the Site Improve tool on the website to monitor/ensure accessibility and to track/better understand user journeys. We will consider other systems/plug ins going forward.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../g-cloud/suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>

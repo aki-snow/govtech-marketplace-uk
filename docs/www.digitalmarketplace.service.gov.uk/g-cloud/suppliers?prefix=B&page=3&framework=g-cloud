@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  Suppliers starting with B – Cloud hosting, software and support – Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="suppliers?prefix=B&amp;page=3&amp;framework=g-cloud#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../g-cloud">Cloud hosting, software and support</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="suppliers">Suppliers</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">B</li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+
+  <h1 class="govuk-heading-xl">Suppliers starting with B</h1>
+
+
+<div id="global-atoz-navigation">
+  <nav role="navigation" aria-label="Suppliers">
+    <ol>
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=A">A</a>
+          </li>
+        
+      
+        
+          <li class="selected">
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <strong>B</strong>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=C">C</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=D">D</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=E">E</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=F">F</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=G">G</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=H">H</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=I">I</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=J">J</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=K">K</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=L">L</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=M">M</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=N">N</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=O">O</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=P">P</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Q">Q</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=R">R</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=S">S</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=T">T</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=U">U</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=V">V</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=W">W</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=X">X</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Y">Y</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Z">Z</a>
+          </li>
+        
+      
+      
+        <li>
+          <span class="govuk-visually-hidden">Suppliers starting with </span>
+          <a class="govuk-link" href="suppliers?prefix=other">1–9</a>
+        </li>
+      
+    </ol>
+  </nav>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <div class="supplier-list">
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714252">BRAVE &amp; HEART LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are a 360 “Strategy Studio”, helping brands deliver against key challenges with world class strategy backed up by innovative tactics. 
+
+A customer first mindset coupled with honest and challenging conversations means we are focused on helping you make a difference.
+
+No vanity metrics, unnecessary work or actions without purpose.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92417">BravoSolution UK Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            BravoSolution (Bravo) have delivered our hosted/managed service to the UK Public Sector since 2005. Now part of the JAGGAER family, we continue to offer our market-leading JAGGAER ONE Spend Management suite, including Category Management, Savings Management, Spend Analytics, Supplier Management, Sourcing, Contract Management, eProcurement (Catalogues), Invoicing and supporting Services.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/704852">Breeze Networks Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Breeze Networks is a specialist provider of cloud based SD-WAN and network security services.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709769">Brickendon Consulting Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Founded in 2010, the driving force behind Brickendon’s global strategy is transforming the traditional consultancy model by providing lasting, cutting-edge solutions that improve our clients’ profitability and efficiency, and increase their competitive edge.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709626">Bridewell Consulting Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Bridewell Consulting is an NCSC Certified Cyber Security Consultancy   providing high quality security and risk  services.  Whatever your needs, Bridewell is able to respond quickly and efficiently.
+Core areas of expertise include:
+•	Cyber Security
+•	Managed Security Services
+•	Data Privacy
+•	Penetration Testing
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701193">Bridge1Solutions</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Bridge1Solutions provides innovative Cloud solutions for all types of organisations.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92548">Bridgeall Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We provide advisory, implementation and support services bringing deep expertise across SharePoint, Power Platform, Teams, .Net and O365 to implement and customise solutions. We advise on Cloud strategy and our comprehensive Managed IT Service brings proven expertise to migrate on-premise workloads to Azure, deliver Desktop-as-a-Service and manage IT security.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714265">Bridgeway Digital</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Providers of quality consulting expertise and optimal business and technology solutions for Digital Transformation, Cloud, Data and Business Intelligence/Analytics needs.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92937">Bridgeway Security Solutions</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Bridgeway is an information security and risk management specialist with proven experience in delivering security solutions around mobility, cloud and security intelligence. 
+
+Bridgeway offers a holistic approach to understanding business issues and matching superior solutions through our depth of marketplace understanding, consulting expertise and a range of trusted vendors.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716736">BRIDGEX TECHNOLOGY LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715653">BRIGHTBOX GRP LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701131">BrightCloud Technologies Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We provide flexible managed solutions including hosted applications, hosted desktops, on demand computing, virtualisation and online backup – all from our UK datacentres, giving total peace of mind that your data is in good hands. We also specialise in integrating big-name Public Cloud offerings with our UK hosted Cloud
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715391">BRIGHT CONSULTING</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Bright is a dynamic IT and Business Management consultancy with a passion to help enterprises succeed in their Digitalization, Security and Business Analytics initiatives. Bright excels in building solutions across ITSM, IT Operations, Customer Service, Analytics and CyberSecurity. We bring 15 years of experience with 500+ projects in 20+ countries.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706249">BrightContact UK Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            BrightContact provides specialist consulting and support for Contact Centre and Call Centre projects. Our expert team will help you realise your Citizen Contact strategy, maximising the value of every customer interaction and delivering an exceptional Citizen Experience.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92584">BrightGen Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92694">Brightive Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            UK based provider of onshore &amp; nearshore digital, cloud transformation and change support services including consulting, project &amp; programme management, PMO and business analysis
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/586080">BrightLemon</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We help teams to mobilise and accelerate key pieces of work on large scale IT projects. We reduce risk by getting workstreams up and running—enabling suppliers and in-house staff to deliver effectively.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702397">Brightman Business Solutions</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            At Brightman, we help organisations manage the most difficult part of any transformation; the people. Many organisations invest in technology to change capability, but unless people understand and agree to work differently, change initiatives will falter. Brightman combines expert business consultancy with hands-on delivery assistance to implement digital projects successfully.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714543">BRIGHTMAST LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Brightmast Cognision™ provides an enterprise artificial intelligence (AI) platform that allows organisations to develop and maintain Cognitive Automation applications across their enterprise for their employees/suppliers/customers. Cognision™ is used by three of the largest NHS shared service providers in England and Scotland, and has provided ROI within four months of deployment.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93026">BrightOffice Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            BrightOffice software offer superior support, functionality and effectiveness in Customer Relationship Management.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701185">brightsolid online innovation Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Brightsolid designs, builds and manages secure and scalable hybrid cloud environments that allow you to meet your business strategy.
+
+We offer consulting and managed services across public (AWS and Azure) and private clouds ensuring you use the right cloud solution (whether IaaS, PaaS or SaaS) at the right time.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/710239">BRIGHT STAR IT LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706522">BrightStarr Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Brightstarr is an award winning technology consultancy that has been working with clients to build digital workplaces, platforms and intranets on Microsoft technology for over ten years. As a globally recognised Microsoft Gold Partner, it is regularly singled out for incorporating cutting-edge design and technical excellence into all customer engagements.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/587130">Brightwire</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Brightwire is a Microsoft Gold and Umbraco Gold Partner delivering usable, useful and innovative applications. We deliver Dynamics365, SharePoint/O365, Intranets/Document Management, Umbraco CMS, Web and Mobile Applications, Business Intelligence and custom .NET solutions. Our applications make a real difference, helping to increase productivity and collaboration, automate processes and engage users.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714455">BRISQQ LTD.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Our SaaS platform eLogii (eLogii.com) enables routing, planning and dispatch of vans, trucks and other commercial road vehicles for distribution or field services use cases.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702542">Britannic Technologies</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Britannic Technologies is an award-winning end-to-end Value-Added Reseller, Solutions and Managed Service Provider.  Providing and enhancing Cloud Telephony, UC &amp; Contact Centre.  Supporting Omni-channel, CRM integration, Automation, PCI-DSS, SIP, AI, gamification, conferencing, collaboration and Systems Integration. Certified to ISO9001, 27001 &amp; 22301. Supporting wide-ranging organisations across public and private sector.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706307">Briteyellow Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We provide a mixed reality indoor mapping application platform that helps transport, built environment, and urban planners to enhance customer experience, through better wayfinding and discovery applications, to unlock hidden revenues, through deeper location insights, and to drive value, through greater staff efficiency.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702663">Broadbean Technology Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Broadbean provides easy-to-use tools that improve recruitment efficiency and ROI. 
+Our SaaS offerings make it easy to distribute recruitment advertising and search for talent online,  optimise processes and integrate with internal systems.
+Social Referral provides a platform to both track and maximise employee engagement with recruitment.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712445">BroadCare Software Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            BroadCare Software Limited was incorporated in 2018 after the purchase of the BroadCare system from Bray Leino by CHS Healthcare Holdings Limited.
+
+The BroadCare software platform, specifically designed for NHS-funded continuing healthcare, is used extensively by CCGs/CSUs, to manage patients, care and payments associated with CHC across multiple care categories.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709052">Broad Consulting Group</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Broad Consulting Group provides valued and skilled expertise for Strategy &amp; Planning, Enterprise Architecture, Solution Delivery and Learning.
+Part of the environmental Broad Group with clients from both Private and Public Sector.
+All of our consultants and experts have exceptional communication, technical and sector knowledge.  Our team support QHSE.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/710354">Broadlight</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Established and built a strong global network of industry leading IT professionals to complement our internal capability including Enterprise and Cloud Architects, DevOps Engineers, Agile Coaches, Software Engineers, Project Managers/ Programme Managers, Business Analysts, Data Architects / Data Engineers, Software Testers, PMO, Product Managers and Service Managers.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714707">BROADNET COMMUNICATIONS SYSTEMS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            BroadNet Communications Systems is a leading Push to Talk radio network which can be used in anywhere with 3G, 4G or WiFi coverage. We have a web based command system and offer a range of devices including a Body Worn Video with the ability to upload video to control
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716068">BROADSTONES SOLUTIONS LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Broadstones are a technical change management consultancy specialising in Cloud Launch and Migration and transforming Agile and DevOps. Founded to help organisations transform faster, more efficiently while fulfilling hard to reach business goals and objectives. Simply put we drive a leap in business competitive edge through Cloud and DevOps.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715515">BROGAN RESOURCE SOLUTIONS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93515">Bromcom Computers Plc</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Bromcom has over 30 years’ experience providing innovative and award winning IT solutions to schools, multi-academy trusts and local authorities. Our Cloud solutions are designed to empower all stakeholders to help improve performance and outcomes. We supply solutions to all phases and types of school including independent and government funded.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712467">Bromley &amp; Sar Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are experts in project and programme management for cloud transformations. We understand organisational needs and communicate clearly. We shape business cases that help you transition to a more effective cloud-based future. We have experience in complex UK implementations. We’ll identify and define your future, and then deliver it, too.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702882">Bronze Software Labs</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708941">Brookcourt Solutions</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711701">Brooklyn Supply Chain Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We help organisations to build the key capabilities to a successful Vendor Management function. Wherever the business is positioned, we provide a unique approach to maximise value for money and minimise risk across the supply chain.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703985">Brookwood Recruitment</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are a bespoke people operations and management consultancy, offering a range of tailored solutions for public, private and third sectors. Working with technology leaders to help define project needs to secure and provide the best talent to achieve sustainable digital outcomes, helping to underpin organisational success.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712001">Brookwood Temporary Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/585243">Brovanture Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Brovanture provides Enterprise Performance Management (EPM) and Enterprise Resource Planning (ERP) solutions and is an Oracle Gold and Oracle NetSuite Partner with ISO9001 and ISO27001 accreditations. The Brovanture team provide services to public sector organisations including Reading Borough Council, The Home Office and The Department of Health and Social Care.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715571">Browline Consulting Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714977">BRUHATI SOLUTIONS LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are Technology experts that have worked across industries for many years. We have a passion for Enterprise Architecture and Design as we believe in the transformative power of design thinking and its ability to simplify communications, elevate experiences, engage and inspire organisations to do more for their customers.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711952">Brunskill Security Consulting</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Provider of cyber security consultancy services and a Cyber Essentials Certification Body.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/705584">Bruver Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711394">Bryden Wood Technology Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92291">BSI CYBERSECURITY AND INFORMATION RESILIENCE (UK) LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            BSI provides specialist, independent information assurance, penetration testing, ITHC, ISO27001 consultancy, PCI DSS and cyber security incident response services. Being NCSC CCSC and CHECK Green Light certified, we are experts in HMG policy and work in central/ local government, private and finance sectors, helping our clients achieve certification and compliance.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/582282">BSI Cybersecurity and Information Resilience (UK) Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            BSI Cybersecurity and Information Resilience Ltd , part of BSI Group, works with organisations across all industry sectors and business functions to identify, comply, secure and manage their critical data. Organisations  small to large size benefit from our expertise in Information Security and Governance,  Cloud Assurance, eDiscovery, Training and Research
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701957">BSM IMPACT LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Global SFIA Accredited Partner and Training Provider.
+We help answer the &#34;What skills do we have&#34; and &#34;What skills do we need&#34; questions, and embed data-driven Digital Skills Management. We do this through a mix of SaaS, Supporting Services and Professional Services.
+People and Process focussed improvement using established frameworks.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92553">BT PLC</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            BT PLC is a supplier under a number of CCS frameworks including Network Services 2,  G-Cloud and Technology Services 3.   It is a trusted supplier to Public Sector organisations and now has 80+ Direct Award catalogue services available for Customers to procure via Network Services 2 &amp; G-Cloud.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703189">BTS Holdings plc</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            BTS is a supplier of Contact Centre, Switchboard, Speech Recognition, Mobile Apps, Directory solutions, and Call Logging.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714538">Bubble Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Bubble Ltd is a leading provider of Project and Portfolio Management software. The company serves clients globally via offices in London,
+Cambridge, and Vancouver. 
+
+Its cloud-based solutions help customers improve the planning, governance, and delivery of IT, Innovation, New Product/Service Development, Engineering, and other initiatives.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93095">Buchanan Computing</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Software development house specialising web-mapping and cloud computing for traffic engineering and highway management.
+
+We develop, supply and support systems across the British Isles. 
+
+The foremost supplier to UK highway authorities of computer mapping (GIS), and software for the design and management of traffic regulation orders and traffic signs.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714328">BUCKHILL LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Buckhill was born of a desire to help organisations by introducing innovation through process automation and optimisation.
+
+As a highly motivated and proficient team of technology experts, we use our considerable experience in solving real world problems to implement the best of breed solutions for our customers.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700255">Buddi Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Buddi was founded in 2005 by entrepreneur Sara Murray and immediately began developing state of the art, proprietary technology for locating individuals with unparalleled speed and accuracy.
+
+Buddi is today an integrated products and services company, with established location and monitoring offerings in the Safety and Health and Security markets.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706204">Budgeting Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Budgeting Solutions is a leading consultancy with a proven track record of implementing powerful business intelligence and financial performance management applications that are designed to address the planning, forecasting, reporting and analysis challenges faced by organisations everywhere.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707352">Bud Systems</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Founded by the management team responsible for creating one of the UK’s leading training organisations, Bud combines over two decades of experience and expertise in the training and development industry. Bud’s core proposition provides a straightforward fully integrated software solution that overcomes many of the issues faced by apprenticeship providers.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714185">Buildsafe Sweden AB</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            BuildSafe is the digital collaboration platform that enables the entire construction supply chain to report, resolve and analyse risks and disturbances on site. The software supports processes connected to inspections, reporting, site inductions and data analysis. Results: safe and efficient construction projects completed on time, within budget and without accidents.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708995">Built Intelligence Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Built Intelligence provides online training and support tools for construction professionals to help them perform better. We use technology and collaborative partnership with industry experts as enablers for construction professionals to advance their careers, improve their performance, and share their insights through our community.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709533">Bulbshare LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Bulbshare puts consumers/citizens at the heart of decisions. We do this by building communities that can be engaged in real-time for insights, ideation, co-creation, and advocacy. Our unique platform makes it easy to collaborate with citizens to create better products, services, marketing, and more informed policy decisions.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711421">Bulien LLP</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Bulien specialise in everything from data prep &amp; ETL through to automated ML &amp; AI. 
+
+Partners:
+ • Alteryx — Prep, blend, &amp; analyse data, all in a single code-free platform. 
+
+ • DataRobot — Automated ML, using AI to deliver accurate productionised predictive models in minutes.
+
+ • Microsoft — data visualisation.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703104">Bulk SMS Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Voodoo SMS provide the most intuitive, easy to use system of its type for sending SMS online, via email or through integrating it with your own application via our powerful API.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712356">Bulletproof Cyber Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712109">Bullet Web Development</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are digital transformation experts who create digital solutions to solve problems and increase efficiency. We’ll take a fresh view of every requirement and we understand that project needs will vary. Our role is to tailor a solution with a view to maximising efficiency. Functionality built for need.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700110">Bundledocs</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            With Bundledocs powerful document bundling application, your team can effortlessly produce high quality professional briefs, reports or document bundles in minutes. Our unique software automates time consuming activities and immediately produces a PDF document bundle that is ready to print, save or share.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702741">Bureau van Dijk Electronic Publishing Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            With information on over 365 million companies in all countries worldwide we are the resource for private company data.
+We specialise in financial data, corporate ownership information including beneficial owners, M&amp;A data and financial strength metrics. Our international data is standardised so you can compare companies easily.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709067">Burendo</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Proven leaders, with many decades of practical experience earned at the coalface around the world. First and foremost committed to helping others by using the tools and techniques we have found successful, many developed by thought leaders across the globe, leveraged in a pragmatic way to suit your organisation.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703332">Business Agility Group Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            SharePoint and Office 365 expertise for the public sector. 
+
+With over 20 years experience, our core skills are reﬂected in how we
+empower individuals, teams and organisations to intelligently discover,
+share, and collaborate in the best way possible.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700666">Business Cloud Integration Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Business Cloud Integration Ltd offer highly specialised consultancy services, focusing on the integration, support and development of SharePoint, Office 365, Azure and Office Web Apps. Our team of SharePoint developers, analysts, consultants and architects specialise in the design, implementation and support of SharePoint solutions on premise and in the cloud.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/713544">Business Comply Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Digital Twins, simulation, Target Operating Models (ToM), Business Architecture Frameworks (BAF); draft and templated policies for governance, regulatory and contractual compliance, business processes, policies, controls, risks, operations, and similar content. Coverage of most business and government functions including overseas.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/704994">Business Continuity Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Procurement and project management consultancy experienced in supporting public sector with complex IT procurement, digital delivery and , Professional Services.
+Agile digital procurement supporting organisations with agile project delivery, scrum and agile coaching,  product ownership and alignment to GDS service manual. We assist organisations through GDS assessments.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700048">Business Data Partners Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Business Data Partners (BDP), part of Talan Group, is a Data Management &amp; Analytics Consultancy. BDP provide professional services to public &amp; private sector clients; financial services, life &amp; pensions, retail, local &amp; central government; across the project lifecycle (project management, business analysis, data engineering, data science, implementation and testing)
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714969">Business Data Prospects</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            BDP Agency specialise in the consultancy and management of marketing
+campaigns requiring business data. We offer a comprehensive marketing
+resource for B2B email, direct mail and telemarketing campaigns. Working
+with major national and international brands, our strategic approach to
+business data is guaranteed to give you outstanding results.  https://www.businessdataprospects.com/
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/587480">Business Development Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Providing Services that help Buyers plan, set up and migrate to cloud software or hosting, and additional Services that support Buyers in their transition: i) guiding strategic/tactical decision making about transition initiatives, ii) creating integrated implementation plans, and iii) providing actionable performance management information during set up and migration cycles.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716161">BUSINESS GUYS I.T. LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/713902">Business Intelligence Group Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93456">BusinessOptix Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            BusinessOptix:  a  cloud-based  business process modelling collaboration platform  that enables organisations to understand their core operations, refine change and inform the workforce via the use of structured work instructions. The collaboration is designed help secure interaction to other government agencies or external contractors. Microsoft Azure hosted integrated to Microsoft 365
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708005">Business Reform Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Business Reform provide full consultancy, configuration, implementation, training and services to ensure you gain maximum benefit from Microsoft 365 and SharePoint. 
+
+Delivering functional branded SharePoint Online Intranet Sites, designed and implemented through set-up, testing, training, go-live and able to provide ongoing support and maintenance through service desk support packages.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92712">Business Systems (UK) Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            UK’s largest independent provider of call recording and workforce optimisation, with a 30 year history in workforce management, cloud contact centre technology, back office optimisation and analytics. Offering unbiased advice on ‘best fit’ solutions from industry-leading manufacturers, we provide expertise in implementing cloud services and transitioning operations from on-premise/legacy systems.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700621">Butterfly Projects Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Butterfly Data offers a comprehensive data service, focused on data science and its related disciplines. Our consultants have hands-on experience at all stages of the data management lifecycle. We can help you transition to cloud services for all your analytics and reporting requirements.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700275">Buzzacott Computer Services Ltd t/as Buzzacott Giving Solutions</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We provide consulting and support services for Blackbaud Grantmaking (formerly known as MicroEdge GIFTS), the World&#39;s leading Grants Management Software. We are a division of Buzzacott LLP, the largest single office firm and a Top 25 firm of Chartered Accountants in the UK.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702948">Buzz and Beyond Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are experienced suppliers of cost effective digital services as well as providers of specialist digital subject matter experts in technology, user experience, delivery and product ownership.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714956">Byte9</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92220">Bytes Software Services</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Bytes Software Services specialise in licensing, software asset management, cloud solutions and training. We also work closely with partners to manage technology deployment.
+          </p>
+        </div>
+      
+    </div>
+    
+  <nav class="dm-pagination" role="navigation" aria-label="Pagination">
+    <ul class="dm-pagination__list">
+      
+        
+        <li class="dm-pagination__item dm-pagination__item--previous">
+          <a href="suppliers?prefix=B&amp;page=2&amp;framework=g-cloud"
+            class="dm-pagination__link"
+            rel="prev"
+          >
+            <span class="dm-pagination__link-title">
+              <svg class="dm-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
+                <path d="m6.5938-0.0078125-6.7266 6.7266 6.7441 6.4062 1.377-1.449-4.1856-3.9768h12.896v-2h-12.984l4.2931-4.293-1.414-1.414z"/>
+              </svg>
+              <span class="dm-pagination__link-text">
+                Previous page
+              </span>
+            </span>
+            
+          </a>
+        </li> 
+      
+      
+    </ul>
+ </nav>
+
+  </div>
+</div>
+
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>

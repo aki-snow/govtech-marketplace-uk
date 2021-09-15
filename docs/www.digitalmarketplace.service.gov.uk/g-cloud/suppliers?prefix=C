@@ -1,0 +1,1623 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  Suppliers starting with C – Cloud hosting, software and support – Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="suppliers?prefix=C#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../g-cloud">Cloud hosting, software and support</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="suppliers">Suppliers</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">C</li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+
+  <h1 class="govuk-heading-xl">Suppliers starting with C</h1>
+
+
+<div id="global-atoz-navigation">
+  <nav role="navigation" aria-label="Suppliers">
+    <ol>
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=A">A</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=B">B</a>
+          </li>
+        
+      
+        
+          <li class="selected">
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <strong>C</strong>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=D">D</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=E">E</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=F">F</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=G">G</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=H">H</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=I">I</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=J">J</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=K">K</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=L">L</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=M">M</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=N">N</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=O">O</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=P">P</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Q">Q</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=R">R</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=S">S</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=T">T</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=U">U</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=V">V</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=W">W</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=X">X</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Y">Y</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Z">Z</a>
+          </li>
+        
+      
+      
+        <li>
+          <span class="govuk-visually-hidden">Suppliers starting with </span>
+          <a class="govuk-link" href="suppliers?prefix=other">1–9</a>
+        </li>
+      
+    </ol>
+  </nav>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <div class="supplier-list">
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/704453">C2 CYBER LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            GLOBAL CYBER SECURITY SOLUTIONS, SUPPLY CHAIN INFORMATION ASSURANCE, HUMAN INTELLIGENCE AND DATA PROTECTION SERVICES
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700315">C365Cloud</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Formation is a mobile data collection tool which allows clients to collect data on a mobile device. This data can then be transferred to the back office system for secure storage.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700867">C3IA Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            SME systems engineering, cyber security, information communications technology, information assurance and professional services company with 14 years of experience in support of government, MoD, law enforcement and wider security sensitive sectors.  Our cyber security consultancy is certified by the National Cyber Security Centre.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707512">CA3</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Eli is an award-winning technology platform designed to deliver a personalised onboarding experience to each and every new employee - reducing attrition, increasing employees&#39; performance, increasing your NPS score, and reducing admin for line managers - saving you time and money.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708837">Cabera Consulting Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92223">CACI UK Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CACI has over 22 years’ public-sector experience. CACI’s proprietary and agnostic digital solutions promote thinking and innovation, while focusing on the end-user and client. Our experts’ knowledge and passion ensure our clients can access; industry leading specialists to deliver tailored outcomes, as well as the latest cloud-based solutions.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700645">Cadcorp</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cadcorp helps organisations in the public and private sectors maximise their return on investment in geographic information by making it easier to share and distribute spatial data between people and between systems.
+
+We achieve this by developing GIS and web mapping products that incorporate open and standards-based technologies.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706903">Cadence Innova</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cadence Innova is more than a conventional management consultancy or digital provider. We’re the best of both. 
+We give private and public sector organisations the courage and capability to do things differently.  A powerful combination of pragmatists, innovators and implementations to work with you for the best outcomes.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92419">Cadence Partnership LLP</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cadence specialise in helping define policy and strategy, clarifying aims and delivering outcomes defined in a business blueprint for success.  Through understanding how the organisation design works with innovative supporting technologies and effective processes, Cadence helps design, establish and deliver major change initiatives.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701481">Cadgwith Health</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are specialists in consultancy solutions to enable health organisations and their suppliers to realise their full potential by improving performance and results. Cadgwith Health provides professional consultancy services and interim roles at senior executive level.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702824">Cadmidium Services Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cadmidium is ISO9001:2015 and Cyber Essentials certified, providing solutions to the Defence and Security of the United Kingdom and its Allies. We deliver; Security and Information Assurance, SCIDA, Systems Engineering, P3M and Procurement Consultancy, Training, IT Service Support and System Integration. Cadmidium are known for providing high quality, cost-effective solutions.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700946">Caja</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Caja is a transformation consultancy, specialising in optimisation and digital transformation of processes, technology and people. 
+
+We create innovative, cost effective and efficient operating models and end to end processes across customer facing and back office/shared services. Markets include Local/Central Government, NHS, Higher Education and the private sector.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93212">Calba</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Calba specialises in agile transformations.
+
+We provide agile coaching, training and practitioner services (specialists) including agile coaches, Scrum Masters/Delivery Managers, Product Managers, Product Owners, Business Analysts and other specialist roles.
+
+We focus on knowledge transfer and capability development to achieve lasting change that directly contributes to our client’s goals.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701145">CalebAcuity Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Specialist and Mentors in Artificial Intelligence, Leadership, People, Program, Project and Process Management. Our Mission is to enable Organisations to deliver pragmatic business solutions involving the successful deployment of Individuals, Teams and Technologies whilst maximising the latest in Process and Program Management Techniques entirely focused on creating High-Performance Organisations
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707021">Caleidoscope Associates Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Caleidoscope Associates helps organisations implement and enhance Salesforce solutions. With a team of highly experienced Salesforce professionals, we have developed a unique and cost-effective approach to delivering the capabilities end-users need to achieve their digital agenda.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703102">Calero Software Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Calero-MDSL provides a Cloud-based Technology Expense Management (TEM) Service based on Microsoft Azure’s software analytics platform. It provides a uniquely detailed inventory to enable full visibility of assets globally across fixed, mobile and WAN. You can identify billing discrepancies, analyse how to optimise the estate and make savings of 10-30%
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93434">Calibrand Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Calibrand, the currency for talent®, specialises in providing e-assessment solutions that assess, monitor, measure, benchmark, track and test people during periods of employment and training.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711147">Calibrate Consulting</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are a global and agile consultancy specialising in data and digital consultancy and offer resourcing services. We provide consultancy, managed services, strategy and implementation. We have an impressive track record of success across highly regulated business sectors helping our client manage, analyse and predict with data governance and controls.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714287">Callmy Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            UK based technology company specialising in the development and delivery of mass notification and emergency communication solutions.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712551">Callsign Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Identity Proving and Authentication service that provides a premium customer experience with best in class security. Callsign offers 3 modules:
+1. Passive identification using Location, Device and Behaviour intelligence
+2. Dynamic, realtime, natural language policy creation and management
+3. Multi-channel authenticators, suiting all capabilities and devices.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714594">CAMBRIDGE DIGITAL HEALTH LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716869">CAMBRIDGE MANAGEMENT CONSULTING LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cambridge MC is a specialist consultancy drawing on an extensive network of global talent and experts to focus on sector-specific challenges and the demands of a fast-changing digital world. With capabilities in strategy, digital transformation, innovation, analytics/MI, cost management, procurement and programme delivery we are leaders in public sector transformation.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708991">Camburg Collective</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are a recently established consultancy that specialises in providing Change, Human Resources and Organisational Development support to the public sector. Our associates come from; the NHS, local government, central government, police, higher education and the third sector. We value the public sector ethos and put your people first.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/710930">CameraForensics Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CameraForensics indexes imagery across the web to match online and offline personas, in an effort to guide investigators in the retrieval of vital intelligence. We deliver R&amp;D and services for law enforcement and other government agencies in web-crawling, big-data, large-scale image processing, image forensics, de-anonymization and open source intelligence.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/580453">CAM Management Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Camms is an IT success story that has been built from a foundation of specialist domain knowledge and management consulting origins, practical Enterprise Performance Management (EPM) and Business intelligence (BI) implementation expertise and strong Executive level “on the ground” Local and State Government experience.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/705077">Campaign Master (UK) Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are a leading email marketing, CRM and marketing automation software and services supplier. Additionally, we provide full email HTML design services along with SMS marketing, form building, surveys and event management tools.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/710232">Campbell Consulting</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92872">Camwood Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Camwood are a Professional Services firm, providing Application Management Services, including Windows 10 Transformation, Application Audit, Rationalisation &amp; Compatibility, Application Packaging, SCCM Design &amp; Deployment, Office 365 Migration,  Cloud Transformation, Application Security, Robotic Process Automation, Automated Application Testing for WaaS
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92322">CANCOM MANAGED SERVICES LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CANCOM Managed Services advise on and deliver the industry&#39;s best technologies for each customer&#39;s specific need. Our consultants expertly choose the most appropriate solutions by leveraging a portfolio of public cloud, private cloud, and a combination of platforms.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/586016">Cancom UK Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CANCOM UK supports corporate and public sector clients with world-class IT products, solutions and services.  With the highest accreditations from technology and software leaders, our data centres hold Government Official status and full ISO accreditation.  CANCOM UK for On-premises, Managed Services and Cloud.  A different view and a better answer.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707477">Cantarus</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are an innovative and multi-award-winning full-service – web, intranets, apps, design and hosting – digital agency. Our passionate team of creatives, consultants, designers and developers, reinforced by our dedicated Customer Success Team, empower our clients to invent, create and continuously improve deeply engaging digital experiences that deliver spectacular results.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706153">Cantata Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cantata is the UK’s leading independent CRM consultancy, helping organisations get the most out of stakeholder management.  We offer independent CRM advice, implementation services, &#34;Vantage&#34; solutions, private cloud hosting, training and support. We specialise in commoditised solutions for complex situations using methods that reduce timescales, cost and risk
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711995">Cantium Business Solutions</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cantium Business Solutions is limited company wholly owned by Kent County Council. We specialise in providing a comprehensive portfolio of IT and HR solutions designed for the Public Sector. We currently manage over 1,000 customers across the UK including Local Authorities, Schools and Charities.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712934">Capabiliteez Ltd t/a PQS Pre-Qualification-Scheme</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701375">Capacitas</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Capacitas specialises exclusively in reducing cost and risk in business-critical IT systems through capacity and performance management. We work with large organisations who have business processes entirely dependent on their IT systems. Many of our clients have large IT costs, we help to safely reduce the size of their estates.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714705">Capella Systems Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Capella Systems develop online learning and quality assurance systems. We are the developers of Stedfast, an online system designed to support education and training providers with their quality assurance and curriculum planning activities.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92224">Capgemini UK plc</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            A global leader in Cloud consulting, technology and digital transformation, Capgemini is at the forefront of innovation to create and deliver, together with its clients, business and technology solutions that fit their needs and drive the results they want. A deeply multicultural organisation, Capgemini has developed the Collaborative Business Experience™
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92566">Capita Business Services Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Capita is a digital transformation, technology and IT services provider and value-added reseller.  We bring people, processes and technology together to transform businesses and deliver better outcomes.  From bespoke application development, individual IT systems to fully managed IT services and digital transformations, we will design the right solution for you.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700432">Capital Network Solutions Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            A progressive IT services and solutions provider offering end to end managed services including cyber security, CREST Accredited penetration testing, network design, implementation, deployment and support.  With a highly accredited engineering team and global vendor partnerships underpined by ISO 27001 and IS0 9001 accreditations we look to exceed client expectations.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706856">Capital Novus</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            KNOVOS (formerly Capital Novus) is a global technology firm. Founded in 2002, the company provides high quality solutions to the legal, corporate, and government community. Traditionally a provider of E-Discovery solutions, the company now serves industry with innovative IT solutions and services including dealing rooms, project management and GDPR Compliance.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/705164">Capita Property &amp; Infrastructure Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We provide a range of business analysis and software development, support, and hosting services for clients including Transport for London, Highways England, and the Department for Transport, with significant experience in a broad spectrum of transport project and data types.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92936">Capito</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Capito is a leading ICT provider of cloud services, infrastructure consultancy, security, managed support services and next generation storage, server, and end user technology solutions and services across the UK
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/586413">Capricorn Ventis Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Many organisations struggle to understand their data and extract value from it. Capventis helps large and growing organisations gain insights from Operational and eXperience data, and provides digital solutions to deliver Business Improvement.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715828">CAPRI HEALTHCARE LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Capri Healthcare is an organization driven by the vision of turning the NHS Digital-first strategy into reality by bringing digital innovation into the working of NHS and private healthcare organisations. We lead healthcare organisations into the Digital Era by redesigning and developing patient-centric online systems, reducing the burden on NHS.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702874">Captive Health</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Get the right information to the right person at the right time with Patient Journeys and staff engagement workflows, membership management, patient and staff experience, secure in-app, SMS and email messaging. N3 hosted and completely secure, our innovative products offer a completely unique toolkit for communications, engagement and feedback.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/705699">Capture</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Our digital asset management platform changes the game for brands, rights owners and heritage organisations by delivering amazing content to increase market awareness and expand audiences. It enables licensing, commercial, and digital teams to track, control, re-purpose and license their growing number of assets to service their clients and colleagues.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92569">Carbon60 Limited (Formally s.com Group Limited)</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Carbon60 provide specialist support and solutions to organisations and business within the Aviation, Defence, Engineering, Technology, Cyber and Information Assurance sectors. We support both Outcomes and Specialist requirements providing subject matter expertise, fixed price and bespoke Statement of Work (SoW) solutions.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711380">Cardinus Risk Management Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Specialising in safety and risk management, Cardinus offer complete solutions for display screen equipment compliance, safety training and consultancy, property risk management, insurance surveys, strategic and tactical security and all elements of fleet risk management.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712090">CardioScan Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CARDIOSCAN LTD offers a cloud platform for hospitals to either partly or fully outsource their Holter cardiac diagnostic operations to CARDIOSCAN LTD to cope with business as usual variations in demand and supply and address missed revenue opportunities representing up to 20% of their annual income from Holter tests.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706571">Cardonet</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Founded in 1999, Cardonet are a UK based IT Services business with a proven track record of helping organisations overcome their technology challenges. We provide you with a customer focussed, single point of contact and distraction-free IT services.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712803">Cardonet COMM</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703852">Care Banking</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709965">CAREERBUILDER Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We’re a global, end-to-end human capital solutions company. As an industry leader, we work with companies big and small, providing cutting-edge solutions for everything from recruiting to employment screening and human capital management.
+
+You can find CareerBuilder and our subsidiaries in the U.S., Canada, Europe and Asia.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709321">Careful Systems Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We provide online patient tracking and task management services for healthcare organisations.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709660">Carehome Selection Ltd T/A CHS Healthcare</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CHS Healthcare offer a broad range of support to the NHS in continuing healthcare:
+•Caretrack system for CHC patient information management and reporting
+•Complete support in CHC, funded nursing care assessment and management
+•Case management
+•Directly-employed nurses for CHC checklist
+•Domiciliary care scrutiny and savings service
+•Training module in CHC.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702854">Carelink - Piksel Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Piksel are a UK based specialist managed service provider, delivering private, hybrid and public cloud based services to the private and public sectors.  Services with specialist focus on the healthcare sector are provided under Piksel&#39;s Carelink brand.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716721">CARE OPINION CIC</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93536">Caretower Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Independent cyber security specialists. Member of ‘Europe’s 500 Top Growth Companies’. Over 20 years’ experience providing security solutions within public sector. We do more than just provide the right solutions, we also have technical consultants to support our services. Caretower, maximise resource utilisation, simplify your operation and improve network security.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703870">Carillion Communications</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We specialise in designing, building and maintaining flexible CVI and traditional AV communication facilities in meeting rooms, boardrooms and work spaces all around the world.
+Providing professional presentation, collaboration and communication facilities for sharing messages, vision and policy to internal and external stakeholders, using solutions such as Teams and Pexip.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708648">Carnall Farrar Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CF is a management consultancy and analytics company dedicated to improving health and care.
+
+We help systems and organisations realise transformative change, to drive improvements in quality of care and performance.
+
+We inspire clients to innovate and sustain change, through a trusted, talented and dedicated team of people.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714654">CARRUTHERS AND JACKSON LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Our mission is to improve data literacy and maturity – we work through your data challenges with you, aligning how you use this asset to create your data enabled organisation. From building your foundation through to innovation, balancing the risk adverse side of data and adding value to your organisation.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712953">CASED DIMENSIONS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cased Dimensions with our Fluids365 allows clients to modernise applications. Move applications to a (PaaS) Platform as a Service architecture and make use of Azure Service Fabric with Microservices. Fluids365 provides exceptional business agility by connecting applications, data, and devices with a data, Process and API approach.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708435">Castellan Solutions Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            ClearView by Castellan Solutions work across both private and public sectors providing Business Continuity software. We have collaborated with some of the country&#39;s leading specialists to create a range of tools with robust technology and high levels of functionality but with a clear focus on usability.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715360">CASTLEPOINT SYSTEMS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Castlepoint reads, registers and regulates all information in a network, in any format and any system. It uses Natural Language Processing to determine what each record is about, and so what regulations apply, and it then automates the process of compliance, disposition, security, privacy, audit, ediscovery, strategic, and operational management.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715971">CASTLETON TECHNOLOGIES LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700723">CAST Software LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CAST is the world leader in Software Intelligence. Software intelligence creates understanding into software architecture, end-to-end transaction flows, data access patterns and more, helping teams work confidently and faster. Hundreds of companies and government organisations rely on Software Intelligence to improve end-user satisfaction, time-to-market, prevent business disruption and reduce cost.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/583086">Catalyst BI Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            QlickiT is the UK&#39;s first and leading dedicated provider of intelligent decision support and advanced analytics solutions based on the world-beating Qlik technology. 
+
+We have no other distractions.  Our focus is totally on providing customer BI, data visualisation and reporting solutions.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/579028">Catalyst IT Europe Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Catalyst IT Europe is part of a global team of skilled open source technologists. We specialise in developing, designing and supporting enterprise grade systems using open source technologies. Our Brighton-based team has a particular focus on platforms supporting learning and development for public, private and third sector customers.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712473">Catalyze Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709085">Cataphract</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/705793">Catapult CX Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Catapult works to make your IT effective and enable your business to go faster via Agile, DevOps, lean organisation and adoption of cloud services. Catapult improves your IT environment whichever platform it’s on.  We also provide incident analysis and remediation to reduce risk, improve availability and time to implement change.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712548">Caura Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Caura Vehicle Management is a suite of software applications for owners of vehicle fleets to help manage MOTs, Road Tax, insurance and insurance claims. It is available on G-Cloud under the Cloud Software Lot. In the Cloud Support Lot you can buy additional support for systems implementation and systems integration.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714858">CAUSALITY.IT LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/580025">Causeway Technologies Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Causeway’s software supports the design, build, operation and maintenance of the built environment. Our solutions helped BAA build Heathrow Terminal 5, Mace cost plan the construction of London’s tallest building the Shard and Kier Highways digitally transform its field service operations and connect its entire highways maintenance process.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/584156">Caution Your Blast Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Caution Your Blast design and make digital products and services, built with and for people.
+We are &#34;the team&#34; specialising in transformation, service design and technology. 
+Our work plays an instrumental role in leading the UK government transformation to &#39;faster, better and cheaper&#39; public services; saving billions of pounds.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709125">CAVENDISH NETWORK SERVICES LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/705896">Cavendish Wood</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We help local and central government organisations transform to meet ever-changing customer expectations driven by global digitisation. From strategy development and building new cultures of innovation to cross-functional, agile delivery, technical solutions, integration and supply chain management. Talk to us about how we can enable your digital transformation journey.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712014">CBP Digital Services</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Providing digital services using Agile Methods and to GDS standards. Specialising in providing Quality Assurance and testing of DWP retirement benefits cloud software
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93592">cBrain</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            cBrain provides a production platform for government work, developed in close collaboration with a number of Danish ministries. It enables organisations to genuinely go paperless, and allows executives to run the business from an iPad rather than from meeting packs. Mobile working is a reality, not just an aspiration.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/717036">CC CONSULTING LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93057">CCL Solutions Group Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CCL is a market leader in information security offering an end to end tailored solution across cyber security, digital forensics and data analytics.   Solutions include: CHECK-accredited Penetration Testing Services, CREST registered testers, Incident Response, a Managed Security Operations Centre and a digital investigations platform and services.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712476">CCS Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CCS provide Tier 1 SMS Messaging, digital letters, payment portals and email distribution. 2-way Omni-channel platform for SMS, email, WhatsApp and Webchat with frontline trainable Chatbot facility. UK based, 17 years experience in contact centres and accredited to ISO 27001, Cyber Essentials and award winning for digital engagement solutions.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706365">CCS Media Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CCS Media is a Technology and Supplies Reseller with over 35 years’ experience delivering first-class IT solutions and services to organisations of every kind across the UK and beyond. Our network of offices and Advanced Technology Centres secure unrivalled nationwide scale for supply and service.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716768">C&amp;C Technology and Consulting</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702877">CCube Solutions</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CCube Solutions is an award-winning provider of enterprise content management (ECM) solutions, comprising electronic document and records management, workflow, electronic forms, portal software, and systems integration.
+Our focus is ensuring users get the right information at the right time to enable them to carry out their jobs productively.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703421">CDG (Scotland) Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CDG is a Scotland based SME delivering outstanding services within the Scottish Public Sector for over 30 years   It provides consulting, technical architecture, network security, application development, systems integration, disaster recovery, deployment and support services.  This includes innovative cloud based solutions as organisations seek to drive further efficiencies and collaboration.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714866">CDL GROUP HOLDINGS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CDL is a software house offering many varied solutions, including specialisms in data services for high volume organisations, vehicle information services, cloud services consultancy and insurance pricing/administration systems.
+
+The company is financially strong and has over 600 employees based in Stockport, UK.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708501">CDPSoft</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CDPSoft has over  25 experience in the design, development and supply of specialist advanced software solutions. Our award-winning cloud solutions are used across a diverse range of sectors and disciplines, including Housing, Housing Options &amp; Homelessness, Care, Support, Health &amp; Wellbeing, Commissioning, Contract Management, Task Force Solutions, Pathways, Multi-Agency Working.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707866">CDR Group</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CDR Group is a company specialising in Geographic Information Systems and digital geographic data.  We offer experienced consultancy; training, software development and data capture services to the public and private sectors.  Formed in 1982, the company is a Precisely Software Business Partner, Ordnance Survey Licensed Partner and ISO9001 accredited.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92824">CDS</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CDS is one of the UK’s top 10 technical digital agencies. Our technology and services help the public sector engage and transact with citizens and employees using secure, integrated and accessible solutions. We simplify complexity and apply straight thinking to deliver best value and make a positive difference.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/585346">CDSM Interactive Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CDSM are an end-to-end e-learning and cloud solution provider. We provide high-value consultancy and solutions at competitive prices. We do this to support organisations who are considering or who have decided to exploit digital learning technologies to raise attainment, improve learning outcomes, enhance their business processes or generate business revenues.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707426">CDS Support Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CDS Defence &amp; Security provides consultancy services in training, engineering and cyber security &amp; information assurance. Our approach is wholly output driven with a focus on enhanced operational effectiveness, maximised people performance and the management and reduction of risk.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/705140">CD Technology Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92299">CDW Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CDW Ltd is an established and trusted IT services and solutions provider with an international presence in both private and public sector IT.  Our team possesses the industry’s highest achievable accreditations, which means CDW Ltd customers can focus on running their business, not on managing their IT.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702554">Cedar Recruitment Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Specialist Consultancy Services across a range of expertise. Procurement and Commercial Services, Project and Programme Management, Business Change and Transformation, Finance Management and Information Technology/Cloud Management. We provide these services/skills into central and local government organisations nationwide and support large scale Public Sector Programmes, providing solutions that understand specific needs.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/713285">CEDOZ LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are a software development company that assists organisations to integrate digital technology into all areas of their business, thus, fundamentally changing how they operate and deliver value to their customers.
+
+We review, advice, design, procure and implement integrated  data and information infrastructure that meets organizations’ ICT system requirements.
+
+www.Cedozltd.com.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706094">Cedyrn Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We help organisations adapt to the digital age. We&#39;re experienced in building teams, running digital services and defining products.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/581398">Celerity Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Celerity is a specialist Cloud, Managed IT services provider, and integration company, successfully delivering innovative solutions hand-in-hand with industry-leading service that is second to none.  Working closely with clients to manage complexity, reduce costs, enhance security and deliver an IT framework that transforms business objectives into tangible and measurable results.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701780">Celidor</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Celidor provides cyber security consultancy, security architecture, design and implementation of security solutions and security training.
+
+Director and Principal Consultant Paul Schwarzenberger, M.Sc.,  CCSP, CISSP, M.Inst.ISP specialises in Cloud Security Architecture and DevSecOps, working with organisations to migrate business critical applications to the cloud, protecting personal data and sensitive information.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707450">Cello Software Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Since 1994 Cello Software has been working very successfully with the NHS. We design intelligent and innovative business solutions to save you time and reduce waste. tracker2 online paperless leave &amp; attendance management system is a state of the art cloud software, which helps you modernise and save money.
+          </p>
+        </div>
+      
+    </div>
+    
+  <nav class="dm-pagination" role="navigation" aria-label="Pagination">
+    <ul class="dm-pagination__list">
+      
+      
+        
+        <li class="dm-pagination__item dm-pagination__item--next">
+          <a href="suppliers?prefix=C&amp;page=2&amp;framework=g-cloud"
+            class="dm-pagination__link"
+            rel="next"
+          >
+            <span class="dm-pagination__link-title">
+              <svg class="dm-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
+                <path d="m10.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"/>
+              </svg>
+              <span class="dm-pagination__link-text">
+                Next page
+              </span>
+            </span>
+            
+          </a>
+        </li> 
+      
+    </ul>
+ </nav>
+
+  </div>
+</div>
+
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>

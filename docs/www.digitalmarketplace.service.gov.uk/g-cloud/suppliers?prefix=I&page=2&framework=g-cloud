@@ -1,0 +1,1647 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  Suppliers starting with I – Cloud hosting, software and support – Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="suppliers?prefix=I&amp;page=2&amp;framework=g-cloud#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../g-cloud">Cloud hosting, software and support</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="suppliers">Suppliers</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">I</li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+
+  <h1 class="govuk-heading-xl">Suppliers starting with I</h1>
+
+
+<div id="global-atoz-navigation">
+  <nav role="navigation" aria-label="Suppliers">
+    <ol>
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=A">A</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=B">B</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=C">C</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=D">D</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=E">E</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=F">F</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=G">G</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=H">H</a>
+          </li>
+        
+      
+        
+          <li class="selected">
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <strong>I</strong>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=J">J</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=K">K</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=L">L</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=M">M</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=N">N</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=O">O</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=P">P</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Q">Q</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=R">R</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=S">S</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=T">T</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=U">U</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=V">V</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=W">W</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=X">X</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Y">Y</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Z">Z</a>
+          </li>
+        
+      
+      
+        <li>
+          <span class="govuk-visually-hidden">Suppliers starting with </span>
+          <a class="govuk-link" href="suppliers?prefix=other">1–9</a>
+        </li>
+      
+    </ol>
+  </nav>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <div class="supplier-list">
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702744">Incom Business Systems Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Supply, installation and support for a range of voice and data communication products and services. Award winning reseller with 30 years experience, nationwide provision, Mitel Gold Partner, BT Openreach provider, Gamma Platinum Partner and Virtual 1 data connectivity and WAN provider.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92311">Incorvus Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Incorvus provides digital metamorphosis through training, consulting and services for digital understanding, insight and transformation.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716779">INCOVO LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703254">Incremental Group</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Incremental Group is a digital services provider that helps public sector organisations transform through the application of digital technology. We are a Microsoft Gold Partner, with over 20 years’ experience in Dynamics, data analytics, application development, system integration and cloud transformation consultancy services.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714905">INDELIBLE DATA LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707523">Independence Brokerage Services CIC</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            In8it is web-based software enabling:
+Dynamic monitoring and review of supply chain compliance.
+• Use automation to save time and resources
+• Quotes, Estimates, Selection, Tender, Rotation, Audit (QESTRA)
+• Workflow
+• Attach documents (QESTRA or Workflow)  
+• Customer client feedback &amp; monitoring
+• Collaboration in one environment
+• Reports
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707927">Indigo&amp; Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            IAND is a London based technology company. Our focus: enabling large enterprise organisations to optimise supply chain performance, with a focus on SMEs &amp; specialist suppliers. Using data-driven insights to unlock innovation and help SMEs thrive.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712989">Induction Healthcare</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Our objective; every healthcare professional, every day, using an Induction Healthcare product to streamline the delivery of care.
+
+Our Induction Switch and MicroGuide software services lead the way in simplifying clinical collaboration and bringing structure to the distribution and governance of clinical guidance and policies.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700766">Indus Services Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Service quality, cost effectiveness, client satisfaction and innovation is at the heart of what we do and we thrive on our achievements as an organisation particularly in the areas of Cloud, Infrastructure Automation, DevOps, Data Sciences, Data Migration, Data Quality Management and CRM.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715654">INDYSOFT EUROPE LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Supplier of Calibration and Asset Management Software.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703317">INET</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            INET is growing consultancy service provide for Software Development,Testing and DeploymentServices, We provide all kinds of development and testing services using Agile
+
+We are into product development,Data Science, Big Data, AI, ML and Cyber Security.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711564">I-NET COMMUNICATIONS GROUP PLC</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            I-Net Communications is a leading supplier of Telecoms and Contact centre cloud solutions.  Our solutions include PCI compliance, Workforce optimisation and speak analytics. 
+I-Net can seamlessly connect your front office and back offices together enhancing the customer experience through all digital channels: Voice, SMS, Email, Web Chat &amp; Social Media.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/705020">Infinite Convergence Solutions / NetSfere</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Infinite Convergence is a global leader in messaging and mobility solutions serving the largest Enterprise, Tier 1 mobile operators and SMEs globally, enabling more than 500 Million subscribers with over 1 Trillion messages annually, earning a reputation for unparalled delivery. 
+
+Our Solution Portfolio comprises: NetSfere Omnichannel, Enterprise &amp;  Mobile Solutions
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706616">Infinity Health Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Infinity is a secure collaboration and task management solution for health and care teams.
+
+Visit: https://infinity.health
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716948">INFINITY POINT LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Specialist in Data Analytics and SOC/SIEM solutions. We provide SOC/SIEM services for O365, Bitglass, SAP etc. as well as the more traditional SOC. Our Data Analytics is designed for at scale solutions (1--200TB a day ingestion) which can produce quick results using optimised techniques for data storage and retrieval
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/579374">Infinity Works Consulting</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Infinity Works (part of Accenture) is one of the UK’s leading digital transformation and engineering consultancies. We are unlocking the value of  the next industrial revolution for customers ranging from tier-one retailers to some of the best-loved UK brands and largest technology-led projects in government.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714315">INFIX SUPPORT LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708615">Influential Software</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Since 1993, Influential has been providing consultancy, software development, perm / contract staffing to public and private sector organisations across the UK. Influential is also a fully certified channel partner to SAP, IBM Cognos, SalesForce, Microsoft, Dell Boomi, Apple and Mulesoft. Offices are in London, Kent and Glasgow.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715464">INFOBIP LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Infobip is a global leader in omnichannel communication, helping brands to create meaningful relationships with their customers, at scale. Our communications platform is powering a broad range of solutions, messaging channels, and tools for advanced customer engagement, security, authentication, support, and retention.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715447">INFOGOVERN LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700419">Infomentum</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Infomentum enables organisations to evolve successfully through digital transformation using technology as an enabler. 
+
+Information and content management, integration of various applications, robotisation of repeated tedious processes - we combine the latest technologies to give your business momentum.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/705736">Infonetica Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700251">Informatica Software Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Informatica is the world’s leading dedicated Hybrid Intelligent Data Management platform (5000+ clients globally)  Informatica delivers a single integrated platform underpinned by shared metadata assets which enable the core processes of Data Quality, Mastering and Data Distribution to be managed effectively across an organisation.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715969">Informatica Systems Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700495">Information Age Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Information Age Ltd is a company of cyber security and service management engineers with considerable experience in the public, financial services and other commercial sectors.  We all have held senior positions in major organisations
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711578">Information Builders</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Information Builders helps organisations get their complex and disconnected data in order so they can build, embed and automate intelligence in everything they do. We provide business intelligence (BI), analytics, and data management solutions that help organisations manage their data, generate insights, take action, and deliver value to their customers.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708914">Information DataHub</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            DataHub is an integrated data platform for unstructured and structured data analysis.
+The software-as-a-service give users the capabilities to make informed decisions from a single view of information.
+With connectors to various applications, DataHub simplifies data discovery, data classification and data validation.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93173">Information Initiatives</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Information Initiatives is an IT consultancy based in West London. We have a small, highly-skilled team of Systems Engineers delivering IT infrastructure solutions and support to a broad base of clients in both public and private sectors.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93196">Information Risk Management Plc</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            IRM is a specialist Information Security Consultancy and Software Provider.  We are CHECK certified, CREST approved and a PCI DSS QSA company.  IRM has over 20 years’ experience helping clients identify and mitigate the risks inherent in today’s environments. We provide technical assurance, security management and risk assessment services.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92739">Information Services Group (Europe) Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            ISG (Information Services Group) is a leading global technology research and advisory firm. The firm specializes in digital transformation services, including automation, cloud and data analytics; sourcing/procurement advisory; managed governance and risk services; network carrier services; strategy and operations design; change management; market intelligence and technology research and analysis.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/586332">Inform Communications Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Inform provides bespoke automated, 24/7, multi-channel communications services to central/local government and public sector organisations. Blended channels include telephony, email, mobile web/apps, SMS, social media and Artificial Intelligent chatbots. We design, build, host and manage services that integrate with front and back office systems and deliver proven cost/efficiency savings.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92292">In-Form Consult Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            In-Form Consult (IFC) is an independent information management consultancy that helps businesses transform enterprise-wide information into a more powerful corporate asset. For over 30 years, we have been helping companies uncover, manage and exploit information, transforming it’s value to better support innovation and create new business realities.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/713966">Inform CPI Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Analyse LOCAL provides tools and services to assist Councils with all aspects of Revenues work. These tools include forecasting, ratebase maximisation and Council Tax assessment finding, Small Business Rates Relief audits and Business Rates advice and consultancy.
+Analyse LOCAL is used by over half of all Councils in England.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92433">Informed Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Informed Solutions is a leading independent provider of digital transformation, technology, data analytics and systems integration services to GDS standards across Discovery, Alpha, Beta, Live and DevOps services.
+
+Winner of a Queens Award for Innovation in 2018, we deliver high-performing, secure, digital  solutions.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707031">Inform Health Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714639">INFORM PEOPLE LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Inform People provide tailored digital solutions for multi-site organisations to improve communications, bring order to data chaos, and support continued growth through a selection of everyday tools. Our platform is efficient and scalable; helping businesses reduce costs, monitor daily activity remotely, and keep people safe, secure and informed.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706878">In-Form Solutions</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            In-Form Solutions provides effective, independent management solutions and advice to organisations including the NHS, local and central government, overseas governments, not for profit organisations and commercial clients. We focus on producing effective, value for money outcomes and solutions for our clients within finance, informatics, HR, marketing, planning and operational management.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709372">INFOR (UNITED KINGDOM) LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Infor is a leading provider of industry-specific applications delivered in the cloud. With 16,500 employees and over 90,000 customers in more than 170 countries, Infor software is designed for progress. To learn more about Infor, please visit www.infor.com.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/581633">InfoSaaS Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            InfoSaaS Limited (part of the Amtivo Group) is an innovative developer of  integrated, cloud-based business compliance solutions, which provide organisations with comprehensive, intuitive frameworks for achieving their information security, data protection and supply chain management objectives. Our solutions support many businesses with their ISO9001 and ISO27001 certifications and similar validations.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707820">Infosecuri</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Infosecuri are specialist providers in Cyber Security advice and consultancy, we provide a range of consultancy services to help businesses and organisation&#39;s effectively identify and manage their Cyber Security risks.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709608">Infosec Ventures</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702780">Infostretch UK Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Infostretch provides solutions and services that aid mid- large enterprises rapidly launch new mobility and IoT initiatives faster, with less risk and greater success. As consulting services and tool agnostic company we bring expertise and thought leadership necessary for developing, testing and successfully integrating future-ready technologies achieving organisation&#39;s IT goals.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93227">Infosys Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714887">INFOTECHTION LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700384">Infotel UK</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Infotel covers the entire software life cycle, from initial design and implementation through to integration, deployment and ongoing support.
+We operate T+M&#39;s, Service Contracts and Service Desk solutions for our clients on-site or off-site. Whatever your requirement, we&#39;ll deliver leveraging advanced methods and technologies, from mobile technology to major databases.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702937">Infradata Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Infradata is a leading, pan European Network Integrator specialising in the design, delivery, implementation and maintenance of Next Generation Networks.  We have developed a service generating platform to allow customers to quickly add, drop and change services in minutes to reduce risk, drive efficiency and maintain customer continuity.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700795">Infrasoft Technologies Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            InfrasoftTech is a specialist software solutions provider with a wide range of  productised offerings, framework based solutions and specialised services(Application Development,Modernisation,Maintenance,Data Management Testing solutions) in various BFSI Verticals/ eGovernance servicing over 300 global financial enterprises .Based out of the UK and Channel Islands with onshore and offshore offerings.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714962">INFRASTRUCTURE ADVISORY UK LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712185">INFRASYS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716463">INFRATECH SYSTEMS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714129">Infratect Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Infratect provides Cloud Solutions and Design services, specialising in Microsoft Azure. 
+
+We take the stress out of planning tasks such as:
+
+- How to move applications to the cloud
+- Optimising cloud costs
+- Protecting data and improving system availability
+- Enable Single Sign-On
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92888">Infuse Consulting LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Infuse is a consultancy based in London with delivery centres in UK, India and Portugal. Our expertise is in Architecture, Test Consultancy, Test Automation, DevOps and Performance Engineering. Infuse are Higher Education/Public Sector specialists and have built specific solutions to enable you to get the most out of your software.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715618">INFUSE DATA SOLUTIONS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are an independent data integration and migration business with huge experience in data analytics. Based in the North West of the UK we deliver high value, cutting edge data solutions delivered in affordable ‘chunks’ to our customers. We firmly believe in building long lasting partnerships with our customers.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706446">Ingenica Solutions Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Ingenica Solutions are thought leaders in the Inventory Management healthcare market. Ingenica 360 was the first Inventory Management Solution to gain GS1 certification. Ingenica remain committed to ensuring their solution meets GS1 and ‘Scan4Safety’ requirements investing in its own research and development in healthcare inventory management market.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716525">Ingenio Technologies</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714033">INGENIUM BIOMETRIC LABORATORIES</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712350">Ingenium Technology Services Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701254">Inhealthcare Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Inhealthcare’s platform provides the infrastructure for digitally enabled care, bringing digital health to the majority of the population at the lowest possible cost. Patients can interact in a number of ways including online, apps, text message, or automated phones calls.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711238">INIYAS</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700627">InJenuity</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/584558">Innaxys Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Innaxys Ltd is a software development studio dedicated to providing consultancy services and developing innovative new software solutions for the UK Emergency Services market. Our cloud-based solutions address  issues of mobility and efficiency through dynamic applications built with user experience as the main focus of functionality and design.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708765">Innecto Reward Consulting</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Innecto provides cloud based, simple to use, but powerful software to support market benchmarking of your pay and internal job evaluation and levelling. Our software has been developed by Reward specialists based on years of client projects and experience. It’s simple, it’s clever and it works.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714211">Innersight Labs Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Innersight (https://innersightlabs.com) create virtual interactive 3D models from medical scans to power high-precision and safe surgery, assist surgical teams, and reduce healthcare provider costs.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707147">Innerstrength LTD.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Innerstrength Health develops technologies which enable health care professionals to deliver tailored self-management exercise and education programmes to their patients and support them remotely. These programmes guide the patient in the management of their condition, rehabilitation and ultimately result in improved patient experience and healthier outcomes for patients.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/710971">Innotatio Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703729">Innovate IT Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Innovate IT delivers the expertise needed to consult, design, implement and support IT services, applications, platforms and infrastructure. We specialise in IDAM as a starting point for delivering reliable digital transformation. We have successfully delivered projects with FCO, DWP, BEIS, DIT, Home Office, HMRC, CO, Scottish Gov.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712725">Innovecom</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712660">Innovise</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Innovise Software Ltd t/a TEAM Software
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715800">INNOVYZE LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Innovyze, an Autodesk company, is a global leader in building innovative, industry-leading software for the water industry for over 35 years; serving thousands of clients including the largest utilities, ENR design firms, consultancies, local authorities, and refining plants around the world.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716124">INNSO</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Innso is a truly omnichannel customer service platform that exists to simplify the use of technology in customer relationship management. Our software is built by operations for operations to ensure an agile, optimised customer experience. This innovative approach, informed by real-world challenges, continuously improves users’ abilities to deliver on CX.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/703199">INOAPPS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Inoapps is an award-winning, global Oracle partner exclusively focused on Oracle applications and technology. We deliver success for our Public sector customers by supporting them throughout their Oracle journey with advisory consultancy, transformational implementations, enterprise change management, hosting services, training, first class managed support services and our own products. https://www.inoapps.com/
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702782">iNovar EMEA Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92434">INOVEM Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            INOVEM has been supplying cloud services to the UK public sector since 2003 and in 2015 won the best G-Cloud project/supplier category in the UK Cloud and the EuroCloud Awards. One of the first services to gain pan-Government security accreditation, Kahootz has been assured by the MOD up to OFFICIAL-SENSITIVE.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700526">InPhase Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            A Business Management Software company, developing and delivering the InPhase software application, enabling organisations to manage their complete business transformation, performance and front-line delivery in an aligned, single improvement process. With over 150 customers, to include the Local Authority, Health, Social Housing, Police and Fire &amp; Rescue markets.
+
+
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/713352">Inselcare</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92295">Insight</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Insight UK is an approved reseller on 50 Frameworks and National Agreements for the public sector. Insight is a global provider of hardware, software, services and cloud solutions with over 1600 accreditations from some of the world&#39;s largest vendors in IT.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715878">INSIGHT SOFTWARE DEVELOPMENT LLP</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            The BIT (Business Information Tool) platform generates fast, clear, and
+accurate business cases for infrastructure managers looking to plan and justify service investment.
+Built on live, comprehensive data direct from infrastructure
+managers, BIT enables confident and innovative decision-making.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714684">INSIGHTS T/A ISX4 LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Analytics software and services
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715643">INSIGNIA IT LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are a specialist consultancy lead reseller of IT hardware, IT software, IT support and professional services.
+
+We offer a one stop approach for all business IT requirements, whether it&#39;s simply for sourcing IT equipment at the industry&#39;s best price points, utilising our value added services, involving us in projects.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701064">Insource Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/708056">Inspera Assessment</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Inspera is a European leader and Nordic innovator in high-stakes e-examinations with a full service cloud-based, SaaS, end-to-end solution. Inspera&#39;s solution is trusted by leading education organisations to deliver millions of e-examinations annually to partners within strategic organisations such as awarding bodies, higher education institutions and the public sector.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/713800">Inspired Solutions</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711883">Inspired Testing</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Software Testing, Functional and Non-functional testing including Performance Testing and Test Automation.
+Building test frameworks, test approach, test plans. Provide on-site and off-site test analysts, managers and test programme management.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712127">Inspiretec Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Inspiretec is a technology company with 25 years of experience in providing a variety of products and services to the Travel, Hospitality &amp; Tourism sectors. We provide CRMs, Websites, Hosting, Support and other professional services for Cloud based platforms.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/705794">Installation Technology Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            For over 25 years we have specialised in delivering network solutions UK wide. Our innovative, customer-focused approach is unique in the industry. We are a leading solutions company, delivering the highest standards of service, quality and advanced problem solving to major multinationals and public organisations across a range of sectors.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716386">INSTANT SYSTEM</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715221">Instasafe Inc.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/717085">INSTINCTIVE BUSINESS INTELLIGENCE LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709019">Instructure Global</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Instructure makes software that makes smarter people. It all started with Canvas in 2011 and the goal to make teaching and learning a lot easier. In 2015, we launched Bridge, which aims to change the way you (and, more importantly, your employees) think about employee engagement and corporate training.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/584576">IntaForensics Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Advanced ISO/IEC:17025 accredited laboratory offering support across the UK and Europe. Specialist Digital Forensics, Cyber Security and Quality Management Consultancy Services provider offering remote and field based digital forensic services, Cyber Essentials, QSA, PCI  and software solutions including SOC and SIEM across the public and private sectors.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/710571">INTEC for Business Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            INTEC for Business Ltd, is a specialist software software company that have been providing solutions to the Public sector for over 20 years. 
+
+Our market leading solutions have been used across the UK for individual local authorities, regional shared service and national bodies alike.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712542">Intechnica</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92402">InTechnology Plc</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Intechnology Plc has entered its fourth decade at the forefront of the IT industry in the UK. It all began in 1983 when Peter Wilkinson the founder and owner started the first Storage Only solutions distribution business which grew over a period of time to be the UK&#39;s largest.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700596">Intec Systems Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            At Intec we collaborate with our clients, bringing together business insight, significant experience and technology to provide a distinct advantage in today’s rapidly changing business environment. Through our integrated approach to problem solving, solution design and execution we help turn our customers strategies into action.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700320">Integra Associates Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are official Unit4 Business World (Agresso) ERP partners who have been providing expert services and solutions since 1995. We offer project delivery, application management, and application and technical support services, covering hosted and on-premise environments, as well a range of system development add-ons, Expert Solutions.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711465">INTEGRATED COMPUTING &amp; OFFICE NETWORKING LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Elecosoft enables companies across the world to drive efficient operations by empowering fast, effective, profitable working processes through the use of integrated software. The IconSystem by Elecosoft provides a full collaborative environment to building design specification standards and a single source of truth to any Project using a unique CDE.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715668">INTEGRATED JUDICIAL SYSTEMS (IJS) LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92985">Integrated Medical Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            IMS MAXIMS is a leading provider of high-quality, open and interoperable PAS and EPR systems supplying over 150 healthcare organisations, with 25,000 system users, and 13,000,000 patient records. Our solutions support clinicians and healthcare providers to improve the efficiency of their services and significantly improve clinical outcomes.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707649">IntegrationWorks</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            IntegrationWorks are a global award winning recognised leader in integration, and we are here to help our clients use their information more effectively.
+
+As specialists in digital systems integration, we do things different by design. We are implementation-agnostic, and are partnered with the largest integration platform vendors in the world.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701999">Integrella Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Integrella improve value from our customer&#39;s software by releasing and combining trapped data, transforming it into valuable information via APIs enabling better-informed decisions, less expensive outcomes, more efficient business processes and an enriched user experience. Services include middleware and API Management consulting, solution architecture, agile development and long term support.
+          </p>
+        </div>
+      
+    </div>
+    
+  <nav class="dm-pagination" role="navigation" aria-label="Pagination">
+    <ul class="dm-pagination__list">
+      
+        
+        <li class="dm-pagination__item dm-pagination__item--previous">
+          <a href="suppliers?prefix=I&amp;page=1&amp;framework=g-cloud"
+            class="dm-pagination__link"
+            rel="prev"
+          >
+            <span class="dm-pagination__link-title">
+              <svg class="dm-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
+                <path d="m6.5938-0.0078125-6.7266 6.7266 6.7441 6.4062 1.377-1.449-4.1856-3.9768h12.896v-2h-12.984l4.2931-4.293-1.414-1.414z"/>
+              </svg>
+              <span class="dm-pagination__link-text">
+                Previous page
+              </span>
+            </span>
+            
+          </a>
+        </li> 
+      
+      
+        
+        <li class="dm-pagination__item dm-pagination__item--next">
+          <a href="suppliers?prefix=I&amp;page=3&amp;framework=g-cloud"
+            class="dm-pagination__link"
+            rel="next"
+          >
+            <span class="dm-pagination__link-title">
+              <svg class="dm-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
+                <path d="m10.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"/>
+              </svg>
+              <span class="dm-pagination__link-text">
+                Next page
+              </span>
+            </span>
+            
+          </a>
+        </li> 
+      
+    </ul>
+ </nav>
+
+  </div>
+</div>
+
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>

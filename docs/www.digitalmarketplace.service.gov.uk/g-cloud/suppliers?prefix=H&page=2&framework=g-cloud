@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  Suppliers starting with H – Cloud hosting, software and support – Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="suppliers?prefix=H&amp;page=2&amp;framework=g-cloud#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../g-cloud">Cloud hosting, software and support</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="suppliers">Suppliers</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">H</li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+
+  <h1 class="govuk-heading-xl">Suppliers starting with H</h1>
+
+
+<div id="global-atoz-navigation">
+  <nav role="navigation" aria-label="Suppliers">
+    <ol>
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=A">A</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=B">B</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=C">C</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=D">D</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=E">E</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=F">F</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=G">G</a>
+          </li>
+        
+      
+        
+          <li class="selected">
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <strong>H</strong>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=I">I</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=J">J</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=K">K</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=L">L</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=M">M</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=N">N</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=O">O</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=P">P</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Q">Q</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=R">R</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=S">S</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=T">T</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=U">U</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=V">V</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=W">W</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=X">X</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Y">Y</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Z">Z</a>
+          </li>
+        
+      
+      
+        <li>
+          <span class="govuk-visually-hidden">Suppliers starting with </span>
+          <a class="govuk-link" href="suppliers?prefix=other">1–9</a>
+        </li>
+      
+    </ol>
+  </nav>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <div class="supplier-list">
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715396">HONEYCOMB TECHNOLOGIES LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            SDAThreatHunter is an enterprise-level CyberSecurity automated threat hunting solution. 
+SDAThreatHunter automatically detects threats and attacks, performs automated enrichment, triage and remediation, including workflow and auto-routing capabilities. Fully integrates with all existing security technologies e.g. SIEMs/EDR/network monitors,etc. to deliver full Protective Monitoring.
+SDAThreatHunter is typically distributed across locations, cloud and on-premises.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92281">Hootsuite Inc</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hootsuite is an end-to-end Social Relationship Platform built to support today’s social enterprise. We lead with great technology that supports various use cases - social customer service, marketing, HR,  sales, etc.  We provide a range of strategic services to complement our technology from tailored training to custom education programs.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/704148">Horizon Industries International Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We partner with Appian, a market leader in low-code automation. 
+
+We can provide a cost effective service for developer support services, management support capabilities, including business process reviews, systems development, business process re-engineering and strategy.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712592">Horizon Seven Consulting Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93195">Horizon Software Solutions</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Businesses and governments worldwide trust Horizon to deliver marketing software solutions, Master Data Management, CRM and business critical technology on time and on budget.iClarity Marketing Automation Platform is a Cloud based, powerful solution. It transforms planning and co-ordination for diverse marketing teams and supply chains across a range of industries
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93226">Hornbill</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hornbill&#39;s collaborative solutions for Enterprise Service Management (ESM), IT Service Management (ITSM) and HR Case/Ticket Management, deliver exceptional employee and customer service experiences; making life at work better for everyone. Connect your IT, HR, Security, and Customer Service teams; prioritise their activities, improve services and deliver better business outcomes.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715103">HORTIUM LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706700">Hortor Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706316">Hospify</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hospify is a compliant &amp; secure mobile messaging  service for healthcare professionals &amp; patients that provides the simplicity and convenience of consumer messaging solutions while ensuring that all communication stays within UK &amp; EU legislative guidelines for patient confidentiality and data protection.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711884">Hospital Services Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hospital Services Limited (“HSL”) is a specialist distributor of medical supplies and market leading Cloud based technologies servicing both the public and private sectors across the UK and Ireland. The HSL team provides on-going technical support, software development and professional services to the end-user of our products.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711937">Hostcomm Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hostcomm is one of the first providers of hosted contact centre services in the UK. Its solution offers comprehensive omnichannel capabilities including a predictive dialler, live messaging, AI chatbot and PCI-DSS Certified Payment IVR. Its support and training centres are based in the UK, with a guarantee of telephone support.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/716662">HOSTWORLD LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/584982">House-on-the-Hill Software Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            House-on-the-Hill is dedicated to providing comprehensive service desk software that is flexible and easy to use. Our close-knit team delivers prompt, friendly and quality support. House-on-the-Hill’s longstanding relationships with clients are testament to the appreciation of our software. We are ISO27001:2013 certified and UK based.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706936">Housing Partners</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Housing Partners has been bringing software solutions to the social housing providers for nearly a decade.
+
+Our passion is to provide the sector with a new type of service that gives the insight needed to provide the depth of analysis and intelligence that Landlords require to understand their customers.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700102">Howell Technology Group Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            HTG is your managed service provider of choice. With virtual desktops in the cloud, we fast-track secure remote working for your organisation. Our heritage means we can help you navigate complex requirements that build on your legacy architecture, guaranteeing clear-cut efficiencies that reduce overheads, modernise your business and empower staff.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715614">HowNow</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715330">HOZAH LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hozah provides state-of-the-art parking and traffic technology. 
+
+Hozah is best known for their fully automated parking payment system, which uses number plate recognition cameras to detect when drivers enter and leave a car park, and bills drivers accurately.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/710058">HPA INNOVATIVE SOLUTIONS LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712931">HRP Consultancy Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            IT service provider specialising in digital transformations, application packaging and virtualisation, infrastructure services and business intelligence.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715676">HRTBT Medical Solutions GmbH</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93698">hSo</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are a UK based IT managed services provider. Our mission is to build strong foundations for organisations to flourish, whilst optimising their network and technology. Cloud, network and IT security are at the heart of what we do. We have successfully delivered solutions into the Public Sector since 2001.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92282">HTK Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/705812">Hubbado</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hubbado marketplace enables clients to connect to highly skilled consultants across different skills.  All the consultants on the site have been technically vetted.  We are an on-demand resourcing platform.  Clients can build teams, T&amp;M and Fixed-price projects no matter the size and duration.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/707119">Hubken Group Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92447">Huddle</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Established in 2006, Huddle is a UK-based SME and leader in secure, cloud-based document collaboration, secure file sharing, and content management for UK Government and Public Sector organisations who need to share and work on Official Sensitive content. All Huddle Official &amp; ELA users benefit from UK-only data centres.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712679">HuddleAI</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Chatbot platform and services building from simple chatbots to integrated solutions providing conversational interface to your services.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/714452">HULL TELECOMS LTD.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715646">HUMAN DIGITAL LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Human Digital offer a complete social web data discovery, collection, analysis and advisory service using a human-led, tech-enabled approach. Our service facilitates client navigation through complex issues aiding policy and strategic communication programs. We flex around the client&#39;s needs, from data-driven platforms to direct consultancy and manpower augmentation.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/717019">HUMAN FIRST GROUP LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715541">HUMAN MADE LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Human Made is a developer and supplier of cloud hosting and digital experience platform Software as a Service. Our WordPress based open source products are used by enterprises globally to support cross platform digital content publishing and personalisation.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700484">HUMA THERAPEUTICS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Huma has developed a unique platform of remote monitoring apps and digital health technologies to deliver a personalised and more efficient healthcare experience.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709420">Humphries Technology Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            A leading supplier in internet era technology, with extensive experience in government service delivery.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700311">HunchBuzz Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hunchbuzz is an idea management system that enables organisations to crowdsource ideas from employees, partners and customers. It’s used globally by organisations of all kinds to manage ideation and innovation. 
+
+Hunchbuzz is based in Wellington, New Zealand and was rated a cool vendor for Government 2015 by Gartner
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712177">Hunter Healthcare Resourcing Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hunter Healthcare is a leading and respected supplier of digital project solutions and consultancy services to the Healthcare Industry. Our service lines offer organisations strategic and hands-on technical expertise for all cloud-based digital solutions, enabling organisations to advance. This includes implementation, support, training, business and change analysis, testing and development.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/701542">Hunter Springs Consultancy</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We provide specialists to enable the delivery of user centric digital services. 
+We support organisations developing digital services with business architecture, business analysis and business process design skills in an agile environment.
+We put clients&#39; interests first.
+We provide impartial advice.
+We deliver excellence.
+We are independent.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/93576">Huntsman Security</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Huntsman Security pioneered intelligent enterprise and cyber security analytics with its landmark platform, Huntsman® Enterprise SIEM.  Huntsman has been deployed in environments in government, finance and infrastructure in the UK, Japan and Australia as well as elsewhere.  See www.huntsmansecurity.com.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/715794">HURKINWOOD ASSOCIATES LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are a dedicated P3M consultancy providing support, leadership and assurance within the P3M management domain.
+We offer a tailor-made service to assess, assure, plan &amp; action intervention and improve your P3M capability. Our consultants have the depth and breadth of all P3M disciplines, processes, methods and techniques.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/706117">Hut Six</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hut Six provides a Software-as-a-Service solution to human error in information security. We train, test and track security awareness with adaptive and customised campaigns.
+
+We deliver voiced and animated tutorials using up-to-date case studies. Through phishing simulation and assessments we create cyber risk profiles for your users, departments and organisation.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/712004">Huume Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Huume was formed in 2019 with an ethos of changing the way that Housing and Homeless software is delivered, integrating new technologies to reduce effort. With over 15 years of experience of building, delivering and supporting homeless and housing systems for local authorities and housing associations, we know what works.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/702001">HYDE PARK SOLUTIONS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hyde Park Solutions are global leaders in Portfolio, Programme and Project Management and Project Controls, with teams based in EMEA, USA and India.
+
+With over 10 years’ experience, we sell, consult, integrate, report, train and support the full suite of Oracle Primavera software.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/700444">Hydra Management Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hydra provides cloud-based software solutions to help organisations define, execute, control &amp; govern their projects, ensuring consistent &amp; successful results every time a project is delivered.  Its business software optimises resource utilisation whilst driving project management standardisation. Resulting in greater visibility, faster knowledge transfer &amp; adoption of best practice
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92819">Hydrant</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Upbeat North Limited. is an ISO 9001:2015 accredited digital agency with over a decade of experience in delivering solutions and support for projects ranging from simple websites, to fully integrated digital platforms, for private and public sector clients. This makes us a safe pair of hands for your digital project.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/709567">HYPE Innovation</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            HYPE Innovation provides software and services to support a full Innovation Ecosystem from Strategy Setting, to Ideation, Partnering, Value Creation and Roadmapping. Involve your employees, customers, and partners. We help organizations to generate additional revenue, to become more efficient, and to empower and connect people. We spearhead digital transformation.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/711403">Hyper Talent Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            HTS is a Cloud, Digital, Technology and Innovation provider. We work with central Government and we understand the issues, blockers, risks, dependencies, approval process, security recruitments, NCSC guidelines, GDPR, Privacy by design and privacy by defaults for Cloud migrations and Cloud related projects.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/582938">Hyphen8</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hyphen8 is UK based, high value CRM consulting specialist with extensive experience in implementing powerful solutions on Salesforce. We provide a complete range of consulting, design, development, support and implementation services to help you implement Salesforce CRM solutions into your organisation that deliver maximum value.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="supplier/92714">Hyve Limited (Hyve Managed Hosting)</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Hyve&#39;s Cloud Experts and technical architects have been deploying out of the box solutions as well as bespoke cloud environments for customers since 2001. Working with the NHS, local governments, the education sector, MOD and private companies, Hyve can bring the necessary experience and expertise to your project
+          </p>
+        </div>
+      
+    </div>
+    
+  <nav class="dm-pagination" role="navigation" aria-label="Pagination">
+    <ul class="dm-pagination__list">
+      
+        
+        <li class="dm-pagination__item dm-pagination__item--previous">
+          <a href="suppliers?prefix=H&amp;page=1&amp;framework=g-cloud"
+            class="dm-pagination__link"
+            rel="prev"
+          >
+            <span class="dm-pagination__link-title">
+              <svg class="dm-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
+                <path d="m6.5938-0.0078125-6.7266 6.7266 6.7441 6.4062 1.377-1.449-4.1856-3.9768h12.896v-2h-12.984l4.2931-4.293-1.414-1.414z"/>
+              </svg>
+              <span class="dm-pagination__link-text">
+                Previous page
+              </span>
+            </span>
+            
+          </a>
+        </li> 
+      
+      
+    </ul>
+ </nav>
+
+  </div>
+</div>
+
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>

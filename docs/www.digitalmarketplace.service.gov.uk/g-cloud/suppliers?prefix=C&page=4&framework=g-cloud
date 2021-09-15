@@ -1,0 +1,1652 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  Suppliers starting with C – Cloud hosting, software and support – Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="suppliers?prefix=C&amp;page=4&amp;framework=g-cloud#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../g-cloud">Cloud hosting, software and support</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="suppliers">Suppliers</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">C</li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+
+  <h1 class="govuk-heading-xl">Suppliers starting with C</h1>
+
+
+<div id="global-atoz-navigation">
+  <nav role="navigation" aria-label="Suppliers">
+    <ol>
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=A">A</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=B">B</a>
+          </li>
+        
+      
+        
+          <li class="selected">
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <strong>C</strong>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=D">D</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=E">E</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=F">F</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=G">G</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=H">H</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=I">I</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=J">J</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=K">K</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=L">L</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=M">M</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=N">N</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=O">O</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=P">P</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Q">Q</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=R">R</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=S">S</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=T">T</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=U">U</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=V">V</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=W">W</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=X">X</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Y">Y</a>
+          </li>
+        
+      
+        
+          <li>
+            <span class="govuk-visually-hidden">Suppliers starting with </span>
+            <a class="govuk-link" href="suppliers?prefix=Z">Z</a>
+          </li>
+        
+      
+      
+        <li>
+          <span class="govuk-visually-hidden">Suppliers starting with </span>
+          <a class="govuk-link" href="suppliers?prefix=other">1–9</a>
+        </li>
+      
+    </ol>
+  </nav>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <div class="supplier-list">
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/711109">Cohort Software</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/711639">Colibri Digital</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/706968">ColIective Intelligence Sytems</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            A Software Developer providing Student Attendance Management Systems for the HE and FE market place. Device agnostic we can provide the most cost effective solution that fits your particular organisation.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/93605">Collabco</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Collabco are an EdTech development company based in Liverpool building myday for the Education marketplace.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/715492">COLLABORATION COACH LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/709005">Collaborative Solutions Europe Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Collaborative Solutions is a full service Finance and HR transformation consultancy boasting 100% deployment success and a 98% customer satisfaction rate. We have successfully deployed Workday Financials and HCM for more than 450 global Fortune 500 companies, medium-sized businesses, and education and government institutions in more than 125 countries.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/716884">COLLEGE OF I.T &amp; ECOMMERCE LTD t/a CITEC LONDON</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Specialist Managed IT services company offering IT Products, Consultancy and Training Services. We specialise in SaaS services, cloud, Data and Analytics, Business intelligence, CRM, ERP and Software Testing. 
+Our SaaS products &#34;smart H2R, CRM, Retail, Invent, LMS&#34;  designed to maintain the pace and reduce the Cost of Ownership to customers
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/709961">Collibra UK Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Collibra provides  a cross-organisational data governance platform that delivers openness and freedom. It breaks down traditional data silos and opens up organisational data so all users can find the data they need, collaborate on it, and easily understand its meaning enabling all data citizens to trust their data
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/707529">Collins Technology Consulting Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Agiloft Platinum Partner (UK and Europe)
+
+Project Management, Change Management, Systems Design and Migration. 
+
+Experience in Further Education, Local and Central Government, e-Commerce, Media and Manufacturing sectors.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/715861">COLTECH-CONSULTING LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Ideal Partner of Choice.  Strategy, Transformation, Delivery &amp; Development, Operations &amp; Support.  We mobilise cost effective expert teams quickly, and delivery quality applications and systems.  Improve your services and provide users, public and internal with awesome user experience through our digital transformation services.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/715698">COLWYN TECHNOLOGIES LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/707777">Comaea | Competency Made Easy</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Comaea is a competency management system that enables collection, moderation and analysis of peoples competencies to make informed decisions.  Works with any competency framework and allows complete customisation and tailoring. Great for teams, departments or organisations. Dashboards give clear, accurate real-time data.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/707159">Combined Knowledge Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Combined Knowledge supplies Office 365 and SharePoint Adoption and training products and custom education solutions designed to increase knowledge and productivity for users across the organisation. Experience delivering to small, medium and 50,000+ enterprises.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/701300">Commaci Secure Systems</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Commaci provides solutions and services to international organizations, governments, their agencies and industry.  We believe that significant improvements in secure networks and communication technologies can deliver improved information exchange
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92455">Commerce Decisions Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Commerce Decisions delivers its proven AWARD eEvaluation solution, best practice knowledge and expert services to assist in strategic, complex, or high risk sourcing projects.
+ 
+AWARD has been used on projects totaling over £400 billion; proven to significantly increase contract value, reduce risk and enabling teams to make major contract decisions.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/579634">Commercial Cloud Services</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Commercial Cloud Services provides commercial delivery and consultancy services for enterprise. We specialise in &#39;right sourcing&#39;, assisting organisations to determine the best balance between outsourced and retained ICT services and delivering the resultant contracts through procurement or negotiation to support customers seeking to disaggregate contracts or make contract break-point decisions
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/712388">Commercial Evaluations Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Commercial Evaluations provides Mapolitical, which is a stakeholder database linked to a mapping system which enables Users to click anywhere on a UK map down to street level and immediately connect with VIP stakeholders (MPs, Ward Councillors, Council Officers, Parish Councillors, Scottish MSPs, Welsh MSs, NI Assembly Members and GLA).
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/707504">Commercial Software Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Commercial Software Limited specialises in building smart technology to help companies optimise their global workforce processes.
+
+Using our solutions customers can enhance operational excellence by managing targets and reducing both cost and risk.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/585274">Commissum</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cyber &amp; Information Security consultancy, CHECK IT Health Check (ITHC) testing, Pen Testing, Training, Cyber Security Managed Services and Cyber Incident Response (CIR) from SC cleared staff.
+
+Manage cyber risk simply and cost effectively with a pragmatic and proportionate approach that helps you achieve your aims faster and more securely.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/709739">Common MS</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/700052">Commonplace Digital Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Commonplace is a leading provider of online public engagement tools. Our platform is extremely easy to use and provides our clients (local authorities, infrastructure providers, developers and consultants) with powerful insights. Commonplace engagement supports different stages in local development - from needs analysis through to presenting design options for feedback.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/586212">Commonwealth Informatics, Inc.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Commonwealth Informatics has a proven track record working with government agencies, academic departments, non-governmental organizations, and industry to implement reliable production systems for medical product safety surveillance, pharmacovigilance, and public health informatics.  Commonwealth staff are experts in systems to integrate all the sources of data needed for effective surveillance.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/703765">Commsworld Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/716974">COMMUNICARE247 LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Communicare247 is a next generation Telecare and Telehealth provider. We deliver connected health &amp; care systems by using secure digital technology, coupled with shared data insights, ambient and proactive monitoring and 24 hour response services. We empower citizens to remain safe and independent in their own homes for longer.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/711374">Communicate technology plc</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/700726">Communication-STEM Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Communication STEM (Systems + Techniques = Effective Management) provide complementary ICT/OT solutions and professional services, which are designed to support businesses with their digital transformation journeys.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/700246">Community Fibre Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Community Fibre Limited builds and operates ultrafast Internet access networks primarily in UK urban social housing markets. It works alongside landlords to provide a future-proof fibre optic connection directly into each served property.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/581651">Company85 LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Company85 consult on, deliver and manage leading-edge, transformative technology solutions tailored to our customers&#39; needs. Whether it’s delivering innovative digital solutions, providing adaptive-infrastructure built for scale, securing against evolving cyber-threats, transforming your culture to meet tomorrow’s challenges, or leveraging the power of data, we can help you achieve digital success.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92237">Company Net Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are an independent software/business consultancy services company, with 24 years’ experience of building highly adopted business solutions for customers in the public/private/third sectors.  Our solutions, now exclusively based on the Microsoft Cloud platforms and our ADKAR led change management approach, will deliver user satisfaction, business benefits and ROI.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/716590">COMPASS INFORMATICS UK LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Compass Informatics is an information and location technologies provider - utilising GIS, web, mobile and IoT skills to deliver platforms and services. Main sectors include environment and natural resources; planning, health and heritage; utilities; and transportation.  As part of  Tracsis Plc, we have the strength of an AIM-listed UK company.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/708333">Complete Contract Management</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Complete© is a cloud hosted contract management system designed to simplify the complex governance structures that surround the management of public sector contracts.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/707638">Complete IT Solutions</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            8x8 Channel Partner providing a single platform cloud communications service for:
+- Call and Contact Centres
+- Communication
+- Collaboration
+- Audio/video conferencing
+- Instant Messaging
+- CRM Integration
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/714275">COMPLIANCE SYSTEMS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Supplier of cloud-based Compliance Tracking / Compliance Management software. A generic product suitable for all industry sectors.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/706239">Compositional IT</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Compositional IT is a software consultancy providing technical guidance, training, product development, specialising in functional programming and cloud services.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/704089">Compucorp Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            At Compucorp we enable digital transformation in organisations that deliver social good.
+
+Compucorp are service design delivery experts who are pushing the boundaries of open source solutions, helping organisations to do more with their online presence.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92422">Compulete Projects Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92783">Computacenter (UK) Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Computacenter is a  leading independent provider of IT infrastructure services,  enabling users and their business by advising organisations on IT strategy, implementing the most appropriate technology, optimising performance and managing infrastructures. We help CIOs and IT departments in enterprise and corporate organisations maximise productivity and IT business value for users.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/93506">Computer Application Services Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Workpro case management software is developed by CAS (Computer Application Services Ltd), an employee-owned technology company. We specialise in case management software for complaints handling, HR/employee relations cases, FOI/SAR requests and other regulatory casework, with over 17 years’ experience as a trusted supplier to public and private sector organisations worldwide.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/700698">Computer Network Defence Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Computer Network Defence Ltd (CND) are a cyber security consultancy. Our staff deliver all manner of services including; Cyber Threat Intelligence, Penetration Testing, Security Event monitoring, Deep Packet Analysis, Security Architecture and Professional Services. Underpinning our delivery, we also have an embedded cyber security recruitment agency.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/715506">COMPUTER SECURITY TECHNOLOGY LTD.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Computer Security Technology (CST) is a 22 year+ specialist supplier of cyber Defence (keeping the dangerous stuff out) and information protection solutions (keeping the valuable stuff in). 
+We offer security assessments, awareness training, penetration testing, solutions and advice, as well as being a sanctioned Cyber Essentials (CE/CE+) Certification Body.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92510">Computer Task Group (UK) Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CTG is an IT and Business services organisation.
+
+CTG provides agile business solutions and subject matter expertise for Communication Service Providers, UK Law Enforcement and the UK Government.
+
+CTG also provides global implementation and product prototyping services; and secure portals that help meet global law enforcement and anti terrorism demands.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92238">Computing Distribution Group Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CDG is a leading UK-based software and IT service company delivering development, consultancy, and support solutions. In our ten years in the market, we have served some of the UK’s largest companies and government departments. Including HMRC, DVLA, The Post Office, Aviva, Specsavers, and Sainsbury&#39;s.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/708203">COM Software Limited T/As Mission Software</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92902">Comtact Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Comtact Ltd. is an ISO27001-accredited Cyber Security &amp; IT Service Provider, operating 24/7 &#39;eyes on screen&#39; from a secure SOC &amp; NOC in Milton Keynes, with a proven record of delivering real business value and savings to Government.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/580400">COMXPS Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Since 2003 we have provided consultancy and delivery services to Central Government, NATO, Security and Intelligence Agencies.  Achieved through managing and deploying Cloud Solutions to meet Organisational Challenges and delivering programme benefits. Services include: Programme/Project Management, PMO functions, Business Analysis, Enterprise Architecture, SIaM, HGM, Military Encryption, Organisational Change, Procurement/Commercial Management.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92240">Concentra Consulting Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Concentra is an award winning company creating sustainable solutions offering our clients a competitive edge.  Combining a deep understanding of operational management, industry expertise, design, data analytics software and technology we solve challenging problems for now and the future.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/711872">Concept Health Technologies</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/579371">Concept Information Technology Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Concept Information Technology is a progressive SME able to provide a range of Cloud based services which are used to manage and develop Cloud based solutions. We help ensure that quality is maintained across our extensive range of consultancy services through applying a flexible approach to fulfilling your project requirements.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/93586">Concerto Partners LLP</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Concerto is a management consultancy company, we advise and support public and private sector organisations around the world, developing strategy, implementing change and delivering programmes. We are widely experienced in offering business analysis, design consultation and transition services to deliver efficiencies and savings and developing a tailored &#39;Road Map&#39;.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/93572">Concerto Support Services Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Concerto delivers high value CAFM, Asset and Project solutions to the public sector. Working with over 70 public sector organisations within the UK and beyond. Concerto has delivered solutions to  HMRC, as well as Manchester, Stirling, and North Yorkshire Councils
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/708498">Concorde Technology Group Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Concorde Technology Group  one of  UK’s leading ITsupport and services providers, delivering cost effective  innovative ITsolutions.
+
+Established:1985,  committed to making ITwork for our customers  offering technical excellence and reliability as standard. National company with  localised quality, we benefit from a loyal customer base  yet maintain  inherent flexibility and personable approach
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/700972">Concur</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            SAP Concur Expense empowers government departments and councils through greater oversight and control over employee-initiated spending. Workflow is streamlined through a cloud-based system that efficiently manages the entire expense process from spend request to reconciliation in an automated workflow—improving accuracy, reducing reimbursement cycle time, and freeing up admin time
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/701661">Condeco Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We are Condeco, pioneers of workspace management technology for the world’s most competitive businesses. Our integrated meeting room booking, desk booking and workspace utilisation technologies help organisations transform their operations quickly, efficiently and at scale.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/716212">Conduent Incorporated</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Conduent delivers mission-critical services and solutions on behalf of businesses and governments – creating exceptional outcomes for its clients and the millions of people who count on them. Through people, process and technology, Conduent solutions and services automate workflows, improve efficiencies, reduce costs and enable revenue growth.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/708717">CONFIG R IT LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Config R IT is an engineer-led company aiming to become an emerging force within the cloud and network infrastructure market, focusing on leveraging new technologies to better align your IT capabilities to your business objectives, reduce your operational cost while providing a reliable, flexible and secure cloud and network infrastructure.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92796">CONFIRM SOLUTIONS LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            A market leading provider of enterprise asset management software enabling asset owners, stakeholders and partners to manage assets collaboratively to achieve business outcomes underpinned by ISO55001. Designed to empower customers with information to inform outcome based decisions on repair, maintenance and investment for assets. We make smart simple.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/712979">Confluent, Inc</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Confluent, founded by the original creators of Apache Kafka®, pioneered the enterprise-ready event streaming platform. With Confluent, organizations benefit from the first event streaming platform built for the enterprise with the ease-of-use, scalability, security and flexibility required by the most discerning global companies to run their business in real time.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92423">Connect Assist Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Our mission is to create positive human outcomes for citizens through providing leading edge cloud SaaS solutions including CX and customer management platforms, digital assistants and technical support  services to the third and public sectors.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/706918">Connect CRM Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/714771">CONNECTED SOFTWARE LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92241">Connect Internet Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Connect Internet Solutions Ltd is a specialist provider of web solutions. 
+
+We provide a full in-house end-to-end service, supporting clients from consultancy, project inception, specification and design through to development, delivery, training, hosting and ongoing support. Post-delivery support services include a Help Desk, site reporting, evaluation and optimisation services.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/714279">CONNECTIUM LTD.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Connectium provide I.T services including Cable Tracing, Auditing, Project Management, Infrastructure and Patch Cabling, Smart Hands Support, Migration and Equipment Re-cycling services.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/715691">CONNECT MANAGED SERVICES (UK) LIMITED</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/712762">Connectology Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Connecting people, data and technology. Strategic, programme and project management for service transformation in social housing. Objective to improve value for money, customer experience and accelerate channel shift.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/709903">Connectus Business Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Connectus provides innovative technology via collaboration. We provide a range of connectivity services including ultrafast business and mission critical connectivity. Connectus also provide a range of value added services including VOIP, GDPR, Data Backup, Network Monitoring and CCTV.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/700313">Connexion Systems Pty Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Amplify is a Strategy Execution management system.  Use Amplify to deliver value from Digital Transformation, Headcount Reduction, Cost Cutting or Process Excellence programs (eg Lean).
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/711671">Connex One</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Connex One develop and provide a fully cloud based, Software As a Service, omni-channel &amp; data analytics platform.
+
+Connex One is a British software company developing and implementing customer engagement solutions globally.
+
+Our solution allows businesses to contact their customers via voice (inbound/outbound), email, SMS, live chat,WhatsApp and social media.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/712252">Conosco Ltd.</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            With 20+ years of experience in IT Managed Services, Conosco provides holistic and bespoke solutions across Information Technology, Cyber Security, Digital Transformation, IT Management and Telecommunications. Our industry knowledge, combined with highly skilled and accredited experts including consultants, IT engineers, project managers and support teams make us an ideal partner.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/712540">Consent Kit</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Standardise informed consent across your organisation. 
+
+Dynamic consent templates make using the right form easy. Ask for consent remotely or in-person. Link research data to consent and handle information requests in minutes. Designed to scale across multiple teams and geographies. Reassign responsibilities when people move teams or leave.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/706358">Consentz</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/714584">Consilio LLC</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Global digital forensics, evidence hosting, eDiscovery, document review and risk management consultancy. Harnesses data analytics, machine learning, technology assisted review and Relativity as well as proprietary eDisclosure tools to collect, search, cull and review any data type from any data source for legal investigations, litigation and Judicial Reviews.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/704983">Consilium UK Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            A company led by technology, and our goal is to deliver workable and supportable solutions that meet the needs of the organisation. Our unique services have led to our position as a key player in the IT Sector with an enviable reputation and an excellent client retention rate.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/712492">Constentum Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Constentum is a progressive organisation specialising in the delivery of innovative mobile technology, applications, training, business consultancy and provision of resources. We offer businesses the opportunity to transform, drive change and continued transformation..
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/702904">Consult SMB Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Website design, building and hosting. Projects are either charged as a one off fee or as SAAS (Software as a Service) meaning your Website is designed, built, hosted and continually enhanced and supported over the contracted term for a monthly fee thus removing the need for a large upfront budget.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/700093">Consurgo Services Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92999">Contego Fraud Solutions Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We provide UK Right to Work, and automated identity verification and SME onboarding and monitoring solutions for organisations across most industries.  We provide solution to help automate anti-money laundering compliance for onboarding companies and individuals, UK right to work compliance, and identity verification to meet GPG45.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/93023">Content and Code Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            UK&#39;s leading Microsoft 365, Exchange, Teams and SharePoint consultancy. Microsoft&#39;s Worldwide Partner of the Year and Gold Partner. Enabling Public Sector organisations, including 10Downing Street and Department for Transport, to maximise benefits of Cloud technologies. Our experienced resources provide design and implementation services across broad range of Microsoft technology stack.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/579783">Content+Cloud Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Content+Cloud is an award winning technology services and solutions provider focused on client and user needs. We encourage and promote freedom in a cloud-oriented world. Our technology and platform agnostic approach ensures our clients benefit from a seamless user experience, using applications and platforms which most suit their needs.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/709210">Content Design London</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/700593">Content Formula</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Content Formula designs and builds intranets, process automation tools and digital workplace tools for SharePoint, MS Teams and Office 365. We implement many of these solutions using leading cloud products such as LiveTiles intranet (intranet-in-a-box) formerly known as Wizdom intranet, Hyperfish, Bots/AI assistants and LMS365 (learning management solution)
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92243">Content Guru Ltd (Redwood Technologies)</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Founded in 2005, Content Guru is an innovative manufacturer of platforms and technologies for communications networks and contact centres. Content Guru&#39;s specialised services solutions are deployed in over 50 countries for some of the world’s leading organisations, including NHS 111, Deutsche Telekom, British Telecom, Telefónica O2, KPN and Vodafone.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/716383">CONTINGENT &amp; FUTURE TECHNOLOGIES LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/702589">Contino</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Contino is a Digital Transformation consultancy working with customers across three dimensions. We Advise - assessing maturity and defining cutting-edge strategy. We Build - everything from lighthouse projects to enterprise-grade platforms and products. We Upskill - giving your teams the skills they need to be competitive in a cloud-native world.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/702868">Continuity2 ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/701817">Contracts IT Recruitment Consulting Ltd</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Co founded by a woman in 1999,Contracts IT is an award winning  technology recruitment agency offering an integrated approach to IT staffing for the corporate the public sector. They have helped many Fortune 500 organisations with tech workforce planning and workforce diversity
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/703417">CONTRACTSONLINE LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We offer government buyers a wide range of IT services from sourcing and building new supply chains to transforming and transitioning services to Cloud.   We leverage Cloud services to help transform digital services,  delivering a continuous backlog of features and enhancements - all to industry and Government Digital Standards (GDS).
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/93029">ContractsWise Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            ContractsWise Limited
+
+is an ISO27001 certified SME providing award winning, innovative easy to use, easy to implement and affordable contract management solutions suitable for all public sector bodies. 
+Our software is  self-configurable and highly scalable.
+UK public sector / not-for-profit customers include the NHS and international legal organisations .
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/716243">CONTROLACCOUNT PLC</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Controlaccount has been helping organisation identify, design and implement performance driven, cost-effective solutions across a range of diverse software applications for more than 30 years. Our cloud-based IT development and software services enable our clients to take the next step towards digital transformation; providing lean, scalable, and cost-effective results.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/711163">CONVEDO</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            convedo are the award-winning Intelligent Automation Experts with headquarters in London. convedo designs, develops, delivers and supports business and technology solutions for government and public sector organizations using best-of-breed platforms for AI-powered process automation. convedo is a leading Appian, Automation Anywhere, Axon Ivy, Blue Prism, celonis. OpenText and UiPath partner.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/706255">Converged Communication Solutions Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Our IT security service is an all-encompassing solution which takes cyber security and data protection to the max.  Our dedicated cyber team and in-house qualified engineers provide: CyberEssentials Plus &amp; IASME Gold guidance &amp; assessment, cyber awareness training, bespoke phishing campaigns, vulnerability scanning &amp; penetration testing,
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92244">Convergent Network Solutions</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            CNS are part of the Six Degrees Group, and remain one of the UK’s most highly accredited, Cyber Security consultancy and service providers. We have been working with  the public sector for almost 20 years and work extensively with Blue Light, Central Government and Local Government.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/701054">Converging Data</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Converging Data deliver Data Analytics and Cyber Security capability into organisations.
+
+We help you to get valuable information from your existing data.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/703768">Convivio</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Convivio is an agency specialising in strategy, design and development of digital services for government.
+Our clients include the Cabinet Office, GDS, MoJ, CPS, BEIS, and local authorities.
+We are accredited by the Fair Tax Mark, meaning we pay the right amount of tax in the UK.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/710310">Cooldatasoft Limited</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cloud Design &amp; Development Services &amp; Support,
+Digital Signage Software as a Service,
+Queue Management Service as A Service,
+Bespoke Software Design &amp; Development,
+IT Consultancy &amp; Project Management,
+Delivery and Couching Services,
+Technical Architect,
+Java Developer
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/712087">COOLSPIRiT</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            COOLSPIRiT have been providing data management solutions and business critical infrastructure for 20 years. We are dedicated to the performance, protection and preservation of enterprise data.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/716269">Cooper Moss Rutland</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cooper Moss Rutland are a progressive, dynamic and independent consultancy offering tailored Project Controls solutions across a multitude of industries. With a wealth of diverse experience in hand and a clear vision in mind, CMR intends to change the way Project Controls is provided.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/716249">COOPERS AND LLOYDS LTD</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/700388">CopperMan Consulting</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            The provision of SAP implementation services primarily Performance Management, BPC (Business Planning and Consolidation), BW, HANA and related technologies.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/93124">Cora Systems</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cora Systems is a leader in providing enterprise project portfolio management (EPPM) solutions to public and private sector organisations.
+          </p>
+        </div>
+      
+        <div class="app-search-result">
+          <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="https://www.digitalmarketplace.service.gov.uk/g-cloud/supplier/92245">Core</a>
+          </h2>
+          <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Core&#39;s goal is to help UK Public Sector organisations transform using technology, through our innovative IT solutions. We are a leading provider of Managed Services and can manage all -or just some- of your IT on a per user per month basis, with proactive, multilingual support available 24/7.
+          </p>
+        </div>
+      
+    </div>
+    
+  <nav class="dm-pagination" role="navigation" aria-label="Pagination">
+    <ul class="dm-pagination__list">
+      
+        
+        <li class="dm-pagination__item dm-pagination__item--previous">
+          <a href="suppliers?prefix=C&amp;page=3&amp;framework=g-cloud"
+            class="dm-pagination__link"
+            rel="prev"
+          >
+            <span class="dm-pagination__link-title">
+              <svg class="dm-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
+                <path d="m6.5938-0.0078125-6.7266 6.7266 6.7441 6.4062 1.377-1.449-4.1856-3.9768h12.896v-2h-12.984l4.2931-4.293-1.414-1.414z"/>
+              </svg>
+              <span class="dm-pagination__link-text">
+                Previous page
+              </span>
+            </span>
+            
+          </a>
+        </li> 
+      
+      
+        
+        <li class="dm-pagination__item dm-pagination__item--next">
+          <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/suppliers?prefix=C&amp;page=5&amp;framework=g-cloud"
+            class="dm-pagination__link"
+            rel="next"
+          >
+            <span class="dm-pagination__link-title">
+              <svg class="dm-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
+                <path d="m10.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"/>
+              </svg>
+              <span class="dm-pagination__link-text">
+                Next page
+              </span>
+            </span>
+            
+          </a>
+        </li> 
+      
+    </ul>
+ </nav>
+
+  </div>
+</div>
+
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>

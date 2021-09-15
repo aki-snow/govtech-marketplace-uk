@@ -1,0 +1,1238 @@
+
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  Delivery Partner for FCDO Digital and Data Transformation copy - Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="15433#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../opportunities">Supplier opportunities</a>
+    </li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <section
+    data-module="dm-banner"
+    role="region"
+    aria-label="This opportunity is closed for applications"
+    class="dm-banner"
+>
+    <h2
+        class="dm-banner__title dm-banner__title--large"
+    >
+        This opportunity is closed for applications
+    </h2>
+        <div class="dm-banner__body">
+            The deadline was Wednesday 8 September 2021
+        </div>
+    
+</section>
+  </div>
+</div>
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <span class="govuk-caption-l">The Foreign, Commonwealth &amp; Development Office (FCDO)</span>
+    <h1 class="govuk-heading-l">Delivery Partner for FCDO Digital and Data Transformation copy</h1>
+    <span data-lot="digital-outcomes"></span>
+  </div>
+</div>
+
+<div class="govuk-grid-row govuk-!-margin-bottom-9">
+  <div class="govuk-grid-column-one-third app-stat-block" id="incomplete-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0 govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">14</span>
+      <span class="govuk-body govuk-!-font-weight-bold">Incomplete applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">10 SME, 4 large</p>
+</div>
+<div class="govuk-grid-column-one-third app-stat-block" id="completed-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0  govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">10</span>
+      <span class="govuk-body govuk-!-font-weight-bold ">Completed applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">4 SME, 6 large</p>
+</div>
+
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-visually-hidden">Important dates</h2>
+
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8" id="opportunity-important-dates">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Published
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Wednesday 25 August 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Deadline for asking questions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Wednesday 1 September 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Closing date for applications
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Wednesday 8 September 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+  <h2 id="opportunity-attributes-1" class="govuk-heading-m app-summary-list-heading">Overview</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Off-payroll (IR35) determination
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Contracted out service: the off-payroll rules do not apply
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Summary of the work
+        </dt>
+        <dd class="govuk-summary-list__value">
+          FCDO requires a Delivery Partner(s) to provide additional capability and capacity to work in partnership with FCDO teams to support the department’s Digital and Data Transformation outcomes, delivering a wide range of digital and technology services.  FCDO are offering this opportunity as Lots, suppliers choose which lots to participate in.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Latest start date
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Friday 1 October 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Expected contract length
+        </dt>
+        <dd class="govuk-summary-list__value">
+          7 months+up to 17 months pending business requirements.  SoW duration(s) will be set individually
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Location
+        </dt>
+        <dd class="govuk-summary-list__value">
+          No specific location, for example they can work remotely
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Organisation the work is for
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The Foreign, Commonwealth &amp; Development Office (FCDO)
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Budget range
+        </dt>
+        <dd class="govuk-summary-list__value">
+          
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-2" class="govuk-heading-m app-summary-list-heading">About the work</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Why the work is being done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The FCDO is going through a demanding period of transformation following the merger between DFID and the FCO in September 2020. The organisation is merging Microsoft 365 tenants, introducing a new Oracle Finance and HR system, and consolidating technology services (authentication, devices, collaboration). <br><br>FCDO requires a Delivery Partner to provide additional capability and capacity to work in partnership with FCDO teams to support the department’s Digital and Data Transformation, delivering a wide range of digital and technology services to meet key outcomes.  This contract will enable FCDO to quickly flex up and down ensuring the right delivery capacity is available on demand to meet the scale of each deliverable/outcome, getting the right mix of skills on board for the duration needed. The partner will be required to work alongside our internal staff as part of a single multi-disciplinary team.<br><br>FCDO requires the Delivery Partner(s) to work with us across 4 key areas:<br>•	Data Architecture<br>•	Aid Management Platform<br>•	Data Warehouse<br>•	Transparency Publication<br><br>FCDO are seeking preferably one delivery partner to work with us to deliver outcomes across all areas.  Although will consider multiple delivery partners if a sole provider cannot support us to deliver across all areas.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Problem to be solved
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A key part of the transformation effort is updating and re-engineering our core systems for managing programme delivery, programme and delivery-related management information and publication of open data on programme activities. This also requires understanding and evolving the data architecture of the organisation, so that analysts and other users can make best use of the data that is available to them.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Who the users are and what they need to do
+        </dt>
+        <dd class="govuk-summary-list__value">
+          As head of Digital &amp; Data Services Department I have a range of products, services and initiatives that need to change in response to Transformation demands and to support organizational change driven by the merger. Our products and services need to be evaluated and developed to meet organisational needs for reporting and analysis on “day 1” (1st Apr 2022)<br><br>As Chief Data Architect I need to develop the standards, policies and practices that will support our vast network of data experts in defining our “single source of the truth” enabling data experts across our business domains to build data catalogues, define and implement business rules, consolidate data definitions,  These must all be supported by appropriate tools. <br><br>As AMP Product Owner, I am keen to set standards to drive a culture of high performance developing a customised project management underpinning FCDOs data driven diplomacy and development. Enabling  FCDO to make effective programming decisions in a timely and efficient fashion, promoting productivity and performance.<br><br>As Transparency Product Manager, I want to ensure current/future user needs are met through a streamlined Transparency product, reducing the complexity of existing workflows and provide a single point of administration for all transparency related requirements
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Early market engagement
+        </dt>
+        <dd class="govuk-summary-list__value">
+          
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Any work that’s already been done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Existing team
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The successful bidder(s) will work with FCDO’s internal team to meet goals and outcomes.  Where required collaboration with other suppliers may be necessary to deliver against contracted outcomes and quality of delivery.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Current phase
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Not started
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-3" class="govuk-heading-m app-summary-list-heading">Work setup</h2>
+  
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Address where the work will take place
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The team will be required to work remotely owing to Covid 19. Close collaboration with teams in East Kilbride, London and Milton Keynes will be required, potentially including some travel to these areas
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Working arrangements
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Hybrid working owing to Covid 19 with potential travel to FCDO sites. Our focus is to build a close and effective relationship between the successful bidder(s) and FCDO teams. The FCDO will not be liable for any travel and subsistence expenses. The successful bidder will be provided with FCDO laptops for suitably security cleared named team members and should ensure they follow the FCDO&#39;s IT and security procedures and policies in relation to access, data and equipment use.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Security clearance
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Minimum SC vetting for all core staff involved, all of whom should be UK nationals or UK dual nationals. It is preferred that any proposed teams already hold clearances to avoid impacting delivery timescales.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-4" class="govuk-heading-m app-summary-list-heading">Additional information</h2>
+  
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional terms and conditions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-5" class="govuk-heading-m app-summary-list-heading">Skills and experience</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">Buyers will use the essential and nice-to-have skills and experience to help them evaluate suppliers’ technical competence.</p>
+  
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Essential skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Experience in managing multidisciplinary teams and delivering complex outcomes through Agile practices. A track record of collaborating and partnering with teams in the public sector to deliver outcomes.</li>
+          <li>Experience in provisioning and leading multidisciplinary teams that can engage with a range of technical and non-technical stakeholders.</li>
+          <li>Experience in managing knowledge transfer to team members on a continuous basis, building up a knowledge base of assets.</li>
+          <li>Experience in designing and delivering Master Data Management solutions with robust business rules applied (Azure Data Factory &amp; Profisee or Oracle EDM desirable but not essential)</li>
+          <li>Experience of defining data standards and rolling these out to an organization, influencing and engaging as needed to ensure adoption.</li>
+          <li>Experience of defining metadata management, enterprise data catalogues using a process driven approach and with technology/tools (all industry leading tools considered – to find a balance of functionality and cost).</li>
+          <li>Experience of  delivering complex data models using industry standards frameworks and tools (UML required, BizBok, ArchiMate and MooD desirable).</li>
+          <li>Experience of  leading user research, service design, process mapping and deployment to deliver products that meet user needs.</li>
+          <li>Experience in designing/delivering scalable Data Warehouse projects including complex data pipelines based on robust business rules (UML, XML and Azure/Oracle SQL essential, Azure Data Factory preferred, Oracle Integrator desirable)</li>
+          <li>Experience of integrating data from multiple cloud sources using data standards, security standards and industry best practices.</li>
+          <li>Experience in optimising systems architecture using a Microsoft .NET stack, with continuous integration and continuous deployment through Azure DevOps in a .NET instance.</li>
+          <li>Experience of defining an application integration strategy and practice using secure API contracts between enterprise services allowing secure end access points. Likely enabled through Azure API manager.</li>
+          <li>Experience of delivering authentication using Azure Active Directory to drive role based access and defence in depth using OWASP ASVS security standards.</li>
+          <li>Experience in developing robust testing plans and strategy to ensure automation of Azure pipelines and seamless improvement cycles.  This will include artefact creation, non-functional testing, manual testing and test analysis.</li>
+          <li>Experience in developing data visualisations and compelling actionable stories through Power BI reports and dashboards</li>
+          <li>Experience in documenting and facilitating knowledge transfers of core processes and reporting.</li>
+          <li>Experience in applying design thinking to reimagine processes and problems in a fashion that promotes user engagement.  Documenting analysis outputs to support delivery by developers, data engineers and testers.</li>
+          <li>Experience in communicating with stakeholders and managing expectations whilst developing reports to streamline processes and increase accuracy. (expert knowledge of SAP BI required, knowledge of iTrent preferred).</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Nice-to-have skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-6" class="govuk-heading-m app-summary-list-heading">How suppliers will be evaluated</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">All suppliers will be asked to provide a written proposal.</p>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          How many suppliers to evaluate
+        </dt>
+        <dd class="govuk-summary-list__value">
+          5
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Proposal criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Evidence of defining a delivery approach &amp; methodology underpinned by agile practices, allowing a rapid response to issues and implementing effective resolutions</li>
+          <li>Evidence of working collaboratively and fully embracing agile delivery, including experience of working alongside clients in co-located, integrated teams to deliver against a common set of goals/outcomes</li>
+          <li>Description of how you have been able to scale up development teams quickly to meet customer demand, with reference to previous work.</li>
+          <li>Access to team resources with the required relevant skills, knowledge, and experience needed to complete the work including roles and example CVs of typical resources</li>
+          <li>Ability to create effective supporting governance to nurture agile team working at scale, through effective delivery management</li>
+          <li>Forward looking approach to risks identification or dependencies and offered approaches to manage and mitigate</li>
+          <li>VFM for FCDO in terms of  - The total cost to FCDO</li>
+          <li>Rate card and explanation of how this delivers VFM to FCDO</li>
+          <li>VFM for FCDO in terms of - the cost payable on delivery of the initial outcomes</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Cultural fit criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Describe how you would ensure the successful transfer of technical knowledge between staff.</li>
+          <li>Define your approach to working in multi-disciplinary teams realising successful outcomes and meeting objectives.</li>
+          <li>Work as a team,  respectful of multidisciplinary skill sets, cultures and experiences because they enrich what we can offer</li>
+          <li>Quickly joining teams and understanding their needs and ensuring delivery within set timescales</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Payment approach
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Time and materials
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional assessment methods
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Work history</li>
+          <li>Presentation</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Evaluation weighting
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <p class="govuk-body govuk-!-margin-top-0 govuk-!-margin-bottom-1">Technical competence</p>
+        <div>60%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Cultural fit</p>
+        <div>10%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Price</p>
+        <div>30%</div>
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  </div>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    
+
+<h2 id="clarification-questions" class="govuk-heading-m app-summary-list-heading">Questions asked by suppliers</h2>
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          1. In the experience section you flag “Experience in communicating with stakeholders and managing expectations whilst developing reports to streamline processes and increase accuracy. (expert knowledge of SAP BI required, knowledge of iTrent preferred)” it seems like there is two questions to answer here – stakeholder communications, reporting; and experience with the following software solutions (SAP/iTrent). can you confirm?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          There are two points to address, but they relate to a single activity. We need the skills to ensure that appropriate stakeholder engagement takes place to deliver reporting via the SAP BI product, with experience of iTrent data/system preferred. That could be delivered by one or multiple people – whatever the Delivery Partner deems appropriate – as long as the activity is completed
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          2. Can you provide an indication of the number and type of roles you are looking for a supplier to provide as part of this contract?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We expect overall the Delivery partner would provide a team team of between 15-20 individuals across the different workstreams, however depending on how quickly we want them to deliver they might scale up / scale this down. We need to go over milestones etc before this is clear.<br><br>In terms of roles we’d expect the delivery partner to provide a team consisting of a range of expertise including:<br>a.	Delivery/project manager<br>b.	Business analyst<br>c.	Data engineer<br>d.	Data analyst<br>e.	Data architect<br>f.	Data scientist<br>g.	Software/technical architect<br>h.	Software engineer/developer<br>i.	Tester<br>j.	Power BI developer
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          3. Can you please provide an indication of the budget range for this work?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Our budget is roughly £1m - £1.5m up to the end of this financial year, further funds will be available for the extension term notified in the published opportunity.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          4. In the Summary of the Work section the Authority detail that they require a Delivery Partner(s) to provide additional capability and capacity to work in partnership with their teams.  This section also states that this opportunity is being offered as Lots, and that suppliers choose which Lots to participate in.  Grateful if the Authority could please advise how the Lot process will function in the case where a single supplier is chosen and/or where multiple suppliers are chosen?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          a.	Where a single supplier is chosen we would expect overarching project delivery for all lots to be managed by the supplier.<br>b.	Where more than one supplier is chosen, where they are selected for their specific areas of expertise, we would expect individual suppliers to provide overarching project delivery for their lot(s).<br>c.	The FCDO management team will work with the delivery partner(s) and coordinate with the delivery manager(s) across all lots as necessary to ensure overall success.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          5. Many thanks for providing bidders with the Questions for the ITT Phase. Can the Authority advise weightings and page/word counts for the ITT responses?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          All information relating to the ITT stage will be released to suppliers who are invited to bid.  The invitation to tender pack will include a comprehensive statement of requirements detailing the outcomes and deliverables of the service, evaluation criteria and weighting, evaluation scoring methodology and instructions on how to submit a technical and commercial response
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          6. The Essential Requirements question #16 states “Experience in documenting and facilitating knowledge transfers of core processes and reporting”<br>We have assumed that that the reporting relates to project reporting (performance, KPIs, metrics, SLAs). Grateful if the Authority could please confirm?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          a.	This reporting relates to the HR business domain, so includes statutory reporting on staff headcount, workforce planning etc. We need to build up a “knowledge pack” which encapsulates core HR reporting activities and processes and allows us to upskill staff and build capability across the team.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          7. The Essential Requirements question #16 states “Experience in documenting and facilitating knowledge transfers of core processes and reporting”<br>We have assumed that that the reporting relates to project reporting (performance, KPIs, metrics, SLAs). Grateful if the Authority could please confirm?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          a.	This reporting relates to the HR business domain, so includes statutory reporting on staff headcount, workforce planning etc. We need to build up a “knowledge pack” which encapsulates core HR reporting activities and processes and allows us to upskill staff and build capability across the team.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          8. Is there a current incumbent?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          No, this is a new requirement for FCDO.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          9. 1.	“Delivery Partner(s)” are you aware that under this framework you are only permitted to award one Call Off per further competition as set out in 2.1.9 of the Framework?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          FCDO will be working within the framework terms.  FCDO are looking for 1 Delivery partner from this further competition, however have been open that we may not be successful in finding 1 and will split into lots if this procurement fails. Supplier’s should be reviewing their capacity to meet the whole requirement and may partner with organisations (sub-contractor) they have previously worked with to fill any gaps in FCDO’s requirement to allow the award of 1 contract
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          10. “FCDO are offering this opportunity as Lots” are you aware that DOS has no Lot structure and that you cannot run a further competition with lots? See Framework Schedule 7
+        </dt>
+        <dd class="govuk-summary-list__value">
+          FCDO will be working within the framework terms.  FCDO’s preferred contracting route is for 1 Delivery partner from this further competition.  FCDO have been open and may not be successful in finding 1 and will split into lots if this procurement fails via a future procurement route.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          11. Data Architecture, Aid Management Platform” are you aware that DOS is a Framework for agile services that must comply with the Service Manual in their delivery (see Framework Schedule 1 clause 2.3) like RM 6100?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          FCDO are looking for AGILE services to help provide services on some of our platforms.  The services of the delivery partner will follow AGILE principles, which is the methodology applied by our core in-house team.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          12. Please confirm that in this procurement you will comply with the DOS Framework including the Award of a single supplier, removal of the concept of lots, and only including work that fall under the Service Manual hence not general ICT.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          FCDO will be working within the framework terms and are looking for 1 Delivery partner from this further competition and have been open and may not be successful in finding 1 and will split into lots if this procurement fails.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          13. Are you aware of how the Award procedure uses ‘Nice-to-have skills and experience’ as key part of shorlisting?  FCDO will be following CCS buyer guidance in evaluating and shortlisting as follows:
+        </dt>
+        <dd class="govuk-summary-list__value">
+          FCDO will be following CCS buyer guidance in evaluating and shortlisting as  published in the &#39;Buyer Guide for Evalauting&#39;
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          14. As you have no ‘Nice-to-have skills and experience’ please state exactly how you are going to short list.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          FCDO will be following the guidance that is provide in the Buyer guide to shortlisting and apply the full parameters aviable to FCDO.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          15. As you have no ‘Nice-to-have skills and experience’ please state exactly how you are going to short list.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          FCDO will be following the guidance that is provide in the Buyer guide to shortlisting and apply the full parameters aviable to FCDO.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          16. If you belive you can offer more than one contract please state a) how you are going to do that under the Framework, b) how you can make a decision later in the process and comply with the Regulations?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          FCDO will be working within the framework terms we are looking for 1 Delivery partner from this further competition, however have been open that we may not be successful in finding 1 and will split into lots if need be if this procurement fails.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../g-cloud/suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>

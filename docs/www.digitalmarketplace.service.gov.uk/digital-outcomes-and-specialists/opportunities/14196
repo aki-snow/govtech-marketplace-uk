@@ -1,0 +1,1659 @@
+
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  DWP Digital Children - Application Development &amp; Live Service Support - Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="14196#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../opportunities">Supplier opportunities</a>
+    </li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <section
+    data-module="dm-banner"
+    role="region"
+    aria-label="This opportunity is closed for applications"
+    class="dm-banner"
+>
+    <h2
+        class="dm-banner__title dm-banner__title--large"
+    >
+        This opportunity is closed for applications
+    </h2>
+        <div class="dm-banner__body">
+            The deadline was Wednesday 11 August 2021
+        </div>
+    
+</section>
+  </div>
+</div>
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <span class="govuk-caption-l">Department for Work and Pensions</span>
+    <h1 class="govuk-heading-l">DWP Digital Children - Application Development &amp; Live Service Support</h1>
+    <span data-lot="digital-outcomes"></span>
+  </div>
+</div>
+
+<div class="govuk-grid-row govuk-!-margin-bottom-9">
+  <div class="govuk-grid-column-one-third app-stat-block" id="incomplete-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0 govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">4</span>
+      <span class="govuk-body govuk-!-font-weight-bold">Incomplete applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">2 SME, 2 large</p>
+</div>
+<div class="govuk-grid-column-one-third app-stat-block" id="completed-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0  govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">2</span>
+      <span class="govuk-body govuk-!-font-weight-bold ">Completed applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">1 SME, 1 large</p>
+</div>
+
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-visually-hidden">Important dates</h2>
+
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8" id="opportunity-important-dates">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Published
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Wednesday 28 July 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Deadline for asking questions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Wednesday 4 August 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Closing date for applications
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Wednesday 11 August 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+  <h2 id="opportunity-attributes-1" class="govuk-heading-m app-summary-list-heading">Overview</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Off-payroll (IR35) determination
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Contracted out service: the off-payroll rules do not apply
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Summary of the work
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Provide Development and Live Service Support services and outcomes of the Children Platform technology estate, primarily the Child Maintenance Scheme (CMS) 2012 System. Support the delivery of required regular releases of  business change, transformation portfolio and provide Live Service Support to ensure performance remains stable and optimised for service.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Latest start date
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Monday 1 November 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Expected contract length
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Anticipated duration is 2 years
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Location
+        </dt>
+        <dd class="govuk-summary-list__value">
+          North East England
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Organisation the work is for
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Department for Work and Pensions
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Budget range
+        </dt>
+        <dd class="govuk-summary-list__value">
+          
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-2" class="govuk-heading-m app-summary-list-heading">About the work</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Why the work is being done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          DWP are re-procuring the services for Application Development and Live Service Support of the Core Business Systems for the DWP Children’s Platform, including the Child Maintenance Services 2012 (CMS 2012) System. The current contract expires 31st March 2022.<br><br>The primary purpose of the contract is to ensure the core CMS2012 application remains operational and fit for use. The CMS2012 application underpins the Child Maintenance Group’s administration of the 2012 Child Maintenance Service.<br><br>The appointed supplier will provide the required skills and capabilities needed to develop and maintain the CMS2012 application to deliver its future change portfolio, technical and service transformation programme, support the legacy technology and maintain the live service.<br><br>In addition, the supplier will also provide services to support the delivery of various other initiatives that form part of the DWP Digital Children’s future work programme. <br><br>The services to be provided under the contract will be: <br>Software Development, User Experience and Design, Testing &amp; Auditing, Service Delivery, Performance Analysis and Data, Security, Support and Operations.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Problem to be solved
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The Child Maintenance Group (CMG) is responsible for the administration of the 2012 Child Maintenance Scheme.  Either obtaining maintenance from the Paying Parent (PP) and paying it to the Receiving Parent (RP) or facilitating the payment between the two parties directly. To deliver its goals, CMG requires digital services and outcomes from suppliers to supplement DWP’s own internal capability with the appropriate skills and capacity to ensure provision of the current live services and to develop new digital solutions. <br><br>The appointed supplier will deliver outcomes for required regular releases to deploy a range of additional business and technical requirements that supports operational delivery and the future DWP architecture and technology transformation programmes and provide live service support to the production system, within a complex multi-application, multi-supplier environment, to ensure it remains current with legislation and optimised for performance and service.<br><br>Children and Families requirements include a set of technical skills in the preferred DWP and Children’s key technologies that align to the core services to be provided. <br><br>The key technologies are: <br>Siebel, BPM, Adobe, Documentum, Node JS
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Who the users are and what they need to do
+        </dt>
+        <dd class="govuk-summary-list__value">
+          As a DWP Technology Function I need to be able to supplement my development and live support teams to ensure they have the capability and capacity to deliver necessary change and system stability for the Child Maintenance Group (CMG) and the parents they support.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Early market engagement
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A pre-procurement presentation was held on 08/06/2021 providing background information on DWP Digital Children &amp; Families and the Child Maintenance Service and an overview of the Live Service Support, Service Transformation Vision, Current Architecture and Future Ambition and Pre-Contract Security Assurance.<br><br>If anyone would like a copy of the slide deck this can be downloaded from: <br><a href="https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current" class="govuk-link" rel="external">https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current</a>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Any work that’s already been done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Applications have been developed on the Children Platform technology estate in support of various child maintenance schemes, including the CMS 2012 system that was developed for the latest scheme, which went live in 2012. <br><br>Development work continues, based on 6 weekly sprint cycles, to deliver against a range of business and technical requirements. Support of the production system continues to be required within a complex multi-application, multi-supplier environment.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Existing team
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The appointed supplier will work in within a multi-discipline and multi-supplier environment which also includes exiting Buyer teams. The appointed supplier will be able to work alongside and interact between these existing teams as required.<br><br>The exiting Buyer team currently consists of 95 resources in post across a range of DDaT Roles.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Current phase
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Live
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-3" class="govuk-heading-m app-summary-list-heading">Work setup</h2>
+  
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Address where the work will take place
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Due to the COVID-19 situation work will be carried out remotely until further notice.<br><br>However following the easing of restrictions at a future point in time the appointed supplier may be co-located with the Buyer on DWP sites based within Newcastle Upon Tyne with the ability to continue to provide Digital Teams using a remote model, where appropriate and with agreement from the Buyer.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Working arrangements
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Typically Digital Teams will be required to work a minimum of 7.5 hours per day, 5 days per week. <br><br>Some weekend work will be required for discrete project work and support resource will be required to cover 24/7 on an on call basis.<br><br>Reimbursable expenses will be paid in line with DWP Policy.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Security clearance
+        </dt>
+        <dd class="govuk-summary-list__value">
+          All resources must be BPSS (Baseline Personnel Security Standard) compliant or equivalent (or prepared to undergo clearance process prior to commencement of work). DWP would support an application however costs are to be met by the supplier.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-4" class="govuk-heading-m app-summary-list-heading">Additional information</h2>
+  
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional terms and conditions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          This requirement is likely to be a mix of predominately outsourced managed services with some supply of resource, therefore off-payroll working rules (IR35) may/may not apply. DWP will determine if off-payroll working rules apply, prior to each individual statement of work.<br><br>DWP is working with the internal legal team to review the DOS 5 legal documents against DWP&#39;s model T&amp;C&#39;s. There may be some enhancements/amendments. This information will be shared with shortlisted suppliers with the RfP.<br><br>TUPE may apply to this contract - Should this be the case DWP will seek to share this information with shortlisted suppliers.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-5" class="govuk-heading-m app-summary-list-heading">Skills and experience</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">Buyers will use the essential and nice-to-have skills and experience to help them evaluate suppliers’ technical competence.</p>
+  
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Essential skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Have experience of delivering development capability using a wide range of methodologies including agile and waterfall across five or more concurrent projects with teams of 50-100 development resources.</li>
+          <li>Have experience of aligning development activities with other parallel work streams across split sites, ensuring quality standards are maintained.</li>
+          <li>Have experience of delivering ITIL live support capability across multiple concurrent applications.</li>
+          <li>Have experience of developing, testing and supporting bi-modal IT where there are both heritage COTS systems as well as newer systems based around events and micro services architecture.</li>
+          <li>Have experience of and immediate capacity to supply technical skills (3-5 years experience) in Siebel Public Sector including detailed technical knowledge of Siebel architecture, deployment model and data model.</li>
+          <li>Have experience of and immediate capacity to supply technical skills for sunset systems below including detailed technical knowledge of architecture, deployments and data.  • Adobe-AEM, Documentum, BPM, IBM-HTTP-Server, SageX3</li>
+          <li>Have immediate capacity to supply technical skills to support, patch, update and upgrade for Jira and Confluence</li>
+          <li>Have experience of delivering automated testing of UI, API, Events, files across a range of COTS products as well as microservices as part of pipelines.</li>
+          <li>Have experience of testing using tooling:   Cucumber, Selenium, Browserstack, Postman, Jmeter, Mokito, EasyMock, PowerMock, WireMock , JaCoCo, Istanbul, Mocha, Junit, Checkmarx, OWASP Zap, BlackDuck , SonarQube</li>
+          <li>Have experience of infrastructure monitoring and application monitoring using tools such as ELK, Graphana, Promethus, fluentd, Google Analytics as well as cloud-native tooling integrated with hosted monitoring tooling.</li>
+          <li>Have relevant experience in developing applications using modern technologies and methodologies that are compliant with government standards.</li>
+          <li>Can support, stabilise and keep our persistence technologies in good health though develop to production lifecycle.   • Oracle RAC, MySql, PostgreSQL, DocumentDB, Cosmos DB • Elasticsearch • Snowball • Kafka</li>
+          <li>Have experience of deploying and managing both self-hosted and cloud-based applications in across a range of technologies.</li>
+          <li>Have immediate access to a resource pool to undertake the roles documented in the DDAT framework in the following areas: Engineering, Architecture, Product Management, Delivery management, Security, Data</li>
+          <li>Have capability to supplement resources using a remote model (i.e. not at a DWP location), and have capability to deliver with compliance to ISO27001 standards.</li>
+          <li>Have experience of working with incumbent suppliers to transition knowledge of systems and takeover responsibilities within demanding timescales (~2 months).</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Nice-to-have skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Have experience of working within Government or a comparable organisation within the last 3 years.</li>
+          <li>Have experience of ServiceNow.</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-6" class="govuk-heading-m app-summary-list-heading">How suppliers will be evaluated</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">All suppliers will be asked to provide a written proposal.</p>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          How many suppliers to evaluate
+        </dt>
+        <dd class="govuk-summary-list__value">
+          3
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Proposal criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Please demonstrate that you have the knowledge and experience necessary to perform the functions as detailed within the Specification of Requirements document.</li>
+          <li>Please demonstrate your ability to gain, at pace, a detailed understanding of the solution to allow continuity in development as well as ongoing support.</li>
+          <li>Please demonstrate the experience of your teams delivering major change via development of concurrent releases and Live Support services for a comparable customer.</li>
+          <li>Please demonstrate the capability of your teams in providing Service Management across multiple concurrent applications.</li>
+          <li>Please demonstrate how you have introduced innovation into an organisation for a comparable customer.</li>
+          <li>Please detail your process for resource acquisition with evidence of its maturity and use elsewhere on contracts of a similar nature.</li>
+          <li>Please detail value for money (VfM) proposals associated with the provision of this contract and requirement and demonstrate how they link to the key objectives and will benefit DWP.</li>
+          <li>Completion of a Information Security Questionnaire (ISQ) that allows DWP to assess the supplier’s compliance with DWP Security Schedule, Policy, Standard and industry good practice</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Cultural fit criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Experience of successful collaborative working as part of a multi-supplier delivery team sharing knowledge within the team.</li>
+          <li>Evidence of a culture of continuous improvement where individuals learn from past mistakes and offer improvement opportunities.</li>
+          <li>Social Value: Equal Opportunity – Tackle Workforce Inequality</li>
+          <li>Social Value: Wellbeing - Improve health and wellbeing</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Payment approach
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Capped time and materials
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional assessment methods
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Case study</li>
+          <li>Reference</li>
+          <li>Presentation</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Evaluation weighting
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <p class="govuk-body govuk-!-margin-top-0 govuk-!-margin-bottom-1">Technical competence</p>
+        <div>45%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Cultural fit</p>
+        <div>15%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Price</p>
+        <div>40%</div>
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  </div>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    
+
+<h2 id="clarification-questions" class="govuk-heading-m app-summary-list-heading">Questions asked by suppliers</h2>
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          1. Can you provide some history and context for the Application?<br>How has it evolved, history of support arrangements and perceived success or otherwise of those arrangements?<br>How is the application currently supported?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Please refer to the Opportunity Notice published on the DWP e-procurement tool for supporting history and context:<br><a href="https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current" class="govuk-link" rel="external">https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current</a><br>In brief though the application supports the 2012 child maintenance legislation, payments etc. (Also info on Gov.uk etc.)<br>Changes to the application are authorised via CRs raised by CMG operations which requests changes and improvements. These are delivered in  agile sprints, to align with working practice.<br>The application is historically and currently supported by DWP digital resources augmented by third party supplier services.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          2. For this bid, how will you ensure a level playing field with the competition? <br>i.e. Will Transition costs, TUPE costs etc be considered and /or covered?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Suppliers will be asked to provide costs for things such as TUPE and transition, however these will not be used as part of the evaluation.  They will only be used for financial planning purposes.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          3. What is the expected contract duration?<br>Some Idea of Length of contract and any break points being considered?<br>Options for extension?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Anticipated contract length will be up-to 2 years with a possible 6 month extension period.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          4. Is an Out of Hours support service provided/required?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Yes, an OOH service is currently provided and we forsee this will be required for the new contract.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          5. What is Location of current Service? - Onshore/Offshore?<br>Where is UK Support Location – Is it Longbenton? <br>Is this the intention for the new contract?<br>Is offshore capability currently utilised and to what extent? <br>Would it be acceptable for the new contract?<br>Any delivery location restrictions both onshore and offshore ?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The current service is a combination of offshore and onshore and the onshore location is Longbenton and it is the intention for this to be the location going forward. Offshore capability is used extensively and will be considered as part of any proposal. The main onshore location is Longbenton and will be going forward your proposal should include any options you wish to include for offshore working and associated locations.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          6. If onshore, are staff available to TUPE (eg if part of a shared supplier service they may not be)? <br>Access and Feasibility of comprehensive KT process / handover process ? Potential Issues if offshore e.g. shadowing might not be possible
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We believe TUPE would apply to this contract.  Information will be provided to shortlisted Bidders as part of the Request for Proposal (RfP).
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          7. We assume TUPE would apply and would be necessary for the skills transfer – if not how would we get the knowledge required?<br>How many individuals could be in-scope for TUPE and how many may be retained (if in-house) if any already within DWP?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We believe TUPE would apply to this contract.  Information will be provided to shortlisted Bidders as part of the RfP.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          8. Quality / amount of technical and business documentation (Design, HLTAD) etc - is it up to date ?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Heritage CMS 2012 system switched to incremental documentation back in 2013.  The high level architecture artefacts have been updated, however, high level designs and low level designs have been oriented around releases or collections of changes.   Part of the DOS Transition / exit planning will address knowledge handover including refresh of relevant documentation.  For new services architecture and design content is up to date and low level deployment details contained within Infrastructure As Code.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          9. Is the intention that there is an opportunity to be supporting the platform as well as the Application or just the Application?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Ownership of the service (full-stack) is with the L2 service owner to which the supplier will provides a range of service management services. The supplier will have particular capabilities in the application layer and will also be expected to provide technical leadership in resolution processes involving other technical specialists across the entire platform when required.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          10. Is the Dev/Support/Test environment hosted in DWP or supplier infrastructure? <br>Where are they located?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Dev and Test environments provided by DWP/Children&#39;s hosted in either AWS or Azure.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          11. If in a DWP environment could we gain access to use this (i.e. avoid rebuild)?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Dev and Test environments would be available.   All DWP staff and providers have controlled and secure access to environments including secure offshore access for Dev/Test.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          12. Is the dev/support environment licenced and paid for by DWP or the Supplier? <br>Is licence transfer possible between suppliers?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Paid for by DWP.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          13. Where are current production systems hosted and what is the hosting arrangement?<br>e.g. is it a Cloud based arrangement?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Production environments are currently hosted in DWP on premise hosted data centres - CMS 2012 application is not cloud hosted  - on line services are.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          14. What are your service hours and service level expectations for the application? <br>Is the current service achieving these SLAs? <br>Can they be supported remotely/on-call?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Service Hours are 07:30 - 20:30 Mon-Fri, Sat 07:30 - 17:00 &amp; Sun is optional overtime 7:30 - 15:00. Currently service meets SLAs and can be supported remotely and on call cover is also in place.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          15. Incident run rate / problem volumes and trend. How many incidents P1, 2, 3, 4?<br>How many Incidents per month?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Please refer to the Opportunity Notice attachment Annex 4 published on the DWP e-procurement tool:<br><a href="https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current" class="govuk-link" rel="external">https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current</a>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          16. Do they envisage transformation, or is this just run? <br>A feed and Water Arrangement?<br>Any Future transformation / roadmap plans for the Application?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Primarily run with input in to future service design based on operational data/findings.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          17. Can you provide an idea of the Amount / frequency of change work anticipated?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Frequency of sprints on the Core CMS 2012 application is every six weeks, amount is determined by scope of each sprint.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          18. Technical debt - how far is the system behind current product versions and what vendor support is available? <br>(extended / obsolescence / none ?)
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Siebel being upgraded to n-1 (IP20 this financial year). Siebel support contract in place with Spinnaker (not Oracle). COTs package status documentation maintained and risk evaluated periodically to align with upgrade path priorities and agreed with the Digital Children Management Team. Technical debt regularly reviewed for remediation decisions.  DWP/Children&#39;s are responsible for TechDebt and support status and values input from suppliers as well as other teams in making choices.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          19. Security obligations eg. keeping system patched? clearance? GDPR?<br>What are the security restrictions re. data etc?  <br>Presumably very sensitive data – held in UK only?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Security obligations and risk management processes and risk actions are managed by the application Service Owners, with support of internal and external supplier resources as deemed appropriate.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          20. Is production DR environment operational and proven? <br>Is there a test cycle ?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Core CMS2012 system DR environment is operational and proven, annual DR tests scheduled. RTO = 24 hrs.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          21. Licensing commercial accountability – Assume client side?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          DWP owns and is responsible for all licensing.  At times DWP will take advice including from suppliers, often based on options, that may directly or indirectly impact licensing or commercial terms with vendors.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          22. Where are the locations of the end users?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          There are 6 Primary locations: Plymouth, Hastings, Birkenhead, Belfast, Falkirk and Dudley, with a number of smaller ancillary offices.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          23. How stable is the Application? What are the key interfaces? <br>Are any particularly troublesome?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The application is stable and meets non-functional requirement targets relating to availability/uptime. There are sometimes issues with interfaces which result in a &#39;degraded&#39; service for the duration. One such interface is with HMRC systems through which data is accessed by CMG caseworkers. Other interfaces in to the core system are with online systems accessed via portals by UK citizens.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          24. Is there any significant project activity planned that may impact the services?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Please see response to Q18 regarding IP20 upgrade. Also significant programme of Tech remediation in plan. Transition processes in place to mitigate risk with Live Service Support input.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          25. What is the demand on the app, are there any peaks and troughs, stability problems or ticket backlog concerns?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Approximately 5000 users log in to the core system, with a concurrency peak of around 2500.  There are positive trends evidenced in relation to ticket backlogs such as problems and incidents etc.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          26. Will the client provide Level 1 support and access to their Service Desk? <br>(What is your ITSM tool? Is it Tech Now?) <br>If not client, then who?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Yes - Level 1 support will be provided by our UXCC Team who operate 24*7 <br>Service Now is the ITSM tool we use.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          27. Are there any third parties involved in supporting the Application?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          There are a number of internal and external service providers involved in supporting the service. Internal and external colleagues work across the service lifecycle e.g. Design; transition and operations.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          28. What will be the key asks that they can make us aware of in the contract – Evergreening, DR, Security, flexibility of end term date?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Key asks will include Incident and problem management. Assessing impact of changes. Third line application support/management.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          29. Are there any key tools essential to the running of the app we should be aware of?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Service monitoring is performed centrally by first line support (User experience control centre). Additionally L3 Application support require access to logs maintained on staging server. There is also ELK which is used to provide OI. We use WCC to manage the Informatica Batch. BMC for additional Monitoring. OEM  - Oracle product.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          30. Will the early market engagement slide deck be circulated?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Yes, we have made the early market engagement event presentation available.<br>Please refer to the Opportunity Notice published on the DWP e-procurement tool.  <br><a href="https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current" class="govuk-link" rel="external">https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current</a>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          31. Any indication of how procurement will be scored?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The procurement will be evaluated in accordance with the DOS Buyers Guide.<br><a href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide" class="govuk-link" rel="external">https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide</a>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          32. What improvements do you see in the service over the potential lifetime of the contract?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          There is a stated strategy of moving from Children&#39;s monolithic applications based on COTS products to DWP Reference Architecture that is based on events and microservices principles.  This will not be big-bang and complex transition planning is underway and will continue to evolve whilst we operate in bi-modal IT mode over the next 5 - 7 years.  We govern changes every two weeks and evaluate how best to cater for change balancing all factors including cost, time, quality, feature/benefits and strategy.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          33. How long is the contract for?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Anticipated contract length will be up-to 2 years with a possible 6 month extension period.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          34. Do you foresee that there will be a TUPE undertaking?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We believe TUPE would apply to this contract.  Information will be provided to shortlisted Bidders as part of the RfP.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          35. Is organisational transformation and organisational change management and end user training part of the services to be provided?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Supporting Organisational transformation and change may be required but end user training is not a requirement.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          36. How many people are we talking about here? Is it 30, 40, 50 people? Or is this the suppliers decision?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Suppliers will be asked to bid against a proposed resource profile for both Application Development and Live Service Support.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          37. What is your ITSM Tool?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Service Now
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          38. Are there any key tools essential to the running of the app we should be aware of?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Service monitoring is performed centrally by first line support (User experience control centre). Additionally L3 Application support require access to logs maintained on staging server. There is also ELK which is used to provide OI. We use WCC to manage the Informatica Batch. BMC for additional Monitoring. OEM  - Oracle product.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          39. Could you please share with us the deck which was presented at the early market engagement event.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Yes, we have made the early market engagement event presentation available.<br>Please refer to the Opportunity Notice published on the DWP e-procurement tool.  <br><a href="https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current" class="govuk-link" rel="external">https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current</a>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          40. Is there a presentation or any additional documentation presented during the early market engagement event that we are able to access?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Yes, we have made the early market engagement event presentation and additional documentation available.<br>Please refer to the Opportunity Notice published on the DWP e-procurement tool.  <br><a href="https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current" class="govuk-link" rel="external">https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current</a>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          41. Given that this is augmentation of DWP resources without fixed outcomes (yet) is this likely to be rate-card based in terms of scoring?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          This will be a contract for the provision of digital services. Outcome based deliverables will be defined within individual statements of work. Suppliers will be asked to bid against a proposed resource profile for both Application Development and Live Service Support. Further detail will be provided to shortlisted Bidders as part of the RfP.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          42. What is the expected/anticipated Total Contract Value?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The Total Contract Value has not yet been finalised. The budget for this requirement will be set in accordance with spending review rounds by Treasury and so can flex significantly depending on national and departmental priorities.  It is likely, but not guaranteed that a budget between £7million and £15million per annum could be assumed as a guide.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          43. Are the SLAs in fact SLAs with service credits, or GSOs? (i.e. more of a KPI)
+        </dt>
+        <dd class="govuk-summary-list__value">
+          For DWP’s Service Management model to be effective, each supplier who interfaces with it must comply with a set of obligations covering the service management processes and their associated tooling interface requirements.<br>These are Generic Service Obligations (GSOs) and they are designed to:<br>Ensure each supplier is aware of how we need them to support the broader organisation and end-to-end supply chain<br>Ensure we align suppliers to a common way of working in support of the DWP business needs<br>Include measures for obligations that are seen as key to the supplier’s ability to deliver the highest quality service to DWP.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          44. What Improvements do you see in the service?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          There is a stated strategy of moving from Children&#39;s monolithic applications based on COTS products to DWP Reference Architecture that is based on events and microservices principles.  This will not be big-bang and complex transition planning is underway and will continue to evolve whilst we operate in bi-modal IT mode over the next 5 - 7 years.  We govern changes every two weeks and evaluate how best to cater for change balancing all factors including cost, time, quality, feature/benefits and strategy.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          45. 1)Please confirm who the incumbent provider is, and how long they’ve been the incumbent.<br>2)Please confirm the budget for this requirement.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          1) Tata Consultancy Services (TCS) are the incumbent supplier, contracted since 2018 for a broadly equivalent service scope.<br>2) The budget for this requirement will be set in accordance with spending review rounds by Treasury and so can flex significantly depending on national and departmental priorities.  It is likely, but not guaranteed that a budget between £7million and £15million per annum could be assumed as a guide.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          46. What are Current FTE numbers of staff/skillsets of resources to deliver the Service? <br>Roughly how many people currently support the Application?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Please refer to the Opportunity Notice attachment Annex 5 published on the DWP e-procurement tool:  <br><a href="https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current" class="govuk-link" rel="external">https://dwp.bravosolution.co.uk/esop/guest/go/public/opportunity/current</a>
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../g-cloud/suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>

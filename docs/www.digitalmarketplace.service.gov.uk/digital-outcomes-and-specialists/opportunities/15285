@@ -1,0 +1,1493 @@
+
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  Transforming the National Genomics Informatics Service (NGIS) Strategic Software Dev Partner - Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="15285#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../opportunities">Supplier opportunities</a>
+    </li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <section
+    data-module="dm-banner"
+    role="region"
+    aria-label="This opportunity is closed for applications"
+    class="dm-banner"
+>
+    <h2
+        class="dm-banner__title dm-banner__title--large"
+    >
+        This opportunity is closed for applications
+    </h2>
+        <div class="dm-banner__body">
+            The deadline was Friday 13 August 2021
+        </div>
+    
+</section>
+  </div>
+</div>
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <span class="govuk-caption-l">Genomics England Ltd</span>
+    <h1 class="govuk-heading-l">Transforming the National Genomics Informatics Service (NGIS) Strategic Software Dev Partner</h1>
+    <span data-lot="digital-outcomes"></span>
+  </div>
+</div>
+
+<div class="govuk-grid-row govuk-!-margin-bottom-9">
+  <div class="govuk-grid-column-one-third app-stat-block" id="incomplete-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0 govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">12</span>
+      <span class="govuk-body govuk-!-font-weight-bold">Incomplete applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">8 SME, 4 large</p>
+</div>
+<div class="govuk-grid-column-one-third app-stat-block" id="completed-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0  govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">26</span>
+      <span class="govuk-body govuk-!-font-weight-bold ">Completed applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">11 SME, 15 large</p>
+</div>
+
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-visually-hidden">Important dates</h2>
+
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8" id="opportunity-important-dates">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Published
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Friday 30 July 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Deadline for asking questions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Friday 6 August 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Closing date for applications
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Friday 13 August 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+  <h2 id="opportunity-attributes-1" class="govuk-heading-m app-summary-list-heading">Overview</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Off-payroll (IR35) determination
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Supply of resource: the off-payroll rules will apply to any workers engaged through a qualifying intermediary, such as their own limited company
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Summary of the work
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Genomics England provide the National Genomics Informatics Service (NGIS) to the NHS Genomics Medicine Service and looking for a strategic partner to improve user experience, improve the underlying architecture enabling the service to scale rapidly (cloud first), improve diagnostic coverage and improve the internal operational management, monitoring and logistics services.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Latest start date
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Monday 1 November 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Expected contract length
+        </dt>
+        <dd class="govuk-summary-list__value">
+          5 - 9 months (to be confirmed)
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Location
+        </dt>
+        <dd class="govuk-summary-list__value">
+          No specific location, for example they can work remotely
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Organisation the work is for
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Genomics England Ltd
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Budget range
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Anticipated spend under this contract is £4.6m. This is will not be committed and called off under SOW arrangements during the period.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-2" class="govuk-heading-m app-summary-list-heading">About the work</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Why the work is being done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          NGIS was launched in beta in November 2020. The services is now in a ramp up phase and requires improvements to enable operation at scale to support an increasing number of patients.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Problem to be solved
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Example areas of improvement include: <br><br>(i) Provision of expertise to align product squad deliveries to an overall service delivery<br>(ii) Definition and implementation of a decoupled approach to release management with continuous deployment standards and contract testing<br>(iii) Automation of data entry or improved UX <br>(iv) Extend development of core services including knowledge management, bio pipelines and interfaces<br>(v) Improve data visualisation to increase actionability of insights<br>(vi) Accelerate containerisation and the move to micro services<br>(vii) Improve internal software systems used for tracking of sample flow through the GEL systems to support logistics<br>(viii) Accelerate improvements in genome interpretation services<br>(viii) Refactor and simplify underlying access and authentication systems integrated into NHS identity<br>(ix) Address technical debt and provide support and guidance to refactor for scalability and quality<br>(x) Build automated tests and train internal squads to use common frameworks <br>(xi) Configure and extend usage statistics and analytics <br>(xii) Improve monitoring services and overall operational integrity of systems
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Who the users are and what they need to do
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Users are a combination of clinical, informatics and data entry staff at Genomics Laboratory Hubs or internal staff within Genomics England working in logistics and software delivery.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Early market engagement
+        </dt>
+        <dd class="govuk-summary-list__value">
+          N/A
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Any work that’s already been done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          NGIS is a live service, requiring transformation. Several overlapping discoveries are running to define future needs. Architectural assessments have been conducted to understand pain points. Transition to cloud is being conducted in parallel. Outcome based work packages will be defined throughout the programme. Suppliers will be briefed on early examples to deliver.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Existing team
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Genomics England has internal multi-disciplinary Digital / Technology / Bioinformatics teams with embedded Service Owners, Product Managers, Engineers and Bioinformaticians. The successful strategic supplier will be required to work alongside these extisting teams, to take responsibility for specific improvements and to deliver these according to GEL&#39;s architctual and engineering standard, in line with NHSx controls and the GDS code of practice. They may work alongside a broader supply chain offering digital design, platform engineering and architectural support.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Current phase
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Beta
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-3" class="govuk-heading-m app-summary-list-heading">Work setup</h2>
+  
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Address where the work will take place
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Genomics England, Queen Mary University of London, Dawson Hall, London, EC1M 6BQ but remote delivery as required.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Working arrangements
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Suppliers will deploy resources in squads to work under the direction of GEL&#39;s Product Managers and Architects to deliver outcomes against specific statements of work. It is expected that 4-6 squads (of 6-8 multidisciplinary team members) will be required at any given time. Progress against outcomes will be managed through transparent agile ceremonies with clear KPI reporting built into GEL&#39;s standards weekly MI. Given the sensitive nature of GEL&#39;s business, all development will be conducted within GEL&#39;s technical infrastructure and environments. All work will be compliant with GEL&#39;s architectural and engineering standards and will be peer reviewed across teams.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Security clearance
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Not required
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-4" class="govuk-heading-m app-summary-list-heading">Additional information</h2>
+  
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional terms and conditions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Not applicable
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-5" class="govuk-heading-m app-summary-list-heading">Skills and experience</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">Buyers will use the essential and nice-to-have skills and experience to help them evaluate suppliers’ technical competence.</p>
+  
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Essential skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Provide evidence and experience of supplying engineering squad based services to an enterprise sized environment  including blended customer/supplier implementations.</li>
+          <li>Provide evidence and experience of working in a successful agile delivery environment enforcing best practice delivery and support processes in line with customers coding standards using case studies.</li>
+          <li>Provide evidence and experience of delivering projects using modern delivery concepts such as Continuous Integration/Continuous Delivery, Serverless Technologies, Microservices (API design, etc.) and test automation.</li>
+          <li>Provide evidence and experience delivering on AWS public cloud with a particular focus on Fargate, Terraform, API Gateway, Aurora, Lamdba, S3, Secrets Manager, CloudTrail and Serverless technologies.</li>
+          <li>Provide evidence at scale of Python (Django/Flask), Docker, React, HTML5, CSS3, D3 and Docker.</li>
+          <li>Provide evidence of developing monitoring and alerting tools using DataDog, OpsGenie and associated tooling</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Nice-to-have skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Provide evidence and experience with OAuth and OKTA</li>
+          <li>Provide evidence and experience of Atlassian toolset (with a focus on Jira) and GitHub</li>
+          <li>Provide evidence of working with large scale data using PostGres and MongoDB</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-6" class="govuk-heading-m app-summary-list-heading">How suppliers will be evaluated</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">All suppliers will be asked to provide a written proposal.</p>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          How many suppliers to evaluate
+        </dt>
+        <dd class="govuk-summary-list__value">
+          5
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Proposal criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Capacity &amp; Capability</li>
+          <li>Scalability</li>
+          <li>Organisational need</li>
+          <li>Technical</li>
+          <li>Case Study Examples</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Cultural fit criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Provide demonstrable evidence of being able to work as part of an integrated, effective, and efficient delivery team, integrating into, and improving client culture and capability.</li>
+          <li>Experience of outcome based delivery in an empowered multi-disciplinary environment sharing knowledge within and external to the team with clear processes for transferring knowledge to permanent staff</li>
+          <li>Ability to communicate effectively to express freedom of thought and innovation, positively challenge and advocate positive change</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Payment approach
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Capped time and materials
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional assessment methods
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Case study</li>
+          <li>Work history</li>
+          <li>Reference</li>
+          <li>Presentation</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Evaluation weighting
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <p class="govuk-body govuk-!-margin-top-0 govuk-!-margin-bottom-1">Technical competence</p>
+        <div>60%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Cultural fit</p>
+        <div>20%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Price</p>
+        <div>20%</div>
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  </div>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    
+
+<h2 id="clarification-questions" class="govuk-heading-m app-summary-list-heading">Questions asked by suppliers</h2>
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          1. More about the users. There are multiple personas and users including:
+        </dt>
+        <dd class="govuk-summary-list__value">
+          As a clinician<br>I want fast access to easily understandable genomic test<br>So that I can provide diagnoses and support<br><br>As a genomics laboratory hub staff member<br>I want to be able to easily or automatically enter data<br>So that the service can scale raplidy<br><br>As a member of the GEL logistics team<br>I want to understand the status of all tests<br>So that I can monitor and resolve issues rapidly<br><br>As a developer at GEL<br>I want to decouple product releases<br>So that I can improve velocity while maintaining quality
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          2. Who from your team will be scoring applications for this opportunity and what positions do they hold?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Peter Sinden, Chief Information Officer<br>Tim Bouhour, Director of Product Management<br>Matt Brown, Staff Engineer
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          3. Can you please advise the timelines of this procurement (e.g. shortlisted companies notified, anticipated contract award)? Also, can you confirm if shortlisted suppliers will have the opportunity to present?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Shortlist by 20th August<br>Stage 2 Proposals completed by 17th September<br>Presentations w/c 20th September<br>Award w/c 27th September<br><br>Where possible, we will accelerate this timetable.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          4. We are not a recruitment company and do not provide individual consultants to fill gaps on GEL’s delivery teams. Please confirm this is not the engagement model you expect as this would mean the off-payroll rules might apply to any independent sub-contractors we might use?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We are anticipating an organisation who will deliver outcomes working with GEL, embedded into GEL&#39;s governance, architecture and agile cadence. Teams should have a common understanding of working together. We are not anticipating appointment of individual contractors to fill gaps. The off-payroll rules will apply to any workers engaged through a qualifying intermediary, such as their own limited company, as part of the delivery team. We have confirmed in the requirement the IR35 position.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          5. Please confirm if there are any caps to daily fees for different SFIA levels? Does GEL have any expectations on the SFIA levels for consultants to be assigned to this project?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We would expect a blended level of skills. GEL is looking for leadership in some area. Work will be outcome based and, as such, the appointed organisation should be able to define and lead solutions (Level 6 &amp; Level 5). However, implementation should be balanced with a blended team capable of implementation at an appropriate cost (Level 4, Level 3 &amp; Level2). Individual levels are not &#34;capped&#34; but a suitable, value for money blended rate is expected across roles. Pricing is on the basis of outcomes.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          6. As we are responsible for the outcomes to be delivered we expect to determine the appropriate team composition, including SFIA levels. Is this acceptable?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Yes. However, they will be working alongside GEL staff and under GEL architectural governance.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          7. As per the brief we will only provide services to GEL to deliver outcome-based work packages. We do not provide engineering only teams, but will expect to assign additional roles such as Delivery Leads, and/or Business Analysts to any squads to ensure we can meet our commitment to delivering outcomes. While we expect to work to the guidelines and prioritisation established together with GEL’s Product Managers and Architects, we will be responsible for directing and managing our teams to deliver the agreed outcomes. Please confirm this engagement model is acceptable?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          This is acceptable. &#34;Software Engineering&#34; encompasses all roles needed to effectively engineer software.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          8. Who are the incumbent suppliers?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          There are no incumbent suppliers in NGIS. GEL has moved from a historical supply chain to a predominant in-house model and is now looking for a partner to move forward.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          9. Could the Authority share the high-level procurement timelines? Including Shortlisting, ITT, Presentation and results?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Shortlist by 20th August<br>Stage 2 Proposals completed by 17th September<br>Presentations w/c 20th September<br>Award w/c 27th September<br><br>Where possible, we will accelerate this timetable.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          10. How do I retract from submitting our application? Also where does the pricing get submitted?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Please contact the Digital Marketplace regarding support. Pricing will be provided in the next stage by the 5 successful organisations once shortlisting has been completed. It doesn&#39;t get completed at this stage.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          11. Is there a preferred incumbent/supplier?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          No
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          12. Could you please provide breakdown of further stages with dates? When exactly the final decision would be made?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Shortlist by 20th August<br>Stage 2 Proposals completed by 17th September<br>Presentations w/c 20th September<br>Award w/c 27th September<br><br>Where possible, we will accelerate this timetable.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          13. Please can you confirm where the pricing details are added.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          These are added in the next stage of the process once shortlisting has been completed. 5 organistions will be taken to the tender stage and will be asked for pricing submissions.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          14. We note that a provider submitted their stage one response within an hour of your notice being published. Can you confirm whether or not this provider had access to your requirements before they were published?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We believe this is an error. No supplier has had sight of these requirements prior to submission.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          15. Please could you clarify the contract that will be associated with this tender.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          This will contracted under DOS5 terms.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          16. Please could you clarify if there is a supplier presentation stage.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Following the submission of the proposals in stage 2 we will be holding presentations with the bidders likely to be w/c 20th September.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          17. Does Genomics England have any preferences about work location for near-shore or off-shore technical team members? Also, are there any locations you prefer to avoid? Some organisations express preferences based on language, time zone, perceived compatibility with pre-existing teams, and other factors.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          All of Genomics England&#39;s systems and data are expressly resident only within the UK. It is possible for staff to work outside of the UK. However, all appropriate controls would need to be in place to ensure that access is granted only to non-sensitive systems. Teams would generally be expected to operate during UK core hours to ensure smooth communication. English is an essential language for smooth communication.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          18. Can you please clarify if this work falls inside or outside of IR35 scope?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The off-payroll rules will apply to any workers engaged through a qualifying intermediary, such as their own limited company. We have confirmed in the requirement the IR35 position.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          19. Do you expect the 4-6 squads (of 6-8 multidisciplinary team members) which will be required at any given time to come from the same supplier?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A blended supply chain or consortium approach is welcomed, providing there is a clear primary contract holder responsible for overall sourcing and coordination.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          20. Can we use resources outside of the UK? Specifically resources based in India?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          All of Genomics England&#39;s systems and data are expressly resident only within the UK. It is possible for staff to work outside of the UK. However, all appropriate controls would need to be in place to ensure that access is granted only to non-sensitive systems. Teams would generally be expected to operate during UK core hours to ensure smooth communication. English is an essential language for smooth communication.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          21. Can you unsubmit our application so it’s back at draft response?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          You would need to speak to CCS who operate the digital marketplace. We have no admin rights over the system and cannot see supplier responses until the opportunity closes.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          22. What are the different roles required? Data Architects, Developers, Testers, DevOps engineers, Product Managers, Delivery Managers?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We would expect 50+ of the roles to be Software Engineers (of the skills identified including some devOps). We would also expect QA, BA, Scrum Master and Delivery Manager roles to be provided as required to support clear and effective design, elaboration and delivery. As the outcomes are not only software but also improved working practices, we would expect senior leadership in the relevant areas specified.  <br><br>Work will be guided by GEL&#39;s Digital Team (Product Managers, UX, Content Design) but some additional capacity may be required to ensure that there are no gaps in any squads generated.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          23. Is there any requirement for User centric roles such as User researchers, Service designers, Content Designers?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          This is not the primary focus of the tender. User centred approaches are essential but Genomics England has an internal team and specific discovery initiatives. There may be a small requirement in this area if Genomics England has insufficient capacity to meet the direct needs of development efforts within this procurement.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          24. Could the Authority confirm whether secure offshore is an option as long as it meets IG and GDPR regulations?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          All of Genomics England&#39;s systems and data are expressly resident only within the UK. It is possible for staff to work outside of the UK. However, all appropriate controls would need to be in place to ensure that access is granted only to non-sensitive systems. Teams would generally be expected to operate during UK core hours to ensure smooth communication. English is an essential language for smooth communication.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          25. How much of the architecture and tech-selection already decided for the NGIS live service, and how much can be influenced and potentially amended by the new supplier if appropriate justification for this is provided by the incoming supplier, in order to meet the goals stated in opportunity?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The core software is written primarily using Python and React. The core platform is AWS. GEL has internal engineers and it is important that any new technologies are assured through GEL&#39;s Design Authority. GEL is continually updating its underlying architecture, for example, recently adopting Prefect for workflow orchestration. Where there is a compelling reason changes will be made. Alternatives will not be introduced without clear reasons.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          26. Have the phases that have been delivered so far been subject to any formal gate assessments, e.g. end of Discovery, Alpha and release into a live Beta service, and will the output of those assessments be shared with the incoming supplier?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Historical phases have not been through formal gate assessements.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          27. Have the volumetrics, and other non-functional requirements for the scaling and ongoing rollout of the NGIS service been defined and will they be shared with the incoming supplier?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Volumetrics and some non-functional requirements for scaling have been defined. These will be shared with incoming suppliers. They do not cover all areas and we would welcome suppliers with experience and frameworks in elaborating and estending these.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          28. As part of the transition to Cloud, is there a service and data migration to be performed?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Migrations of services and data are currently underway. They will not be fully complete when this contract is awarded and additional migration support would fall within this tender. In particular, refactoring of application and deployment code to conform to agreed standards and the output from a series of Well Architected Reviews.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          29. Do we need to respond to the requirements in the Cultural Fit?<br><br>Will the initial evaluation to shortlist 5 suppliers be restricted to Technical Competence? Kindly advise.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The Cultural Fit questions will be asked of the 5 suppliers who successfully move to the proposal stage. For this initial submission you are required to submit responses to the Essential Skills and Experience and the Nice to have skills and experience.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          30. For the Atlassian toolset and GitHub, kindly advise whether the evidence required is for day-to-day operations / management of these tools or their implementation?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The requirement is to use them as the tooling by which work is coordinated alongside GEL teams. To clarify, the document should have referenced GitLab.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          31. What are the different roles required? Data Architects, Developers, Testers, DevOps engineers, Product Managers, Delivery Managers?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Updated answer - We would expect 50%+ of the roles to be Software Engineers (of the skills identified including some devOps). We would also expect QA, BA, Scrum Master and Delivery Manager roles to be provided as required to support clear and effective design, elaboration and delivery. As the outcomes are not only software but also improved working practices, we would expect senior leadership in the relevant areas specified. <br><br>Work will be guided by GEL&#39;s Digital Team (Product Managers, UX, Content Design) but some additional capacity may be required to ensure that there are no gaps in any squads generated.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          32. What does their current technical estate look like and how much of it is working well or indeed or modernising/rebuilding?<br><br>Are there any security requirements?<br><br>Is there a major deadline associated with the delivery outcome? (what’s driving it? government policy, legal, IT license or contract expiry)
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The NGIS service is functional, delivering clinical outcomes, stable and hosted in a data centre on OpenStack. The NGIS service comprises 27 component products in differing states of maturity. The NGIS service was soft-launched in November 2020 and key requirements are to drive stability and performance at scale, to reduce manual effort in providing clinical results and to improve underlying architecture, deployment patterns and quality assurance patterns to enable rapid independent development of component parts to make it simpler, faster and more efficient when extending functionality.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          33. Will the scores from essential and nice-to-have be considered in the overall evaluation score?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          No, they will be used to shortlist only. The overall evaluation score will be based on your response to the technical and cultural criteria outlined in the opportunity posting.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          34. What is the scoring criteria for essentials and nice-to-have skills?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Standard DOS5 scoring as per the buyer guidance at <a href="https://www.gov.uk/guidance/how-to-shortlist-digital-outcomes-and-specialists-suppliers" class="govuk-link" rel="external">https://www.gov.uk/guidance/how-to-shortlist-digital-outcomes-and-specialists-suppliers</a>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          35. In the essential question “Provide evidence and experience of supplying engineering squad based services to an enterprise sized environment including blended customer/supplier implementations”, what is “an enterprise sized environment”?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          As per the Working Arrangements section we are looking for evidence of your ability to augment an engineering team by up to 50 multi-disciplinary roles at any given time.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../g-cloud/suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>

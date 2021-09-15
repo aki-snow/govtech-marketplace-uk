@@ -1,0 +1,2610 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  Supplier opportunities – Digital Outcomes and Specialists – Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  <meta name="robots" content="noindex">
+  
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="opportunities?lot=digital-specialists#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="opportunities">Supplier opportunities</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item" aria-current="page">Digital specialists</li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+<section id="search-page-heading">
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds govuk-!-margin-bottom-3">
+    <h1 class="govuk-heading-xl">Digital Outcomes and Specialists opportunities</h1>
+    <p class="govuk-body">View buyer requirements for digital outcomes, digital specialists and user research participants.</p>
+  </div>
+</div>
+
+</section>
+
+<div id="js-dm-live-search-wrapper" class="search-results-page">
+  
+      
+  <form action="opportunities" method="get" id="js-dm-live-search-form">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <div id="search-keywords" role="search" aria-label="keywords" data-module="dm-search-box">
+  <div class="dm-search-box dm-search-box--on-white">
+    <label for="keywords" class="dm-search-box__label">
+      Keyword search
+    </label>
+    <div class="dm-search-box__item-wrapper">
+      <input
+        type="search"
+        
+        id="keywords"
+        name="q"
+        title="Keyword search"
+         aria-controls="search-summary-accessible-hint-wrapper" 
+        class="dm-search-box__item dm-search-box__input js-class-toggle"
+      >
+      <div class="dm-search-box__item dm-search-box__submit-wrapper">
+        <button type="submit" class="dm-search-box__submit">Search</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+    <div class="govuk-grid-row">
+      <section class="govuk-grid-column-one-third search-page-filters" aria-label="Search filters" role="search">
+        <div id="js-dm-live-search-categories" class="js-dm-live-search-fade">
+  <div class="app-lot-filter">
+    <h2 class="govuk-heading-s">Choose a category</h2>
+    
+    
+  
+
+  
+  
+  
+
+  <ul class="govuk-list govuk-body-s govuk-!-margin-top-0">
+    
+      
+         
+  
+    <li><a href="opportunities" class="app-lot-filter__top-level-link">All categories</a>
+  
+
+  
+    
+  
+
+  
+  
+  
+
+  <ul class="govuk-list govuk-body-s govuk-!-margin-top-2 app-lot-filter__last-list ">
+    
+      
+        <li><a class="govuk-link" href="opportunities?lot=digital-outcomes">Digital outcomes (2493)</a></li>
+      
+    
+      
+         
+  
+    <li aria-current="page"><strong>Digital specialists (1880)</strong>
+  
+
+  
+  </li>
+      
+    
+      
+        <li><a class="govuk-link" href="opportunities?lot=user-research-participants">User research participants (95)</a></li>
+      
+    
+  </ul>
+  
+  </li>
+      
+    
+  </ul>
+  </div>
+</div>
+
+
+  <input type="hidden" name="lot" value="digital-specialists" />
+
+
+
+<div class="app-filters">
+    <div id="js-dm-live-filter-title" class="app-filter-title js-dm-live-search-fade">
+    <h2 class="govuk-heading-s apply-filters-title">Apply filters</h2>
+    <a id="dm-clear-all-filters" class="clear-filters-link" href="opportunities?lot=digital-specialists" role="button">Clear filters</a>
+  </div>
+  
+    
+
+
+<div 
+    class="dm-option-select"
+    data-module="dm-option-select"
+     data-closed-on-load="true" 
+    
+>
+    <h2 class="dm-option-select__heading js-container-heading">
+      <span class="dm-option-select__title js-container-button" id="option-select-title-status">Status</span>
+      <svg version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="dm-option-select__icon dm-option-select__icon--up" aria-hidden="true" focusable="false"><path d="m798.16 609.84l-256-256c-16.683-16.683-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.84-225.84 225.84 225.84c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"/></svg>
+      <svg version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="dm-option-select__icon dm-option-select__icon--down" aria-hidden="true" focusable="false"><path d="m225.84 414.16l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.84 225.84-225.84-225.84c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"/></svg>
+    </h2>
+
+    <div role="group" aria-labelledby="option-select-title-status" class="dm-option-select__container js-options-container" id="status" tabindex="-1">
+      <div class="dm-option-select__container-inner js-auto-height-inner">
+      
+
+
+<div class="govuk-form-group">
+
+  <fieldset class="govuk-fieldset">
+  
+  <legend class="govuk-fieldset__legend govuk-visually-hidden">
+  
+    Status
+  
+  </legend>
+  
+
+  <div class="govuk-checkboxes govuk-checkboxes--small"
+    data-module="govuk-checkboxes">
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="statusOpenClosed-open" name="statusOpenClosed" type="checkbox" value="open" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="statusOpenClosed-open">
+        Open
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="statusOpenClosed-closed" name="statusOpenClosed" type="checkbox" value="closed" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="statusOpenClosed-closed">
+        Closed
+      </label>
+            
+          </div>
+          
+        
+      
+    
+  </div>
+  
+
+</fieldset>
+
+</div>
+      </div>
+    </div>
+</div>
+  
+    
+
+
+<div 
+    class="dm-option-select"
+    data-module="dm-option-select"
+     data-closed-on-load="true" 
+    
+>
+    <h2 class="dm-option-select__heading js-container-heading">
+      <span class="dm-option-select__title js-container-button" id="option-select-title-location">Location</span>
+      <svg version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="dm-option-select__icon dm-option-select__icon--up" aria-hidden="true" focusable="false"><path d="m798.16 609.84l-256-256c-16.683-16.683-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.84-225.84 225.84 225.84c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"/></svg>
+      <svg version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="dm-option-select__icon dm-option-select__icon--down" aria-hidden="true" focusable="false"><path d="m225.84 414.16l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.84 225.84-225.84-225.84c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"/></svg>
+    </h2>
+
+    <div role="group" aria-labelledby="option-select-title-location" class="dm-option-select__container js-options-container" id="location" tabindex="-1">
+      <div class="dm-option-select__container-inner js-auto-height-inner">
+      
+
+
+<div class="govuk-form-group">
+
+  <fieldset class="govuk-fieldset">
+  
+  <legend class="govuk-fieldset__legend govuk-visually-hidden">
+  
+    Location
+  
+  </legend>
+  
+
+  <div class="govuk-checkboxes govuk-checkboxes--small"
+    data-module="govuk-checkboxes">
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-scotland" name="location" type="checkbox" value="scotland" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-scotland">
+        Scotland
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-north-east-england" name="location" type="checkbox" value="north east england" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-north-east-england">
+        North East England
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-north-west-england" name="location" type="checkbox" value="north west england" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-north-west-england">
+        North West England
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-yorkshire-and-the-humber" name="location" type="checkbox" value="yorkshire and the humber" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-yorkshire-and-the-humber">
+        Yorkshire and the Humber
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-east-midlands" name="location" type="checkbox" value="east midlands" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-east-midlands">
+        East Midlands
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-west-midlands" name="location" type="checkbox" value="west midlands" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-west-midlands">
+        West Midlands
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-east-of-england" name="location" type="checkbox" value="east of england" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-east-of-england">
+        East of England
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-london" name="location" type="checkbox" value="london" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-london">
+        London
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-south-east-england" name="location" type="checkbox" value="south east england" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-south-east-england">
+        South East England
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-south-west-england" name="location" type="checkbox" value="south west england" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-south-west-england">
+        South West England
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-wales" name="location" type="checkbox" value="wales" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-wales">
+        Wales
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-northern-ireland" name="location" type="checkbox" value="northern ireland" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-northern-ireland">
+        Northern Ireland
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-international-(outside-the-uk)" name="location" type="checkbox" value="international (outside the uk)" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-international-(outside-the-uk)">
+        International (outside the UK)
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="location-offsite" name="location" type="checkbox" value="offsite" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="location-offsite">
+        Off-site
+      </label>
+            
+          </div>
+          
+        
+      
+    
+  </div>
+  
+
+</fieldset>
+
+</div>
+      </div>
+    </div>
+</div>
+  
+    
+
+
+<div 
+    class="dm-option-select"
+    data-module="dm-option-select"
+     data-closed-on-load="true" 
+    
+>
+    <h2 class="dm-option-select__heading js-container-heading">
+      <span class="dm-option-select__title js-container-button" id="option-select-title-specialist-role">Specialist role</span>
+      <svg version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="dm-option-select__icon dm-option-select__icon--up" aria-hidden="true" focusable="false"><path d="m798.16 609.84l-256-256c-16.683-16.683-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.84-225.84 225.84 225.84c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"/></svg>
+      <svg version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="dm-option-select__icon dm-option-select__icon--down" aria-hidden="true" focusable="false"><path d="m225.84 414.16l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.84 225.84-225.84-225.84c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"/></svg>
+    </h2>
+
+    <div role="group" aria-labelledby="option-select-title-specialist-role" class="dm-option-select__container js-options-container" id="specialist-role" tabindex="-1">
+      <div class="dm-option-select__container-inner js-auto-height-inner">
+      
+
+
+<div class="govuk-form-group">
+
+  <fieldset class="govuk-fieldset">
+  
+  <legend class="govuk-fieldset__legend govuk-visually-hidden">
+  
+    Specialist role
+  
+  </legend>
+  
+
+  <div class="govuk-checkboxes govuk-checkboxes--small"
+    data-module="govuk-checkboxes">
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-agilecoach" name="specialistRole" type="checkbox" value="agilecoach" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-agilecoach">
+        Agile coach
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-businessanalyst" name="specialistRole" type="checkbox" value="businessanalyst" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-businessanalyst">
+        Business analyst
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-communicationsmanager" name="specialistRole" type="checkbox" value="communicationsmanager" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-communicationsmanager">
+        Communications manager
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-contentdesigner" name="specialistRole" type="checkbox" value="contentdesigner" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-contentdesigner">
+        Content designer
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-securityconsultant" name="specialistRole" type="checkbox" value="securityconsultant" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-securityconsultant">
+        Cyber security consultant
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-dataarchitect" name="specialistRole" type="checkbox" value="dataarchitect" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-dataarchitect">
+        Data architect
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-dataengineer" name="specialistRole" type="checkbox" value="dataengineer" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-dataengineer">
+        Data engineer
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-datascientist" name="specialistRole" type="checkbox" value="datascientist" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-datascientist">
+        Data scientist
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-deliverymanager" name="specialistRole" type="checkbox" value="deliverymanager" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-deliverymanager">
+        Delivery manager
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-designer" name="specialistRole" type="checkbox" value="designer" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-designer">
+        Designer
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-developer" name="specialistRole" type="checkbox" value="developer" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-developer">
+        Developer
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-performanceanalyst" name="specialistRole" type="checkbox" value="performanceanalyst" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-performanceanalyst">
+        Performance analyst
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-portfoliomanager" name="specialistRole" type="checkbox" value="portfoliomanager" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-portfoliomanager">
+        Portfolio manager
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-productmanager" name="specialistRole" type="checkbox" value="productmanager" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-productmanager">
+        Product manager
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-programmemanager" name="specialistRole" type="checkbox" value="programmemanager" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-programmemanager">
+        Programme manager
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-qualityassurance" name="specialistRole" type="checkbox" value="qualityassurance" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-qualityassurance">
+        Quality assurance analyst
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-servicemanager" name="specialistRole" type="checkbox" value="servicemanager" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-servicemanager">
+        Service manager
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-technicalarchitect" name="specialistRole" type="checkbox" value="technicalarchitect" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-technicalarchitect">
+        Technical Architect
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-userresearcher" name="specialistRole" type="checkbox" value="userresearcher" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-userresearcher">
+        User researcher
+      </label>
+            
+          </div>
+          
+        
+      
+    
+      
+        
+          
+          
+          
+          
+          <div class="govuk-checkboxes__item">
+            <input class="govuk-checkboxes__input" id="specialistRole-weboperations" name="specialistRole" type="checkbox" value="weboperations" aria-controls="search-summary-accessible-hint-wrapper">
+            <label class="govuk-label govuk-checkboxes__label" for="specialistRole-weboperations">
+        Web operations engineer
+      </label>
+            
+          </div>
+          
+        
+      
+    
+  </div>
+  
+
+</fieldset>
+
+</div>
+      </div>
+    </div>
+</div>
+  
+  
+  
+
+
+  
+    
+  
+
+<button class="govuk-button js-dm-live-search" data-module="govuk-button" aria-controls="search-summary-accessible-hint-wrapper">
+  Filter
+</button>
+</div>
+        
+  <div>
+  <h2 class="govuk-heading-s" id="opportunity-data-header">Opportunity data</h2>
+  <p class="govuk-body" id="opportunity-data-description">Download data buyers have provided about closed opportunities. Some data may be missing.</p>
+  
+
+
+
+
+
+
+
+
+
+  <section class="dm-attachment" data-module="dm-attachment">
+    <div class="dm-attachment__thumbnail dm-attachment__thumbnail--small">
+      <a
+        class="govuk-link"
+        href="https://assets.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists-5/communications/data/opportunity-data.csv"
+        target="_self"
+        tabindex="-1"
+        aria-hidden="true" data-analytics="trackEvent" data-analytics-action="download CSV" data-analytics-category="opportunity-data-csv" data-analytics-label="Opportunity Data CSV" download=""
+      >
+        
+          <svg class="dm-attachment__thumbnail-image dm-attachment__thumbnail--csv dm-attachment__thumbnail-image--small" version="1.1" viewBox="0 0 99 140" width="99" height="140" aria-hidden="true">
+            <path d="M12 12h75v27H12zm0 47h18.75v63H12zm55 2v59H51V61h16m2-2H49v63h20V59z" stroke-width="0"/>
+            <path d="M49 61.05V120H32.8V61.05H49m2-2H30.75v63H51V59zm34 2V120H69.05V61.05H85m2-2H67v63h20V59z" stroke-width="0"/>
+            <path d="M30 68.5h56.5M30 77.34h56.5M30 112.7h56.5M30 95.02h56.5M30 86.18h56.5M30 103.86h56.5" fill="none" stroke-miterlimit="10" stroke-width="2"/>
+          </svg>
+        
+      </a>
+    </div>
+    <div class="dm-attachment__details">
+      <p class="dm-attachment__title govuk-!-font-size-19">
+        <a 
+          href="https://assets.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists-5/communications/data/opportunity-data.csv"
+          class="govuk-link dm-attachment__link"
+          target="_self" data-analytics="trackEvent" data-analytics-action="download CSV" data-analytics-category="opportunity-data-csv" data-analytics-label="Opportunity Data CSV" download=""
+        >Download data</a>
+      </p>
+      
+      
+        <p class="dm-attachment__metadata">
+          <span class="dm-attachment__attribute"><abbr title="Comma-separated Values" class="dm-attachment__abbr">CSV</abbr></span></p>
+      
+      
+    </div>
+  </section>
+
+  <p class="govuk-hint govuk-!-font-size-16 govuk-!-margin-top-3">If you use assistive technology (such as a screen reader) and need a version of this document in a more accessible format, please email <span class="govuk-!-display-block govuk-!-margin-top-1 govuk-!-margin-bottom-2"><a href="mailto:info@crowncommercial.gov.uk" target="_blank" class="govuk-link">info@crowncommercial.gov.uk</a>.</span>Please tell us what format you need. It will help us if you say what assistive technology you use.</p>
+</div>
+
+      </section>  
+      <section class="govuk-grid-column-two-thirds" aria-label="Search results">
+        
+        <div id="search-summary-accessible-hint-wrapper" class="search-summary-accessible-hint-wrapper govuk-visually-hidden" aria-atomic="true" aria-live="polite" aria-relevant="additions text">
+          <div id="js-dm-live-search-summary-accessible-hint">
+  1880 results found
+</div>
+        </div>
+        
+          <div id="js-dm-live-search-summary" class="js-dm-live-search-fade">
+  <p class="app-search-summary govuk-body-s">
+    <span class="app-search-summary__count">1880</span> results found in <strong>Digital specialists</strong>
+  </p>
+</div>
+        
+        <div id="js-dm-live-search-results" class="js-dm-live-search-fade">
+  
+  <ul class="govuk-list">
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15582">Senior Interaction Designer</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Disclosure Scotland
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>Scotland
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Designer
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Published: Tuesday 14 September 2021
+                </li>
+                <li>
+                    Deadline for asking questions: Tuesday 21 September 2021
+                </li>
+                <li>
+                    Closing: Tuesday 28 September 2021
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            We’re looking for an experienced Senior Interaction Designer who works with minimal support that can influence and mentor others. 
+
+You will design and lead on public and internal services that are accessible to everyone. Integrating Digital Scotland Design Standards.  You will lead on the direction of new patterns and standards.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15584">Dev Ops Engineer</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Disclosure Scotland
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>Scotland
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Developer
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Published: Tuesday 14 September 2021
+                </li>
+                <li>
+                    Deadline for asking questions: Tuesday 21 September 2021
+                </li>
+                <li>
+                    Closing: Tuesday 28 September 2021
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Disclosure Scotland’s work is vital to safeguarding Scotland’s children and vulnerable adults. Having undergone an ambitious programme of technical transformation, we are embarking on an equally challenging programme of delivering a system capable of implementing the new Disclosure (Scotland) Act 2020, as well as continuously improving the existing system.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15259">DWP Digital Automation Test Engineer</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Department of Work and Pensions
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>North West England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Data engineer
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Published: Thursday 9 September 2021
+                </li>
+                <li>
+                    Deadline for asking questions: Monday 13 September 2021
+                </li>
+                <li>
+                    Closing: Thursday 16 September 2021
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            The specialist will work with the existing DWP Test teams and the &#x27;Cloud First&#x27; project. This will consist of DWP Digital staff and other 3rd party suppliers engaged in test automation development work.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15577">Agile Project / Delivery Manager for digital product development and contract management</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>The National Archives
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>Off-site
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Delivery manager
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Published: Thursday 9 September 2021
+                </li>
+                <li>
+                    Deadline for asking questions: Thursday 16 September 2021
+                </li>
+                <li>
+                    Closing: Thursday 23 September 2021
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            The National Archives is looking for an experienced Agile Delivery Manager (or project manager with experience of delivering software products) to ensure the successful delivery of software products and services involving teams of in-house experts and external contractors according to the GDS Service standards following Agile practices.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15524">RHEL Engineer</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>The National Archives
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>London
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Developer
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Published: Wednesday 1 September 2021
+                </li>
+                <li>
+                    Deadline for asking questions: Wednesday 8 September 2021
+                </li>
+                <li>
+                    Closing: Wednesday 15 September 2021
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Assisting in technical planning&#x2F;execution of the completion of the migration of automation from Puppet to Ansible, including Satellite.
+Assisting in technical planning of the implementation of new servers and the migration of service from the old servers to the new.
+Assisting in implementation of the replacement Fibre Fabric.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15481">PS003 - C4ISR JCHAT Project Manager</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Ministry of Defence. Defence Digital, ASDT C4ISR
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>South West England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Delivery manager
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            The OEHE team will deliver interoperability for E7 Wedgetail aircraft in the fixed&#x2F;deployed space. A Project Mgr is required to deliver JCHAT interoperability as a service provision to existing Defence Digital systems, deliver integration of chat applications&#x2F;capabilities across multiple Defence infrastructure hosting environments at multiple security domains at fixed&#x2F;deployed sites.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15491">RHEL Senior Engineer</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>The National Archives
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>London
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Developer
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Technical planning and execution of the completion of the migration of automation from Puppet to Ansible, including Satellite
+Technical planning of the implementation of new servers and the migration of service from the old servers to the new
+Assisting in implementation of the replacement Fibre Fabric
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15490">Firewall and Switch specialist - Digital Archiving Infrastructure</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>The National Archives
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>London
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Cyber security consultant
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Defining and agreeing the rules to be applied in the new firewall
+Implementing the replacement firewall and switch, working with the supplier once selected
+Assisting with any necessary configuration changes on the rest of the infrastructure, specifically on the department’s servers which are currently being migrated from RHEL6 to RHEL8
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15485">SAP Business Objects Support Function</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Medicines &amp; Healthcare products Regulatory Agency
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>Off-site
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Data engineer
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            The role is to support a legacy Business Objects version, collating and addressing individual user support requests via a ticket system.  Alongside providing a break-fix support service, you will report on ticket trends to Service Management.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15456">Lead DevOps Engineer</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>MHRA
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>Off-site
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Web operations engineer
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            This is an exciting time for this pivotal role at the MHRA. We are looking for an experienced Lead DevOps Engineer able to manage and build our DevOps platform.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15418">Website developer to create a programme of events webpage on COP26 website.</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Cabinet Office (COP26 Unit)
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>Off-site
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Developer
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            The greenzone programme is 200 public-facing events during COP26. It needs to be accessible, easy to use and doesn&#x27;t make the webpage too long. 
+
+We just need the registration part on our website with some kind of filtering system (date&#x2F; type of event).
+
+Example: https:&#x2F;&#x2F;www.eventsforce.net&#x2F;dodscivilservicelive&#x2F;frontend&#x2F;reg&#x2F;tAgendaWebsite.csp?pageID=269&amp;ef_sel_menu=8&amp;eventID=2&amp;mode=
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15407">DWP Digital ServiceNow Natural Language Understanding (NLU) Business Analyst</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Department of Work and Pensions
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>North West England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Business analyst
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            The DWP are looking to engage with a supplier to provide ServiceNow Natural Language Understanding Business Analyst specialist to work with DWP resources, to deliver a Virtual Agent Chatbot using ServiceNow Natural Language Understanding (NLU)
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/14834">National Underground Asset Register - utilities data and product specialist</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Cabinet Office
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>Off-site
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Product manager
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            The Geospatial Commission&#x27;s National Underground Asset Register will soon be entering into the &#x27;build&#x27; phase of work to build a production platform. A client-side digital outcomes specialist is required to help develop and implement the NUAR product backlog and data model.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15363">Service Now Development Specialist with Configuration Management/CMDB skillset</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Department of Work and Pensions
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>North East England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Developer
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            DWP are looking to engage with a supplier to provide a ServiceNow Developer specialist with Configuration (CMDB) management skills to work with DWP resources, to deliver continuous improvement and development of the DWP Roadmap for DWP end users.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15367">Service Now Development Specialists DWP Digital</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Department of Work and Pensions
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>North East England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Developer
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            DWP are looking to engage with a supplier to provide ServiceNow Developer specialists to work with DWP resources, to deliver continuous improvement and development of the DWP Roadmap for DWP end users.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15366">Service Now Development Specialists DWP Digital</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Department of Work and Pensions
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>North East England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Developer
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            DWP are looking to engage with a supplier to provide ServiceNow Developer specialists to work with DWP resources, to deliver continuous improvement and development of the DWP Roadmap for DWP end users.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15286">Senior Product Manager</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Probation Reform Programme, Her Majesty&#39;s Prison and Probation Service
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>London
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Product manager
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: no suitable suppliers
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            This is to support HMPPS Digital to provide a new digital platform to assess the risks and the needs of the service user effectively, and to support the move to a new micro-services architecture. This work is part of the Probation Reform Programme.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15349">Cyber Security Consultant  - SQEP/Data Analyst 2 (Junior Level)</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Defence Digital, MOD
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>South West England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Cyber security consultant
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cyber Mission Data-Alpha(CMD-A) shall improve the quality of Defence data, through new data structures to enable data exploitation through Machine Learning and Data Science.
+CMD-A will facilitate the delivery of new Cyber Insights upon data currently held and identify information to assist decision making whilst saving resource effort through automation.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15348">Cyber Security Consultant  - SQEP/Data Analyst 1 (Junior Level)</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Defence Digital, MOD
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>South West England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Cyber security consultant
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cyber Mission Data-Alpha(CMD-A) shall improve the quality of Defence data, through new data structures to enable data exploitation through Machine Learning and Data Science.
+CMD-A will facilitate the delivery of new Cyber Insights upon data currently held and identify information to assist decision making whilst saving resource effort through automation.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15347">Cyber Security Consultant - SQEP/Data Analyst 3 (Senior Level)</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Defence Digital, MOD
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>South West England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Cyber security consultant
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cyber Mission Data require a Cyber Security Consultant with suitable experience within a Security Operations Centre or analyst Experience. The Cyber Data Analysts are required to run and support the onboarding of data feeds and to map out data for use cases.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15346">Cyber Security Consultant - SQEP/Data Analyst 2 (Senior Level)</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Defence Digital, MOD
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>South West England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Cyber security consultant
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cyber Mission Data require a Cyber Security Consultant with suitable experience within a Security Operations Centre or analyst Experience. The Cyber Data Analysts are required to run and support the onboarding of data feeds and to map out data for use cases.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15342">Cyber Security Consultant - SQEP/Data Analyst   1 (Senior Level)</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Defence Digital, MOD
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>South West England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Cyber security consultant
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cyber Mission Data require a Cyber Security Consultant with suitable experience within a Security Operations Centre or analyst Experience. The Cyber Data Analysts are required to run and support the onboarding of data feeds and to map out data for use cases.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15340">Data Engineer 2</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Defence Digital, MOD
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>South West England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Data engineer
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cyber Mission Data require a Data Engineer to work within a team of 7 in a Data Operations Team. The Data Engineer will be required to work alongside 5 x Cyber Security Consultants to run and support the onboarding of data feeds and to map out data for use cases.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15339">Data Engineer 1</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Defence Digital, MOD
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>South West England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Data engineer
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Cyber Mission Data require a Data Engineer to work within a team of 7 in a Data Operations Team. The Data Engineer will be required to work alongside 5 x Cyber Security Consultants to run and support the onboarding of data feeds and to map out data for use cases.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15337">Provision of E Discovery Services</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Department for Transport
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>Off-site
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Business analyst
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            E-Discovery services for department
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15306">Programme Support for the Defence Digital Element of Protector Capability Integration</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>The Ministry of Defence, Defence Digital (DD)
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>South West England
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Programme manager
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            The primary role is to coordinate the efforts in delivering CIS requirements of the PROTECTOR programme. Tasks will include; Defining the CIS requirement with the customer; Plan and document solutions by engaging with multiple delivery teams; Document risks and define costs associated with CIS solutions.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15313">Infrastructure Asset Management Planning Units</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Environment Agency - Asset Performance and Engineering
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>Off-site
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Business analyst
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Review existing business applications using grouped asset data covering the AM lifecycle with a focus on spatial groupings. Identify poor alignment and inconsistencies with corporate data and areas for improvement, and emerging business needs. Identify the preferred option and develop supporting documentation.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15321">Security Architect</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Disclosure Scotland
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>Scotland
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Technical architect
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awarded
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Disclosure Scotland provides criminal record checking services to individuals and organisations to support safer recruitment and protect vulnerable groups. We are currently undergoing a digital transformation . This is a rare opportunity to help transform the way we provides this critical public service.
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15322">Technical Architect</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Disclosure Scotland
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>Scotland
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Technical architect
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: awaiting outcome
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Disclosure Scotland provides criminal record checking services to individuals and organisations to support safer recruitment and protect vulnerable groups. We are currently undergoing a digital transformation . This is a rare opportunity to help transform the way we provides this critical public service
+        </p>
+    </li>
+    
+    <li class="app-search-result">
+        <h2 class="govuk-heading-s govuk-!-margin-bottom-1">
+            <a class="govuk-link" href="opportunities/15320">Head of Delivery</a>
+        </h2>
+
+        <ul class="govuk-list govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16 govuk-!-margin-bottom-0">
+                <span class="govuk-visually-hidden">Organisation: </span>Disclosure Scotland
+            </li>
+            <li class="govuk-!-font-weight-bold govuk-!-font-size-16">
+                <span class="govuk-visually-hidden">Location: </span>Scotland
+            </li>
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            <li class="govuk-!-display-inline-block">
+                Digital specialists
+            </li>
+            
+            <li class="govuk-!-display-inline-block">
+                - Programme manager
+            </li>
+            
+        </ul>
+
+        <ul class="govuk-list app-search-result__metadata">
+            
+                <li>
+                    Closed: cancelled
+                </li>
+            
+        </ul>
+
+        <p class="govuk-body govuk-!-font-size-16 govuk-!-margin-bottom-0 govuk-!-margin-top-1">
+            Disclosure Scotland provides criminal record checking services to individuals and organisations to support safer recruitment and protect vulnerable groups. We are currently undergoing a digital transformation . This is a rare opportunity to help transform the way we provides this critical public service.
+        </p>
+    </li>
+    
+</ul>
+  
+
+
+  
+  
+
+  
+
+  <nav class="dm-pagination" role="navigation" aria-label="Pagination">
+    <ul class="dm-pagination__list">
+      
+      
+        
+        <li class="dm-pagination__item dm-pagination__item--next">
+          <a href="opportunities?page=2&amp;lot=digital-specialists"
+            class="dm-pagination__link"
+            rel="next"
+          >
+            <span class="dm-pagination__link-title">
+              <svg class="dm-pagination__link-icon" xmlns="http://www.w3.org/2000/svg" height="13" width="17" viewBox="0 0 17 13">
+                <path d="m10.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"/>
+              </svg>
+              <span class="dm-pagination__link-text">
+                Next page
+              </span>
+            </span>
+            
+              <span class="dm-pagination__link-divider govuk-visually-hidden">:</span>
+              <span class="dm-pagination__link-label">2 of 63</span>
+            
+          </a>
+        </li> 
+      
+    </ul>
+ </nav>
+
+</div>
+      </section>
+    </div>
+  </form>
+</div>
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../g-cloud/suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>

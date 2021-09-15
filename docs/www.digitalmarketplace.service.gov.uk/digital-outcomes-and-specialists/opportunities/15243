@@ -1,0 +1,1454 @@
+
+<!DOCTYPE html>
+<html lang="en" class="govuk-template ">
+  <head>
+    <meta charset="utf-8">
+    <title>
+  Technology Capability Partner - Digital Marketplace
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c"> 
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+      <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="../../static/images/favicon.ico" type="image/x-icon">
+      <link rel="mask-icon" href="../../static/images/govuk-mask-icon.svg" color="#0b0c0c"> 
+      <link rel="apple-touch-icon" sizes="180x180" href="../../static/images/govuk-apple-touch-icon-180x180.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="../../static/images/govuk-apple-touch-icon-167x167.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../../static/images/govuk-apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" href="../../static/images/govuk-apple-touch-icon.png">
+    
+
+    
+  
+
+
+
+
+
+
+
+
+  
+  <meta name="google-site-verification" content="TKGSGZnfHpx1-lKOthI17ANtwk7fz3F4Sbr77I0ppO0">
+
+  <link type="text/css" rel="stylesheet" href="../../static/stylesheets/application.css?b944b8e3a15541a278bbcfb0558e6c4e" />
+  
+
+    
+    
+    <meta property="og:image" content="/static/images/govuk-opengraph-image.png">
+  </head>
+  <body class="govuk-template__body ">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    
+
+    
+      <a href="15243#main-content" class="govuk-skip-link">Skip to main content</a>
+    
+
+    
+  
+  
+
+
+
+
+<div id="dm-cookie-banner" class="dm-cookie-banner govuk-width-container" data-module="dm-cookie-banner" role="region" aria-label="Cookie Banner" aria-describedby="dm-cookie-banner__heading">
+  <div class="dm-cookie-banner__wrapper">
+    <h2 class="dm-cookie-banner__heading govuk-heading-m" id="dm-cookie-banner__heading">
+      Can we store analytics cookies on your device?
+    </h2>
+    <p class="govuk-body">
+      Analytics cookies help us understand how our website is being used.
+    </p>
+    <div class="dm-cookie-banner__buttons">
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--accept" type="submit" data-accept-cookies="true" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        Yes<span class="govuk-visually-hidden">, Digital Marketplace can store analytics cookies on your device</span>
+      </button>
+      <button class="govuk-button dm-cookie-banner__button dm-cookie-banner__button--reject" type="submit" data-accept-cookies="false" aria-describedby="dm-cookie-banner__heading" data-module="govuk-button">
+        No<span class="govuk-visually-hidden">, Digital Marketplace cannot store analytics cookies on your device</span>
+      </button>
+      <a class="govuk-link dm-cookie-banner__link" href="../../cookies">How Digital Marketplace uses cookies</a>
+    </div>
+  </div>
+
+  <div class="dm-cookie-banner__confirmation" tabindex="-1">
+    <p class="dm-cookie-banner__confirmation-message govuk-body">
+      You can <a class="govuk-link" href="../../user/cookie-settings">change your cookie settings</a> at any time.
+    </p>
+    <button class="dm-cookie-banner__hide-button govuk-link" data-hide-cookie-banner="true" role="link" data-module="govuk-button">Hide</button>
+  </div>
+</div>
+
+  
+
+
+
+
+
+  
+  
+
+
+
+  
+
+<header class="govuk-header " role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a href="../../index.html" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <!--[if gt IE 8]><!-->
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <!--<![endif]-->
+          <!--[if IE 8]>
+          <img src="/static/images/govuk-logotype-crown.png" class="govuk-header__logotype-crown-fallback-image" width="36" height="32">
+          <![endif]-->
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        
+        <span class="govuk-header__product-name">
+          Digital Marketplace
+        </span>
+        
+      </a>
+    </div>
+    
+    <div class="govuk-header__content">
+    
+    
+    <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide navigation menu">Menu</button>
+    <nav>
+      <ul id="navigation" class="govuk-header__navigation " aria-label="Navigation menu">
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="https://www.gov.uk/guidance/buying-and-selling-on-the-digital-marketplace">
+              
+                Guidance
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../help">
+              
+                Help
+              
+                </a>
+              
+            </li>
+          
+        
+          
+            <li class="govuk-header__navigation-item">
+              
+                <a class="govuk-header__link" href="../../user/login">
+              
+                Log in
+              
+                </a>
+              
+            </li>
+          
+        
+      </ul>
+    </nav>
+    
+    </div>
+    
+  </div>
+</header>
+
+
+    
+      <div class="govuk-width-container ">
+        
+  
+    <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      Help us improve the Digital Marketplace - <a class="govuk-link" href="../../help">send your feedback</a>
+    </span>
+  </p>
+</div>
+  
+  
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../../index.html">Digital Marketplace</a>
+    </li>
+    
+  
+    
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../opportunities">Supplier opportunities</a>
+    </li>
+    
+  
+  </ol>
+</div>
+
+
+        <main class="govuk-main-wrapper " id="main-content" role="main">
+          
+  
+    
+      
+    
+  
+  
+    
+  
+  
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <section
+    data-module="dm-banner"
+    role="region"
+    aria-label="This opportunity is closed for applications"
+    class="dm-banner"
+>
+    <h2
+        class="dm-banner__title dm-banner__title--large"
+    >
+        This opportunity is closed for applications
+    </h2>
+        <div class="dm-banner__body">
+            The deadline was Friday 30 July 2021
+        </div>
+    
+</section>
+  </div>
+</div>
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <span class="govuk-caption-l">HM Land Registry</span>
+    <h1 class="govuk-heading-l">Technology Capability Partner</h1>
+    <span data-lot="digital-outcomes"></span>
+  </div>
+</div>
+
+<div class="govuk-grid-row govuk-!-margin-bottom-9">
+  <div class="govuk-grid-column-one-third app-stat-block" id="incomplete-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0 govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">20</span>
+      <span class="govuk-body govuk-!-font-weight-bold">Incomplete applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">14 SME, 6 large</p>
+</div>
+<div class="govuk-grid-column-one-third app-stat-block" id="completed-applications">
+   <h2 class="govuk-!-margin-bottom-0">
+      <span class="govuk-body govuk-!-margin-bottom-0  govuk-!-font-weight-bold govuk-!-font-size-36 govuk-!-display-block">18</span>
+      <span class="govuk-body govuk-!-font-weight-bold ">Completed applications</span>
+   </h2>
+   <p class="govuk-body govuk-!-font-size-16">10 SME, 8 large</p>
+</div>
+
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-visually-hidden">Important dates</h2>
+
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8" id="opportunity-important-dates">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Published
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Friday 16 July 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Deadline for asking questions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Friday 23 July 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Closing date for applications
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Friday 30 July 2021 at 11:59pm GMT
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+  <h2 id="opportunity-attributes-1" class="govuk-heading-m app-summary-list-heading">Overview</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Off-payroll (IR35) determination
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Contracted out service: the off-payroll rules do not apply
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Summary of the work
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A partnership on a range of digital and technical programmes as part of HM Land Registry&#39;s Transformation Portfolio. You will provide expertise and specialism to boost capacity and enhance capability. You will work alongside our in-house digital teams supporting DDaT technical delivery, software development, technical architecture, webops and test practices.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Latest start date
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Monday 1 November 2021
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Expected contract length
+        </dt>
+        <dd class="govuk-summary-list__value">
+          24 Months
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Location
+        </dt>
+        <dd class="govuk-summary-list__value">
+          No specific location, for example they can work remotely
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Organisation the work is for
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HM Land Registry
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Budget range
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Budget approval is subject to Cabinet Office spending controls, service assessments and HM Land Registry governance.<br>A pipeline of activity is foreseen over the next 12-24 months, with an<br>indicative budget against the requirements for this capability being<br>approximately £9m (exc. VAT), but that scope could expand or contract.<br>Each SOW will be assigned a set cost to enable tracking.<br>HM Land Registry does not commit to any minimum or maximum spend at this point.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-2" class="govuk-heading-m app-summary-list-heading">About the work</h2>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Why the work is being done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HM Land Registry has a strategic commitment to transform into a digital, data-driven, registration business. We are implementing a large, complex and ambitious portfolio of change over the next 2 years. HM Land Registry continues to review and invest in its internal capability to deliver these changes. We need a Technology Capability partner to help us to uplift our internal digital capability with a range of skills, whilst providing a short-term uplift in capacity.<br>Our Digital, Data and Technology Directorate (DDaT) is primarily based in our Plymouth location. This requirement is for a single partner to boost the capability of roles which sit inside the Technology Group within the Directorate. <br>You will work as part of blended HM Land Registry and supplier teams. We are looking for a partner therefore who will be able to provide these capabilities in one contract, alongside the value-add of having worked in Digital, Data and Integration projects.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Problem to be solved
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HM Land Registry is transforming its internal and external digital and data services. This demands DDaT delivery management across a range of programmes and projects, which will:<br>• Digitise and automate new user-facing services.<br>• Automate and improve HM Land Registry&#39;s internal application processing and casework systems and processes.<br>• Refresh existing technical architecture and build new technical capabilities.<br>• Build a new digital register to enable future services and create data products.<br>• Continue to enhance our local land charges service offerings.<br>• Improve our customer data and implementing a range of Software as a Service(SaaS) Products.<br>• Data Migration to support cloud strategy, building Application Programming Interface (API’s) to use this data.<br>• Enhance the capability of HM Land Registry&#39;s in-house digital development teams in order to build and support new digital services.<br>• Provide any other technical activity in support of implementing our business strategy.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Who the users are and what they need to do
+        </dt>
+        <dd class="govuk-summary-list__value">
+          User groups of HM Land Registry&#39;s services include:<br>•Citizens who require a better and more consistent experience when requesting land information, registering land interests and/or tracking land transactions<br>•Solicitors/conveyancers/mortgage lenders who must be able to transact using digital services when acting on behalf of buyers and sellers in registering land interests<br>•Caseworkers who process land registration applications require more automated, intelligent and consistent casework tools to enable more time to focus on quasi-legal decisions and judgements<br>•Other professional/commercial/academic groups with an interest in land information, including start-ups in the proptech sector
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Early market engagement
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Current Phase:-<br>N/A
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Any work that’s already been done
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HM Land Registry has a large transformational delivery portfolio in progress, with a number of services in live and beta phases and a prioritised roadmap of other services in inception, discovery, and alpha phases. A number of change programmes exist to support this portfolio, this engagement will work across a number of these programmes.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Existing team
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We have 25+ multi-disciplinary, multi-supplier teams predominantly in-house supplemented with supplier staff, currently delivering new products and services.<br>Current teams are at a variety of different project phases, including discovery, alpha, beta and live.<br>The successful supplier teams will work in collaboration with existing capabilities both in blended teams and independently to deliver products.<br>Additional suppliers may be appointed to support any part of the<br>Transformation Programme.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Current phase
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Not applicable
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-3" class="govuk-heading-m app-summary-list-heading">Work setup</h2>
+  
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Address where the work will take place
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Due to the organisations response to COVID we envisage that the majority of this work will still happen remotely, though all remote workers must be based in the UK.  There may be a requirement to travel periodically to the most suitable location for work requiring a greater degree of collaboration.<br>Where on-site delivery is required the majority of HM Land Registry&#39;s agile development teams are based in Plymouth although there may be a requirement to work at other HMLR locations, including but not limited to Croydon and Gloucester.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Working arrangements
+        </dt>
+        <dd class="govuk-summary-list__value">
+          This will be a 5 day per week (Monday to Friday) commitment. <br>Detailed working arrangements, including team location, size and make-up, will be contained within each statement of work.<br>The Technology Capability Partner must follow HM Land Registry&#39;s IT and security procedures and policies in relation to access, data and equipment use.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Security clearance
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HM Land Registry requires all supplier staff to have baseline personnel security standard clearance (BPSS). Some work may require security clearance checks – this will be detailed in the SOW.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-4" class="govuk-heading-m app-summary-list-heading">Additional information</h2>
+  
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional terms and conditions
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The standard terms and conditions of a DOS framework agreement call-off contract apply.<br>Any claim for travel and subsistence will be made in accordance with HM Land Registry&#39;s travel and subsistence policy.<br>T&amp;S will not be paid for travel to the &#34;home&#34; office which will usually be Plymouth and specified in the SOW.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-5" class="govuk-heading-m app-summary-list-heading">Skills and experience</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">Buyers will use the essential and nice-to-have skills and experience to help them evaluate suppliers’ technical competence.</p>
+  
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Essential skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Have evidence of providing individuals capable of managing delivery at all levels on complex transformation programmes with many dependencies and integrations working across multiple workstreams and teams.</li>
+          <li>Have evidence of iteratively delivering complex transactional digital services using a range of techniques including agile and across multi-disciplinary teams.</li>
+          <li>Demonstrate extensive evidence of rapidly and successfully onboarding in a complex organisation. This should include aligning with organisational standards/culture and building key relationships.</li>
+          <li>Experience of software engineering across a large change portfolio within a complex technology landscape, applying appropriate modern technologies and using agreed standards and tools to achieve a well-engineered result.</li>
+          <li>Experience of test analysis and engineering across large change portfolios within complex technology landscapes. Evidence of developing risk-based test strategies, test-driven development and techniques for testing distributed software and SaaS</li>
+          <li>Experience of technical architecture across a large change portfolio within a complex technology landscape. Evidence of designing micro-service-based architectures, complex problem solving, top-down architecture and working collaboratively with other architects/TDA.</li>
+          <li>Demonstrate experience of working in partnerships with the client to understand capability and capacity needs and ensure the right skills are delivered and effectively embedded.</li>
+          <li>Evidence of building capability in client departments and leaving a self-sufficient, sustainable internal capability.</li>
+          <li>•	Your organisation promotes a collaborative culture with partners.</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Nice-to-have skills and experience
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Significant experience working in true partnership with government or similar organisations to deliver shared outcomes, and solutions that comply with the Government Service Manual and Design Principles.
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  <h2 id="opportunity-attributes-6" class="govuk-heading-m app-summary-list-heading">How suppliers will be evaluated</h2>
+  
+  <p class="govuk-body govuk-!-margin-top-3">All suppliers will be asked to provide a written proposal.</p>
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          How many suppliers to evaluate
+        </dt>
+        <dd class="govuk-summary-list__value">
+          5
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Proposal criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Quality: How you ensure commitment to the quality of the deliverables, outcomes and resources and ability to rapidly identify/ remedy / replace if an issue occurs.</li>
+          <li>Delivery: Your method for measuring and maintaining speed of delivery, including your approach to supporting the drafting of SoW’s that capture clear deliverables and take accountability for achieving these deliverables</li>
+          <li>Capability: Your approach to upskilling an organisation and building capability / demonstrating effective methods of upskilling across disciplines in an organisation.</li>
+          <li>Innovation and organisation: Your approach to identifying and assessing opportunities within the organisation and securing the appropriately skilled resource to meet the deliverables.</li>
+          <li>Accountability: Your approach to managing your resources on site as part of a multi-vendor, multi-disciplinary environment, taking accountability for achieving deliverables</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Cultural fit criteria
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Collaborating in and across teams - Demonstrates effective collaboration with multiple organisational stakeholders and multiple vendor personnel /collaborate across multi-disciplinary agile teams</li>
+          <li>Knowledge Transfer Demonstrates a clear process for transferring knowledge to permanent staff within a client organisation</li>
+          <li>Stakeholder Management:  Ability to manage stakeholder expectations, ensure clarity of communication and ensure any risks are appropriately raised.</li>
+          <li>Continuous Improvement:  Reinforce a culture of continuous improvement of people, processes and solutions.</li>
+          <li>User centricity: Champion the value of user-centred design, and evidence-based decision making</li>
+          <li>Describe how you will create employment, re-training and other return to work opportunities for those left unemployed by COVID-19, eg:workplace schemes and opportunities for Digital apprenticeships, traineeships and higher apprenticeships.</li>
+          <li>Describe how your organisation will create employment opportunities particularly for those who face barriers to employment and/or who are located in deprived areas.</li>
+          <li>Describe how you have improved workplace conditions that support the COVID-19 recovery effort including effective social distancing, remote working, and sustainable travel solutions.</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Payment approach
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Capped time and materials
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Additional assessment methods
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Case study</li>
+          <li>Reference</li>
+          <li>Presentation</li>
+        </ul>
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Evaluation weighting
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <p class="govuk-body govuk-!-margin-top-0 govuk-!-margin-bottom-1">Technical competence</p>
+        <div>45%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Cultural fit</p>
+        <div>20%</div>
+        <p class="govuk-body govuk-!-margin-top-3 govuk-!-margin-bottom-1">Price</p>
+        <div>35%</div>
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+  </div>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    
+
+<h2 id="clarification-questions" class="govuk-heading-m app-summary-list-heading">Questions asked by suppliers</h2>
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<dl class="govuk-summary-list app-govuk-summary-list app-govuk-summary-list--top-border govuk-!-margin-bottom-8">
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          1. Could HMLR please provide clarity on the recent Technology Capability Partner DOS award to Kainos (1 April 2021) and how that relates to this DOS opportunity (which appears to be very similar i.r.o. requirements).
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HMLR has an ongoing requirement for a capability partner to support our transformation.  This contract is to follow on from an existing contract that is already in place. It is anticipated that there will be an overlap with this existing contract and that this will ultimately replace.  The contract has been advertised to allow enough time to cover any required transition activities from one contract to the next.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          2. Is this a procurement for the same DOS which was concluded in Jan 2021? Or is it different?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HMLR has an ongoing requirement for a capability partner to support our transformation.  This contract is to follow on from an existing contract that is already in place. It is anticipated that there will be an overlap with this existing contract and that this will ultimately replace.  The contract has been advertised to allow enough time to cover any required transition activities from one contract to the next.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          3. Could you please share the procurement time table?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The proposed timetable is as follows:<br>Stage 1 response 30/07/2021<br>Issue ITT to shortlisted supplier – 16/08/2021<br>Stage 2 response deadline – 06/09/2021<br>Supplier presentations – w/c 13th September<br>Outcome w/c 20th September<br>Contract Start 1st November
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          4. Are multiple examples allowed?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Multiple examples are allowed although you will need to stay within the word limit.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          5. published until 29th July with a response date of the 30th. Could Land Registry please confirm if it is their intention to provide answers earlier than 29th rather than triaging all questions received for a single response on that day?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We will endeavour to publish the questions and responses ASAP.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          6. Land Registry have published several almost identical notices to this in recent months and have made similar awards to the same supplier for a number of years for much the same services. Is there any information you can share that might encourage suppliers to bid given this pattern? For example, is this work any different to the work previously awarded or do you have a wish to bring in a new supplier to work with those on existing current contracts?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HMLR has an ongoing requirement for a capability partner to support our transformation.  <br>All procurement exercises are conducted openly and fairly against the evaluation criteria and awarded based on the highest scoring response against a combination of quality and price.<br>We have awarded a number of contracts over the past 12 months and are successfully working with multiple suppliers in this space.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          7. This opportunity appears identical to “Technology Delivery Partner” awarded in April 2021 for 12+12 months.<br><a href="https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/13777" class="govuk-link" rel="external">https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/13777</a><br>Please can you advise (a) why you are coming out for the same/very similar requirement within 3 months and (b) how the two requirements relate to each other?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HMLR has an ongoing requirement for a capability partner to support our transformation.  This contract is to follow on from an existing contract that is already in place. It is anticipated that there will be an overlap with this existing contract and that this will ultimately replace.  The contract has been advertised to allow enough time to cover any required transition activities from one contract to the next.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          8. This appears to be the same ITT that came to market in January 2021. Can you please confirm that this is correct and also provide guidance on why it has been released again so soon?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HMLR has an ongoing requirement for a capability partner to support our transformation.  This contract is to follow on from an existing contract that is already in place. It is anticipated that there will be an overlap with this existing contract and that this will ultimately replace.  The contract has been advertised to allow enough time to cover any required transition activities from one contract to the next.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          9. Can you please confirm whether this is a supplementary opportunity to the one published and won by Kainos in April 2021- <a href="https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/13777" class="govuk-link" rel="external">https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/13777</a><br> or a replacement?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HMLR has an ongoing requirement for a capability partner to support our transformation.  This contract is to follow on from an existing contract that is already in place. It is anticipated that there will be an overlap with this existing contract and that this will ultimately replace.  The contract has been advertised to allow enough time to cover any required transition activities from one contract to the next.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          10. Could the Authority advise what the time-line for the competition is expected to be? In particular the submission deadline for the written proposal and the planned slot for supplier presentations?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The proposed timetable is as follows:<br>Stage 1 response 30/07/2021<br>Issue ITT to shortlisted supplier – 16/08/2021<br>Stage 2 response deadline – 06/09/2021<br>Supplier presentations – w/c 13th September<br>Outcome w/c 20th September<br>Contract Start 1st November
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          11. Could the Authority advise whether they intend to award this contract to a single or multiple suppliers? If multiple suppliers, how many and what will be the mechanism for awarding individual SoWs?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          This will be awarded to a single supplier.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          12. Please can you confirm if there is an incumbent in place?<br>We note you released (04/01/2021) and awarded a Technology Capability Partner opportunity earlier this year to Kainos, on a 12month contract due to start on 01/04/2021. Please could you confirm how this tender builds on (or differs to) this award?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HMLR has an ongoing requirement for a capability partner to support our transformation.  This contract is to follow on from an existing contract that is already in place with Kainos. It is anticipated that there will be an overlap with this existing contract and that this will ultimately replace.  The contract has been advertised to allow enough time to cover any required transition activities from one contract to the next.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          13. How does this opportunity relate to the Technology Capability Partner Digital Outcomes contract (<a href="https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/13777" class="govuk-link" rel="external">https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/13777</a>) which started in April 2021?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HMLR has an ongoing requirement for a capability partner to support our transformation.  This contract is to follow on from an existing contract that is already in place. It is anticipated that there will be an overlap with this existing contract and that this will ultimately replace.  The contract has been advertised to allow enough time to cover any required transition activities from one contract to the next.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          14. Please could you clarify how this new contract relates to the previous Technology Capability Partner contract (<a href="https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/13777" class="govuk-link" rel="external">https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/13777</a>) awarded to Kainos in April 2021?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          HMLR has an ongoing requirement for a capability partner to support our transformation.  This contract is to follow on from an existing contract that is already in place. It is anticipated that there will be an overlap with this existing contract and that this will ultimately replace.  The contract has been advertised to allow enough time to cover any required transition activities from one contract to the next.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          15. Can you please provide a DDaT rate card for the required roles?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          This will be provided as part of the Stage 2 assessment.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          16. Can the resources be located outside UK. If so are there any restriction on location where they can be located in?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Resources are not able to be located outside the UK
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          17. Is there an incumbent supplier for this assignment and – if so – who is the supplier?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Our current Technology Capability Partner is Kainos
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          18. Which roles (position only without straying into GDPR) from your team will be scoring applications for this opportunity?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Head of Practices from Technology including Delivery and Software engineering
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          19. Are you intending to carry forward the stage 1 scoring for the final evaluation? if yes what scoring % will be carried forward?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Yes, scores from Stage 1 will be carried over to the Stage 2 assessment under Technical Competence, this will represent 5% of the final Quality assessment.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          20. Are the cultural fit criteria to be evaluated at this stage of procurement and – if so – how are they to be assessed?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          At Stage 1 of the exercise the evaluators will assess based on the Essential Skills and Experience and Nice-to have skills and experience.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          21. Can you please advise the timelines of this procurement (e.g. shortlisted companies notified, anticipated contract award)? Also, can you confirm if shortlisted suppliers will have the opportunity to present?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          The proposed timetable is as follows:<br>Stage 1 response 30/07/2021<br>Issue ITT to shortlisted supplier – 16/08/2021<br>Stage 2 response deadline – 06/09/2021<br>Supplier presentations – w/c 13th September<br>Outcome w/c 20th September<br>Contract Start 1st November
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          22. What steps is the Authority taking to run a balanced competitive procurement that does not unduly favour the incumbent supplier?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          All parties are aware that the tender is not to be discussed with any of the incumbents supplier currently supporting HMLR with all parties directed to raise clarification questions via the Portal.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          23. How does the Authority expect the contract to operate?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Statement’s of Work setting out the outcome and deliverables will be shared with the Partner.   Multiple SOW’s could operate concurrently as the Partner will be required to support a number of programmes under the transformation portfolio.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          24. How many resources maybe required to be onboarded at one time and day one.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          From award to the end of the calendar year the numbers could increase to 50-70 people. The scale and timings would need to be planned and would be set out against deliverable under individual SOW#s
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          25. The Q -‘Your organisation promotes a collaborative culture with partners.’ what does ‘partners’ mean here?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          We are seeking a partner who can demonstrate that they have done and will be able to work together in combined (including multi-vendor) teams to achieve common outcomes.  An effective partner needs to understand this, have experience, and have people who can work in this way, recognising that we’re on a journey together.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          26. Regarding the requirement ‘Improve our customer data and implementing a range of Software as a Service(SaaS) Products.’  <br><br>If possible, can The Authority please share their technology roadmap or confirm the SaaS products they are considering.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Currently implementing Dynamics CRM and would look at other options when applicable, such as SaaS integration tools.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          27. Can you please share the technology stack that is expected to be used.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Part 1 <br><br>HMLR has a varied technology landscape, from legacy applications/data supporting core register services hosted on z/Mainframe to digital services deployed on Public Cloud. <br><br>Our ambition is a digital first architecture, transforming to a business capability aligned architecture, standardising business processes and data structures removing duplication and complexity from the ICT estate. <br><br>New services are predominately hosted on OpenShift running Kubernetes clusters, typically hosted on AWS or HMLR managed infrastructure. PaaS is utilised where appropriate (RDS, S3 etc). HMLR has an internal, centralised platform team that operate and improve how these platform services are provided to service teams.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          28. Can you please share the technology stack that is expected to be used.
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Part 2<br>Software developers must work in alignment with HMLR technical standards.   <br><br>Frontend development  <br><br>Python with the Flask framework  <br><br>Avoid browser-side JavaScript for Gov.UK services.  <br><br>Backend development  <br><br>Python with Flask framework, or Java with Spark or Spring Boot frameworks.  <br><br>RabbitMQ for messaging. <br><br>Talend for Data integration. <br><br>Testing  <br><br>Ruby with Cucumber to write automated tests.  <br><br>Due to evolution of ICT estate other technologies exist that often require integration: Java EJBs, IBM MQ, Delphi, SaaS corporate systems, PL/1 stored procedures and DB2.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          29. What are the specific technologies/tools/methodologies used with which bidders should be proficient?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Please see response to questions 28 &amp; 29.<br><br>We use an agile approach with relevant framework and consolidated sprint planning to create the right delivery approach   – methodologies includes Scrum and Kanban at team level
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          30. Please can you tell us how long with the winning supplier have for transition of work from the incumbent’s teams to their teams and what level of knowledge transfer support can be expected?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          A plan will need to be made to transition the work as soon as possible.  This will be completed under defined SOW’s that set out deliverables and will include the relevant transition and knowledge transfer.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          31. The Authority states, “We have 25+ multi-disciplinary, multi-supplier teams predominantly in-house supplemented with supplier staff, currently delivering new products and services.” Is it possible to please share a little more detail about volume, skills and types of roles that you would be seeking from your potential Supplier in order that we may size and plan our response to your requirements accordingly? i.e. 25+ teams of up to 15 personnel with a range of DDaT skills and experience...
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Currently we have a number of SOW’s in flight supporting Programmes and projects across the transformation portfolio.  Existing teams are made up of different practices (eg product, UR, BAs, design) as well as the capability we are looking for from this contract.  Existing teams include 38 developers, 15 testers, 10 delivery and 9 architects but this will not be a direct replacement as we will build new statements of work and respond to the needs from our business reflected in the Programme deliverables.
+        </dd>
+        
+      </div>
+    
+  
+    
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          32. Can you advise of the key technologies in use in the digital system development?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          Please refer to question 28 &amp; 29
+        </dd>
+        
+      </div>
+    
+  
+</dl>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+        </main>
+      </div>
+    
+
+    
+  <footer class="govuk-footer " role="contentinfo">
+  <div class="govuk-width-container ">
+    
+      <div class="govuk-footer__navigation">
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">About Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../help">
+                        Contact
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-buyers-guide">
+                        Services you can buy
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-marketplace-suppliers-guide">
+                        Services you can sell
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/crown-commercial-service">
+                        About Crown Commercial Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/government/organisations/government-digital-service">
+                        About Government Digital Services
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../g-cloud/suppliers">
+                        G-Cloud supplier A to Z
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Guidance for using Digital Marketplace</h2>
+            
+              
+              <ul class="govuk-footer__list ">
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-suppliers-guide">
+                        Applying to sell on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-suppliers-guide">
+                        Applying to sell on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/how-to-sell-your-digital-outcomes-and-specialists-services">
+                        Responding to buyer requirements on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/g-cloud-buyers-guide">
+                        Buying on the G-Cloud framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="https://www.gov.uk/guidance/digital-outcomes-and-specialists-buyers-guide">
+                        Buying on the DOS framework
+                      </a>
+                    </li>
+                  
+                
+                  
+                    <li class="govuk-footer__list-item">
+                      <a class="govuk-footer__link" href="../../crown-hosting/framework">
+                        Buying on the Crown Hosting framework
+                      </a>
+                    </li>
+                  
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+      <hr class="govuk-footer__section-break">
+    
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          
+            <ul class="govuk-footer__inline-list">
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../terms-and-conditions">
+                    Terms and conditions
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../cookies">
+                    Cookies
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../privacy-notice">
+                    Privacy notice
+                  </a>
+                </li>
+              
+                <li class="govuk-footer__inline-list-item">
+                  <a class="govuk-footer__link" href="../../accessibility-statement">
+                    Accessibility statement
+                  </a>
+                </li>
+              
+            </ul>
+          
+          
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="https://www.gov.uk/government/organisations/government-digital-service" class="govuk-footer__link">Government Digital Service</a>
+            </div>
+          
+        
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          class="govuk-footer__licence-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 483.2 195.7"
+          height="17"
+          width="41"
+        >
+          <path
+            fill="currentColor"
+            d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+          />
+        </svg>
+        <span class="govuk-footer__licence-description">
+          All content is available under the
+          <a
+            class="govuk-footer__link"
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            rel="license"
+          >Open Government Licence v3.0</a>, except where otherwise stated
+        </span>
+      </div>
+      <div class="govuk-footer__meta-item">
+        <a
+          class="govuk-footer__link govuk-footer__copyright-logo"
+          href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+        >© Crown copyright</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  <script src="../../static/javascripts/application.js?142733ad5cf154a70a6b400529a62bca"></script>
+  
+
+  </body>
+</html>
