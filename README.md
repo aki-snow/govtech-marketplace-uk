@@ -8,7 +8,7 @@
 
 https://aki-snow.github.io/govtech-marketplace-uk/
 
-https://aki-snow.github.io/govtech-marketplace-uk/crown-commercial-service.github.io/index.html
+https://aki-snow.github.io/govtech-marketplace-uk/crown-commercial-service.github.io/digitalmarketplace-manual/index.html
 
 https://aki-snow.github.io/govtech-marketplace-uk/www.gov.uk/index.html
 
